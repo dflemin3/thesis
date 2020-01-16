@@ -1,0 +1,236 @@
+%  ========================================================================
+%  David P. Fleming's Thesis - University of Washington, Department of Astronomy, 2020
+%  ========================================================================
+
+%  ========================================================================
+%  Copyright (c) 1985 The University of Washington
+%
+%  Licensed under the Apache License, Version 2.0 (the "License");
+%  you may not use this file except in compliance with the License.
+%  You may obtain a copy of the License at
+%
+%      http://www.apache.org/licenses/LICENSE-2.0
+%
+%  Unless required by applicable law or agreed to in writing, software
+%  distributed under the License is distributed on an "AS IS" BASIS,
+%  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+%  See the License for the specific language governing permissions and
+%  limitations under the License.
+%  ========================================================================
+%
+
+% Documentation for University of Washington thesis LaTeX document class
+% by Jim Fox
+% fox@washington.edu
+%
+%    Revised for version 2015/03/03 of uwthesis.cls
+%    Revised, 2016/11/22, for cleanup of sample copyright and title pages
+%
+%    This document is contained in a single file ONLY because
+%    I wanted to be able to distribute it easily.  A real thesis ought
+%    to be contained on many files (e.g., one for each chapter, at least).
+%
+%    To help you identify the files and sections in this large file
+%    I use the string '==========' to identify new files.
+%
+%    To help you ignore the unusual things I do with this sample document
+%    I try to use the notation
+%       
+%    % --- sample stuff only -----
+%    special stuff for my document, but you don't need it in your thesis
+%    % --- end-of-sample-stuff ---
+
+
+%    Printed in twoside style now that that's allowed
+%
+ 
+\documentclass [11pt, proquest] {uwthesis}[2016/11/22] % draft
+ 
+\usepackage{amsmath,amssymb}
+\usepackage{aasmacros}
+\usepackage[version=4]{mhchem}
+\usepackage{comment}
+\usepackage{multirow,tabularx}
+\usepackage{mathtools,upgreek}
+\usepackage{floatrow}
+\usepackage{outlines}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{sidecap}
+\captionsetup[table]{font={stretch=1.0}}     %% change 1.2 as you like
+\captionsetup[figure]{font={stretch=1.0}}    %% change 1.2 as you like
+\usepackage{epigraph}
+\usepackage{times}
+%\usepackage{mathptmx}
+\usepackage{bibentry}
+
+
+
+
+ %
+% The following line would print the thesis in a postscript font 
+
+\usepackage[round]{natbib}
+
+%% for editing changes
+\usepackage{xcolor}
+% hyperref link defaults to "blue" (0000ff) as this matches our publisher produced pdf style
+\definecolor{xlinkcolor}{cmyk}{0.5,0.5,0,1}
+
+\PassOptionsToPackage{hyphens}{url}
+ \usepackage[
+     pdfauthor={David P. Fleming},
+    pdftitle={Great Thesis Title},
+    pdfsubject={Astronomy},
+    pdfcreator={pdflatex},
+    bookmarks=true,         % show bookmarks bar?
+     pdfnewwindow=true,      % links in new window
+     colorlinks=true,    % false: boxed links; true: colored links
+     linkcolor=xlinkcolor,     % color of internal links
+     citecolor=xlinkcolor,     % color of links to bibliography
+     filecolor=xlinkcolor,  % color of file links
+     urlcolor=xlinkcolor,      % color of external links
+     pdfpagemode=UseOutlines,
+    final=true
+    ]{hyperref}
+\usepackage{hypcap}
+
+
+\def\bibpreamble{\protect\addcontentsline{toc}{chapter}{Bibliography}}
+
+\newcommand{\um}{$\upmu$m}
+
+
+
+\setcounter{tocdepth}{2}  % Print the chapter and sections to the toc
+ 
+
+% ==========   Local defs and mods
+%
+
+
+\begin{document}
+ 
+% ==========   Preliminary pages
+%
+% ( revised 2012 for electronic submission )
+%
+
+\prelimpages
+ 
+%
+% ----- copyright and title pages
+%
+\Title{Great Thesis Title}
+\Author{David P. Fleming}
+\Year{2020}
+\Program{Astronomy}
+
+\Chair{Rory Barnes}{Professor}{Astronomy}
+\Signature{Tom Quinn}
+\Signature{Victoria Meadows}
+\Signature{Jacob VanderPlas}
+\Signature{Michael Johnson (GSR)}
+
+% may be first or second. Must follow specified order. 
+\titlepage  
+
+\newpage
+
+% May be first or second.
+\copyrightpage
+
+%
+% ----- signature and quoteslip are gone
+%
+
+%
+% ----- abstract
+%
+
+\include{tex/abstract}
+
+%
+% ----- contents & etc.
+%
+\tableofcontents
+%\listoffigures
+%\listoftables  % I have no tables
+ 
+%
+% ----- glossary 
+%
+%\include{glossary}
+%
+% ----- acknowledgments
+%
+\acknowledgments{% \vskip2pc
+  % {\narrower\noindent
+Acknowledgement statement.
+  % \par}
+}
+%
+% ----- dedication
+%
+%\dedication{\begin{center}to my dear wife, Joanna\end{center}}
+
+%
+% end of the preliminary pages
+ 
+ 
+ 
+%
+% ==========      Text pages
+%
+
+\textpages
+ 
+% ========== Chapters
+
+% intro
+\chapter{Introduction}
+\include{tex/intro}
+
+% Models
+\chapter{Chapter 1}
+%\include{tex/chapter1}
+
+% XXX
+\chapter{Chapter 2}
+%\include{tex/chapter2}
+
+% XXX
+\chapter{Chapter 3}
+%\include{tex/chapter3}
+
+% XXX
+\chapter{Chapter 4}
+%\include{tex/chapter4}
+
+% Discussion
+\chapter{Discussion}
+%\include{tex/discussion.tex}
+
+% Conclusions
+\chapter{Conclusions}
+%\include{tex/conclusions}
+
+\printendnotes
+
+%
+% ==========   Bibliography
+%
+%\nocite{*}   % include everything in the uwthesis.bib file
+\bibliographystyle{apalike} % plain if not natbib
+\bibliography{thesisBib}
+%
+% ==========   Appendices
+%
+
+\appendix
+\raggedbottom\sloppy
+
+\chapter{Vita}
+%\include{tex/vita}
+
+\end{document}
