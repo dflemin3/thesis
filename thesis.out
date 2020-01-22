@@ -1,0 +1,44 @@
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{First Introduction Section Title}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Second...}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Third...}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Resonant Dynamical Interactions Between Binary Stars and Circumbinary Disks}{}% 7
+\BOOKMARK [0][-]{chapter.3}{Coupled Stellar-Tidal Evolution Ejection of Circumbinary Exoplanets}{}% 8
+\BOOKMARK [1][-]{section.3.1}{Abstract}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.2}{Introduction}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.3}{Methods}{chapter.3}% 11
+\BOOKMARK [2][-]{subsection.3.3.1}{VPLanet}{section.3.3}% 12
+\BOOKMARK [2][-]{subsection.3.3.2}{Stellar Evolution}{section.3.3}% 13
+\BOOKMARK [2][-]{subsection.3.3.3}{Tidal Evolution}{section.3.3}% 14
+\BOOKMARK [2][-]{subsection.3.3.4}{Coupled Stellar-Tidal Evolution}{section.3.3}% 15
+\BOOKMARK [2][-]{subsection.3.3.5}{Energy and Angular Momentum Conservation}{section.3.3}% 16
+\BOOKMARK [2][-]{subsection.3.3.6}{N-body Simulations of Circumbinary Planetary Systems}{section.3.3}% 17
+\BOOKMARK [1][-]{section.3.4}{Simulations}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.4.1}{Coupled Stellar-Tidal Initial Conditions}{section.3.4}% 19
+\BOOKMARK [2][-]{subsection.3.4.2}{N-body Simulations}{section.3.4}% 20
+\BOOKMARK [2][-]{subsection.3.4.3}{Tying It All Together}{section.3.4}% 21
+\BOOKMARK [1][-]{section.3.5}{Results: Coupled Stellar-Tidal Evolution Simulations}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.5.1}{Fiducial Simulation}{section.3.5}% 23
+\BOOKMARK [2][-]{subsection.3.5.2}{Varying Tidal Q}{section.3.5}% 24
+\BOOKMARK [2][-]{subsection.3.5.3}{Varying Radius of Gyration}{section.3.5}% 25
+\BOOKMARK [2][-]{subsection.3.5.4}{Varying Magnetic Braking Law}{section.3.5}% 26
+\BOOKMARK [2][-]{subsection.3.5.5}{Varying Rotation Periods}{section.3.5}% 27
+\BOOKMARK [2][-]{subsection.3.5.6}{Monte Carlo Simulations}{section.3.5}% 28
+\BOOKMARK [2][-]{subsection.3.5.7}{3:2 Spin-Orbit Resonance}{section.3.5}% 29
+\BOOKMARK [2][-]{subsection.3.5.8}{Long-term acrit Evolution}{section.3.5}% 30
+\BOOKMARK [2][-]{subsection.3.5.9}{Relaxed Assumptions}{section.3.5}% 31
+\BOOKMARK [1][-]{section.3.6}{Results: N-body Simulations}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.6.1}{Dynamical Stability}{section.3.6}% 33
+\BOOKMARK [2][-]{subsection.3.6.2}{Mock Transit Observations}{section.3.6}% 34
+\BOOKMARK [1][-]{section.3.7}{Application to Kepler-47}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.8}{Discussion}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.8.1}{Future Prospects}{section.3.8}% 37
+\BOOKMARK [0][-]{chapter.4}{Stellar Rotation Rates in Binary Stars: The Competition between Magnetic Braking and Tidal Torques}{}% 38
+\BOOKMARK [0][-]{chapter.5}{Inferring the XUV History of the TRAPPIST-1 Planetary System}{}% 39
+\BOOKMARK [0][-]{chapter.6}{Impatient Inference with approxposterior}{}% 40
+\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 41
+\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 42
+\BOOKMARK [0][-]{chapter*.35}{Bibliography}{}% 43
+\BOOKMARK [0][-]{appendix.A}{Vita}{}% 44

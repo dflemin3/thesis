@@ -1,0 +1,57 @@
+\contentsline {chapter}{\@textofLoF }{iii}{chapter*.2}
+\contentsline {chapter}{\@textofLoT }{vii}{chapter*.3}
+\contentsline {chapter}{\numberline {\@textofChapter \ 1:}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}First Introduction Section Title}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Second...}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Third...}{2}{section.1.3}
+\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Resonant Dynamical Interactions Between Binary Stars and Circumbinary Disks}{3}{chapter.2}
+\contentsline {chapter}{\numberline {\@textofChapter \ 3:}Coupled Stellar-Tidal Evolution Ejection of Circumbinary Exoplanets}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Abstract}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}Introduction}{5}{section.3.2}
+\contentsline {section}{\numberline {3.3}Methods}{10}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}\texttt {VPLanet}\xspace }{11}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Stellar Evolution}{12}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Tidal Evolution}{14}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Coupled Stellar-Tidal Evolution}{18}{subsection.3.3.4}
+\contentsline {subsubsection}{Case 1: One Tidally Locked Star}{20}{section*.9}
+\contentsline {subsubsection}{Case 2: Two Tidally Locked Stars}{21}{section*.10}
+\contentsline {subsubsection}{Case 3: Free Rotators}{22}{section*.11}
+\contentsline {subsection}{\numberline {3.3.5}Energy and Angular Momentum Conservation}{22}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}N-body Simulations of Circumbinary Planetary Systems}{23}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Simulations}{24}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Coupled Stellar-Tidal Initial Conditions}{24}{subsection.3.4.1}
+\contentsline {subsubsection}{Stellar Tidal Qs}{25}{section*.13}
+\contentsline {subsubsection}{Stellar Rotations}{25}{section*.14}
+\contentsline {subsubsection}{Stellar Radius of Gyration}{26}{section*.15}
+\contentsline {subsection}{\numberline {3.4.2}N-body Simulations}{27}{subsection.3.4.2}
+\contentsline {subsubsection}{N-body Simulations Initial Conditions}{27}{section*.16}
+\contentsline {subsubsection}{Dynamical Stability Integration}{28}{section*.17}
+\contentsline {subsubsection}{Mock Transit Observation Integration}{29}{section*.18}
+\contentsline {subsection}{\numberline {3.4.3}Tying It All Together}{30}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Results: Coupled Stellar-Tidal Evolution Simulations}{31}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Fiducial Simulation}{31}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Varying Tidal Q}{32}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Varying Radius of Gyration}{34}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Varying Magnetic Braking Law}{35}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Varying Rotation Periods}{36}{subsection.3.5.5}
+\contentsline {subsection}{\numberline {3.5.6}Monte Carlo Simulations}{36}{subsection.3.5.6}
+\contentsline {subsection}{\numberline {3.5.7}3:2 Spin-Orbit Resonance}{38}{subsection.3.5.7}
+\contentsline {subsection}{\numberline {3.5.8}Long-term $a_{crit}$ Evolution}{38}{subsection.3.5.8}
+\contentsline {subsubsection}{Specific Cases}{39}{section*.26}
+\contentsline {subsubsection}{Monte Carlo Simulations}{40}{section*.28}
+\contentsline {subsection}{\numberline {3.5.9}Relaxed Assumptions}{40}{subsection.3.5.9}
+\contentsline {section}{\numberline {3.6}Results: N-body Simulations}{41}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Dynamical Stability}{41}{subsection.3.6.1}
+\contentsline {subsubsection}{Single Planet Circumbinary System}{41}{section*.31}
+\contentsline {subsubsection}{Multiplanet Circumbinary System}{42}{section*.32}
+\contentsline {subsection}{\numberline {3.6.2}Mock Transit Observations}{44}{subsection.3.6.2}
+\contentsline {section}{\numberline {3.7}Application to Kepler-47}{47}{section.3.7}
+\contentsline {section}{\numberline {3.8}Discussion}{48}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Future Prospects}{50}{subsection.3.8.1}
+\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Stellar Rotation Rates in Binary Stars: The Competition between Magnetic Braking and Tidal Torques}{65}{chapter.4}
+\contentsline {chapter}{\numberline {\@textofChapter \ 5:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{66}{chapter.5}
+\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Impatient Inference with \texttt {approxposterior}\xspace }{67}{chapter.6}
+\contentsline {chapter}{\numberline {\@textofChapter \ 7:}Discussion}{68}{chapter.7}
+\contentsline {chapter}{\numberline {\@textofChapter \ 8:}Conclusions}{69}{chapter.8}
+\contentsline {chapter}{Bibliography}{70}{chapter*.35}
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Vita}{83}{appendix.A}
