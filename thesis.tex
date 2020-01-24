@@ -104,13 +104,11 @@
 \newcommand{\eqtide}[0]{\texttt{EQTIDE}\xspace}
 \newcommand{\stellar}[0]{\texttt{STELLAR}\xspace}
 \newcommand{\kepler}[0]{\textit{Kepler}\xspace}
+\newcommand{\tess}[0]{\texttt{TESS}\xspace}
 \newcommand{\jwst}[0]{\textit{JWST}\xspace}
 \newcommand{\binary}[0]{\texttt{BINARY}\xspace}
 \newcommand{\rebound}[0]{\texttt{REBOUND}\xspace}
 \newcommand{\um}{$\upmu$m}
-\def\tess{{\it TESS}}
-\def\kepler{{\it Kepler}}
-\def\jwst{{\it JWST}}
 
 %% for editing changes
 % hyperref link defaults to "blue" (0000ff) as this matches our publisher produced pdf style
@@ -213,16 +211,18 @@ Acknowledgement statement.
 \chapter{Coupled Stellar-Tidal Evolution Ejection of Circumbinary Exoplanets}
 \import{tex/STEEP/}{bin_tides.tex}
 
+\clearpage
+
 % XXX
 \chapter{Stellar Rotation Rates in Binary Stars: The Competition between Magnetic Braking and Tidal Torques}
-%\include{tex/chapter3}
+\import{tex/sync/}{sync.tex}
+
+% approxposterior
+\chapter{Approximate Bayesian Inference with \approxposterior}
+%\include{tex/chapter4}
 
 % XXX
 \chapter{Inferring the XUV History of the TRAPPIST-1 Planetary System}
-%\include{tex/chapter4}
-
-% approxposterior
-\chapter{Impatient Inference with \approxposterior}
 %\include{tex/chapter4}
 
 % Discussion

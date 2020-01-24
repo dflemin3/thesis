@@ -43,11 +43,11 @@ a_{crit} = & (1.60 + 5.1e -2.22 e^2 + 4.21 \mu \\
 where $a$ is the binary semi-major axis, $e$ the binary eccentricity and $\mu = m_2 / (m_1 + m_2)$ is the binary mass ratio.  We note that the $a_{crit}$ derived by \citet{Holman1999} is not a hard limit as Eq.~(\ref{eqn:crit_semi}) has an error of about $3\%$ - $6\%$. We plot the semi-major axis of observed {\it Kepler} CBPs normalized by $a_{crit}$ ($a_{CBP}/a_{crit}$) as a function of host binary orbital period in Fig.~\ref{fig:observed_acrit} to demonstrate CBPs' tendency to orbit just exterior to $a_{crit}$.  Using Nbody simulations, \citet{Quarles2018} found that some {\it Kepler} circumbinary systems could host an additional planet interior to the observed one.  Clearly, however, the observed CBPs cluster near the stability limit as the distribution of the ratio of $a_{CBP}$ to their host binary's $a_{crit}$ has a minimum of $a_{cbp}/a_{crit}{\approx} 1.1$ and a median of $a_{cbp}/a_{crit}{\approx} 1.26$. Analyses by \citet{Martin2014} and \citet{Li2016} show that this clustering does not solely stem from an observational bias, suggestion a physical origin.
 %Additionally, some CBP orbits can remain stable on the timescales considered in \citet{Holman1999} and this work.  We explore this point further in our own N-body simulations in $\S$~\ref{sec:nbody_dynamics} and show that the majority of CBPs that fall within the critical semi-major axis are indeed ejected from the system.  Clearly, the critical semi-major axis is a strong function of both the binary semi-major axis and eccentricity.     
 
-\begin{figure}[]
+\begin{figure*}[]
 	\includegraphics[width=\columnwidth]{observed_acrit.pdf}
     \caption{Semi-major axes of confirmed {\it Kepler} CBPs relative to the host binary's critical semi-major axis ($a_{\text{CBP}}/a_{crit}$) as a function of binary orbital period. Each point is annotated with the planet's name.  The red-shaded region highlights the observational finding that, to date, no CBPs have been discovered orbiting binaries with binary orbital periods less than 7.45 days. \citep{Welsh2014,Winn2015}.  We neglect Kepler-47d as its orbital parameters are not well constrained. {\it Inset:} Histogram of observed {\it Kepler} CBPs' $a_{\text{CBP}}/a_{crit}$.  The histogram demonstrates that most CBPs' semi-major axes cluster near the dynamical stability limit, $a_{crit}$.}
     \label{fig:observed_acrit}
-\end{figure}
+\end{figure*}
 
 CBP migration in a protoplanetary disk provides a compelling physical explanation for the observed pile-up of planets near the dynamical stability limit around binary stars.  Numerous studies of planet formation in circumbinary disks show that CBPs likely did not form {\it in situ} \citep[e.g.][]{Paardekooper2012,Meschiari2012a,Meschiari2012b,Pelupessy2013} and instead migrated to their present location.  Simulations of CBPs embedded in a natal protoplanetary disk by \citet{PierensNelson2007} show that the planets migrate inward, halting in the region of stability just outside of the central disk cavity that is formed from binary gravitational truncation \citep{Arty1994}.  \citet{Dunhill2013}, \citet{Pierens2013}, and \citet{Kley2014} all find that CBP migration can explain the observed properties of CBPs discovered by {\it Kepler}, depending on the precise mass and structure of the disk, suggesting that the pile-up of CBPs near the dynamical stability limit is indeed a real and expected effect.  If these planets did in fact form farther out in the disk and migrate inward, they must have formed in the first few Myrs of the system's existence before the disk dispersed, given typical lifetimes of protoplanetary disks \citep[e.g.][]{Haisch2001}.
 
@@ -164,11 +164,11 @@ In Fig.~\ref{fig:stellar_example}, we plot the stellar radius and rotation perio
 % punt on this point for future work.  point is valid, but next-gen model should account for it 
 %Note that in general, stars of a given mass and different metallicities have radii that differ by ${\sim}1\%-10\%$ depending on the age of the star \citep[e.g.][]{Bolmont2017}.  We note that we neglect metallicity effects in our model following the lead of similar studies \citep[e.g.][]{Zahn1989,Repetto2014} but differences of this magnitude do not appreciably impact the qualitative evolution of our model.
 
-\begin{figure*}[t]
-	\includegraphics[width=\textwidth]{stellar_example.pdf}
+\begin{figure}
+	\includegraphics[width=\columnwidth]{stellar_example.pdf}
     \caption{Stellar radius and rotation period evolution as computed by our stellar evolution model, \stellar, for a 1 M$_{\odot}$ (blue), 0.75 M$_{\odot}$ (orange), and 0.25 M$_{\odot}$ (green) star both with solar metallicity. The dots in both panels indicate the approximate time each star reaches the Zero Age Main Sequence.  {\it Left:} Stellar radius as a function of time according to a cubic spline interpolation of the \citet{Baraffe2015} stellar models.  {\it Right:} Stellar rotation period as a function of time computed via stellar radius evolution and both magnetic braking models under conservation of angular momentum (see Eq.~(\ref{eqn:stellar_rot_rate_dt})).  The solid lines correspond to simulations using the \citet{Reiners2012} magnetic braking law while the dashed lines use the \citet{Repetto2014} magnetic braking law.}
     \label{fig:stellar_example}
-\end{figure*}
+\end{figure}
 
 %% SUBSection: Eqtide %%
 
@@ -234,11 +234,11 @@ Stars on eccentric orbits can enter a pseudo-synchronous rotation state or becom
 
 In Fig.~\ref{fig:eqtide_example}, we plot the tidal evolution of a $1$ M$_{\odot}$$-1$ M$_{\odot}$ binary star system using the fiducial parameters given in Table~\ref{tab:params} to demonstrate the qualitative behavior of our tidal evolution model, \eqtide.  For details of the numerical intergration of the simulation, see $\S$~\ref{sec:vplanet}.  In general, tides transfer angular momentum from the stellar rotations into the orbit until the binary reaches a tidally locked, synchronous orbit after ${\sim}10^6$ yr.  The binary orbit circularizes after ${\sim} 5 \times 10^8$ yr.
 
-\begin{figure*}[t]
+\begin{figure}
 	\includegraphics[width=\textwidth]{eqtide_example.pdf}
     \caption{Tidal evolution of a binary star system with no stellar evolution under the CPL model \citep{FerrazMello2008,Heller2011} as computed by our tidal evolution model, \eqtide.  See the text for the system properties. {\it Left:} Binary orbital and stellar rotational period versus time.  Tides transport angular momentum from the stellar rotations into the orbit until the binary becomes tidally locked and synchronous (denoted by the black dashed line).  {\it Right:} Binary orbital eccentricity versus time.  After the orbit synchronizes, the eccentricity decreases until the binary circularizes (denoted by the dash-dotted line).}
     \label{fig:eqtide_example}
-\end{figure*}
+\end{figure}
 
 %% SUBSection: Coupled evolution %%
 
@@ -291,11 +291,11 @@ We include either Eq.~(\ref{eqn:tidal_locked_one}) or Eq.~(\ref{eqn:tidal_locked
 In Fig.~\ref{fig:conservation}, we plot the relative absolute change in both the total system energy and angular momentum as a function of time for our fiducial simulation (see Table~\ref{tab:params}, $\S$~\ref{sec:fiducial_simulation}) to demonstrate that both energy and angular momentum are approximately conserved in our 
 \vplanet simulations.  The secular drifts in total angular momentum stem from our usage of the CPL tidal model that extends to only second order in $e$ and hence cannot not exactly conserve angular momentum.  We conclude our methodology satisfies the conservation laws to sufficient accuracy.
 
-\begin{figure*}[t]
+\begin{figure}
 	\includegraphics[width=\textwidth]{conservation.pdf}
     \caption{{\it Left Panel:} Absolute relative difference between the total system energy and initial total system energy as a function of time.  {\it Right Panel:} Absolute relative difference of the total system angular momentum and initial total system angular momentum as a function of time.  Both total energy and angular momentum are approximately conserved at the $10^{-4}$ level with high frequency oscillations caused by limitations of Runge-Kutta integrations.}
     \label{fig:conservation}
-\end{figure*}
+\end{figure}
 
 %% SUBSECTION: N-body methods %%
 
@@ -418,8 +418,8 @@ After tidal locking, the binary rotation and orbital periods perfectly mirror ea
 
 Once the system is tidally locked, magnetic braking cannot slow stellar rotations, so instead it removes angular momentum from the orbit causing the orbital period and $a_{crit}$ to decay dramatically with the orbital period dropping by almost 1 day per Gyr.  This substantial orbital decay causes $a_{crit}$ to drop by about a factor of 1.6 relative to its maximum value.  The combination of orbital circularization and magnetic braking for tidally locked binaries causes significant observational consequences for short-period binaries: the orbit, and hence $a_{crit}$, observed today is likely much different than what it was in the past.  For example if this system was observed at the end of the simulation, we might expect to find CBPs near $a_{crit}$ based on the {\it Kepler} CBP discoveries.  Coupled stellar-tidal evolution could have destabilized CBPs near $a_{crit}$ early on in the system's lifetime such that there would be no CBPs to detect.  $a_{crit}$ decay implies that the dynamical instability region around the binary was much larger in the past such that any surviving CBPs would necessarily have to be located at larger $a_{CBP}$ relative to the central binary's $a$ and hence be harder to detect.  We examine this effect further in $\S$~\ref{sec:obs_acrit} with a particular focus on the impact of the initial binary orbital period and the details of the magnetic braking physics.
 
-\begin{figure}[h]
-	\includegraphics[scale=0.5]{example.pdf}
+\begin{figure}
+	\includegraphics[width=\columnwidth]{example.pdf}
    \caption{Evolution of a binary system using our default parameters from Table~\ref{tab:params}.  {\it Top:} $a_{crit}$ vs. time.  The grey arrows demarcate both the ratio of the maximum critical semi-major axis to the initial and final values, $a_{crit,max}/a_{crit,init} = 1.16$ and $a_{crit,max}/a_{crit,final} = 1.58$ for this system, respectively. {\it Middle:} Orbital and stellar rotation period vs. time.  The black dashed line indicates that the binary tidally locks after about 1 Myr.  {\it Bottom:} $e$ vs. time.  The dot-dashed line indicates when the binary circularizes at about 1 Gyr, well after tidally locking.}
     \label{fig:example}
 \end{figure}
@@ -436,8 +436,8 @@ Orbital circularization via tides proceeds more quickly for binary stars with lo
 
 The unequal-mass binaries tend to have lower $a_{crit,max}$/$a_{crit,init}$ than their equal-mass counter parts because the lower-mass star tidally locks earlier than the more massive primary.  At this point, magnetic braking cannot slow down the lower-mass star's rotation rate as tidal locking fixes it to the mean motion, i.e. magnetic braking siphons angular momentum from the orbit, slowing the growth of the binary period (see $\S$~\ref{sec:coupled_evolution}).
 
-\begin{figure*}[t]
-	\includegraphics[width=\textwidth]{var_Q.pdf}
+\begin{figure*}
+	\includegraphics[width=\columnwidth]{var_Q.pdf}
     \caption{The role of tidal dissipation in binary star evolution. {\it Top Left:} $a_{crit}$ vs. time.  {\it Top Right:} Binary orbital period vs. time. {\it Bottom Left:} $e$ vs. time. {\it Bottom Right:} $a_{crit,max}$/$a_{crit,init}$ vs. tidal Q.  The blue and orange lines correspond to a $1$ M$_{\odot}$$-1$ M$_{\odot}$ and a $1$ M$_{\odot}$$-0.5$ M$_{\odot}$ binary, respectively.  The solid, dashed, and dot-dashed lines correspond to tidal Qs of $10^5$, $10^6$, and $10^7$, respectively.  Smaller tidal Qs drive large $a_{crit}$ expansion.}
     \label{fig:var_Q}
 \end{figure*}
@@ -454,8 +454,8 @@ In general, we find that stars with larger $r_g$ tend to reach larger $a_{crit,m
 
 For sun-like stars, the pre-main sequence lasts for ${\sim} 50$ Myr and up to 1 Gyr for lower-mass late M-dwarfs.  As shown above, a significant portion of  $a_{crit}$ growth occurs while the stars reside on the pre-main sequence as radius contraction provides a substantial angular momentum reservoir for transfer into the orbit via tides.  On the pre-main sequence, \citet{Baraffe2015} predicts that low mass stars have $r_{g}{\sim}0.45$.  Therefore during the pre-main sequence when $a_{crit}$ tends to increase the most, the stellar radius of gyration is large allowing $a_{crit}$ to grow significantly as seen in Fig.~\ref{fig:var_rg} yielding ratios upwards of $a_{crit,max}$/$a_{crit,init} {\sim} 1.4$.  Once the stars reach the main sequence, $r_{g}$ drops to ${\sim}0.27$ slowing the $a_{crit}$ evolution.  Given that we adopted $r_{g}{\sim}0.27$ as our fiducial value when it is likely much larger during the major period of $a_{crit}$ growth, we consider our $a_{crit,max}$/$a_{crit,init}$ estimates to be conservative lower limits. 
 
-\begin{figure*}[t]
-	\includegraphics[width=\textwidth]{var_rg.pdf}
+\begin{figure*}
+	\includegraphics[width=\columnwidth]{var_rg.pdf}
     \caption{The role of the radius of gyration in binary star evolution. {\it Top Left:} $a_{crit}$ vs. time.  {\it Top Right:} Binary orbital period vs. time. {\it Bottom Left:} $e$ vs. time. {\it Bottom Right:} $a_{crit,max}$/$a_{crit,init}$ vs. $r_g$.  The blue and orange lines correspond to a $1$ M$_{\odot}$$-1$ M$_{\odot}$and a $1$ M$_{\odot}$$-0.5$ M$_{\odot}$ binary, respectively.  The solid, dashed, and dot-dashed lines correspond to an $r_g$ of $0.15$, $0.3$, and $0.45$, respectively.  Larger $r_g$ lead to increased $a_{crit}$ growth.}
     \label{fig:var_rg}
 \end{figure*}
@@ -466,8 +466,8 @@ Magnetic braking removes angular momentum from stars, slowing their rotation rat
 
 In terms of $a_{crit,max}$/$a_{crit,init}$, the differences between the two models are modest with the \citet{Repetto2014} magnetic braking model yielding slightly larger values of $a_{crit,max}$/$a_{crit,init}$.  In general, the \citet{Repetto2014} model tends to remove less rotational angular momentum than the model of \citet{Reiners2012}.  The differences between the two models in terms of $a_{crit,max}$/$a_{crit,init}$ decrease with increasing initial stellar $P_{rot}$ as for longer $P_{rot}$ there is less stellar angular momentum for magnetic braking to remove.  The difference between the two models becomes more drastic in the late evolution of the binaries once both stars are tidally locked.  In that case, the slow angular momentum depletion of the \citet{Repetto2014} model causes a slight decay in the orbital period of about a quarter of a day while the \citet{Reiners2012} model produces a decay of 1-1.5 days.  Overall, our results are moderately sensitive to the choice of magnetic braking model and we choose to use the \citet{Reiners2012} model as our fiducial model as it tends to produce a more conservative estimate of $a_{crit,max}$/$a_{crit,init}$.  For both magnetic braking models when the stars have initial $P_{rot} \sim 1$ day, the binary reaches $a_{crit,max}$/$a_{crit,init} \gsim 1.1$, large enough to destabilize CBPs.  
 
-\begin{figure*}[t]
-	\includegraphics[width=\textwidth]{var_MB.pdf}
+\begin{figure*}
+	\includegraphics[width=\columnwidth]{var_MB.pdf}
    \caption{The role of the magnetic braking law and initial stellar $P_{rot}$ in binary star evolution.{\it Top Left:} $a_{crit}$ vs. time.  {\it Top Right:} Binary orbital period vs. time. {\it Bottom Left:} $e$ vs. time. {\it Bottom Right:} $a_{crit,max}$/$a_{crit,init}$ vs. initial stellar $P_{rot}$.  The blue and orange lines correspond to simulations that use the stellar magnetic braking relation from \citet{Reiners2012} and \citet{Repetto2014}, respectively.  The solid, dashed, and dot-dashed lines correspond to a binary with stellar initial spin periods of $0.5$ d, $1$ d, and $2$ d, respectively.  We find that the \citet{Repetto2014} relation leads to larger $a_{crit,max}$/$a_{crit,init}$ and stars with shorter initial spin periods lead to larger $a_{crit,max}$/$a_{crit,init}$ as well.}
     \label{fig:var_mb}
 \end{figure*}
@@ -478,8 +478,8 @@ Previously, we posited that an initial $P_{rot} \lsim 1$ day, a value consistent
 
 In Fig.~\ref{fig:GG_contour}, we present the results of 20,000 simulations in which we varied the initial $P_{rot}$ for both stars over a grid of 0.2-1.5 days for a $1 M_{\odot} - 1 M_{\odot}$ binary for $e=0.05$ and $e=0.15$.  For the other initial conditions, we adopt the default values given in Table~\ref{tab:params}.  For both eccentricities, binaries in which both stars begin with $P_{rot} \lsim 1$ days achieve $a_{crit,max}$/$a_{crit,init} \gsim 1.1$.  When the stars have initial $P_{rot} \lsim 0.5$ days $a_{crit,max}$/$a_{crit,init}$ can reach $1.3-1.4$, large enough to potentially destabilize many {\it Kepler} CBPs as they typically reside at $a_{planet}/a_{crit} \lsim 1.4$.  The initial $P_{rot}$ that lead to appreciable $a_{crit}$ growth are entirely consistent with observations of young sun-like stars, demonstrating that the STEEP process can effectively destabilize some CBPs near the dynamical stability boundary.
 
-\begin{figure*}[t]
-	\includegraphics[width=\textwidth]{GG_contour.pdf}
+\begin{figure*}
+	\includegraphics[width=\columnwidth]{GG_contour.pdf}
     \caption{$a_{crit,max}$/$a_{crit,init}$ as a function of the initial stellar $P_{rot}$ for a $1$ M$_{\odot}$$-1$ M$_{\odot}$ binary for $e = 0.05$ ({\it Left}) and $e = 0.15$ ({\it Right}).  The white lines are contours in $a_{crit,max}$/$a_{crit,init}$.  When the stars start with $P_{rot} \lsim 1$ days, $a_{crit,max}$/$a_{crit,init}$ readily grows to $\gsim 1.1$, large enough to destabilize some CBPs near the dynamical stability boundary.}
     \label{fig:GG_contour}
 \end{figure*}
@@ -496,7 +496,7 @@ There is considerable scatter in $a_{crit,max}$/$a_{crit,init}$, however, as sim
 
 For tidal Qs low enough to prevent significant angular momentum loss due to magnetic braking, i.e. $Q < 10^7$, young binary systems with short initial $P_{rot} \lsim 1$ day can attain $J_{rot,tot}$/$J_{orb} \gsim 0.1$, resulting in large enough growth in $a_{crit}$ to destabilize CBPs found near the dynamical stability boundary.  
 
-\begin{figure}[h]
+\begin{figure}
 	\includegraphics[width=\columnwidth]{mc_uniform.pdf}
     \caption{Scatter plot of the initial orbital angular momentum $J_{orb}$, versus the ratio of total initial stellar rotational angular momentum to the initial orbital angular momentum, $J_{rot,tot}$/$J_{orb}$.  Each point is colored by the $a_{crit,max}$/$a_{crit,init}$ achieved in that simulation.  Simulations with an initial angular momentum ratio of ${\gsim}0.1$ tend to produce a large enough $a_{crit,max}$/$a_{crit,init}$ to destabilize a CBP.}
     \label{fig:mc_uniform}
@@ -508,7 +508,7 @@ To probe the impact of large $e$ and capture into higher order spin-orbit resona
 
 The binary that tidally locks into a 3:2 spin-orbit resonance reaches a larger $a_{crit,max}/a_{crit,init}$ than the other synchronously rotating binary system.  This result is surprising given that in a 3:2 spin-orbit resonance, $P_{rot} = 2/3 P_{orb}$, so relative to the synchronous case, less stellar rotational angular momentum is transported into the orbit, reducing the increase in orbital period and hence $a_{crit}$.  However, larger $e$ correspond to lower orbital angular momentum which scales as $\sqrt{1-e^2}$.  The more eccentric binary system has less orbital angular momentum than the other system so transfer of angular momentum from the stellar rotation to the orbit yields proportionally larger increases in $a_{crit}$, explaining the larger $a_{crit,max}/a_{crit,init}$.  Therefore we anticipate that the STEEP process is effective for eccentric binary systems that tidally lock into higher order spin-orbit resonances.
 
-\begin{figure}[h]
+\begin{figure}
 	\includegraphics[scale=0.5]{ecc_comp.pdf}
    \caption{Full evolution of binary systems using our default parameters from Table~\ref{tab:params}, except with initial eccentricities of $e = 0.15$ (blue) and $e = 0.3$ (orange).  {\it Top:} $a_{crit}$ vs. time.  The systems attain $a_{crit,max}/a_{crit,init} = 1.16, 1.19$ for binaries with initial eccentricities of $e = 0.15$ and $e = 0.3$, respectively. {\it Middle:} Orbital and stellar rotation period vs. time.  Both systems tidally lock after ${\sim}1$ Myr into 1:1 (blue) and 3:2 (orange) spin-orbit resonances.  {\it Bottom:} $e$ vs. time.  The dotted line demarcates binaries that tidally locked into a 3:2 (above the line) and 1:1 (below the line) spin-orbit resonance.}
     \label{fig:ecc_comp}
@@ -526,8 +526,8 @@ In left panel of Fig.~\ref{fig:obs_acrit}, we see the full evolution of these sy
 
 In the right panel of Fig.~\ref{fig:obs_acrit}, we plot $a_{crit,max}/a_{crit}$ over time.  For the simulations using the \citet{Reiners2012} magnetic braking law, $a_{crit}$ can vary by a factor of $2-10$ from its maximum value depending on the age of the system, while the simulations using the \citet{Repetto2014} law vary by factors of order unity.  This implies that the region of dynamical instability can appreciably shrink for tidally locked short orbital period binaries over time.  Therefore when one observes these systems, the fact that the dynamical instability region was likely much larger in the past precludes any CBPs from orbiting near the observed $a_{crit}$.  Any CBPs that survived the $a_{crit}$ increase would then be orbiting at much larger $a_{\text{CBP}}/a_{crit}$ ratios than what is observed for {\it Kepler} CBPs.  If a CBP is discovered around a tidally locked binary in the future, its current state must be considered in the context of the host binary's past coupled stellar-tidal evolution.
 
-\begin{figure*}[t]
-	\includegraphics[width=\textwidth]{obs_acrit.pdf}
+\begin{figure*}
+	\includegraphics[width=\columnwidth]{obs_acrit.pdf}
    \caption{{\it Left:} $a_{crit}$ as a function of time.  The black horizontal line indicates when stellar radii overlap and the stars merge, halting the simulation. {\it Right:} Maximum critical semi-major axis divided by the critical semi-major axis observed at time $t$, $a_{crit,max}/a_{crit,t}$.  Depending on the magnetic braking physics, the observed $a_{crit}$ can differ from its maximum by an order of magnitude.}
     \label{fig:obs_acrit}
 \end{figure*}
@@ -536,7 +536,7 @@ In the right panel of Fig.~\ref{fig:obs_acrit}, we plot $a_{crit,max}/a_{crit}$ 
 
 Here we examine how distributions of $a_{crit,max}/a_{crit,t}$ from our simulations from $\S$~\ref{sec:monte_carlo} evolve as a function of time to examine the impact of different initial conditions.  We plot the distribution of $a_{crit,max}/a_{crit,t}$ at four different times in Fig.~\ref{fig:acrit_hist}.  As the systems age, the distributions tend to shift towards larger $a_{crit,max}/a_{crit,t}$ values, indicating that for most initial states $a$, and hence $a_{crit}$, decays relative to its peak due to magnetic braking.  At later times, the $a_{crit,max}/a_{crit,t}$ distributions tend to smear out and a develop heavy tail indicating that even though $a_{crit,max}/a_{crit,t}$ tends to grow, the properties on the individual system, e.g. the stellar mass or tidal Qs, play an important role in determining how much $a_{crit}$ evolves.  For example, lower mass stars contract for longer periods of time, which for tidally locked stars, injects additional angular momentum in the orbit, slowing $a_{crit}$ decay due to magnetic braking.
 
-\begin{figure}[h]
+\begin{figure}
 	\includegraphics[width=\columnwidth]{acrit_hist.pdf}
     \caption{Histograms of the maximum $a_{crit}$ divided by the critical semi-major axis observed at time $t$, $a_{crit,max}/a_{crit,t}$ for the binary systems simulated in $\S$~\ref{sec:monte_carlo} observed at 100, 500, 1000, and 2000 Myr (blue, orange, red, and grey histograms, respectively).  In general for older systems, $a_{crit,max}/a_{crit,t}$ increases as $a_{crit}$ recedes due to angular momentum loss via magnetic braking in tidally locked systems.  The distribution of $a_{crit,max}/a_{crit,t}$ smears out and develops an extended tail for older systems due to the different tidal and rotational properties of the binary systems.}
     \label{fig:acrit_hist}
@@ -548,8 +548,8 @@ In previously-discussed simulations, we have taken a rather conservative approac
 
 For each individual simulations, see Fig.~\ref{fig:opt}, the results proceed as expected: simulations with larger $r_g$ and lower initial $P_{rot}$, e.g. Case C and Case D, respectively, result in larger $a_{crit,max}$/$a_{crit,init}$ with the ratios approaching 2.  In all simulations, the $a_{crit}$ growth peaks early on in the system at $\lsim 100$ Myr.  For binaries with $e > 0.3$, the model tends to break down and yield unrealistic results and merits further exploration with the CTL tidal model, which may be applicable at large $e$.  Nevertheless, these simulations demonstrate that $a_{crit}$ can grow up to twice the initial value depending on the initial conditions.
 
-\begin{figure*}[t]
-	\includegraphics[width=\textwidth]{opt.pdf}
+\begin{figure*}
+	\includegraphics[width=\columnwidth]{opt.pdf}
    \caption{Binary orbital evolution for several plausible sets of initial conditions. {\it Top Left:} $a_{crit}$ vs. time.  {\it Top Right:} Binary orbital period vs. time. {\it Bottom Left:} $e$ vs. time. {\it Bottom Right:} $a_{crit,max}$/$a_{crit,init}$ for the five cases.  The blue, orange, green, red, and purple curves correspond to cases A, B, C, D, and E, respectively.  In agreement with previously discussed simulations, we find that initial fast rotators with smaller tidal Qs achieve large $a_{crit,max}$/$a_{crit,init}$ up to of order $2$ for plausible initial conditions.}
     \label{fig:opt}
 \end{figure*}
@@ -625,7 +625,7 @@ From Fig.~\ref{fig:nbody_transit}, clear trends in both mass and initial inclina
 The initial inclination significantly impacts the subsequent CBP transitability.  The more inclined planet c initially is, the lower the FTT as planet c in general has a larger initial impact parameter and can scatter more violently to higher inclinations when planet b is ejected from the system.  This effect is most clearly seen in the right panel of Fig.~\ref{fig:nbody_transit} for Jupiter-mass CBPs as there is a prominent peak near $\text{FTT}= 0$ for the ``high inclination" case (dashed line) that is much larger than the $\text{FTT}=0$ peak for the ``low inclination" case (solid line).  This difference indicates that more highly-inclined Jupiter-mass CBPs are preferentially scattered away from a transiting configuration compared to less-inclined planets.  In addition to the slight increase in inclination for some surviving planets reducing their FTT, we find that $a_c$ also increases slightly after planet b's ejection, reducing its FTT.  This finding is in good agreement with \citet{Gong2017}.
 
 \begin{figure*}[t]
-	\includegraphics[width=\textwidth]{nbody_transit.pdf}
+	\includegraphics[width=\columnwidth]{nbody_transit.pdf}
     \caption{Histogram of planet c's fraction of time spent transiting one of the binary stars for Neptune- (\textit{Left:}), Saturn- (\textit{Middle:}), and Jupiter-mass (\textit{Right:}) exoplanets.  The orange histograms correspond to when c remains stable while b goes unstable and the blue curve corresponds to when both b and c remain stable.  The solid and dashed histograms correspond to cases where both planets' initial inclinations are uniformly sampled from $[0^{\circ},1^{\circ}]$ and $[0^{\circ},3^{\circ}]$, respectively.  Generally, the larger the mutual inclination, the less time c spends transiting.}
     \label{fig:nbody_transit}
 \end{figure*}
@@ -644,7 +644,7 @@ The planets in the Kepler-47 system are all of order Neptune mass or less, so we
 
 If Kepler-47 did not previously have an additional close-in planet, we examine Kepler-47b, the innermost planet in the Kepler-47 system, which resides at a semi-major axis that is about $1.46 a_{crit}$ for the Kepler-47 binary.  As shown in $\S$~\ref{sec:monte_carlo} and $\S$~\ref{sec:optimistic}, it is plausible for a binary to attain $a_{crit}$ ratios near $1.4$ depending on the initial stellar $P_{rot}$ and stellar tidal Qs.  With Kepler-47's relatively longer orbital period, there was likely an initially larger angular momentum reservoir in the orbit relative to that in the stellar rotations so any transfer would probably not increase the orbital period significantly.  We display such a case of Kepler-47's potential past $a_{crit}$ evolution in Fig.~\ref{fig:kepler47}.  For this simulation, we used the observed stellar masses \citep{Orosz2012}, initial stellar tidal Qs of $5 \times 10^5$, $r_g = 0.45$, an initial $e = 0.22$, and an initial orbital period of 7.5 days.  Note that this case does not represent the precise past evolution of Kepler-47, but instead shows one possible past evolution that is consistent with observations.  In this simulation, given Kepler-47's longer initial orbital period, the binary orbital period and hence $a_{crit}$ grows less via tidal transfer making it less likely to potentially destabilize Kepler-47b.  Under this scenario, Kepler-47b likely formed or migrated to a location far enough away from the central binary to insulate it from the central binary's coupled stellar-tidal evolution, preventing a destabilizing event and making this system compatible with the STEEP process.  Note that accurately modeling Kepler-47's past evolution to assess how the STEEP process could have impacted the circumbinary planetary system requires running a large number of simulations of coupled stellar-tidal evolution and comparing their results with observations.  The results of such a simulation suite could potentially constrain parameters, such as tidal Qs, but that analysis is beyond the scope of this work.
 
-\begin{figure}[t]
+\begin{figure}
 	\includegraphics[width=\columnwidth]{kepler47.pdf}
     \caption{One potential coupled stellar-tidal evolutionary history of Kepler-47. {\it Left:}  $a_{crit}$ evolution.  The blue curve shows a potential past evolution of Kepler-47's $a_{crit}$.  The dashed line represents Kepler-47b's current semi-major axis while the dot-dashed line indicates Kepler-47's observed $a_{crit}$.  The grey regions display the uncertainties on Kepler-47b's semi-major axis and on Kepler-47's $a_{crit}$ from \citet{Orosz2012}. {\it Right:} Eccentricity evolution.  The blue curve displays a potential past evolution of Kepler-47's $e$.  The dashed line and grey regions denote Kepler-47's observed $e$ and the associated uncertainties, respectively.  This potential past evolution of the Kepler-47 achieves an $a_{crit}$ nearly large enough to potentially eject Kepler-47b while also reaching an $a_{crit}$ and $e$ consistent with the observed values \citep{Orosz2012}.  A more rigorous statistical examination of this system is required to constrain its actual past coupled stellar-tidal evolution.}
     \label{fig:kepler47}
@@ -692,14 +692,10 @@ In recent years, numerous theoretical modeling efforts have sought to characteri
 As future observations discover and characterize new CBPs, probing the true underlying CBP population, the evolution of the binary stars that host these planets must be well known.    Understanding coupled stellar-tidal evolution in young, short-period binary star systems can provide critical insights into how binaries form and host circumbinary planetary systems and hence provide insights into the observed CBP population.  In this work, we outlined a theoretical framework, the STEEP process, for the long-term evolution of short-period binary stars that provides an explanation for the lack of CBPs around such binary systems.  Future detections or non-detections of CBPs around short-period binaries will provide the best indirect observational test of the STEEP process.
 
 %% ACKNOWLEDGEMENTS %%
-\acknowledgments
-The authors wish to thank the anonymous referee for their careful reading of the manuscript and their insightful suggestions that improved the quality of the manuscript.  We also would like to thank Russell Deitrick and Jacob Lustig-Yaeger for constructive conversations that improved the quality of this work.  This work was facilitated though the use of advanced computational, storage, and networking infrastructure provided by the Hyak supercomputer system and funded by the STF at the University of Washington. DPF is supported by an NSF IGERT DGE-1258485 fellowship.  This work was supported by NASA Headquarters under the NASA Earth and Space Science Fellowship Program - Grant 80NSSC17K0482.  DPF, RB, RL, and TRQ acknowledge that this work was supported by the NASA Astrobiology Institute's Virtual Planetary Laboratory under Cooperative Agreement number NNA13AA93A. R.L. acknowledges support from NASA grant NNX14AK26G.
-
-%% SOFTWARE %%
-%\software{matplotlib: \citet{Hunter2007}, numpy: \citet{vanderWalt2011}, pandas: \citet{Mckinney2010}}
+\section{acknowledgments}
+The authors wish to thank the anonymous referee for their careful reading of the manuscript and their insightful suggestions that improved the quality of the manuscript.  We also would like to thank Russell Deitrick and Jacob Lustig-Yaeger for constructive conversations that improved the quality of this work.  This work was facilitated though the use of advanced computational, storage, and networking infrastructure provided by the Hyak supercomputer system and funded by the STF at the University of Washington. DPF is supported by an NSF IGERT DGE-1258485 fellowship.  This work was supported by NASA Headquarters under the NASA Earth and Space Science Fellowship Program - Grant 80NSSC17K0482.  DPF, RB, RL, and TRQ acknowledge that this work was supported by the NASA Astrobiology Institute's Virtual Planetary Laboratory under Cooperative Agreement number NNA13AA93A. R.L. acknowledges support from NASA grant NNX14AK26G. Software: matplotlib: \citet{Hunter2007}, numpy: \citet{vanderWalt2011}, pandas: \citet{Mckinney2010}
 
 %% Appendix %%
-%\appendix
 
 %% Analytic acrit evolution %%
 

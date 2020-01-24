@@ -3,48 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/abstract.aux
 A level-1 auxiliary file: tex/intro.aux
-A level-1 auxiliary file: tex/STEEP/bin_tides.aux
 The style file: apalike.bst
 A level-1 auxiliary file: tex/vita.aux
 Database file #1: thesisBib.bib
-You've used 110 entries,
+Warning--empty publisher in Murray1999
+You've used 168 entries,
             1935 wiz_defined-function locations,
-            1159 strings with 28057 characters,
-and the built_in function-call counts, 55649 in all, are:
-= -- 4965
-> -- 3801
-< -- 67
-+ -- 1396
-- -- 1395
-* -- 5326
-:= -- 10073
-add.period$ -- 330
-call.type$ -- 110
-change.case$ -- 1247
-chr.to.int$ -- 109
-cite$ -- 110
-duplicate$ -- 1567
-empty$ -- 3030
-format.name$ -- 1595
-if$ -- 10446
+            1493 strings with 39680 characters,
+and the built_in function-call counts, 82719 in all, are:
+= -- 7420
+> -- 5429
+< -- 103
++ -- 1981
+- -- 1978
+* -- 7810
+:= -- 14921
+add.period$ -- 503
+call.type$ -- 168
+change.case$ -- 1823
+chr.to.int$ -- 167
+cite$ -- 169
+duplicate$ -- 2441
+empty$ -- 4646
+format.name$ -- 2258
+if$ -- 15620
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 110
-newline$ -- 553
-num.names$ -- 332
-pop$ -- 983
+missing$ -- 169
+newline$ -- 842
+num.names$ -- 514
+pop$ -- 1460
 preamble$ -- 1
-purify$ -- 1247
+purify$ -- 1824
 quote$ -- 0
-skip$ -- 1191
+skip$ -- 1851
 stack$ -- 0
-substring$ -- 3106
-swap$ -- 136
-text.length$ -- 4
+substring$ -- 4670
+swap$ -- 245
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 660
-warning$ -- 0
-while$ -- 327
+type$ -- 1006
+warning$ -- 1
+while$ -- 504
 width$ -- 0
-write$ -- 1430
+write$ -- 2180
+(There was 1 warning)

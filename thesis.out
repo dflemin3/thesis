@@ -35,10 +35,28 @@
 \BOOKMARK [1][-]{section.3.7}{Application to Kepler-47}{chapter.3}% 35
 \BOOKMARK [1][-]{section.3.8}{Discussion}{chapter.3}% 36
 \BOOKMARK [2][-]{subsection.3.8.1}{Future Prospects}{section.3.8}% 37
-\BOOKMARK [0][-]{chapter.4}{Stellar Rotation Rates in Binary Stars: The Competition between Magnetic Braking and Tidal Torques}{}% 38
-\BOOKMARK [0][-]{chapter.5}{Inferring the XUV History of the TRAPPIST-1 Planetary System}{}% 39
-\BOOKMARK [0][-]{chapter.6}{Impatient Inference with approxposterior}{}% 40
-\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 41
-\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 42
-\BOOKMARK [0][-]{chapter*.35}{Bibliography}{}% 43
-\BOOKMARK [0][-]{appendix.A}{Vita}{}% 44
+\BOOKMARK [1][-]{section.3.9}{acknowledgments}{chapter.3}% 38
+\BOOKMARK [0][-]{chapter.4}{Stellar Rotation Rates in Binary Stars: The Competition between Magnetic Braking and Tidal Torques}{}% 39
+\BOOKMARK [1][-]{section.4.1}{abstract}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.2}{Introduction}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.3}{Methods}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.3.1}{Stellar Evolution}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.2}{Tidal Evolution}{section.4.3}% 44
+\BOOKMARK [2][-]{subsection.4.3.3}{Coupled Stellar-Tidal Evolution For tidally locked Systems}{section.4.3}% 45
+\BOOKMARK [1][-]{section.4.4}{Simulations}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.5}{Results}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.5.1}{Interaction Between Magnetic and Tidal Braking: Subsynchronous Rotation}{section.4.5}% 48
+\BOOKMARK [2][-]{subsection.4.5.2}{Influence of Porb, Q and }{section.4.5}% 49
+\BOOKMARK [2][-]{subsection.4.5.3}{Prot Distribution of a Synthetic Population of Stellar Binaries}{section.4.5}% 50
+\BOOKMARK [2][-]{subsection.4.5.4}{Deviations From Single Star Prot Evolution: Implications for Gyrochronology}{section.4.5}% 51
+\BOOKMARK [2][-]{subsection.4.5.5}{Comparison to Kepler}{section.4.5}% 52
+\BOOKMARK [2][-]{subsection.4.5.6}{CPL or CTL?}{section.4.5}% 53
+\BOOKMARK [1][-]{section.4.6}{Discussion}{chapter.4}% 54
+\BOOKMARK [1][-]{section.4.7}{acknowledgments}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.8}{Analytic Torque Balance}{chapter.4}% 56
+\BOOKMARK [0][-]{chapter.5}{Approximate Bayesian Inference with approxposterior}{}% 57
+\BOOKMARK [0][-]{chapter.6}{Inferring the XUV History of the TRAPPIST-1 Planetary System}{}% 58
+\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 59
+\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 60
+\BOOKMARK [0][-]{chapter*.61}{Bibliography}{}% 61
+\BOOKMARK [0][-]{appendix.A}{Vita}{}% 62

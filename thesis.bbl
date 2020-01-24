@@ -1,9 +1,24 @@
 \begin{thebibliography}{}
 
+\bibitem[{Ag{\"u}eros} et~al., 2011]{Agueros2011}
+{Ag{\"u}eros}, M.~A., {Covey}, K.~R., {Lemonias}, J.~J., {Law}, N.~M., {Kraus},
+  A., {Batalha}, N., {Bloom}, J.~S., {Cenko}, S.~B., {Kasliwal}, M.~M.,
+  {Kulkarni}, S.~R., {Nugent}, P.~E., {Ofek}, E.~O., {Poznanski}, D., and
+  {Quimby}, R.~M. (2011).
+\newblock {The Factory and the Beehive. I. Rotation Periods for Low-mass Stars
+  in Praesepe}.
+\newblock {\em \apj}, 740:110.
+
 \bibitem[{Alexander}, 2012]{Alexander2012}
 {Alexander}, R. (2012).
 \newblock {The Dispersal of Protoplanetary Disks around Binary Stars}.
 \newblock {\em \apjl}, 757:L29.
+
+\bibitem[{Allain}, 1998]{Allain1998}
+{Allain}, S. (1998).
+\newblock {Modelling the angular momentum evolution of low-mass stars with
+  core-envelope decoupling}.
+\newblock {\em \aap}, 333:629--643.
 
 \bibitem[{Andronov} et~al., 2006]{Andronov2006}
 {Andronov}, N., {Pinsonneault}, M.~H., and {Terndrup}, D.~M. (2006).
@@ -63,11 +78,38 @@
 \newblock {The Habitability of Proxima Centauri b I: Evolutionary Scenarios}.
 \newblock {\em ArXiv e-prints}.
 
+\bibitem[{Barnes} et~al., 2019]{Barnes2019}
+{Barnes}, R., {Luger}, R., {Deitrick}, R., {Driscoll}, P., {Quinn}, T.~R.,
+  {Fleming}, D.~P., {Smotherman}, H., {McDonald}, D.~V., {Wilhelm}, C.,
+  {Garcia}, R., {Barth}, P., {Guyer}, B., {Meadows}, V.~S., {Bitz}, C.~M.,
+  {Gupta}, P., {Domagal-Goldman}, S.~D., and {Armstrong}, J. (2019).
+\newblock {VPLanet: The Virtual Planet Simulator}.
+\newblock {\em arXiv e-prints}.
+
 \bibitem[{Barnes} et~al., 2013]{Barnes2013}
 {Barnes}, R., {Mullins}, K., {Goldblatt}, C., {Meadows}, V.~S., {Kasting},
   J.~F., and {Heller}, R. (2013).
 \newblock {Tidal Venuses: Triggering a Climate Catastrophe via Tidal Heating}.
 \newblock {\em Astrobiology}, 13:225--250.
+
+\bibitem[{Barnes}, 2003]{Barnes2003}
+{Barnes}, S.~A. (2003).
+\newblock {On the Rotational Evolution of Solar- and Late-Type Stars, Its
+  Magnetic Origins, and the Possibility of Stellar Gyrochronology}.
+\newblock {\em \apj}, 586:464--479.
+
+\bibitem[{Barnes}, 2007]{Barnes2007}
+{Barnes}, S.~A. (2007).
+\newblock {Ages for Illustrative Field Stars Using Gyrochronology: Viability,
+  Limitations, and Errors}.
+\newblock {\em \apj}, 669:1167--1189.
+
+\bibitem[{Barnes}, 2010]{Barnes2010}
+{Barnes}, S.~A. (2010).
+\newblock {A Simple Nonlinear Model for the Rotation of Main-sequence Cool
+  Stars. I. Introduction, Implications for Gyrochronology, and Color-Period
+  Diagrams}.
+\newblock {\em \apj}, 722:222--234.
 
 \bibitem[{Bate}, 2000]{Bate2000}
 {Bate}, M.~R. (2000).
@@ -125,6 +167,12 @@
 \newblock {The Formation of Close Binary Systems}.
 \newblock {\em \mnras}, 271.
 
+\bibitem[{Bouvier}, 2008]{Bouvier2008}
+{Bouvier}, J. (2008).
+\newblock {Lithium depletion and the rotational history of exoplanet host
+  stars}.
+\newblock {\em \aap}, 489:L53--L56.
+
 \bibitem[{Bouvier} et~al., 1997]{Bouvier1997}
 {Bouvier}, J., {Forestini}, M., and {Allain}, S. (1997).
 \newblock {The angular momentum evolution of low-mass stars.}
@@ -135,15 +183,51 @@
 \newblock {Planet Formation around Binary Stars: Tatooine Made Easy}.
 \newblock {\em \apj}, 806:98.
 
+\bibitem[{Burkart} et~al., 2014]{Burkart2014}
+{Burkart}, J., {Quataert}, E., and {Arras}, P. (2014).
+\newblock {Dynamical resonance locking in tidally interacting binary systems}.
+\newblock {\em \mnras}, 443:2957--2973.
+
 \bibitem[{Chambers} et~al., 1996]{Chambers1996}
 {Chambers}, J.~E., {Wetherill}, G.~W., and {Boss}, A.~P. (1996).
 \newblock {The Stability of Multi-Planet Systems}.
 \newblock {\em \icarus}, 119:261--268.
 
+\bibitem[{Chaplin} et~al., 2014]{Chaplin2014}
+{Chaplin}, W.~J., {Basu}, S., {Huber}, D., {Serenelli}, A., {Casagrande}, L.,
+  {Silva Aguirre}, V., {Ball}, W.~H., {Creevey}, O.~L., {Gizon}, L.,
+  {Handberg}, R., {Karoff}, C., {Lutz}, R., {Marques}, J.~P., {Miglio}, A.,
+  {Stello}, D., {Suran}, M.~D., {Pricopi}, D., {Metcalfe}, T.~S., {Monteiro},
+  M.~J.~P.~F.~G., {Molenda-{\.Z}akowicz}, J., {Appourchaux}, T.,
+  {Christensen-Dalsgaard}, J., {Elsworth}, Y., {Garc{\'{\i}}a}, R.~A.,
+  {Houdek}, G., {Kjeldsen}, H., {Bonanno}, A., {Campante}, T.~L., {Corsaro},
+  E., {Gaulme}, P., {Hekker}, S., {Mathur}, S., {Mosser}, B., {R{\'e}gulo}, C.,
+  and {Salabert}, D. (2014).
+\newblock {Asteroseismic Fundamental Properties of Solar-type Stars Observed by
+  the NASA Kepler Mission}.
+\newblock {\em \apjs}, 210:1.
+
 \bibitem[{Chatterjee} et~al., 2008]{Chatterjee2008}
 {Chatterjee}, S., {Ford}, E.~B., {Matsumura}, S., and {Rasio}, F.~A. (2008).
 \newblock {Dynamical Outcomes of Planet-Planet Scattering}.
 \newblock {\em \apj}, 686:580--602.
+
+\bibitem[{Claret} et~al., 1995]{Claret1995}
+{Claret}, A., {Gimenez}, A., and {Cunha}, N.~C.~S. (1995).
+\newblock {Circularization and synchronization times in the main sequence of
+  detached eclipsing binaries.I. Using the formalism by Tassoul.}
+\newblock {\em \aap}, 299:724.
+
+\bibitem[{Counselman}, 1973]{Counselman1973}
+{Counselman}, III, C.~C. (1973).
+\newblock {Outcomes of Tidal Evolution}.
+\newblock {\em \apj}, 180:307--316.
+
+\bibitem[{Cranmer} and {Saar}, 2011]{Cranmer2011}
+{Cranmer}, S.~R. and {Saar}, S.~H. (2011).
+\newblock {Testing a Predictive Theoretical Model for the Mass Loss Rates of
+  Cool Stars}.
+\newblock {\em \apj}, 741:54.
 
 \bibitem[{Darwin}, 1880]{Darwin1880}
 {Darwin}, G.~H. (1880).
@@ -156,6 +240,16 @@
 {Dobbs-Dixon}, I., {Lin}, D.~N.~C., and {Mardling}, R.~A. (2004).
 \newblock {Spin-Orbit Evolution of Short-Period Planets}.
 \newblock {\em \apj}, 610:464--476.
+
+\bibitem[{Douglas} et~al., 2017]{Douglas2017}
+{Douglas}, S.~T., {Ag{\"u}eros}, M.~A., {Covey}, K.~R., and {Kraus}, A. (2017).
+\newblock {Poking the Beehive from Space: K2 Rotation Periods for Praesepe}.
+\newblock {\em \apj}, 842:83.
+
+\bibitem[{Duch{\^e}ne} and {Kraus}, 2013]{Duchene2013}
+{Duch{\^e}ne}, G. and {Kraus}, A. (2013).
+\newblock {Stellar Multiplicity}.
+\newblock {\em \araa}, 51:269--310.
 
 \bibitem[{Dunhill} and {Alexander}, 2013]{Dunhill2013}
 {Dunhill}, A.~C. and {Alexander}, R.~D. (2013).
@@ -185,6 +279,12 @@
   theory re-visited}.
 \newblock {\em Celestial Mechanics and Dynamical Astronomy}, 101:171--201.
 
+\bibitem[{Fleming} et~al., 2018]{Fleming2018}
+{Fleming}, D.~P., {Barnes}, R., {Graham}, D.~E., {Luger}, R., and {Quinn},
+  T.~R. (2018).
+\newblock {On the Lack of Circumbinary Planets Orbiting Isolated Binary Stars}.
+\newblock {\em \apj}, 858:86.
+
 \bibitem[{Fleming} and {Quinn}, 2017]{Fleming2017}
 {Fleming}, D.~P. and {Quinn}, T.~R. (2017).
 \newblock {Coevolution of binaries and circumbinary gaseous discs}.
@@ -201,6 +301,32 @@
 \newblock {Assembly of Protoplanetary Disks and Inclinations of Circumbinary
   Planets}.
 \newblock {\em \apj}, 764:106.
+
+\bibitem[{Gaia Collaboration} et~al., 2016]{Gaia2016}
+{Gaia Collaboration}, {Prusti}, T., {de Bruijne}, J.~H.~J., {Brown}, A.~G.~A.,
+  {Vallenari}, A., {Babusiaux}, C., {Bailer-Jones}, C.~A.~L., {Bastian}, U.,
+  {Biermann}, M., {Evans}, D.~W., and et~al. (2016).
+\newblock {The Gaia mission}.
+\newblock {\em \aap}, 595:A1.
+
+\bibitem[{Gallet} et~al., 2017]{Gallet2017}
+{Gallet}, F., {Bolmont}, E., {Mathis}, S., {Charbonnel}, C., and {Amard}, L.
+  (2017).
+\newblock {Tidal dissipation in rotating low-mass stars and implications for
+  the orbital evolution of close-in planets. I. From the PMS to the RGB at
+  solar metallicity}.
+\newblock {\em \aap}, 604:A112.
+
+\bibitem[{Gallet} and {Bouvier}, 2013]{Gallet2013}
+{Gallet}, F. and {Bouvier}, J. (2013).
+\newblock {Improved angular momentum evolution model for solar-like stars}.
+\newblock {\em \aap}, 556:A36.
+
+\bibitem[{Gallet} and {Bouvier}, 2015]{Gallet2015}
+{Gallet}, F. and {Bouvier}, J. (2015).
+\newblock {Improved angular momentum evolution model for solar-like stars. II.
+  Exploring the mass dependence}.
+\newblock {\em \aap}, 577:A98.
 
 \bibitem[{Goldreich}, 1966]{Goldreich1966b}
 {Goldreich}, P. (1966).
@@ -234,6 +360,11 @@
 \newblock {Frequency Dependence of Tidal q}.
 \newblock {\em \apjl}, 698:L42--L45.
 
+\bibitem[{Habets} and {Zwaan}, 1989]{Habets1989}
+{Habets}, G.~M.~H.~J. and {Zwaan}, C. (1989).
+\newblock {Asynchronous rotation in close binary systems with circular orbits}.
+\newblock {\em \aap}, 211:56--70.
+
 \bibitem[{Haisch} et~al., 2001]{Haisch2001}
 {Haisch}, Jr., K.~E., {Lada}, E.~A., and {Lada}, C.~J. (2001).
 \newblock {Disk Frequencies and Lifetimes in Young Clusters}.
@@ -250,20 +381,64 @@
 \newblock {Tidal obliquity evolution of potentially habitable planets}.
 \newblock {\em \aap}, 528:A27.
 
+\bibitem[{Herbst} et~al., 2001]{Herbst2001}
+{Herbst}, W., {Bailer-Jones}, C.~A.~L., and {Mundt}, R. (2001).
+\newblock {The Mass Dependence of Stellar Rotation in the Orion Nebula
+  Cluster}.
+\newblock {\em \apjl}, 554:L197--L200.
+
+\bibitem[{Herbst} et~al., 2002]{Herbst2002}
+{Herbst}, W., {Bailer-Jones}, C.~A.~L., {Mundt}, R., {Meisenheimer}, K., and
+  {Wackermann}, R. (2002).
+\newblock {Stellar rotation and variability in the Orion Nebula Cluster}.
+\newblock {\em \aap}, 396:513--532.
+
 \bibitem[{Holman} and {Wiegert}, 1999]{Holman1999}
 {Holman}, M.~J. and {Wiegert}, P.~A. (1999).
 \newblock {Long-Term Stability of Planets in Binary Systems}.
 \newblock {\em \aj}, 117:621--628.
+
+\bibitem[{Howell} et~al., 2014]{Howell2014}
+{Howell}, S.~B., {Sobeck}, C., {Haas}, M., {Still}, M., {Barclay}, T.,
+  {Mullally}, F., {Troeltzsch}, J., {Aigrain}, S., {Bryson}, S.~T., {Caldwell},
+  D., {Chaplin}, W.~J., {Cochran}, W.~D., {Huber}, D., {Marcy}, G.~W.,
+  {Miglio}, A., {Najita}, J.~R., {Smith}, M., {Twicken}, J.~D., and {Fortney},
+  J.~J. (2014).
+\newblock {The K2 Mission: Characterization and Early Results}.
+\newblock {\em \pasp}, 126:398.
 
 \bibitem[{Huang}, 1966]{Huang1966}
 {Huang}, S.-S. (1966).
 \newblock {A theory of the origin and evolution of contact binaries}.
 \newblock {\em Annales d'Astrophysique}, 29:331.
 
+\bibitem[Hunter, 2007]{Hunter2007}
+Hunter, J.~D. (2007).
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing In Science \& Engineering}, 9(3):90--95.
+
+\bibitem[{Hurley} et~al., 2002]{Hurley2002}
+{Hurley}, J.~R., {Tout}, C.~A., and {Pols}, O.~R. (2002).
+\newblock {Evolution of binary stars and the effect of tides on binary
+  populations}.
+\newblock {\em \mnras}, 329:897--928.
+
 \bibitem[{Hut}, 1981]{Hut1981}
 {Hut}, P. (1981).
 \newblock {Tidal evolution in close binary systems}.
 \newblock {\em \aap}, 99:126--140.
+
+\bibitem[{Irwin} and {Bouvier}, 2009]{Irwin2009}
+{Irwin}, J. and {Bouvier}, J. (2009).
+\newblock {The rotational evolution of low-mass stars}.
+\newblock In {Mamajek}, E.~E., {Soderblom}, D.~R., and {Wyse}, R.~F.~G.,
+  editors, {\em The Ages of Stars}, volume 258 of {\em IAU Symposium}, pages
+  363--374.
+
+\bibitem[{Ivanova} et~al., 2005]{Ivanova2005}
+{Ivanova}, N., {Belczynski}, K., {Fregeau}, J.~M., and {Rasio}, F.~A. (2005).
+\newblock {The evolution of binary fractions in globular clusters}.
+\newblock {\em \mnras}, 358:572--584.
 
 \bibitem[{Ivanova} and {Taam}, 2003]{Ivanova2003}
 {Ivanova}, N. and {Taam}, R.~E. (2003).
@@ -275,10 +450,20 @@
 \newblock {Observational Evidence for Tidal Destruction of Exoplanets}.
 \newblock {\em \apj}, 698:1357--1366.
 
+\bibitem[{Jackson} et~al., 2008]{Jackson2008}
+{Jackson}, B., {Greenberg}, R., and {Barnes}, R. (2008).
+\newblock {Tidal Evolution of Close-in Extrasolar Planets}.
+\newblock {\em \apj}, 678:1396--1406.
+
 \bibitem[{Kane} and {Hinkel}, 2013]{Kane2013}
 {Kane}, S.~R. and {Hinkel}, N.~R. (2013).
 \newblock {On the Habitable Zones of Circumbinary Planetary Systems}.
 \newblock {\em \apj}, 762:7.
+
+\bibitem[{Keppens}, 1997]{Keppens1997}
+{Keppens}, R. (1997).
+\newblock {Spin and orbital angular momentum exchange in binary star systems.}
+\newblock {\em \aap}, 318:275--288.
 
 \bibitem[{Khaliullin} and {Khaliullina}, 2011]{Khaliullin2011}
 {Khaliullin}, K.~F. and {Khaliullina}, A.~I. (2011).
@@ -329,6 +514,11 @@
   Consistent calculations accounting for finite initial eccentricity}.
 \newblock {\em \aap}, 516:A64.
 
+\bibitem[{Levato}, 1974]{Levato1974}
+{Levato}, H. (1974).
+\newblock {Rotation in binary stars}.
+\newblock {\em \aap}, 35:259--265.
+
 \bibitem[{Li} et~al., 2016]{Li2016}
 {Li}, G., {Holman}, M.~J., and {Tao}, M. (2016).
 \newblock {Uncovering Circumbinary Planetary Architectural Properties from
@@ -347,6 +537,23 @@
 \newblock {Tidal Synchronization and Differential Rotation of Kepler Eclipsing
   Binaries}.
 \newblock {\em \aj}, 154:250.
+
+\bibitem[{MacGregor} and {Brenner}, 1991]{MacGregor1991}
+{MacGregor}, K.~B. and {Brenner}, M. (1991).
+\newblock {Rotational evolution of solar-type stars. I - Main-sequence
+  evolution}.
+\newblock {\em \apj}, 376:204--213.
+
+\bibitem[{Mamajek} and {Hillenbrand}, 2008]{Mamajek2008}
+{Mamajek}, E.~E. and {Hillenbrand}, L.~A. (2008).
+\newblock {Improved Age Estimation for Solar-Type Dwarfs Using
+  Activity-Rotation Diagnostics}.
+\newblock {\em \apj}, 687:1264--1293.
+
+\bibitem[{Mardling} and {Aarseth}, 2001]{Mardling2001}
+{Mardling}, R.~A. and {Aarseth}, S.~J. (2001).
+\newblock {Tidal interactions in star cluster simulations}.
+\newblock {\em \mnras}, 321:398--420.
 
 \bibitem[{Marilli} et~al., 2007]{Marilli2007}
 {Marilli}, E., {Frasca}, A., {Covino}, E., {Alcal{\'a}}, J.~M., {Catalano}, S.,
@@ -376,12 +583,71 @@
 \newblock {Circumbinary planets - why they are so likely to transit}.
 \newblock {\em \mnras}, 449:781--793.
 
+\bibitem[{Mathis}, 2015]{Mathis2015}
+{Mathis}, S. (2015).
+\newblock {Variation of tidal dissipation in the convective envelope of
+  low-mass stars along their evolution}.
+\newblock {\em \aap}, 580:L3.
+
+\bibitem[{Matson} et~al., 2018]{Matson2018}
+{Matson}, R.~A., {Howell}, S.~B., and {Ciardi}, D. (2018).
+\newblock {Detecting Unresolved Binaries in TESS Data with Speckle Imaging}.
+\newblock {\em arXiv e-prints}.
+
+\bibitem[{Matt} et~al., 2015]{Matt2015}
+{Matt}, S.~P., {Brun}, A.~S., {Baraffe}, I., {Bouvier}, J., and {Chabrier}, G.
+  (2015).
+\newblock {The Mass-dependence of Angular Momentum Evolution in Sun-like
+  Stars}.
+\newblock {\em \apjl}, 799:L23.
+
+\bibitem[{Matt} et~al., 2019]{Matt2019}
+{Matt}, S.~P., {Brun}, A.~S., {Baraffe}, I., {Bouvier}, J., and {Chabrier}, G.
+  (2019).
+\newblock {Erratum: {\ldquo}The Mass-dependence of Angular Momentum Evolution
+  in Sun-like Stars{\rdquo} (<A
+  href=``http://doi.org/10.1088/2041-8205/799/2/l23''>2015, ApJL, 799,
+  L23</A>)}.
+\newblock {\em \apjl}, 870:L27.
+
+\bibitem[{Mazeh}, 2008]{Mazeh2008}
+{Mazeh}, T. (2008).
+\newblock {Observational Evidence for Tidal Interaction in Close Binary
+  Systems}.
+\newblock In {Goupil}, M.-J. and {Zahn}, J.-P., editors, {\em EAS Publications
+  Series}, volume~29 of {\em EAS Publications Series}, pages 1--65.
+
+\bibitem[McKinney, 2010]{Mckinney2010}
+McKinney, W. (2010).
+\newblock Data structures for statistical computing in python.
+\newblock In van~der Walt, S. and Millman, J., editors, {\em Proceedings of the
+  9th Python in Science Conference}, pages 51 -- 56.
+
+\bibitem[{McQuillan} et~al., 2014]{McQuillan2014}
+{McQuillan}, A., {Mazeh}, T., and {Aigrain}, S. (2014).
+\newblock {Rotation Periods of 34,030 Kepler Main-sequence Stars: The Full
+  Autocorrelation Sample}.
+\newblock {\em \apjs}, 211:24.
+
+\bibitem[{Meibom} et~al., 2015]{Meibom2015}
+{Meibom}, S., {Barnes}, S.~A., {Platais}, I., {Gilliland}, R.~L., {Latham},
+  D.~W., and {Mathieu}, R.~D. (2015).
+\newblock {A spin-down clock for cool stars from observations of a
+  2.5-billion-year-old cluster}.
+\newblock {\em \nat}, 517:589--591.
+
 \bibitem[{Meibom} and {Mathieu}, 2005]{Meibom2005}
 {Meibom}, S. and {Mathieu}, R.~D. (2005).
 \newblock {A Robust Measure of Tidal Circularization in Coeval Binary
   Populations: The Solar-Type Spectroscopic Binary Population in the Open
   Cluster M35}.
 \newblock {\em \apj}, 620:970--983.
+
+\bibitem[{Meibom} et~al., 2006]{Meibom2006}
+{Meibom}, S., {Mathieu}, R.~D., and {Stassun}, K.~G. (2006).
+\newblock {An Observational Study of Tidal Synchronization in Solar-Type Binary
+  Stars in the Open Clusters M35 and M34}.
+\newblock {\em \apj}, 653:621--635.
 
 \bibitem[{Meibom} et~al., 2007]{Meibom2007}
 {Meibom}, S., {Mathieu}, R.~D., and {Stassun}, K.~G. (2007).
@@ -429,6 +695,16 @@
 {Mu{\~n}oz}, D.~J. and {Lai}, D. (2015).
 \newblock {Survival of planets around shrinking stellar binaries}.
 \newblock {\em Proceedings of the National Academy of Science}, 112:9264--9269.
+
+\bibitem[{Murray} and {Dermott}, 1999]{Murray1999}
+{Murray}, C.~D. and {Dermott}, S.~F. (1999).
+\newblock {\em {Solar system dynamics}}.
+
+\bibitem[{Ogilvie}, 2013]{Ogilvie2013}
+{Ogilvie}, G.~I. (2013).
+\newblock {Tides in rotating barotropic fluid bodies: the contribution of
+  inertial waves and the role of internal structure}.
+\newblock {\em \mnras}, 429:613--632.
 
 \bibitem[{Ogilvie} and {Lin}, 2007]{Ogilvie2007}
 {Ogilvie}, G.~I. and {Lin}, D.~N.~C. (2007).
@@ -565,16 +841,64 @@
 \newblock {Radius-dependent Angular Momentum Evolution in Low-mass Stars. I}.
 \newblock {\em \apj}, 746:43.
 
+\bibitem[{Reinhold} et~al., 2018]{Reinhold2018}
+{Reinhold}, T., {Bell}, K.~J., {Kuszlewicz}, J., {Hekker}, S., and {Shapiro},
+  A.~I. (2018).
+\newblock {Transition from spot to faculae domination -- An alternate
+  explanation for the dearth of intermediate $\backslash$textit$\{$Kepler$\}$
+  rotation periods}.
+\newblock {\em arXiv e-prints}.
+
+\bibitem[{Reinhold} et~al., 2013]{Reinhold2013}
+{Reinhold}, T., {Reiners}, A., and {Basri}, G. (2013).
+\newblock {Rotation and differential rotation of active Kepler stars}.
+\newblock {\em \aap}, 560:A4.
+
 \bibitem[{Repetto} and {Nelemans}, 2014]{Repetto2014}
 {Repetto}, S. and {Nelemans}, G. (2014).
 \newblock {The coupled effect of tides and stellar winds on the evolution of
   compact binaries}.
 \newblock {\em \mnras}, 444:542--557.
 
+\bibitem[{Ricker} et~al., 2014]{Ricker2014}
+{Ricker}, G.~R., {Winn}, J.~N., {Vanderspek}, R., {Latham}, D.~W., {Bakos},
+  G.~{\'A}., {Bean}, J.~L., {Berta-Thompson}, Z.~K., {Brown}, T.~M.,
+  {Buchhave}, L., {Butler}, N.~R., {Butler}, R.~P., {Chaplin}, W.~J.,
+  {Charbonneau}, D., {Christensen-Dalsgaard}, J., {Clampin}, M., {Deming}, D.,
+  {Doty}, J., {De Lee}, N., {Dressing}, C., {Dunham}, E.~W., {Endl}, M.,
+  {Fressin}, F., {Ge}, J., {Henning}, T., {Holman}, M.~J., {Howard}, A.~W.,
+  {Ida}, S., {Jenkins}, J., {Jernigan}, G., {Johnson}, J.~A., {Kaltenegger},
+  L., {Kawai}, N., {Kjeldsen}, H., {Laughlin}, G., {Levine}, A.~M., {Lin}, D.,
+  {Lissauer}, J.~J., {MacQueen}, P., {Marcy}, G., {McCullough}, P.~R.,
+  {Morton}, T.~D., {Narita}, N., {Paegert}, M., {Palle}, E., {Pepe}, F.,
+  {Pepper}, J., {Quirrenbach}, A., {Rinehart}, S.~A., {Sasselov}, D., {Sato},
+  B., {Seager}, S., {Sozzetti}, A., {Stassun}, K.~G., {Sullivan}, P.,
+  {Szentgyorgyi}, A., {Torres}, G., {Udry}, S., and {Villasenor}, J. (2014).
+\newblock {Transiting Exoplanet Survey Satellite (TESS)}.
+\newblock In {\em Space Telescopes and Instrumentation 2014: Optical, Infrared,
+  and Millimeter Wave}, volume 9143 of {\em \procspie}, page 914320.
+
+\bibitem[{Rodr{\'{\i}}guez} et~al., 2012]{Rodriguez2012}
+{Rodr{\'{\i}}guez}, A., {Callegari}, N., {Michtchenko}, T.~A., and {Hussmann},
+  H. (2012).
+\newblock {Spin-orbit coupling for tidally evolving super-Earths}.
+\newblock {\em \mnras}, 427:2239--2250.
+
+\bibitem[{Rodr{\'{\i}}guez-Ledesma} et~al., 2009]{Rodriguez-Ledesma2009}
+{Rodr{\'{\i}}guez-Ledesma}, M.~V., {Mundt}, R., and {Eisl{\"o}ffel}, J. (2009).
+\newblock {Rotational studies in the Orion Nebula Cluster: from solar mass
+  stars to brown dwarfs}.
+\newblock {\em \aap}, 502:883--904.
+
 \bibitem[{Sahlmann} et~al., 2015]{Sahlmann2015}
 {Sahlmann}, J., {Triaud}, A.~H.~M.~J., and {Martin}, D.~V. (2015).
 \newblock {Gaia's potential for the discovery of circumbinary planets}.
 \newblock {\em \mnras}, 447:287--297.
+
+\bibitem[{Simonian} et~al., 2018]{Simonian2018}
+{Simonian}, G.~V.~A., {Pinsonneault}, M.~H., and {Terndrup}, D.~M. (2018).
+\newblock {Rapid Rotation in the Kepler Field: Not a Single Star Phenomenon}.
+\newblock {\em ArXiv e-prints}.
 
 \bibitem[{Skumanich}, 1972]{Skumanich1972}
 {Skumanich}, A. (1972).
@@ -650,6 +974,29 @@
 \newblock {Tertiary companions to close spectroscopic binaries}.
 \newblock {\em \aap}, 450:681--693.
 
+\bibitem[{Torres} et~al., 2018]{Torres2018}
+{Torres}, G., {Curtis}, J.~L., {Vanderburg}, A., {Kraus}, A.~L., and {Rizzuto},
+  A. (2018).
+\newblock {Eclipsing Binaries in the Open Cluster Ruprecht 147. I. EPIC
+  219394517}.
+\newblock {\em \apj}, 866:67.
+
+\bibitem[van~der Walt et~al., 2011]{vanderWalt2011}
+van~der Walt, S., Colbert, S.~C., and Varoquaux, G. (2011).
+\newblock The numpy array: A structure for efficient numerical computation.
+\newblock {\em Computing in Science Engineering}, 13(2):22--30.
+
+\bibitem[{Van Eylen} et~al., 2016]{vanEylen2016}
+{Van Eylen}, V., {Winn}, J.~N., and {Albrecht}, S. (2016).
+\newblock {Orbital Circularization of Hot and Cool Kepler Eclipsing Binaries}.
+\newblock {\em \apj}, 824:15.
+
+\bibitem[{van Saders} et~al., 2018]{vanSaders2018}
+{van Saders}, J.~L., {Pinsonneault}, M.~H., and {Barbieri}, M. (2018).
+\newblock {Forward Modeling of the Kepler Stellar Rotation Period Distribution:
+  Interpreting Periods from Mixed and Biased Stellar Populations}.
+\newblock {\em ArXiv e-prints}.
+
 \bibitem[{van't Veer} and {Maceroni}, 1988]{VantVeer1988}
 {van't Veer}, F. and {Maceroni}, C. (1988).
 \newblock {The angular momentum loss of rapidly rotating late-type main
@@ -701,6 +1048,28 @@
 {Wisdom}, J. (2008).
 \newblock {Tidal dissipation at arbitrary eccentricity and obliquity}.
 \newblock {\em \icarus}, 193:637--640.
+
+\bibitem[{Witte} and {Savonije}, 2002]{Witte2002}
+{Witte}, M.~G. and {Savonije}, G.~J. (2002).
+\newblock {Orbital evolution by dynamical tides in solar type stars.
+  Application to binary stars and planetary orbits}.
+\newblock {\em \aap}, 386:222--236.
+
+\bibitem[{Zahn}, 1975]{Zahn1975}
+{Zahn}, J.-P. (1975).
+\newblock {The dynamical tide in close binaries}.
+\newblock {\em \aap}, 41:329--344.
+
+\bibitem[{Zahn}, 1994]{Zahn1994}
+{Zahn}, J.-P. (1994).
+\newblock {Rotation and lithium depletion in late-type binaries}.
+\newblock {\em \aap}, 288:829--841.
+
+\bibitem[{Zahn}, 2008]{Zahn2008}
+{Zahn}, J.-P. (2008).
+\newblock {Tidal dissipation in binary systems}.
+\newblock In {Goupil}, M.-J. and {Zahn}, J.-P., editors, {\em EAS Publications
+  Series}, volume~29 of {\em EAS Publications Series}, pages 67--90.
 
 \bibitem[{Zahn} and {Bouchet}, 1989]{Zahn1989}
 {Zahn}, J.-P. and {Bouchet}, L. (1989).
