@@ -455,6 +455,12 @@ Hunter, J.~D. (2007).
 \newblock {Tidal Evolution of Close-in Extrasolar Planets}.
 \newblock {\em \apj}, 678:1396--1406.
 
+\bibitem[Kandasamy et~al., 2017]{Kandasamy2017}
+Kandasamy, K., Schneider, J., and Póczos, B. (2017).
+\newblock Query efficient posterior estimation in scientific experiments via
+  bayesian active learning.
+\newblock {\em Artificial Intelligence}, 243:45 -- 56.
+
 \bibitem[{Kane} and {Hinkel}, 2013]{Kane2013}
 {Kane}, S.~R. and {Hinkel}, N.~R. (2013).
 \newblock {On the Habitable Zones of Circumbinary Planetary Systems}.
@@ -1019,6 +1025,12 @@ van~der Walt, S., Colbert, S.~C., and Varoquaux, G. (2011).
 {Verbunt}, F. and {Zwaan}, C. (1981).
 \newblock {Magnetic braking in low-mass X-ray binaries}.
 \newblock {\em \aap}, 100:L7--L9.
+
+\bibitem[Wang and Li, 2018]{Wang2018}
+Wang, H. and Li, J. (2018).
+\newblock Adaptive gaussian process approximation for bayesian inference with
+  expensive likelihood functions.
+\newblock {\em Neural Computation}, 30(11):3072--3094.
 
 \bibitem[{Welsh} et~al., 2015]{Welsh2015}
 {Welsh}, W., {Orosz}, J., {Quarles}, B., and {Haghighipour}, N. (2015).
