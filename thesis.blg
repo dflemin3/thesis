@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: tex/abstract.aux
+A level-1 auxiliary file: tex/intro.aux
+The style file: apalike.bst
+A level-1 auxiliary file: tex/vita.aux
+Reallocated field_info (elt_size=4) to 10016 items from 5000.
+Database file #1: thesisBib.bib
+Warning--I didn't find a database entry for "Arty1996"
+Warning--I didn't find a database entry for "Arty1991"
+Warning--I didn't find a database entry for "PierensNelson2007"
+Warning--I didn't find a database entry for "Arty1994"
+Warning--empty publisher in Murray1999
+You've used 224 entries,
+            1935 wiz_defined-function locations,
+            1834 strings with 49918 characters,
+and the built_in function-call counts, 107102 in all, are:
+= -- 9711
+> -- 6599
+< -- 136
++ -- 2383
+- -- 2380
+* -- 10049
+:= -- 19186
+add.period$ -- 671
+call.type$ -- 224
+change.case$ -- 2301
+chr.to.int$ -- 223
+cite$ -- 225
+duplicate$ -- 3277
+empty$ -- 6293
+format.name$ -- 2750
+if$ -- 20383
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 225
+newline$ -- 1122
+num.names$ -- 686
+pop$ -- 1822
+preamble$ -- 1
+purify$ -- 2302
+quote$ -- 0
+skip$ -- 2484
+stack$ -- 0
+substring$ -- 6376
+swap$ -- 342
+text.length$ -- 19
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1342
+warning$ -- 1
+while$ -- 678
+width$ -- 0
+write$ -- 2909
+(There were 5 warnings)

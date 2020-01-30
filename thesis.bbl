@@ -20,6 +20,12 @@
   core-envelope decoupling}.
 \newblock {\em \aap}, 333:629--643.
 
+\bibitem[{Aly} et~al., 2015]{Aly2015}
+{Aly}, H., {Dehnen}, W., {Nixon}, C., and {King}, A. (2015).
+\newblock {Misaligned gas discs around eccentric black hole binaries and
+  implications for the final-parsec problem}.
+\newblock {\em \mnras}, 449(1):65--76.
+
 \bibitem[{Andronov} et~al., 2006]{Andronov2006}
 {Andronov}, N., {Pinsonneault}, M.~H., and {Terndrup}, D.~M. (2006).
 \newblock {Mergers of Close Primordial Binaries}.
@@ -37,22 +43,39 @@
 \newblock {On the abundance of circumbinary planets}.
 \newblock {\em \mnras}, 444:1873--1883.
 
-\bibitem[{Artymowicz} et~al., 1991]{Arty1991}
+\bibitem[{Artymowicz}, 1992]{Artymowicz1992}
+{Artymowicz}, P. (1992).
+\newblock {Dynamics of Binary and Planetary System Interaction with Disks:
+  Eccentricity Changes}.
+\newblock {\em \pasp}, 104:769.
+
+\bibitem[{Artymowicz} et~al., 1991]{Artymowicz1991}
 {Artymowicz}, P., {Clarke}, C.~J., {Lubow}, S.~H., and {Pringle}, J.~E. (1991).
 \newblock {The effect of an external disk on the orbital elements of a central
   binary}.
 \newblock {\em \apjl}, 370:L35--L38.
 
-\bibitem[{Artymowicz} and {Lubow}, 1994]{Arty1994}
+\bibitem[{Artymowicz} and {Lubow}, 1994]{Artymowicz1994}
 {Artymowicz}, P. and {Lubow}, S.~H. (1994).
 \newblock {Dynamics of binary-disk interaction. 1: Resonances and disk gap
   sizes}.
 \newblock {\em \apj}, 421:651--667.
 
-\bibitem[{Artymowicz} and {Lubow}, 1996]{Arty1996}
+\bibitem[{Artymowicz} and {Lubow}, 1996]{Artymowicz1996a}
 {Artymowicz}, P. and {Lubow}, S.~H. (1996).
 \newblock {Mass Flow through Gaps in Circumbinary Disks}.
 \newblock {\em \apjl}, 467:L77.
+
+\bibitem[{Backus} and {Quinn}, 2016]{Backus2016}
+{Backus}, I. and {Quinn}, T. (2016).
+\newblock {Fragmentation of protoplanetary discs around M-dwarfs}.
+\newblock {\em \mnras}, 463(3):2480--2493.
+
+\bibitem[{Balsara}, 1995]{Balsara1995}
+{Balsara}, D.~S. (1995).
+\newblock {von Neumann stability analysis of smooth particle
+  hydrodynamics--suggestions for optimal algorithms}.
+\newblock {\em Journal of Computational Physics}, 121(2):357--372.
 
 \bibitem[{Baraffe} et~al., 2015]{Baraffe2015}
 {Baraffe}, I., {Homeier}, D., {Allard}, F., and {Chabrier}, G. (2015).
@@ -212,6 +235,13 @@
 \newblock {Dynamical Outcomes of Planet-Planet Scattering}.
 \newblock {\em \apj}, 686:580--602.
 
+\bibitem[{Chavez} et~al., 2015]{Chavez2015}
+{Chavez}, C.~E., {Georgakarakos}, N., {Prodan}, S., {Reyes-Ruiz}, M., {Aceves},
+  H., {Betancourt}, F., and {Perez-Tijerina}, E. (2015).
+\newblock {A dynamical stability study of Kepler Circumbinary planetary systems
+  with one planet}.
+\newblock {\em \mnras}, 446(2):1283--1292.
+
 \bibitem[{Claret} et~al., 1995]{Claret1995}
 {Claret}, A., {Gimenez}, A., and {Cunha}, N.~C.~S. (1995).
 \newblock {Circularization and synchronization times in the main sequence of
@@ -229,6 +259,12 @@
   Cool Stars}.
 \newblock {\em \apj}, 741:54.
 
+\bibitem[{Cuadra} et~al., 2009]{Cuadra2009}
+{Cuadra}, J., {Armitage}, P.~J., {Alexander}, R.~D., and {Begelman}, M.~C.
+  (2009).
+\newblock {Massive black hole binary mergers within subparsec scale gas discs}.
+\newblock {\em \mnras}, 393(4):1423--1432.
+
 \bibitem[{Darwin}, 1880]{Darwin1880}
 {Darwin}, G.~H. (1880).
 \newblock {On the Secular Changes in the Elements of the Orbit of a Satellite
@@ -236,10 +272,27 @@
 \newblock {\em Philosophical Transactions of the Royal Society of London Series
   I}, 171:713--891.
 
+\bibitem[{Dermine} et~al., 2013]{Dermine2013}
+{Dermine}, T., {Izzard}, R.~G., {Jorissen}, A., and {Van Winckel}, H. (2013).
+\newblock {Eccentricity-pumping in post-AGB stars with circumbinary discs}.
+\newblock {\em \aap}, 551:A50.
+
 \bibitem[{Dobbs-Dixon} et~al., 2004]{DobbsDixon2004}
 {Dobbs-Dixon}, I., {Lin}, D.~N.~C., and {Mardling}, R.~A. (2004).
 \newblock {Spin-Orbit Evolution of Short-Period Planets}.
 \newblock {\em \apj}, 610:464--476.
+
+\bibitem[{D'Orazio} et~al., 2016]{DOrazio2016}
+{D'Orazio}, D.~J., {Haiman}, Z., {Duffell}, P., {MacFadyen}, A., and {Farris},
+  B. (2016).
+\newblock {A transition in circumbinary accretion discs at a binary mass ratio
+  of 1:25}.
+\newblock {\em \mnras}, 459(3):2379--2393.
+
+\bibitem[{D'Orazio} et~al., 2013]{DOrazio2013}
+{D'Orazio}, D.~J., {Haiman}, Z., and {MacFadyen}, A. (2013).
+\newblock {Accretion into the central cavity of a circumbinary disc}.
+\newblock {\em \mnras}, 436(4):2997--3020.
 
 \bibitem[{Douglas} et~al., 2017]{Douglas2017}
 {Douglas}, S.~T., {Ag{\"u}eros}, M.~A., {Covey}, K.~R., and {Kraus}, A. (2017).
@@ -256,10 +309,27 @@
 \newblock {The curiously circular orbit of Kepler-16b}.
 \newblock {\em \mnras}, 435:2328--2334.
 
+\bibitem[{Dunhill} et~al., 2015]{Dunhill2015}
+{Dunhill}, A.~C., {Cuadra}, J., and {Dougados}, C. (2015).
+\newblock {Precession and accretion in circumbinary discs: the case of HD
+  104237}.
+\newblock {\em \mnras}, 448(4):3545--3554.
+
+\bibitem[{Dvorak}, 1986]{Dvorak1986}
+{Dvorak}, R. (1986).
+\newblock {Critical orbits in the elliptic restricted three-body problem.}
+\newblock {\em \aap}, 167:379--386.
+
 \bibitem[{Dvorak} et~al., 1989]{Dvorak1989}
 {Dvorak}, R., {Froeschle}, C., and {Froeschle}, C. (1989).
 \newblock {Stability of outer planetary orbits (P-types) in binaries}.
 \newblock {\em \aap}, 226:335--342.
+
+\bibitem[{Escala} et~al., 2005]{Escala2005}
+{Escala}, A., {Larson}, R.~B., {Coppi}, P.~S., and {Mardones}, D. (2005).
+\newblock {The Role of Gas in the Merging of Massive Black Holes in Galactic
+  Nuclei. II. Black Hole Merging in a Nuclear Gas Disk}.
+\newblock {\em \apj}, 630(1):152--166.
 
 \bibitem[{Essick} and {Weinberg}, 2016]{Essick2016}
 {Essick}, R. and {Weinberg}, N.~N. (2016).
@@ -272,6 +342,12 @@
 \newblock {Shrinking Binary and Planetary Orbits by Kozai Cycles with Tidal
   Friction}.
 \newblock {\em \apj}, 669:1298--1315.
+
+\bibitem[{Farris} et~al., 2014]{Farris2014}
+{Farris}, B.~D., {Duffell}, P., {MacFadyen}, A.~I., and {Haiman}, Z. (2014).
+\newblock {Binary Black Hole Accretion from a Circumbinary Disk: Gas Dynamics
+  inside the Central Cavity}.
+\newblock {\em \apj}, 783(2):134.
 
 \bibitem[{Ferraz-Mello} et~al., 2008]{FerrazMello2008}
 {Ferraz-Mello}, S., {Rodr{\'{\i}}guez}, A., and {Hussmann}, H. (2008).
@@ -342,6 +418,17 @@
 {Goldreich}, P. and {Soter}, S. (1966).
 \newblock {Q in the Solar System}.
 \newblock {\em \icarus}, 5:375--389.
+
+\bibitem[{Goldreich} and {Tremaine}, 1979]{Goldreich1979}
+{Goldreich}, P. and {Tremaine}, S. (1979).
+\newblock {The excitation of density waves at the Lindblad and corotation
+  resonances by an external potential.}
+\newblock {\em \apj}, 233:857--871.
+
+\bibitem[{Goldreich} and {Tremaine}, 1980]{Goldreich1980}
+{Goldreich}, P. and {Tremaine}, S. (1980).
+\newblock {Disk-satellite interactions}.
+\newblock {\em \apj}, 241:425--441.
 
 \bibitem[{Gong}, 2017]{Gong2017b}
 {Gong}, Y.-X. (2017).
@@ -455,6 +542,18 @@ Hunter, J.~D. (2007).
 \newblock {Tidal Evolution of Close-in Extrasolar Planets}.
 \newblock {\em \apj}, 678:1396--1406.
 
+\bibitem[{Jetley} et~al., 2008]{Jetley2008}
+{Jetley}, P., {Gioachin}, F., {Mendes}, C., {Kale}, L.~V., and {Quinn}, T.
+  (2008).
+\newblock Massively parallel cosmological simulations with changa.
+\newblock In {\em 2008 IEEE International Symposium on Parallel and Distributed
+  Processing}, pages 1--12.
+
+\bibitem[Kale and Krishnan, 1996]{Kale1996}
+Kale, L.~V. and Krishnan, S. (1996).
+\newblock Charm++: Parallel programming with message-driven objects.
+\newblock {\em Parallel programming using C+}, pages 175--213.
+
 \bibitem[Kandasamy et~al., 2017]{Kandasamy2017}
 Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 \newblock Query efficient posterior estimation in scientific experiments via
@@ -498,6 +597,36 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 \newblock {Modeling circumbinary planets: The case of Kepler-38}.
 \newblock {\em \aap}, 564:A72.
 
+\bibitem[{Kley} and {Haghighipour}, 2015]{Kley2015}
+{Kley}, W. and {Haghighipour}, N. (2015).
+\newblock {Evolution of circumbinary planets around eccentric binaries: The
+  case of Kepler-34}.
+\newblock {\em \aap}, 581:A20.
+
+\bibitem[{Kley} et~al., 2008]{Kley2008}
+{Kley}, W., {Papaloizou}, J.~C.~B., and {Ogilvie}, G.~I. (2008).
+\newblock {Simulations of eccentric disks in close binary systems}.
+\newblock {\em \aap}, 487(2):671--687.
+
+\bibitem[{Kostov} et~al., 2016]{Kostov2016}
+{Kostov}, V.~B., {Orosz}, J.~A., {Welsh}, W.~F., {Doyle}, L.~R., {Fabrycky},
+  D.~C., {Haghighipour}, N., {Quarles}, B., {Short}, D.~R., {Cochran}, W.~D.,
+  {Endl}, M., {Ford}, E.~B., {Gregorio}, J., {Hinse}, T.~C., {Isaacson}, H.,
+  {Jenkins}, J.~M., {Jensen}, E. L.~N., {Kane}, S., {Kull}, I., {Latham},
+  D.~W., {Lissauer}, J.~J., {Marcy}, G.~W., {Mazeh}, T., {M{\"u}ller}, T.
+  W.~A., {Pepper}, J., {Quinn}, S.~N., {Ragozzine}, D., {Shporer}, A.,
+  {Steffen}, J.~H., {Torres}, G., {Windmiller}, G., and {Borucki}, W.~J.
+  (2016).
+\newblock {Kepler-1647b: The Largest and Longest-period Kepler Transiting
+  Circumbinary Planet}.
+\newblock {\em \apj}, 827(1):86.
+
+\bibitem[{Kozai}, 1962]{Kozai1962}
+{Kozai}, Y. (1962).
+\newblock {Secular perturbations of asteroids with high inclination and
+  eccentricity}.
+\newblock {\em \aj}, 67:591--598.
+
 \bibitem[{Kratter} and {Shannon}, 2014]{Kratter2014}
 {Kratter}, K.~M. and {Shannon}, A. (2014).
 \newblock {Planet packing in circumbinary systems}.
@@ -520,6 +649,11 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
   Consistent calculations accounting for finite initial eccentricity}.
 \newblock {\em \aap}, 516:A64.
 
+\bibitem[{Leung} and {Lee}, 2013]{Leung2013}
+{Leung}, G. C.~K. and {Lee}, M.~H. (2013).
+\newblock {An Analytic Theory for the Orbits of Circumbinary Planets}.
+\newblock {\em \apj}, 763(2):107.
+
 \bibitem[{Levato}, 1974]{Levato1974}
 {Levato}, H. (1974).
 \newblock {Rotation in binary stars}.
@@ -536,6 +670,56 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 \newblock {Magnetic braking in magnetic binary stars}.
 \newblock {\em \mnras}, 300:718--732.
 
+\bibitem[{Lidov}, 1962]{Lidov1962}
+{Lidov}, M.~L. (1962).
+\newblock {The evolution of orbits of artificial satellites of planets under
+  the action of gravitational perturbations of external bodies}.
+\newblock {\em \planss}, 9(10):719--759.
+
+\bibitem[{Lines} et~al., 2015]{Lines2015}
+{Lines}, S., {Leinhardt}, Z.~M., {Baruteau}, C., {Paardekooper}, S.~J., and
+  {Carter}, P.~J. (2015).
+\newblock {Modelling circumbinary protoplanetary disks. I. Fluid simulations of
+  the Kepler-16 and 34 systems}.
+\newblock {\em \aap}, 582:A5.
+
+\bibitem[{Lines} et~al., 2016]{Lines2016}
+{Lines}, S., {Leinhardt}, Z.~M., {Baruteau}, C., {Paardekooper}, S.~J., and
+  {Carter}, P.~J. (2016).
+\newblock {Modelling circumbinary protoplanetary disks. II. Gas disk feedback
+  on planetesimal dynamical and collisional evolution in the circumbinary
+  systems Kepler-16 and 34}.
+\newblock {\em \aap}, 590:A62.
+
+\bibitem[{Lodato} and {Price}, 2010]{Lodato2010}
+{Lodato}, G. and {Price}, D.~J. (2010).
+\newblock {On the diffusive propagation of warps in thin accretion discs}.
+\newblock {\em \mnras}, 405(2):1212--1226.
+
+\bibitem[{Lubow}, 1991]{Lubow1991}
+{Lubow}, S.~H. (1991).
+\newblock {Simulations of Tidally Driven Eccentric Instabilities with
+  Application to Superhumps}.
+\newblock {\em \apj}, 381:268.
+
+\bibitem[{Lubow} and {Artymowicz}, 1996]{Artymowicz1996b}
+{Lubow}, S.~H. and {Artymowicz}, P. (1996).
+\newblock {Young Binary Star/Disk Interactions}.
+\newblock In {Wijers}, R. A.~M.~J., {Davies}, M.~B., and {Tout}, C.~A.,
+  editors, {\em NATO Advanced Science Institutes (ASI) Series C}, volume 477 of
+  {\em NATO Advanced Science Institutes (ASI) Series C}, page~53.
+
+\bibitem[{Lubow} and {Artymowicz}, 2000]{Artymowicz2000}
+{Lubow}, S.~H. and {Artymowicz}, P. (2000).
+\newblock {Interactions of Young Binaries with Disks}.
+\newblock In {Mannings}, V., {Boss}, A.~P., and {Russell}, S.~S., editors, {\em
+  Protostars and Planets IV}, page 731.
+
+\bibitem[{Lubow} et~al., 2015]{Lubow2015}
+{Lubow}, S.~H., {Martin}, R.~G., and {Nixon}, C. (2015).
+\newblock {Tidal Torques on Misaligned Disks in Binary Systems}.
+\newblock {\em \apj}, 800(2):96.
+
 \bibitem[{Lurie} et~al., 2017]{Lurie2017}
 {Lurie}, J.~C., {Vyhmeister}, K., {Hawley}, S.~L., {Adilia}, J., {Chen}, A.,
   {Davenport}, J.~R.~A., {Juri{\'c}}, M., {Puig-Holzman}, M., and
@@ -543,6 +727,12 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 \newblock {Tidal Synchronization and Differential Rotation of Kepler Eclipsing
   Binaries}.
 \newblock {\em \aj}, 154:250.
+
+\bibitem[{MacFadyen} and {Milosavljevi{\'c}}, 2008]{MacFadyen2008}
+{MacFadyen}, A.~I. and {Milosavljevi{\'c}}, M. (2008).
+\newblock {An Eccentric Circumbinary Accretion Disk and the Detection of Binary
+  Massive Black Holes}.
+\newblock {\em \apj}, 672(1):83--93.
 
 \bibitem[{MacGregor} and {Brenner}, 1991]{MacGregor1991}
 {MacGregor}, K.~B. and {Brenner}, M. (1991).
@@ -589,6 +779,12 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 \newblock {Circumbinary planets - why they are so likely to transit}.
 \newblock {\em \mnras}, 449:781--793.
 
+\bibitem[{Martin} et~al., 2014]{Martin2014CB}
+{Martin}, R.~G., {Nixon}, C., {Lubow}, S.~H., {Armitage}, P.~J., {Price},
+  D.~J., {Do{\u{g}}an}, S., and {King}, A. (2014).
+\newblock {The Kozai-Lidov Mechanism in Hydrodynamical Disks}.
+\newblock {\em \apjl}, 792(2):L33.
+
 \bibitem[{Mathis}, 2015]{Mathis2015}
 {Mathis}, S. (2015).
 \newblock {Variation of tidal dissipation in the convective envelope of
@@ -615,6 +811,13 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
   href=``http://doi.org/10.1088/2041-8205/799/2/l23''>2015, ApJL, 799,
   L23</A>)}.
 \newblock {\em \apjl}, 870:L27.
+
+\bibitem[{Mayer} et~al., 2007]{Mayer2007}
+{Mayer}, L., {Kazantzidis}, S., {Madau}, P., {Colpi}, M., {Quinn}, T., and
+  {Wadsley}, J. (2007).
+\newblock {Rapid Formation of Supermassive Black Hole Binaries in Galaxy
+  Mergers with Gas}.
+\newblock {\em Science}, 316(5833):1874.
 
 \bibitem[{Mazeh}, 2008]{Mazeh2008}
 {Mazeh}, T. (2008).
@@ -674,6 +877,18 @@ McKinney, W. (2010).
   Rotation Period Measurements in the Open Cluster M34}.
 \newblock {\em \apj}, 733:115.
 
+\bibitem[{Menon} et~al., 2015]{Menon2015}
+{Menon}, H., {Wesolowski}, L., {Zheng}, G., {Jetley}, P., {Kale}, L., {Quinn},
+  T., and {Governato}, F. (2015).
+\newblock {Adaptive techniques for clustered N-body cosmological simulations}.
+\newblock {\em Computational Astrophysics and Cosmology}, 2:1.
+
+\bibitem[{Meru} and {Bate}, 2012]{Meru2012}
+{Meru}, F. and {Bate}, M.~R. (2012).
+\newblock {On the convergence of the critical cooling time-scale for the
+  fragmentation of self-gravitating discs}.
+\newblock {\em \mnras}, 427(3):2022--2046.
+
 \bibitem[{Meschiari}, 2012a]{Meschiari2012a}
 {Meschiari}, S. (2012a).
 \newblock {Circumbinary Planet Formation in the Kepler-16 System. I. N-body
@@ -697,6 +912,11 @@ McKinney, W. (2010).
   Phase}.
 \newblock {\em \apj}, 854:44.
 
+\bibitem[{Monaghan} and {Gingold}, 1983]{Monaghan1983}
+{Monaghan}, J.~J. and {Gingold}, R.~A. (1983).
+\newblock {Shock Simulation by the Particle Method SPH}.
+\newblock {\em Journal of Computational Physics}, 52(2):374--389.
+
 \bibitem[{Mu{\~n}oz} and {Lai}, 2015]{Munoz2015}
 {Mu{\~n}oz}, D.~J. and {Lai}, D. (2015).
 \newblock {Survival of planets around shrinking stellar binaries}.
@@ -705,6 +925,23 @@ McKinney, W. (2010).
 \bibitem[{Murray} and {Dermott}, 1999]{Murray1999}
 {Murray}, C.~D. and {Dermott}, S.~F. (1999).
 \newblock {\em {Solar system dynamics}}.
+
+\bibitem[{Murray}, 1996]{Murray1996}
+{Murray}, J.~R. (1996).
+\newblock {SPH simulations of tidally unstable accretion discs in cataclysmic
+  variables}.
+\newblock {\em \mnras}, 279:402--414.
+
+\bibitem[{Nelson} and {Papaloizou}, 2003]{Nelson2003}
+{Nelson}, R.~P. and {Papaloizou}, J. C.~B. (2003).
+\newblock {The interaction of a giant planet with a disc with MHD turbulence -
+  II. The interaction of the planet with the disc}.
+\newblock {\em \mnras}, 339(4):993--1005.
+
+\bibitem[{Nixon} et~al., 2013]{Nixon2013}
+{Nixon}, C., {King}, A., and {Price}, D. (2013).
+\newblock {Tearing up the disc: misaligned accretion on to a binary}.
+\newblock {\em \mnras}, 434(3):1946--1954.
 
 \bibitem[{Ogilvie}, 2013]{Ogilvie2013}
 {Ogilvie}, G.~I. (2013).
@@ -737,6 +974,12 @@ McKinney, W. (2010).
   Circumbinary Planets Kepler 16b, Kepler 34b, and Kepler 35b}.
 \newblock {\em \apjl}, 754:L16.
 
+\bibitem[{Papaloizou} et~al., 2001]{Papaloizou2001}
+{Papaloizou}, J.~C.~B., {Nelson}, R.~P., and {Masset}, F. (2001).
+\newblock {Orbital eccentricity growth through disc-companion tidal
+  interaction}.
+\newblock {\em \aap}, 366:263--275.
+
 \bibitem[{Parker}, 1958]{Parker1958}
 {Parker}, E.~N. (1958).
 \newblock {Dynamics of the Interplanetary Gas and Magnetic Fields.}
@@ -753,7 +996,7 @@ McKinney, W. (2010).
 \newblock {The formation of planets in circumbinary discs}.
 \newblock {\em \mnras}, 429:895--902.
 
-\bibitem[{Pierens} and {Nelson}, 2007]{PierensNelson2007}
+\bibitem[{Pierens} and {Nelson}, 2007]{Pierens2007}
 {Pierens}, A. and {Nelson}, R.~P. (2007).
 \newblock {On the migration of protoplanets embedded in circumbinary disks}.
 \newblock {\em \aap}, 472:993--1001.
@@ -764,10 +1007,20 @@ McKinney, W. (2010).
   circumbinary planets}.
 \newblock {\em \aap}, 556:A134.
 
+\bibitem[{Popova} and {Shevchenko}, 2013]{Popova2013}
+{Popova}, E.~A. and {Shevchenko}, I.~I. (2013).
+\newblock {Kepler-16b: Safe in a Resonance Cell}.
+\newblock {\em \apj}, 769(2):152.
+
 \bibitem[{Popp} and {Eggl}, 2017]{Popp2017}
 {Popp}, M. and {Eggl}, S. (2017).
 \newblock {Climate variations on Earth-like circumbinary planets}.
 \newblock {\em Nature Communications}, 8:14957.
+
+\bibitem[{Pringle}, 1991]{Pringle1991}
+{Pringle}, J.~E. (1991).
+\newblock {The properties of external accretion discs.}
+\newblock {\em \mnras}, 248:754.
 
 \bibitem[{Quarles} et~al., 2018]{Quarles2018}
 {Quarles}, B., {Satyal}, S., {Kostov}, V., {Kaib}, N., and {Haghighipour}, N.
@@ -776,12 +1029,23 @@ McKinney, W. (2010).
   Kepler CBPs?}
 \newblock {\em ArXiv e-prints}.
 
+\bibitem[{Quinn} et~al., 1997]{Quinn1997}
+{Quinn}, T., {Katz}, N., {Stadel}, J., and {Lake}, G. (1997).
+\newblock {Time stepping N-body simulations}.
+\newblock {\em arXiv e-prints}, pages astro--ph/9710043.
+
 \bibitem[{Raghavan} et~al., 2010]{Raghavan2010}
 {Raghavan}, D., {McAlister}, H.~A., {Henry}, T.~J., {Latham}, D.~W., {Marcy},
   G.~W., {Mason}, B.~D., {Gies}, D.~R., {White}, R.~J., and {ten Brummelaar},
   T.~A. (2010).
 \newblock {A Survey of Stellar Families: Multiplicity of Solar-type Stars}.
 \newblock {\em \apjs}, 190:1--42.
+
+\bibitem[{Ragusa} et~al., 2016]{Ragusa2016}
+{Ragusa}, E., {Lodato}, G., and {Price}, D.~J. (2016).
+\newblock {Suppression of the accretion rate in thin discs around binary black
+  holes}.
+\newblock {\em \mnras}, 460(2):1243--1253.
 
 \bibitem[{Rauer} et~al., 2014]{Rauer2014}
 {Rauer}, H., {Catala}, C., {Aerts}, C., {Appourchaux}, T., {Benz}, W.,
@@ -866,6 +1130,11 @@ McKinney, W. (2010).
   compact binaries}.
 \newblock {\em \mnras}, 444:542--557.
 
+\bibitem[{Richardson} et~al., 2000]{Richardson2000}
+{Richardson}, D.~C., {Quinn}, T., {Stadel}, J., and {Lake}, G. (2000).
+\newblock {Direct Large-Scale N-Body Simulations of Planetesimal Dynamics}.
+\newblock {\em \icarus}, 143(1):45--59.
+
 \bibitem[{Ricker} et~al., 2014]{Ricker2014}
 {Ricker}, G.~R., {Winn}, J.~N., {Vanderspek}, R., {Latham}, D.~W., {Bakos},
   G.~{\'A}., {Bean}, J.~L., {Berta-Thompson}, Z.~K., {Brown}, T.~M.,
@@ -896,10 +1165,41 @@ McKinney, W. (2010).
   stars to brown dwarfs}.
 \newblock {\em \aap}, 502:883--904.
 
+\bibitem[{Roedig} et~al., 2011]{Roedig2011}
+{Roedig}, C., {Dotti}, M., {Sesana}, A., {Cuadra}, J., and {Colpi}, M. (2011).
+\newblock {Limiting eccentricity of subparsec massive black hole binaries
+  surrounded by self-gravitating gas discs}.
+\newblock {\em \mnras}, 415(4):3033--3041.
+
+\bibitem[{Roedig} et~al., 2012]{Roedig2012}
+{Roedig}, C., {Sesana}, A., {Dotti}, M., {Cuadra}, J., {Amaro-Seoane}, P., and
+  {Haardt}, F. (2012).
+\newblock {Evolution of binary black holes in self gravitating discs.
+  Dissecting the torques}.
+\newblock {\em \aap}, 545:A127.
+
+\bibitem[{Ro{\v{s}}kar} et~al., 2015]{Roskar2015}
+{Ro{\v{s}}kar}, R., {Fiacconi}, D., {Mayer}, L., {Kazantzidis}, S., {Quinn},
+  T.~R., and {Wadsley}, J. (2015).
+\newblock {Orbital decay of supermassive black hole binaries in clumpy
+  multiphase merger remnants}.
+\newblock {\em \mnras}, 449(1):494--505.
+
 \bibitem[{Sahlmann} et~al., 2015]{Sahlmann2015}
 {Sahlmann}, J., {Triaud}, A.~H.~M.~J., and {Martin}, D.~V. (2015).
 \newblock {Gaia's potential for the discovery of circumbinary planets}.
 \newblock {\em \mnras}, 447:287--297.
+
+\bibitem[{Shi} et~al., 2012]{Shi2012}
+{Shi}, J.-M., {Krolik}, J.~H., {Lubow}, S.~H., and {Hawley}, J.~F. (2012).
+\newblock {Three-dimensional Magnetohydrodynamic Simulations of Circumbinary
+  Accretion Disks: Disk Structures and Angular Momentum Transport}.
+\newblock {\em \apj}, 749(2):118.
+
+\bibitem[{Silsbee} and {Rafikov}, 2015]{Silsbee2015a}
+{Silsbee}, K. and {Rafikov}, R.~R. (2015).
+\newblock {Birth Locations of the Kepler Circumbinary Planets}.
+\newblock {\em \apj}, 808(1):58.
 
 \bibitem[{Simonian} et~al., 2018]{Simonian2018}
 {Simonian}, G.~V.~A., {Pinsonneault}, M.~H., and {Terndrup}, D.~M. (2018).
@@ -980,6 +1280,11 @@ McKinney, W. (2010).
 \newblock {Tertiary companions to close spectroscopic binaries}.
 \newblock {\em \aap}, 450:681--693.
 
+\bibitem[{Toomre}, 1964]{Toomre1964}
+{Toomre}, A. (1964).
+\newblock {On the gravitational stability of a disk of stars.}
+\newblock {\em \apj}, 139:1217--1238.
+
 \bibitem[{Torres} et~al., 2018]{Torres2018}
 {Torres}, G., {Curtis}, J.~L., {Vanderburg}, A., {Kraus}, A.~L., and {Rizzuto},
   A. (2018).
@@ -1026,6 +1331,11 @@ van~der Walt, S., Colbert, S.~C., and Varoquaux, G. (2011).
 \newblock {Magnetic braking in low-mass X-ray binaries}.
 \newblock {\em \aap}, 100:L7--L9.
 
+\bibitem[{Wadsley} et~al., 2004]{Wadsley2004}
+{Wadsley}, J.~W., {Stadel}, J., and {Quinn}, T. (2004).
+\newblock {Gasoline: a flexible, parallel implementation of TreeSPH}.
+\newblock {\em \na}, 9(2):137--158.
+
 \bibitem[Wang and Li, 2018]{Wang2018}
 Wang, H. and Li, J. (2018).
 \newblock Adaptive gaussian process approximation for bayesian inference with
@@ -1056,6 +1366,12 @@ Wang, H. and Li, J. (2018).
 \newblock {The Occurrence and Architecture of Exoplanetary Systems}.
 \newblock {\em \araa}, 53:409--447.
 
+\bibitem[{Wisdom}, 1980]{Wisdom1980}
+{Wisdom}, J. (1980).
+\newblock {The resonance overlap criterion and the onset of stochastic behavior
+  in the restricted three-body problem}.
+\newblock {\em \aj}, 85:1122--1133.
+
 \bibitem[{Wisdom}, 2008]{Wisdom2008}
 {Wisdom}, J. (2008).
 \newblock {Tidal dissipation at arbitrary eccentricity and obliquity}.
@@ -1066,6 +1382,11 @@ Wang, H. and Li, J. (2018).
 \newblock {Orbital evolution by dynamical tides in solar type stars.
   Application to binary stars and planetary orbits}.
 \newblock {\em \aap}, 386:222--236.
+
+\bibitem[{Young} and {Clarke}, 2015]{Young2015}
+{Young}, M.~D. and {Clarke}, C.~J. (2015).
+\newblock {Binary accretion rates: dependence on temperature and mass ratio}.
+\newblock {\em \mnras}, 452(3):3085--3091.
 
 \bibitem[{Zahn}, 1975]{Zahn1975}
 {Zahn}, J.-P. (1975).
