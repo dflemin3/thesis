@@ -70,7 +70,7 @@
 \contentsline {section}{\numberline {3.7}Application to Kepler-47}{95}{section.3.7}
 \contentsline {section}{\numberline {3.8}Discussion}{98}{section.3.8}
 \contentsline {subsection}{\numberline {3.8.1}Future Prospects}{100}{subsection.3.8.1}
-\contentsline {section}{\numberline {3.9}acknowledgments}{101}{section.3.9}
+\contentsline {section}{\numberline {3.9}Acknowledgments}{101}{section.3.9}
 \contentsline {chapter}{\numberline {\@textofChapter \ 4:}Stellar Rotation Rates in Binary Stars: The Competition between Magnetic Braking and Tidal Torques}{103}{chapter.4}
 \contentsline {section}{\numberline {4.1}Chapter Abstract}{103}{section.4.1}
 \contentsline {section}{\numberline {4.2}Introduction}{104}{section.4.2}
@@ -90,20 +90,20 @@
 \contentsline {section}{\numberline {4.5}Results}{120}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Interaction Between Magnetic and Tidal Braking: Subsynchronous Rotation}{120}{subsection.4.5.1}
 \contentsline {subsubsection}{Analytic Torque Balance}{120}{section*.59}
-\contentsline {subsubsection}{Torque Balance}{121}{section*.61}
-\contentsline {subsection}{\numberline {4.5.2}Influence of P$_{orb}$, $Q$ and $\tau $}{123}{subsection.4.5.2}
-\contentsline {subsubsection}{Subsynchronous Rotation at Short P$_{orb}$}{128}{section*.66}
+\contentsline {subsubsection}{Torque Balance}{122}{section*.61}
+\contentsline {subsection}{\numberline {4.5.2}Influence of P$_{orb}$, $Q$ and $\tau $}{124}{subsection.4.5.2}
+\contentsline {subsubsection}{Subsynchronous Rotation at Short P$_{orb}$}{129}{section*.66}
 \contentsline {subsection}{\numberline {4.5.3}P$_{rot}$ Distribution of a Synthetic Population of Stellar Binaries}{129}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Deviations From Single Star P$_{rot}$ Evolution: Implications for Gyrochronology}{132}{subsection.4.5.4}
-\contentsline {subsection}{\numberline {4.5.5}Comparison to \textit {Kepler}\xspace }{136}{subsection.4.5.5}
-\contentsline {subsection}{\numberline {4.5.6}CPL or CTL?}{139}{subsection.4.5.6}
-\contentsline {section}{\numberline {4.6}Discussion}{140}{section.4.6}
-\contentsline {section}{\numberline {4.7}acknowledgments}{142}{section.4.7}
-\contentsline {section}{\numberline {4.8}Analytic Torque Balance}{143}{section.4.8}
-\contentsline {chapter}{\numberline {\@textofChapter \ 5:}Approximate Bayesian Inference with \texttt {approxposterior}\xspace }{145}{chapter.5}
-\contentsline {section}{\numberline {5.1}\texttt {approxposterior}\xspace }{145}{section.5.1}
-\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{147}{chapter.6}
-\contentsline {chapter}{\numberline {\@textofChapter \ 7:}Discussion}{148}{chapter.7}
-\contentsline {chapter}{\numberline {\@textofChapter \ 8:}Conclusions}{149}{chapter.8}
-\contentsline {chapter}{Bibliography}{150}{chapter*.75}
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Vita}{174}{appendix.A}
+\contentsline {subsection}{\numberline {4.5.4}Deviations From Single Star P$_{rot}$ Evolution: Implications for Gyrochronology}{134}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Comparison to \textit {Kepler}\xspace }{140}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}CPL or CTL?}{142}{subsection.4.5.6}
+\contentsline {section}{\numberline {4.6}Discussion}{144}{section.4.6}
+\contentsline {section}{\numberline {4.7}Acknowledgments}{146}{section.4.7}
+\contentsline {section}{\numberline {4.8}Analytic Torque Balance}{146}{section.4.8}
+\contentsline {chapter}{\numberline {\@textofChapter \ 5:}Approximate Bayesian Inference with \texttt {approxposterior}\xspace }{148}{chapter.5}
+\contentsline {section}{\numberline {5.1}\texttt {approxposterior}\xspace }{148}{section.5.1}
+\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{150}{chapter.6}
+\contentsline {chapter}{\numberline {\@textofChapter \ 7:}Discussion}{151}{chapter.7}
+\contentsline {chapter}{\numberline {\@textofChapter \ 8:}Conclusions}{152}{chapter.8}
+\contentsline {chapter}{Bibliography}{153}{chapter*.75}
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Vita}{177}{appendix.A}
