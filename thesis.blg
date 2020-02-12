@@ -5,52 +5,55 @@ A level-1 auxiliary file: tex/abstract.aux
 A level-1 auxiliary file: tex/intro.aux
 The style file: apalike.bst
 A level-1 auxiliary file: tex/vita.aux
-Reallocated field_info (elt_size=4) to 10016 items from 5000.
+Reallocated field_info (elt_size=4) to 10104 items from 5000.
 Database file #1: thesisBib.bib
 Warning--I didn't find a database entry for "Arty1996"
 Warning--I didn't find a database entry for "Arty1991"
 Warning--I didn't find a database entry for "PierensNelson2007"
 Warning--I didn't find a database entry for "Arty1994"
+Warning--I didn't find a database entry for "Fleming2020"
+Warning--empty journal in george
 Warning--empty publisher in Murray1999
-You've used 224 entries,
+Warning--empty publisher in Rasmussen2006
+You've used 227 entries,
             1935 wiz_defined-function locations,
-            1834 strings with 49808 characters,
-and the built_in function-call counts, 107102 in all, are:
-= -- 9711
-> -- 6599
-< -- 136
-+ -- 2383
-- -- 2380
-* -- 10049
-:= -- 19186
-add.period$ -- 671
-call.type$ -- 224
-change.case$ -- 2301
-chr.to.int$ -- 223
-cite$ -- 225
-duplicate$ -- 3277
-empty$ -- 6293
-format.name$ -- 2750
-if$ -- 20383
+            1851 strings with 50313 characters,
+and the built_in function-call counts, 108200 in all, are:
+= -- 9810
+> -- 6653
+< -- 138
++ -- 2401
+- -- 2398
+* -- 10147
+:= -- 19382
+add.period$ -- 678
+call.type$ -- 227
+change.case$ -- 2324
+chr.to.int$ -- 226
+cite$ -- 230
+duplicate$ -- 3318
+empty$ -- 6366
+format.name$ -- 2775
+if$ -- 20592
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 225
-newline$ -- 1122
-num.names$ -- 686
-pop$ -- 1822
+missing$ -- 229
+newline$ -- 1135
+num.names$ -- 695
+pop$ -- 1848
 preamble$ -- 1
-purify$ -- 2302
+purify$ -- 2326
 quote$ -- 0
-skip$ -- 2484
+skip$ -- 2515
 stack$ -- 0
-substring$ -- 6376
-swap$ -- 342
+substring$ -- 6433
+swap$ -- 344
 text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1342
-warning$ -- 1
-while$ -- 678
+type$ -- 1358
+warning$ -- 3
+while$ -- 685
 width$ -- 0
-write$ -- 2909
-(There were 5 warnings)
+write$ -- 2942
+(There were 8 warnings)

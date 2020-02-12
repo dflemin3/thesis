@@ -1,82 +1,84 @@
 \BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
 \BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
-\BOOKMARK [1][-]{section.1.1}{First Introduction Section Title}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.2}{Second...}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.3}{Third...}{chapter.1}% 6
-\BOOKMARK [0][-]{chapter.2}{Resonant Dynamical Interactions Between Binary Stars and Circumbinary Disks}{}% 7
-\BOOKMARK [1][-]{section.2.1}{Chapter Abstract}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.2}{Introduction}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.3}{Simulations}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.3.1}{Methods}{section.2.3}% 11
-\BOOKMARK [2][-]{subsection.2.3.2}{Model Parameters}{section.2.3}% 12
-\BOOKMARK [2][-]{subsection.2.3.3}{Initial Conditions}{section.2.3}% 13
-\BOOKMARK [1][-]{section.2.4}{Results and Analysis}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.4.1}{Gap Clearing}{section.2.4}% 15
-\BOOKMARK [2][-]{subsection.2.4.2}{Disk Evolution}{section.2.4}% 16
-\BOOKMARK [2][-]{subsection.2.4.3}{Binary Evolution}{section.2.4}% 17
-\BOOKMARK [1][-]{section.2.5}{Effects of Varying Disk Properties}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.5.1}{Varying Disk Mass}{section.2.5}% 19
-\BOOKMARK [2][-]{subsection.2.5.2}{Varying Disk Resolution}{section.2.5}% 20
-\BOOKMARK [2][-]{subsection.2.5.3}{Varying Disk Aspect Ratio}{section.2.5}% 21
-\BOOKMARK [1][-]{section.2.6}{Discussion}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.6.1}{Implications for Long-term Binary Evolution}{section.2.6}% 23
-\BOOKMARK [2][-]{subsection.2.6.2}{Implications for Circumbinary Planets}{section.2.6}% 24
-\BOOKMARK [1][-]{section.2.7}{Conclusions}{chapter.2}% 25
-\BOOKMARK [1][-]{section.2.8}{Acknowledgements}{chapter.2}% 26
-\BOOKMARK [0][-]{chapter.3}{Coupled Stellar-Tidal Evolution Ejection of Circumbinary Exoplanets}{}% 27
-\BOOKMARK [1][-]{section.3.1}{Chapter Abstract}{chapter.3}% 28
-\BOOKMARK [1][-]{section.3.2}{Introduction}{chapter.3}% 29
-\BOOKMARK [1][-]{section.3.3}{Methods}{chapter.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.1}{VPLanet}{section.3.3}% 31
-\BOOKMARK [2][-]{subsection.3.3.2}{Stellar Evolution}{section.3.3}% 32
-\BOOKMARK [2][-]{subsection.3.3.3}{Tidal Evolution}{section.3.3}% 33
-\BOOKMARK [2][-]{subsection.3.3.4}{Coupled Stellar-Tidal Evolution}{section.3.3}% 34
-\BOOKMARK [2][-]{subsection.3.3.5}{Energy and Angular Momentum Conservation}{section.3.3}% 35
-\BOOKMARK [2][-]{subsection.3.3.6}{N-body Simulations of Circumbinary Planetary Systems}{section.3.3}% 36
-\BOOKMARK [1][-]{section.3.4}{Simulations}{chapter.3}% 37
-\BOOKMARK [2][-]{subsection.3.4.1}{Coupled Stellar-Tidal Initial Conditions}{section.3.4}% 38
-\BOOKMARK [2][-]{subsection.3.4.2}{N-body Simulations}{section.3.4}% 39
-\BOOKMARK [2][-]{subsection.3.4.3}{Tying It All Together}{section.3.4}% 40
-\BOOKMARK [1][-]{section.3.5}{Results: Coupled Stellar-Tidal Evolution Simulations}{chapter.3}% 41
-\BOOKMARK [2][-]{subsection.3.5.1}{Fiducial Simulation}{section.3.5}% 42
-\BOOKMARK [2][-]{subsection.3.5.2}{Varying Tidal Q}{section.3.5}% 43
-\BOOKMARK [2][-]{subsection.3.5.3}{Varying Radius of Gyration}{section.3.5}% 44
-\BOOKMARK [2][-]{subsection.3.5.4}{Varying Magnetic Braking Law}{section.3.5}% 45
-\BOOKMARK [2][-]{subsection.3.5.5}{Varying Rotation Periods}{section.3.5}% 46
-\BOOKMARK [2][-]{subsection.3.5.6}{Monte Carlo Simulations}{section.3.5}% 47
-\BOOKMARK [2][-]{subsection.3.5.7}{3:2 Spin-Orbit Resonance}{section.3.5}% 48
-\BOOKMARK [2][-]{subsection.3.5.8}{Long-term acrit Evolution}{section.3.5}% 49
-\BOOKMARK [2][-]{subsection.3.5.9}{Relaxed Assumptions}{section.3.5}% 50
-\BOOKMARK [1][-]{section.3.6}{Results: N-body Simulations}{chapter.3}% 51
-\BOOKMARK [2][-]{subsection.3.6.1}{Dynamical Stability}{section.3.6}% 52
-\BOOKMARK [2][-]{subsection.3.6.2}{Mock Transit Observations}{section.3.6}% 53
-\BOOKMARK [1][-]{section.3.7}{Application to Kepler-47}{chapter.3}% 54
-\BOOKMARK [1][-]{section.3.8}{Discussion}{chapter.3}% 55
-\BOOKMARK [2][-]{subsection.3.8.1}{Future Prospects}{section.3.8}% 56
-\BOOKMARK [1][-]{section.3.9}{Acknowledgments}{chapter.3}% 57
-\BOOKMARK [0][-]{chapter.4}{Stellar Rotation Rates in Binary Stars: The Competition between Magnetic Braking and Tidal Torques}{}% 58
-\BOOKMARK [1][-]{section.4.1}{Chapter Abstract}{chapter.4}% 59
-\BOOKMARK [1][-]{section.4.2}{Introduction}{chapter.4}% 60
-\BOOKMARK [1][-]{section.4.3}{Methods}{chapter.4}% 61
-\BOOKMARK [2][-]{subsection.4.3.1}{Stellar Evolution}{section.4.3}% 62
-\BOOKMARK [2][-]{subsection.4.3.2}{Tidal Evolution}{section.4.3}% 63
-\BOOKMARK [2][-]{subsection.4.3.3}{Coupled Stellar-Tidal Evolution For tidally locked Systems}{section.4.3}% 64
-\BOOKMARK [1][-]{section.4.4}{Simulations}{chapter.4}% 65
-\BOOKMARK [1][-]{section.4.5}{Results}{chapter.4}% 66
-\BOOKMARK [2][-]{subsection.4.5.1}{Interaction Between Magnetic and Tidal Braking: Subsynchronous Rotation}{section.4.5}% 67
-\BOOKMARK [2][-]{subsection.4.5.2}{Influence of Porb, Q and }{section.4.5}% 68
-\BOOKMARK [2][-]{subsection.4.5.3}{Prot Distribution of a Synthetic Population of Stellar Binaries}{section.4.5}% 69
-\BOOKMARK [2][-]{subsection.4.5.4}{Deviations From Single Star Prot Evolution: Implications for Gyrochronology}{section.4.5}% 70
-\BOOKMARK [2][-]{subsection.4.5.5}{Comparison to Kepler}{section.4.5}% 71
-\BOOKMARK [2][-]{subsection.4.5.6}{CPL or CTL?}{section.4.5}% 72
-\BOOKMARK [1][-]{section.4.6}{Discussion}{chapter.4}% 73
-\BOOKMARK [1][-]{section.4.7}{Acknowledgments}{chapter.4}% 74
-\BOOKMARK [1][-]{section.4.8}{Analytic Torque Balance}{chapter.4}% 75
-\BOOKMARK [0][-]{chapter.5}{Approximate Bayesian Inference with approxposterior}{}% 76
-\BOOKMARK [1][-]{section.5.1}{approxposterior}{chapter.5}% 77
-\BOOKMARK [0][-]{chapter.6}{Inferring the XUV History of the TRAPPIST-1 Planetary System}{}% 78
-\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 79
-\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 80
-\BOOKMARK [0][-]{chapter*.75}{Bibliography}{}% 81
-\BOOKMARK [0][-]{appendix.A}{Vita}{}% 82
+\BOOKMARK [1][-]{section.1.1}{Introduction Section Title}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Dynamics in the Birthplace of Planets: Examining the Resonant Dynamical Interactions Between Binary Stars and Circumbinary Disks}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Chapter Abstract}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Introduction}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Simulations}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.3.1}{Methods}{section.2.3}% 9
+\BOOKMARK [2][-]{subsection.2.3.2}{Model Parameters}{section.2.3}% 10
+\BOOKMARK [2][-]{subsection.2.3.3}{Initial Conditions}{section.2.3}% 11
+\BOOKMARK [1][-]{section.2.4}{Results and Analysis}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.4.1}{Gap Clearing}{section.2.4}% 13
+\BOOKMARK [2][-]{subsection.2.4.2}{Disk Evolution}{section.2.4}% 14
+\BOOKMARK [2][-]{subsection.2.4.3}{Binary Evolution}{section.2.4}% 15
+\BOOKMARK [1][-]{section.2.5}{Effects of Varying Disk Properties}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.5.1}{Varying Disk Mass}{section.2.5}% 17
+\BOOKMARK [2][-]{subsection.2.5.2}{Varying Disk Resolution}{section.2.5}% 18
+\BOOKMARK [2][-]{subsection.2.5.3}{Varying Disk Aspect Ratio}{section.2.5}% 19
+\BOOKMARK [1][-]{section.2.6}{Discussion}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.6.1}{Implications for Long-term Binary Evolution}{section.2.6}% 21
+\BOOKMARK [2][-]{subsection.2.6.2}{Implications for Circumbinary Planets}{section.2.6}% 22
+\BOOKMARK [1][-]{section.2.7}{Conclusions}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.8}{Acknowledgements}{chapter.2}% 24
+\BOOKMARK [0][-]{chapter.3}{The Dynamical Death of Circumbinary Planets: Coupled Stellar-Tidal Evolution Ejection of Circumbinary Exoplanets}{}% 25
+\BOOKMARK [1][-]{section.3.1}{Chapter Abstract}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.2}{Introduction}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.3}{Methods}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.1}{VPLanet}{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.2}{Stellar Evolution}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.3}{Tidal Evolution}{section.3.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.4}{Coupled Stellar-Tidal Evolution}{section.3.3}% 32
+\BOOKMARK [2][-]{subsection.3.3.5}{Energy and Angular Momentum Conservation}{section.3.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.6}{N-body Simulations of Circumbinary Planetary Systems}{section.3.3}% 34
+\BOOKMARK [1][-]{section.3.4}{Simulations}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.4.1}{Coupled Stellar-Tidal Initial Conditions}{section.3.4}% 36
+\BOOKMARK [2][-]{subsection.3.4.2}{N-body Simulations}{section.3.4}% 37
+\BOOKMARK [2][-]{subsection.3.4.3}{Tying It All Together}{section.3.4}% 38
+\BOOKMARK [1][-]{section.3.5}{Results: Coupled Stellar-Tidal Evolution Simulations}{chapter.3}% 39
+\BOOKMARK [2][-]{subsection.3.5.1}{Fiducial Simulation}{section.3.5}% 40
+\BOOKMARK [2][-]{subsection.3.5.2}{Varying Tidal Q}{section.3.5}% 41
+\BOOKMARK [2][-]{subsection.3.5.3}{Varying Radius of Gyration}{section.3.5}% 42
+\BOOKMARK [2][-]{subsection.3.5.4}{Varying Magnetic Braking Law}{section.3.5}% 43
+\BOOKMARK [2][-]{subsection.3.5.5}{Varying Rotation Periods}{section.3.5}% 44
+\BOOKMARK [2][-]{subsection.3.5.6}{Monte Carlo Simulations}{section.3.5}% 45
+\BOOKMARK [2][-]{subsection.3.5.7}{3:2 Spin-Orbit Resonance}{section.3.5}% 46
+\BOOKMARK [2][-]{subsection.3.5.8}{Long-term acrit Evolution}{section.3.5}% 47
+\BOOKMARK [2][-]{subsection.3.5.9}{Relaxed Assumptions}{section.3.5}% 48
+\BOOKMARK [1][-]{section.3.6}{Results: N-body Simulations}{chapter.3}% 49
+\BOOKMARK [2][-]{subsection.3.6.1}{Dynamical Stability}{section.3.6}% 50
+\BOOKMARK [2][-]{subsection.3.6.2}{Mock Transit Observations}{section.3.6}% 51
+\BOOKMARK [1][-]{section.3.7}{Application to Kepler-47}{chapter.3}% 52
+\BOOKMARK [1][-]{section.3.8}{Discussion}{chapter.3}% 53
+\BOOKMARK [2][-]{subsection.3.8.1}{Future Prospects}{section.3.8}% 54
+\BOOKMARK [1][-]{section.3.9}{Acknowledgments}{chapter.3}% 55
+\BOOKMARK [0][-]{chapter.4}{The Competition between Magnetic Braking and Tidal Torques in Binary Stars: Application to the Kepler Field}{}% 56
+\BOOKMARK [1][-]{section.4.1}{Chapter Abstract}{chapter.4}% 57
+\BOOKMARK [1][-]{section.4.2}{Introduction}{chapter.4}% 58
+\BOOKMARK [1][-]{section.4.3}{Methods}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.3.1}{Stellar Evolution}{section.4.3}% 60
+\BOOKMARK [2][-]{subsection.4.3.2}{Tidal Evolution}{section.4.3}% 61
+\BOOKMARK [2][-]{subsection.4.3.3}{Coupled Stellar-Tidal Evolution For tidally locked Systems}{section.4.3}% 62
+\BOOKMARK [1][-]{section.4.4}{Simulations}{chapter.4}% 63
+\BOOKMARK [1][-]{section.4.5}{Results}{chapter.4}% 64
+\BOOKMARK [2][-]{subsection.4.5.1}{Interaction Between Magnetic and Tidal Braking: Subsynchronous Rotation}{section.4.5}% 65
+\BOOKMARK [2][-]{subsection.4.5.2}{Influence of Porb, Q and }{section.4.5}% 66
+\BOOKMARK [2][-]{subsection.4.5.3}{Prot Distribution of a Synthetic Population of Stellar Binaries}{section.4.5}% 67
+\BOOKMARK [2][-]{subsection.4.5.4}{Deviations From Single Star Prot Evolution: Implications for Gyrochronology}{section.4.5}% 68
+\BOOKMARK [2][-]{subsection.4.5.5}{Comparison to Kepler}{section.4.5}% 69
+\BOOKMARK [2][-]{subsection.4.5.6}{CPL or CTL?}{section.4.5}% 70
+\BOOKMARK [1][-]{section.4.6}{Discussion}{chapter.4}% 71
+\BOOKMARK [1][-]{section.4.7}{Acknowledgments}{chapter.4}% 72
+\BOOKMARK [1][-]{section.4.8}{Analytic Torque Balance}{chapter.4}% 73
+\BOOKMARK [0][-]{chapter.5}{Bayesian Inference with Slow Models using approxposterior}{}% 74
+\BOOKMARK [1][-]{section.5.1}{approxposterior}{chapter.5}% 75
+\BOOKMARK [1][-]{section.5.2}{approxposterior Algorithm and Convergence}{chapter.5}% 76
+\BOOKMARK [2][-]{subsection.5.2.1}{Augmenting the Training Set}{section.5.2}% 77
+\BOOKMARK [2][-]{subsection.5.2.2}{Convergence}{section.5.2}% 78
+\BOOKMARK [0][-]{chapter.6}{Inferring the XUV History of the TRAPPIST-1 Planetary System}{}% 79
+\BOOKMARK [0][-]{chapter.7}{Discussion and Conclusions}{}% 80
+\BOOKMARK [1][-]{section.7.1}{Discussion}{chapter.7}% 81
+\BOOKMARK [1][-]{section.7.2}{Conclusions}{chapter.7}% 82
+\BOOKMARK [0][-]{chapter*.77}{Bibliography}{}% 83
+\BOOKMARK [0][-]{appendix.A}{Vita}{}% 84

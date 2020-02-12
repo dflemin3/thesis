@@ -201,35 +201,31 @@ Acknowledgement statement.
 
 % intro
 \chapter{Introduction}
-\include{tex/intro}
+\import{tex/}{intro.tex}
 
-% Models
-\chapter{Resonant Dynamical Interactions Between Binary Stars and Circumbinary Disks}
+% CB disk
+\chapter{Dynamics in the Birthplace of Planets: Examining the Resonant Dynamical Interactions Between Binary Stars and Circumbinary Disks}
 \import{tex/CBDisk/}{cbdisk.tex}
 
-% XXX
-\chapter{Coupled Stellar-Tidal Evolution Ejection of Circumbinary Exoplanets}
+% steep
+\chapter{The Dynamical Death of Circumbinary Planets: Coupled Stellar-Tidal Evolution Ejection of Circumbinary Exoplanets}
 \import{tex/STEEP/}{bin_tides.tex}
 
-% XXX
-\chapter{Stellar Rotation Rates in Binary Stars: The Competition between Magnetic Braking and Tidal Torques}
+% sync
+\chapter{The Competition between Magnetic Braking and Tidal Torques in Binary Stars: Application to the \kepler Field}
 \import{tex/sync/}{sync.tex}
 
 % approxposterior
-\chapter{Approximate Bayesian Inference with \approxposterior}
-\import{tex/approxposterior/}{approxposteriorJOSS.tex}
+\chapter{Bayesian Inference with Slow Models using \approxposterior}
+\import{tex/approxposterior/}{approxposterior.tex}
 
-% XXX
+% trappist
 \chapter{Inferring the XUV History of the TRAPPIST-1 Planetary System}
-%\include{tex/chapter4}
+%\include{tex/}{trappist.tex}
 
 % Discussion
-\chapter{Discussion}
-%\include{tex/discussion.tex}
-
-% Conclusions
-\chapter{Conclusions}
-%\include{tex/conclusions}
+\chapter{Discussion and Conclusions}
+\import{tex/}{discussion.tex}
 
 \printendnotes
 
@@ -246,7 +242,8 @@ Acknowledgement statement.
 \appendix
 \raggedbottom\sloppy
 
+% Vita
 \chapter{Vita}
-\include{tex/vita}
+\import{tex/}{vita}
 
 \end{document}

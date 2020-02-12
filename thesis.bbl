@@ -26,6 +26,11 @@
   implications for the final-parsec problem}.
 \newblock {\em \mnras}, 449(1):65--76.
 
+\bibitem[{Ambikasaran} et~al., 2014]{george}
+{Ambikasaran}, S., {Foreman-Mackey}, D., {Greengard}, L., {Hogg}, D.~W., and
+  {O'Neil}, M. (2014).
+\newblock {Fast Direct Methods for Gaussian Processes}.
+
 \bibitem[{Andronov} et~al., 2006]{Andronov2006}
 {Andronov}, N., {Pinsonneault}, M.~H., and {Terndrup}, D.~M. (2006).
 \newblock {Mergers of Close Primordial Binaries}.
@@ -930,6 +935,11 @@ McKinney, W. (2010).
   variables}.
 \newblock {\em \mnras}, 279:402--414.
 
+\bibitem[Nelder and Mead, 1965]{Nelder1965}
+Nelder, J.~A. and Mead, R. (1965).
+\newblock {A Simplex Method for Function Minimization}.
+\newblock {\em The Computer Journal}, 7(4):308--313.
+
 \bibitem[{Nelson} and {Papaloizou}, 2003]{Nelson2003}
 {Nelson}, R.~P. and {Papaloizou}, J. C.~B. (2003).
 \newblock {The interaction of a giant planet with a disc with MHD turbulence -
@@ -1044,6 +1054,10 @@ McKinney, W. (2010).
 \newblock {Suppression of the accretion rate in thin discs around binary black
   holes}.
 \newblock {\em \mnras}, 460(2):1243--1253.
+
+\bibitem[{Rasmussen} and {Williams}, 2006]{Rasmussen2006}
+{Rasmussen}, C.~E. and {Williams}, C.~K.~I. (2006).
+\newblock {\em {Gaussian Processes for Machine Learning}}.
 
 \bibitem[{Rauer} et~al., 2014]{Rauer2014}
 {Rauer}, H., {Catala}, C., {Aerts}, C., {Appourchaux}, T., {Benz}, W.,
