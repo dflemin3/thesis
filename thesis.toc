@@ -2,6 +2,7 @@
 \contentsline {chapter}{\@textofLoT }{xii}{chapter*.3}
 \contentsline {chapter}{\numberline {\@textofChapter \ 1:}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction Section Title}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Outline}{1}{section.1.2}
 \contentsline {chapter}{\numberline {\@textofChapter \ 2:}Dynamics in the Birthplace of Planets: Examining the Resonant Dynamical Interactions Between Binary Stars and Circumbinary Disks}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Chapter Abstract}{2}{section.2.1}
 \contentsline {section}{\numberline {2.2}Introduction}{3}{section.2.2}
@@ -108,4 +109,3 @@
 \contentsline {section}{\numberline {7.1}Discussion}{156}{section.7.1}
 \contentsline {section}{\numberline {7.2}Conclusions}{156}{section.7.2}
 \contentsline {chapter}{Bibliography}{157}{chapter*.77}
-\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Vita}{181}{appendix.A}

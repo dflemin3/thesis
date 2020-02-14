@@ -47,4 +47,3 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces The \texttt {approxposterior}\xspace convergence diagnostic, $z_t$, as a function of iteration for the run presented in the main text. Note that in \texttt {approxposterior}\xspace , the initial iteration is iteration 0. The black dashed line indicates our adopted convergence threshold of $\epsilon = 0.1$. \textbf {\texttt {approxposterior}\xspace quickly converges to a consistent and accurate result.}\relax }}{154}{figure.caption.76}
 \addvspace {5\p@ }
 \addvspace {5\p@ }
-\addvspace {5\p@ }
