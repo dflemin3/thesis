@@ -88,10 +88,23 @@
   low-mass stars down to the hydrogen-burning limit}.
 \newblock {\em \aap}, 577:A42.
 
+\bibitem[{Barclay} et~al., 2018]{Barclay2018}
+{Barclay}, T., {Pepper}, J., and {Quintana}, E.~V. (2018).
+\newblock {A Revised Exoplanet Yield from the Transiting Exoplanet Survey
+  Satellite (TESS)}.
+\newblock {\em \apjs}, 239:2.
+
 \bibitem[{Barker} and {Ogilvie}, 2009]{Barker2009}
 {Barker}, A.~J. and {Ogilvie}, G.~I. (2009).
 \newblock {On the tidal evolution of Hot Jupiters on inclined orbits}.
 \newblock {\em \mnras}, 395:2268--2287.
+
+\bibitem[{Barnes} et~al., 2014]{Barnes2014}
+{Barnes}, J.~R., {Jenkins}, J.~S., {Jones}, H.~R.~A., {Jeffers}, S.~V., {Rojo},
+  P., {Arriagada}, P., {Jord{\'a}n}, A., {Minniti}, D., {Tuomi}, M.,
+  {Pinfield}, D., and {Anglada-Escud{\'e}}, G. (2014).
+\newblock {Precision radial velocities of 15 M5-M9 dwarfs}.
+\newblock {\em \mnras}, 439:3094--3113.
 
 \bibitem[{Barnes}, 2017]{Barnes2017}
 {Barnes}, R. (2017).
@@ -176,6 +189,12 @@
   OGLE-2007-BLG-349L(AB)c}.
 \newblock {\em \aj}, 152:125.
 
+\bibitem[{Bird} et~al., 2019]{Bird2019}
+{Bird}, S., {Rogers}, K.~K., {Peiris}, H.~V., {Verde}, L., {Font-Ribera}, A.,
+  and {Pontzen}, A. (2019).
+\newblock {An emulator for the Lyman-{$\alpha$} forest}.
+\newblock {\em \jcap}, 2:050.
+
 \bibitem[{Bolmont} et~al., 2017]{Bolmont2017}
 {Bolmont}, E., {Gallet}, F., {Mathis}, S., {Charbonnel}, C., {Amard}, L., and
   {Alibert}, Y. (2017).
@@ -195,6 +214,23 @@
 \newblock {The Formation of Close Binary Systems}.
 \newblock {\em \mnras}, 271.
 
+\bibitem[{Bourrier} et~al., 2017a]{Bourrier2017a}
+{Bourrier}, V., {de Wit}, J., {Bolmont}, E., {Stamenkovi{\'c}}, V., {Wheatley},
+  P.~J., {Burgasser}, A.~J., {Delrez}, L., {Demory}, B.-O., {Ehrenreich}, D.,
+  {Gillon}, M., {Jehin}, E., {Leconte}, J., {Lederer}, S.~M., {Lewis}, N.,
+  {Triaud}, A.~H.~M.~J., and {Van Grootel}, V. (2017a).
+\newblock {Temporal Evolution of the High-energy Irradiation and Water Content
+  of TRAPPIST-1 Exoplanets}.
+\newblock {\em \aj}, 154:121.
+
+\bibitem[{Bourrier} et~al., 2017b]{Bourrier2017b}
+{Bourrier}, V., {Ehrenreich}, D., {Wheatley}, P.~J., {Bolmont}, E., {Gillon},
+  M., {de Wit}, J., {Burgasser}, A.~J., {Jehin}, E., {Queloz}, D., and
+  {Triaud}, A.~H.~M.~J. (2017b).
+\newblock {Reconnaissance of the TRAPPIST-1 exoplanet system in the
+  Lyman-{$\alpha$} line}.
+\newblock {\em \aap}, 599:L3.
+
 \bibitem[{Bouvier}, 2008]{Bouvier2008}
 {Bouvier}, J. (2008).
 \newblock {Lithium depletion and the rotational history of exoplanet host
@@ -211,10 +247,22 @@
 \newblock {Planet Formation around Binary Stars: Tatooine Made Easy}.
 \newblock {\em \apj}, 806:98.
 
+\bibitem[{Burgasser} and {Mamajek}, 2017]{Burgasser2017}
+{Burgasser}, A.~J. and {Mamajek}, E.~E. (2017).
+\newblock {On the Age of the TRAPPIST-1 System}.
+\newblock {\em \apj}, 845:110.
+
 \bibitem[{Burkart} et~al., 2014]{Burkart2014}
 {Burkart}, J., {Quataert}, E., and {Arras}, P. (2014).
 \newblock {Dynamical resonance locking in tidally interacting binary systems}.
 \newblock {\em \mnras}, 443:2957--2973.
+
+\bibitem[{Chadney} et~al., 2015]{Chadney2015}
+{Chadney}, J.~M., {Galand}, M., {Unruh}, Y.~C., {Koskinen}, T.~T., and
+  {Sanz-Forcada}, J. (2015).
+\newblock {XUV-driven mass loss from extrasolar giant planets orbiting active
+  stars}.
+\newblock {\em \icarus}, 250:357--367.
 
 \bibitem[{Chambers} et~al., 1996]{Chambers1996}
 {Chambers}, J.~E., {Wetherill}, G.~W., and {Boss}, A.~P. (1996).
@@ -277,6 +325,19 @@
 \newblock {\em Philosophical Transactions of the Royal Society of London Series
   I}, 171:713--891.
 
+\bibitem[Delfosse et~al., 1998]{Delfosse1998}
+Delfosse, X., Forveille, T., Perrier, C., and Mayor, M. (1998).
+\newblock Rotation and chromospheric activity in field m dwarfs.
+\newblock {\em Astronomy and Astrophysics}, 331:581--595.
+
+\bibitem[{Delrez} et~al., 2018]{Delrez2018}
+{Delrez}, L., {Gillon}, M., {Triaud}, A.~H.~M.~J., {Demory}, B.-O., {de Wit},
+  J., {Ingalls}, J.~G., {Agol}, E., {Bolmont}, E., {Burdanov}, A., {Burgasser},
+  A.~J., {Carey}, S.~J., {Jehin}, E., {Leconte}, J., {Lederer}, S., {Queloz},
+  D., {Selsis}, F., and {Van Grootel}, V. (2018).
+\newblock {Early 2017 observations of TRAPPIST-1 with Spitzer}.
+\newblock {\em \mnras}, 475:3577--3597.
+
 \bibitem[{Dermine} et~al., 2013]{Dermine2013}
 {Dermine}, T., {Izzard}, R.~G., {Jorissen}, A., and {Van Winckel}, H. (2013).
 \newblock {Eccentricity-pumping in post-AGB stars with circumbinary discs}.
@@ -303,6 +364,13 @@
 {Douglas}, S.~T., {Ag{\"u}eros}, M.~A., {Covey}, K.~R., and {Kraus}, A. (2017).
 \newblock {Poking the Beehive from Space: K2 Rotation Periods for Praesepe}.
 \newblock {\em \apj}, 842:83.
+
+\bibitem[{Dressing} and {Charbonneau}, 2015]{Dressing2015}
+{Dressing}, C.~D. and {Charbonneau}, D. (2015).
+\newblock {The Occurrence of Potentially Habitable Planets Orbiting M Dwarfs
+  Estimated from the Full Kepler Dataset and an Empirical Measurement of the
+  Detection Sensitivity}.
+\newblock {\em \apj}, 807:45.
 
 \bibitem[{Duch{\^e}ne} and {Kraus}, 2013]{Duchene2013}
 {Duch{\^e}ne}, G. and {Kraus}, A. (2013).
@@ -360,16 +428,47 @@
   theory re-visited}.
 \newblock {\em Celestial Mechanics and Dynamical Astronomy}, 101:171--201.
 
+\bibitem[Flegal et~al., 2008]{Flegal2008}
+Flegal, J.~M., Haran, M., and Jones, G.~L. (2008).
+\newblock Markov chain monte carlo: Can we trust the third significant figure?
+\newblock {\em Statist. Sci.}, 23(2):250--260.
+
+\bibitem[Flegal and Jones, 2010]{Flegal2010}
+Flegal, J.~M. and Jones, G.~L. (2010).
+\newblock Batch means and spectral variance estimators in markov chain monte
+  carlo.
+\newblock {\em Ann. Statist.}, 38(2):1034--1070.
+
 \bibitem[{Fleming} et~al., 2018]{Fleming2018}
 {Fleming}, D.~P., {Barnes}, R., {Graham}, D.~E., {Luger}, R., and {Quinn},
   T.~R. (2018).
 \newblock {On the Lack of Circumbinary Planets Orbiting Isolated Binary Stars}.
 \newblock {\em \apj}, 858:86.
 
+\bibitem[{Fleming} et~al., 2020]{Fleming2020}
+{Fleming}, D.~P., {Barnes}, R., {Luger}, R., and {VanderPlas}, J. (2020).
+\newblock {On the XUV Luminosity Evolution of TRAPPIST-1}.
+\newblock {\em \apj, accepted}.
+
 \bibitem[{Fleming} and {Quinn}, 2017]{Fleming2017}
 {Fleming}, D.~P. and {Quinn}, T.~R. (2017).
 \newblock {Coevolution of binaries and circumbinary gaseous discs}.
 \newblock {\em \mnras}, 464:3343--3356.
+
+\bibitem[{Fleming} and {VanderPlas}, 2018]{FlemingVanderPlas2018}
+{Fleming}, D.~P. and {VanderPlas}, J. (2018).
+\newblock {approxposterior: Approximate Posterior Distributions in Python}.
+\newblock {\em The Journal of Open Source Software}, 3:781.
+
+\bibitem[{Foreman-Mackey}, 2016]{ForemanMackey2016}
+{Foreman-Mackey}, D. (2016).
+\newblock {corner.py: Scatterplot matrices in Python}.
+\newblock {\em The Journal of Open Source Software}, 1.
+
+\bibitem[{Foreman-Mackey} et~al., 2013]{ForemanMackey2013}
+{Foreman-Mackey}, D., {Hogg}, D.~W., {Lang}, D., and {Goodman}, J. (2013).
+\newblock {emcee: The MCMC Hammer}.
+\newblock {\em \pasp}, 125:306.
 
 \bibitem[{Forgan}, 2014]{Forgan2014}
 {Forgan}, D. (2014).
@@ -409,6 +508,27 @@
   Exploring the mass dependence}.
 \newblock {\em \aap}, 577:A98.
 
+\bibitem[{Gillon} et~al., 2016]{Gillon2016}
+{Gillon}, M., {Jehin}, E., {Lederer}, S.~M., {Delrez}, L., {de Wit}, J.,
+  {Burdanov}, A., {Van Grootel}, V., {Burgasser}, A.~J., {Triaud}, A.~H.~M.~J.,
+  {Opitom}, C., {Demory}, B.-O., {Sahu}, D.~K., {Bardalez Gagliuffi}, D.,
+  {Magain}, P., and {Queloz}, D. (2016).
+\newblock {Temperate Earth-sized planets transiting a nearby ultracool dwarf
+  star}.
+\newblock {\em \nat}, 533:221--224.
+
+\bibitem[{Gillon} et~al., 2017]{Gillon2017}
+{Gillon}, M., {Triaud}, A.~H.~M.~J., {Demory}, B.-O., {Jehin}, E., {Agol}, E.,
+  {Deck}, K.~M., {Lederer}, S.~M., {de Wit}, J., {Burdanov}, A., {Ingalls},
+  J.~G., {Bolmont}, E., {Leconte}, J., {Raymond}, S.~N., {Selsis}, F.,
+  {Turbet}, M., {Barkaoui}, K., {Burgasser}, A., {Burleigh}, M.~R., {Carey},
+  S.~J., {Chaushev}, A., {Copperwheat}, C.~M., {Delrez}, L., {Fernandes},
+  C.~S., {Holdsworth}, D.~L., {Kotze}, E.~J., {Van Grootel}, V., {Almleaky},
+  Y., {Benkhaldoun}, Z., {Magain}, P., and {Queloz}, D. (2017).
+\newblock {Seven temperate terrestrial planets around the nearby ultracool
+  dwarf star TRAPPIST-1}.
+\newblock {\em \nat}, 542:456--460.
+
 \bibitem[{Goldreich}, 1966]{Goldreich1966b}
 {Goldreich}, P. (1966).
 \newblock {Final spin states of planets and satellites}.
@@ -447,10 +567,26 @@
   Ratio}.
 \newblock {\em \aj}, 154:179.
 
+\bibitem[{Gonzales} et~al., 2019]{Gonzales2019}
+{Gonzales}, E.~C., {Faherty}, J.~K., {Gagn{\'e}}, J., {Teske}, J., {McWilliam},
+  A., and {Cruz}, K. (2019).
+\newblock {A Reanalysis of the Fundamental Parameters and Age of TRAPPIST-1}.
+\newblock {\em \apj}, 886(2):131.
+
 \bibitem[{Greenberg}, 2009]{Greenberg2009}
 {Greenberg}, R. (2009).
 \newblock {Frequency Dependence of Tidal q}.
 \newblock {\em \apjl}, 698:L42--L45.
+
+\bibitem[{Grimm} et~al., 2018]{Grimm2018}
+{Grimm}, S.~L., {Demory}, B.-O., {Gillon}, M., {Dorn}, C., {Agol}, E.,
+  {Burdanov}, A., {Delrez}, L., {Sestovic}, M., {Triaud}, A.~H.~M.~J.,
+  {Turbet}, M., {Bolmont}, {\'E}., {Caldas}, A., {de Wit}, J., {Jehin}, E.,
+  {Leconte}, J., {Raymond}, S.~N., {Van Grootel}, V., {Burgasser}, A.~J.,
+  {Carey}, S., {Fabrycky}, D., {Heng}, K., {Hernandez}, D.~M., {Ingalls},
+  J.~G., {Lederer}, S., {Selsis}, F., and {Queloz}, D. (2018).
+\newblock {The nature of the TRAPPIST-1 exoplanets}.
+\newblock {\em \aap}, 613:A68.
 
 \bibitem[{Habets} and {Zwaan}, 1989]{Habets1989}
 {Habets}, G.~M.~H.~J. and {Zwaan}, C. (1989).
@@ -536,6 +672,12 @@ Hunter, J.~D. (2007).
 {Ivanova}, N. and {Taam}, R.~E. (2003).
 \newblock {Magnetic Braking Revisited}.
 \newblock {\em \apj}, 599:516--521.
+
+\bibitem[{Jackson} et~al., 2012]{Jackson2012}
+{Jackson}, A.~P., {Davis}, T.~A., and {Wheatley}, P.~J. (2012).
+\newblock {The coronal X-ray-age relation and its implications for the
+  evaporation of exoplanets}.
+\newblock {\em \mnras}, 422:2024--2043.
 
 \bibitem[{Jackson} et~al., 2009]{Jackson2009}
 {Jackson}, B., {Barnes}, R., and {Greenberg}, R. (2009).
@@ -642,6 +784,13 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 \newblock {A machine learns to predict the stability of circumbinary planets}.
 \newblock {\em ArXiv e-prints}.
 
+\bibitem[{Lammer} et~al., 2003]{Lammer2003}
+{Lammer}, H., {Selsis}, F., {Ribas}, I., {Guinan}, E.~F., {Bauer}, S.~J., and
+  {Weiss}, W.~W. (2003).
+\newblock {Atmospheric Loss of Exoplanets Resulting from Stellar X-Ray and
+  Extreme-Ultraviolet Heating}.
+\newblock {\em \apjl}, 598:L121--L124.
+
 \bibitem[{Lanza} and {Mathis}, 2016]{Lanza2016}
 {Lanza}, A.~F. and {Mathis}, S. (2016).
 \newblock {Tides and angular momentum redistribution inside low-mass stars
@@ -680,6 +829,13 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 \newblock {The evolution of orbits of artificial satellites of planets under
   the action of gravitational perturbations of external bodies}.
 \newblock {\em \planss}, 9(10):719--759.
+
+\bibitem[{Lincowski} et~al., 2018]{Lincowski2018}
+{Lincowski}, A.~P., {Meadows}, V.~S., {Crisp}, D., {Robinson}, T.~D., {Luger},
+  R., {Lustig-Yaeger}, J., and {Arney}, G.~N. (2018).
+\newblock {Evolved Climates and Observational Discriminants for the TRAPPIST-1
+  Planetary System}.
+\newblock {\em \apj}, 867:76.
 
 \bibitem[{Lines} et~al., 2015]{Lines2015}
 {Lines}, S., {Leinhardt}, Z.~M., {Baruteau}, C., {Paardekooper}, S.~J., and
@@ -725,6 +881,24 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 \newblock {Tidal Torques on Misaligned Disks in Binary Systems}.
 \newblock {\em \apj}, 800(2):96.
 
+\bibitem[{Luger} and {Barnes}, 2015]{Luger2015}
+{Luger}, R. and {Barnes}, R. (2015).
+\newblock {Extreme Water Loss and Abiotic O2Buildup on Planets Throughout the
+  Habitable Zones of M Dwarfs}.
+\newblock {\em Astrobiology}, 15:119--143.
+
+\bibitem[{Luger} et~al., 2017]{Luger2017}
+{Luger}, R., {Sestovic}, M., {Kruse}, E., {Grimm}, S.~L., {Demory}, B.-O.,
+  {Agol}, E., {Bolmont}, E., {Fabrycky}, D., {Fernandes}, C.~S., {Van Grootel},
+  V., {Burgasser}, A., {Gillon}, M., {Ingalls}, J.~G., {Jehin}, E., {Raymond},
+  S.~N., {Selsis}, F., {Triaud}, A.~H.~M.~J., {Barclay}, T., {Barentsen}, G.,
+  {Howell}, S.~B., {Delrez}, L., {de Wit}, J., {Foreman-Mackey}, D.,
+  {Holdsworth}, D.~L., {Leconte}, J., {Lederer}, S., {Turbet}, M., {Almleaky},
+  Y., {Benkhaldoun}, Z., {Magain}, P., {Morris}, B.~M., {Heng}, K., and
+  {Queloz}, D. (2017).
+\newblock {A seven-planet resonant chain in TRAPPIST-1}.
+\newblock {\em Nature Astronomy}, 1:0129.
+
 \bibitem[{Lurie} et~al., 2017]{Lurie2017}
 {Lurie}, J.~C., {Vyhmeister}, K., {Hawley}, S.~L., {Adilia}, J., {Chen}, A.,
   {Davenport}, J.~R.~A., {Juri{\'c}}, M., {Puig-Holzman}, M., and
@@ -732,6 +906,12 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 \newblock {Tidal Synchronization and Differential Rotation of Kepler Eclipsing
   Binaries}.
 \newblock {\em \aj}, 154:250.
+
+\bibitem[{Lustig-Yaeger} et~al., 2019]{Lustig2019}
+{Lustig-Yaeger}, J., {Meadows}, V.~S., and {Lincowski}, A.~P. (2019).
+\newblock {The Detectability and Characterization of the TRAPPIST-1 Exoplanet
+  Atmospheres with JWST}.
+\newblock {\em arXiv e-prints}.
 
 \bibitem[{MacFadyen} and {Milosavljevi{\'c}}, 2008]{MacFadyen2008}
 {MacFadyen}, A.~I. and {Milosavljevi{\'c}}, M. (2008).
@@ -829,6 +1009,11 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 \newblock In {Goupil}, M.-J. and {Zahn}, J.-P., editors, {\em EAS Publications
   Series}, volume~29 of {\em EAS Publications Series}, pages 1--65.
 
+\bibitem[{McClintock} and {Rozo}, 2019]{McClintock2019}
+{McClintock}, T. and {Rozo}, E. (2019).
+\newblock {Reconstructing Probability Distributions with Gaussian Processes}.
+\newblock {\em arXiv e-prints}.
+
 \bibitem[McKinney, 2010]{Mckinney2010}
 McKinney, W. (2010).
 \newblock Data structures for statistical computing in python.
@@ -920,6 +1105,18 @@ McKinney, W. (2010).
 \newblock {Shock Simulation by the Particle Method SPH}.
 \newblock {\em Journal of Computational Physics}, 52(2):374--389.
 
+\bibitem[{Morley} et~al., 2017]{Morley2017}
+{Morley}, C.~V., {Kreidberg}, L., {Rustamkulov}, Z., {Robinson}, T., and
+  {Fortney}, J.~J. (2017).
+\newblock {Observing the Atmospheres of Known Temperate Earth-sized Planets
+  with JWST}.
+\newblock {\em \apj}, 850:121.
+
+\bibitem[{Morris} et~al., 2018]{Morris2018}
+{Morris}, B.~M., {Agol}, E., {Davenport}, J.~R.~A., and {Hawley}, S.~L. (2018).
+\newblock {Possible Bright Starspots on TRAPPIST-1}.
+\newblock {\em \apj}, 857:39.
+
 \bibitem[{Mu{\~n}oz} and {Lai}, 2015]{Munoz2015}
 {Mu{\~n}oz}, D.~J. and {Lai}, D. (2015).
 \newblock {Survival of planets around shrinking stellar binaries}.
@@ -934,6 +1131,11 @@ McKinney, W. (2010).
 \newblock {SPH simulations of tidally unstable accretion discs in cataclysmic
   variables}.
 \newblock {\em \mnras}, 279:402--414.
+
+\bibitem[{Murray-Clay} et~al., 2009]{MurrayClay2009}
+{Murray-Clay}, R.~A., {Chiang}, E.~I., and {Murray}, N. (2009).
+\newblock {Atmospheric Escape From Hot Jupiters}.
+\newblock {\em \apj}, 693:23--42.
 
 \bibitem[Nelder and Mead, 1965]{Nelder1965}
 Nelder, J.~A. and Mead, R. (1965).
@@ -988,6 +1190,11 @@ Nelder, J.~A. and Mead, R. (1965).
   interaction}.
 \newblock {\em \aap}, 366:263--275.
 
+\bibitem[{Parker}, 1955]{Parker1955}
+{Parker}, E.~N. (1955).
+\newblock {Hydromagnetic Dynamo Models.}
+\newblock {\em \apj}, 122:293.
+
 \bibitem[{Parker}, 1958]{Parker1958}
 {Parker}, E.~N. (1958).
 \newblock {Dynamics of the Interplanetary Gas and Magnetic Fields.}
@@ -998,6 +1205,13 @@ Nelder, J.~A. and Mead, R. (1965).
   {Dai}, F. (2017).
 \newblock {The Apparently Decaying Orbit of WASP-12b}.
 \newblock {\em \aj}, 154:4.
+
+\bibitem[{Peacock} et~al., 2019]{Peacock2019}
+{Peacock}, S., {Barman}, T., {Shkolnik}, E.~L., {Hauschildt}, P.~H., and
+  {Baron}, E. (2019).
+\newblock {Predicting the Extreme Ultraviolet Radiation Environment of
+  Exoplanets around Low-mass Stars: The TRAPPIST-1 System}.
+\newblock {\em \apj}, 871:235.
 
 \bibitem[{Pelupessy} and {Portegies Zwart}, 2013]{Pelupessy2013}
 {Pelupessy}, F.~I. and {Portegies Zwart}, S. (2013).
@@ -1015,6 +1229,14 @@ Nelder, J.~A. and Mead, R. (1965).
   circumbinary planets}.
 \newblock {\em \aap}, 556:A134.
 
+\bibitem[{Pizzolato} et~al., 2003]{Pizzolato2003}
+{Pizzolato}, N., {Maggio}, A., {Micela}, G., {Sciortino}, S., and {Ventura}, P.
+  (2003).
+\newblock {The stellar activity-rotation relationship revisited: Dependence of
+  saturated and non-saturated X-ray emission regimes on stellar mass for
+  late-type dwarfs}.
+\newblock {\em \aap}, 397:147--157.
+
 \bibitem[{Popova} and {Shevchenko}, 2013]{Popova2013}
 {Popova}, E.~A. and {Shevchenko}, I.~I. (2013).
 \newblock {Kepler-16b: Safe in a Resonance Cell}.
@@ -1024,6 +1246,12 @@ Nelder, J.~A. and Mead, R. (1965).
 {Popp}, M. and {Eggl}, S. (2017).
 \newblock {Climate variations on Earth-like circumbinary planets}.
 \newblock {\em Nature Communications}, 8:14957.
+
+\bibitem[Powell, 1964]{Powell1964}
+Powell, M. J.~D. (1964).
+\newblock {An efficient method for finding the minimum of a function of several
+  variables without calculating derivatives}.
+\newblock {\em The Computer Journal}, 7(2):155--162.
 
 \bibitem[{Pringle}, 1991]{Pringle1991}
 {Pringle}, J.~E. (1991).
@@ -1106,6 +1334,11 @@ Nelder, J.~A. and Mead, R. (1965).
   IRAC Excesses in Orion}.
 \newblock {\em \apj}, 646:297--303.
 
+\bibitem[{Reid} and {Hawley}, 2005]{Reid2005}
+{Reid}, I.~N. and {Hawley}, S.~L. (2005).
+\newblock {\em {New light on dark stars : red dwarfs, low-mass stars, brown
+  dwarfs}}.
+
 \bibitem[{Rein} and {Liu}, 2012]{Rein2012}
 {Rein}, H. and {Liu}, S.-F. (2012).
 \newblock {REBOUND: an open-source multi-purpose N-body code for collisional
@@ -1141,6 +1374,12 @@ Nelder, J.~A. and Mead, R. (1965).
 \newblock {The coupled effect of tides and stellar winds on the evolution of
   compact binaries}.
 \newblock {\em \mnras}, 444:542--557.
+
+\bibitem[{Ribas} et~al., 2005]{Ribas2005}
+{Ribas}, I., {Guinan}, E.~F., {G{\"u}del}, M., and {Audard}, M. (2005).
+\newblock {Evolution of the Solar Activity over Time and Effects on Planetary
+  Atmospheres. I. High-Energy Irradiances (1-1700 {\AA})}.
+\newblock {\em \apj}, 622:680--694.
 
 \bibitem[{Richardson} et~al., 2000]{Richardson2000}
 {Richardson}, D.~C., {Quinn}, T., {Stadel}, J., and {Lake}, G. (2000).
@@ -1190,6 +1429,12 @@ Nelder, J.~A. and Mead, R. (1965).
   Dissecting the torques}.
 \newblock {\em \aap}, 545:A127.
 
+\bibitem[{Roettenbacher} and {Kane}, 2017]{Roettenbacher2017}
+{Roettenbacher}, R.~M. and {Kane}, S.~R. (2017).
+\newblock {The Stellar Activity of TRAPPIST-1 and Consequences for the
+  Planetary Atmospheres}.
+\newblock {\em \apj}, 851:77.
+
 \bibitem[{Ro{\v{s}}kar} et~al., 2015]{Roskar2015}
 {Ro{\v{s}}kar}, R., {Fiacconi}, D., {Mayer}, L., {Kazantzidis}, S., {Quinn},
   T.~R., and {Wadsley}, J. (2015).
@@ -1202,11 +1447,28 @@ Nelder, J.~A. and Mead, R. (1965).
 \newblock {Gaia's potential for the discovery of circumbinary planets}.
 \newblock {\em \mnras}, 447:287--297.
 
+\bibitem[{Schneider} and {Shkolnik}, 2018]{Schneider2018}
+{Schneider}, A.~C. and {Shkolnik}, E.~L. (2018).
+\newblock {HAZMAT. III. The UV Evolution of Mid- to Late-M Stars with GALEX}.
+\newblock {\em \aj}, 155:122.
+
+\bibitem[{Segura} et~al., 2005]{Segura2005}
+{Segura}, A., {Kasting}, J.~F., {Meadows}, V., {Cohen}, M., {Scalo}, J.,
+  {Crisp}, D., {Butler}, R.~A.~H., and {Tinetti}, G. (2005).
+\newblock {Biosignatures from Earth-Like Planets Around M Dwarfs}.
+\newblock {\em Astrobiology}, 5:706--725.
+
 \bibitem[{Shi} et~al., 2012]{Shi2012}
 {Shi}, J.-M., {Krolik}, J.~H., {Lubow}, S.~H., and {Hawley}, J.~F. (2012).
 \newblock {Three-dimensional Magnetohydrodynamic Simulations of Circumbinary
   Accretion Disks: Disk Structures and Angular Momentum Transport}.
 \newblock {\em \apj}, 749(2):118.
+
+\bibitem[{Shkolnik} and {Barman}, 2014]{Shkolnik2014}
+{Shkolnik}, E.~L. and {Barman}, T.~S. (2014).
+\newblock {HAZMAT. I. The Evolution of Far-UV and Near-UV Emission from Early M
+  Stars}.
+\newblock {\em \aj}, 148:64.
 
 \bibitem[{Silsbee} and {Rafikov}, 2015]{Silsbee2015a}
 {Silsbee}, K. and {Rafikov}, R.~R. (2015).
@@ -1228,6 +1490,11 @@ Nelder, J.~A. and Mead, R. (1965).
 {Smullen}, R.~A., {Kratter}, K.~M., and {Shannon}, A. (2016).
 \newblock {Planet scattering around binaries: ejections, not collisions}.
 \newblock {\em \mnras}, 461:1288--1301.
+
+\bibitem[{Spada} et~al., 2013]{Spada2013}
+{Spada}, F., {Demarque}, P., {Kim}, Y.-C., and {Sills}, A. (2013).
+\newblock {The Radius Discrepancy in Low-mass Stars: Single versus Binaries}.
+\newblock {\em \apj}, 776:87.
 
 \bibitem[{Stassun} et~al., 1999]{Stassun1999}
 {Stassun}, K.~G., {Mathieu}, R.~D., {Mazeh}, T., and {Vrba}, F.~J. (1999).
@@ -1304,6 +1571,14 @@ Nelder, J.~A. and Mead, R. (1965).
   219394517}.
 \newblock {\em \apj}, 866:67.
 
+\bibitem[{Vaiana} et~al., 1981]{Vaiana1981}
+{Vaiana}, G.~S., {Cassinelli}, J.~P., {Fabbiano}, G., {Giacconi}, R., {Golub},
+  L., {Gorenstein}, P., {Haisch}, B.~M., {Harnden}, Jr., F.~R., {Johnson},
+  H.~M., {Linsky}, J.~L., {Maxson}, C.~W., {Mewe}, R., {Rosner}, R., {Seward},
+  F., {Topka}, K., and {Zwaan}, C. (1981).
+\newblock {Results from an extensive Einstein stellar survey}.
+\newblock {\em \apj}, 245:163--182.
+
 \bibitem[van~der Walt et~al., 2011]{vanderWalt2011}
 van~der Walt, S., Colbert, S.~C., and Varoquaux, G. (2011).
 \newblock The numpy array: A structure for efficient numerical computation.
@@ -1313,6 +1588,14 @@ van~der Walt, S., Colbert, S.~C., and Varoquaux, G. (2011).
 {Van Eylen}, V., {Winn}, J.~N., and {Albrecht}, S. (2016).
 \newblock {Orbital Circularization of Hot and Cool Kepler Eclipsing Binaries}.
 \newblock {\em \apj}, 824:15.
+
+\bibitem[{Van Grootel} et~al., 2018]{vanGrootel2018}
+{Van Grootel}, V., {Fernandes}, C.~S., {Gillon}, M., {Jehin}, E., {Manfroid},
+  J., {Scuflaire}, R., {Burgasser}, A.~J., {Barkaoui}, K., {Benkhaldoun}, Z.,
+  {Burdanov}, A., {Delrez}, L., {Demory}, B.-O., {de Wit}, J., {Queloz}, D.,
+  and {Triaud}, A.~H.~M.~J. (2018).
+\newblock {Stellar Parameters for Trappist-1}.
+\newblock {\em \apj}, 853:30.
 
 \bibitem[{van Saders} et~al., 2018]{vanSaders2018}
 {van Saders}, J.~L., {Pinsonneault}, M.~H., and {Barbieri}, M. (2018).
@@ -1354,6 +1637,12 @@ Wang, H. and Li, J. (2018).
   expensive likelihood functions.
 \newblock {\em Neural Computation}, 30(11):3072--3094.
 
+\bibitem[{Watson} et~al., 1981]{Watson1981}
+{Watson}, A.~J., {Donahue}, T.~M., and {Walker}, J.~C.~G. (1981).
+\newblock {The dynamics of a rapidly escaping atmosphere - Applications to the
+  evolution of earth and Venus}.
+\newblock {\em \icarus}, 48:150--166.
+
 \bibitem[{Welsh} et~al., 2015]{Welsh2015}
 {Welsh}, W., {Orosz}, J., {Quarles}, B., and {Haghighipour}, N. (2015).
 \newblock {Kepler-47: A Three-Planet Circumbinary System}.
@@ -1366,6 +1655,27 @@ Wang, H. and Li, J. (2018).
 \newblock In {Haghighipour}, N., editor, {\em Formation, Detection, and
   Characterization of Extrasolar Habitable Planets}, volume 293 of {\em IAU
   Symposium}, pages 125--132.
+
+\bibitem[{West} et~al., 2008]{West2008}
+{West}, A.~A., {Hawley}, S.~L., {Bochanski}, J.~J., {Covey}, K.~R., {Reid},
+  I.~N., {Dhital}, S., {Hilton}, E.~J., and {Masuda}, M. (2008).
+\newblock {Constraining the Age-Activity Relation for Cool Stars: The Sloan
+  Digital Sky Survey Data Release 5 Low-Mass Star Spectroscopic Sample}.
+\newblock {\em \aj}, 135:785--795.
+
+\bibitem[{West} et~al., 2015]{West2015}
+{West}, A.~A., {Weisenburger}, K.~L., {Irwin}, J., {Berta-Thompson}, Z.~K.,
+  {Charbonneau}, D., {Dittmann}, J., and {Pineda}, J.~S. (2015).
+\newblock {An Activity-Rotation Relationship and Kinematic Analysis of Nearby
+  Mid-to-Late-Type M Dwarfs}.
+\newblock {\em \apj}, 812:3.
+
+\bibitem[{Wheatley} et~al., 2017]{Wheatley2017}
+{Wheatley}, P.~J., {Louden}, T., {Bourrier}, V., {Ehrenreich}, D., and
+  {Gillon}, M. (2017).
+\newblock {Strong XUV irradiation of the Earth-sized exoplanets orbiting the
+  ultracool dwarf TRAPPIST-1}.
+\newblock {\em \mnras}, 465:L74--L78.
 
 \bibitem[{Wilkins} et~al., 2017]{Wilkins2017}
 {Wilkins}, A.~N., {Delrez}, L., {Barker}, A.~J., {Deming}, D., {Hamilton}, D.,
@@ -1394,6 +1704,25 @@ Wang, H. and Li, J. (2018).
 \newblock {Orbital evolution by dynamical tides in solar type stars.
   Application to binary stars and planetary orbits}.
 \newblock {\em \aap}, 386:222--236.
+
+\bibitem[{Wright} and {Drake}, 2016]{Wright2016}
+{Wright}, N.~J. and {Drake}, J.~J. (2016).
+\newblock {Solar-type dynamo behaviour in fully convective stars without a
+  tachocline}.
+\newblock {\em \nat}, 535:526--528.
+
+\bibitem[{Wright} et~al., 2011]{Wright2011}
+{Wright}, N.~J., {Drake}, J.~J., {Mamajek}, E.~E., and {Henry}, G.~W. (2011).
+\newblock {The Stellar-activity-Rotation Relationship and the Evolution of
+  Stellar Dynamos}.
+\newblock {\em \apj}, 743:48.
+
+\bibitem[{Wright} et~al., 2018]{Wright2018}
+{Wright}, N.~J., {Newton}, E.~R., {Williams}, P.~K.~G., {Drake}, J.~J., and
+  {Yadav}, R.~K. (2018).
+\newblock {The stellar rotation-activity relationship in fully convective M
+  dwarfs}.
+\newblock {\em \mnras}, 479:2351--2360.
 
 \bibitem[{Young} and {Clarke}, 2015]{Young2015}
 {Young}, M.~D. and {Clarke}, C.~J. (2015).

@@ -1,5 +1,5 @@
 \contentsline {chapter}{\@textofLoF }{v}{chapter*.2}
-\contentsline {chapter}{\@textofLoT }{xii}{chapter*.3}
+\contentsline {chapter}{\@textofLoT }{xiii}{chapter*.3}
 \contentsline {chapter}{\numberline {\@textofChapter \ 1:}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction Section Title}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Outline}{1}{section.1.2}
@@ -29,7 +29,7 @@
 \contentsline {chapter}{\numberline {\@textofChapter \ 3:}The Dynamical Death of Circumbinary Planets: Coupled Stellar-Tidal Evolution Ejection of Circumbinary Exoplanets}{41}{chapter.3}
 \contentsline {section}{\numberline {3.1}Chapter Abstract}{41}{section.3.1}
 \contentsline {section}{\numberline {3.2}Introduction}{42}{section.3.2}
-\contentsline {section}{\numberline {3.3}Methods}{47}{section.3.3}
+\contentsline {section}{\numberline {3.3}Methods}{48}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}\texttt {VPLanet}\xspace }{48}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Stellar Evolution}{49}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Tidal Evolution}{51}{subsection.3.3.3}
@@ -101,11 +101,24 @@
 \contentsline {section}{\numberline {4.8}Analytic Torque Balance}{145}{section.4.8}
 \contentsline {chapter}{\numberline {\@textofChapter \ 5:}Bayesian Inference with Slow Models using \texttt {approxposterior}\xspace }{147}{chapter.5}
 \contentsline {section}{\numberline {5.1}\texttt {approxposterior}\xspace }{147}{section.5.1}
-\contentsline {section}{\numberline {5.2}\texttt {approxposterior}\xspace Algorithm and Convergence}{148}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Augmenting the Training Set}{150}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Convergence}{153}{subsection.5.2.2}
-\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{155}{chapter.6}
-\contentsline {chapter}{\numberline {\@textofChapter \ 7:}Discussion and Conclusions}{156}{chapter.7}
-\contentsline {section}{\numberline {7.1}Discussion}{156}{section.7.1}
-\contentsline {section}{\numberline {7.2}Conclusions}{156}{section.7.2}
-\contentsline {chapter}{Bibliography}{157}{chapter*.77}
+\contentsline {section}{\numberline {5.2}\texttt {approxposterior}\xspace Algorithm}{148}{section.5.2}
+\contentsline {section}{\numberline {5.3}Augmenting the Training Set}{150}{section.5.3}
+\contentsline {section}{\numberline {5.4}Convergence}{153}{section.5.4}
+\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{156}{chapter.6}
+\contentsline {section}{\numberline {6.1}Abstract}{156}{section.6.1}
+\contentsline {section}{\numberline {6.2}Introduction}{157}{section.6.2}
+\contentsline {section}{\numberline {6.3}Methods}{159}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Simulating XUV Evolution with \texttt {VPLanet}\xspace }{159}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Markov Chain Monte Carlo Analysis}{160}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Prior Probability Distributions}{161}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Likelihood Function and Convergence}{163}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Inference with \texttt {approxposterior}\xspace }{164}{subsection.6.3.5}
+\contentsline {section}{\numberline {6.4}Results}{165}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}The Evolution of TRAPPIST-1}{165}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Comparison with \texttt {approxposterior}\xspace }{168}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{170}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}Discussion and Conclusions}{174}{section.6.5}
+\contentsline {chapter}{\numberline {\@textofChapter \ 7:}Discussion and Conclusions}{178}{chapter.7}
+\contentsline {section}{\numberline {7.1}Discussion}{178}{section.7.1}
+\contentsline {section}{\numberline {7.2}Conclusions}{178}{section.7.2}
+\contentsline {chapter}{Bibliography}{179}{chapter*.82}

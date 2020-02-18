@@ -74,11 +74,24 @@
 \BOOKMARK [1][-]{section.4.8}{Analytic Torque Balance}{chapter.4}% 74
 \BOOKMARK [0][-]{chapter.5}{Bayesian Inference with Slow Models using approxposterior}{}% 75
 \BOOKMARK [1][-]{section.5.1}{approxposterior}{chapter.5}% 76
-\BOOKMARK [1][-]{section.5.2}{approxposterior Algorithm and Convergence}{chapter.5}% 77
-\BOOKMARK [2][-]{subsection.5.2.1}{Augmenting the Training Set}{section.5.2}% 78
-\BOOKMARK [2][-]{subsection.5.2.2}{Convergence}{section.5.2}% 79
+\BOOKMARK [1][-]{section.5.2}{approxposterior Algorithm}{chapter.5}% 77
+\BOOKMARK [1][-]{section.5.3}{Augmenting the Training Set}{chapter.5}% 78
+\BOOKMARK [1][-]{section.5.4}{Convergence}{chapter.5}% 79
 \BOOKMARK [0][-]{chapter.6}{Inferring the XUV History of the TRAPPIST-1 Planetary System}{}% 80
-\BOOKMARK [0][-]{chapter.7}{Discussion and Conclusions}{}% 81
-\BOOKMARK [1][-]{section.7.1}{Discussion}{chapter.7}% 82
-\BOOKMARK [1][-]{section.7.2}{Conclusions}{chapter.7}% 83
-\BOOKMARK [0][-]{chapter*.77}{Bibliography}{}% 84
+\BOOKMARK [1][-]{section.6.1}{Abstract}{chapter.6}% 81
+\BOOKMARK [1][-]{section.6.2}{Introduction}{chapter.6}% 82
+\BOOKMARK [1][-]{section.6.3}{Methods}{chapter.6}% 83
+\BOOKMARK [2][-]{subsection.6.3.1}{Simulating XUV Evolution with VPLanet}{section.6.3}% 84
+\BOOKMARK [2][-]{subsection.6.3.2}{Markov Chain Monte Carlo Analysis}{section.6.3}% 85
+\BOOKMARK [2][-]{subsection.6.3.3}{Prior Probability Distributions}{section.6.3}% 86
+\BOOKMARK [2][-]{subsection.6.3.4}{Likelihood Function and Convergence}{section.6.3}% 87
+\BOOKMARK [2][-]{subsection.6.3.5}{Inference with approxposterior}{section.6.3}% 88
+\BOOKMARK [1][-]{section.6.4}{Results}{chapter.6}% 89
+\BOOKMARK [2][-]{subsection.6.4.1}{The Evolution of TRAPPIST-1}{section.6.4}% 90
+\BOOKMARK [2][-]{subsection.6.4.2}{Comparison with approxposterior}{section.6.4}% 91
+\BOOKMARK [2][-]{subsection.6.4.3}{TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{section.6.4}% 92
+\BOOKMARK [1][-]{section.6.5}{Discussion and Conclusions}{chapter.6}% 93
+\BOOKMARK [0][-]{chapter.7}{Discussion and Conclusions}{}% 94
+\BOOKMARK [1][-]{section.7.1}{Discussion}{chapter.7}% 95
+\BOOKMARK [1][-]{section.7.2}{Conclusions}{chapter.7}% 96
+\BOOKMARK [0][-]{chapter*.82}{Bibliography}{}% 97

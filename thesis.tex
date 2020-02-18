@@ -44,7 +44,7 @@
 %    Printed in twoside style now that that's allowed
 %
  
-\documentclass [11pt, proquest]{uwthesis}[2016/11/22] % draft
+\documentclass [11pt, proquest]{uwthesis} % draft
 
 \usepackage{amsmath,amssymb}
 \usepackage{aasmacros}
@@ -66,6 +66,7 @@
 \usepackage{bibentry}
 \usepackage{xspace}
 \usepackage{graphicx}
+\usepackage{caption}
 \usepackage[ruled,vlined]{algorithm2e}
 \usepackage[round]{natbib}
 \usepackage{xcolor}
@@ -221,7 +222,7 @@ I would like to acknowledge that we are on the traditional land of the first peo
 
 % trappist
 \chapter{Inferring the XUV History of the TRAPPIST-1 Planetary System}
-%\include{tex/}{trappist.tex}
+\import{tex/trappist/}{trappist.tex}
 
 % Discussion
 \chapter{Discussion and Conclusions}

@@ -8,15 +8,15 @@
 
 \approxposterior is an implementation of the ``Bayesian Active Posterior Estimation" (BAPE) algorithm developed by \citet{Kandasamy2017}, but with several modifications to afford the user more control over the inference. Below, we qualitatively describe this algorithm, define parameters, and suggest typical values. We then discuss \approxposterior's convergence scheme.
 
-\section{\approxposterior Algorithm and Convergence} \label{AP:sec:app}
+\section{\approxposterior Algorithm} \label{AP:sec:app}
 
 Qualitatively, the \approxposterior algorithm is as follows. First, assume a forward model with $d$ input parameters that is designed to reproduce some set of observations. In our case, $d$, the dimensionality of parameter space, is five. The model parameters have an input domain, $D$, that is defined by the user. The parameters are further described by a prior probability distribution based on the user's prior belief for how the model parameters are distributed.  Next, the user generates a training set, $T$, consisting of $m_0$ forward model simulations distributed across the parameter space. The user chooses how the $m_0$ samples are distributed throughout parameter space according to their preferred experimental design. \approxposterior then trains a GP on $T$ to construct a non-parametric model (sometimes called a ``surrogate model") that represents the outcomes of the forward model over the parameter space. Crucially, GPs also generate an uncertainty for the surrogate model at every point in parameter space.
 
 \approxposterior then identifies $m$ more locations in parameter space to apply the forward model and add to $T$. The new locations are selected by determining the regions that the GP has identified as having both a high lnprobability, i.e. high posterior density, and a high predictive uncertainty. This selection is accomplished by maximizing a utility function ($u$, described below) that quantifies where the GP predicts high posterior density and high uncertainty in parameter space, focusing resources on parameter combinations that are likely to be consistent with the observations. \approxposterior re-trains the GP with the augmented $T$. The GP is then passed to an MCMC algorithm, e.g. \emcee, that samples the parameter space to obtain the approximate posterior distributions of the model parameters.
 
-At the end of each iteration, \approxposterior checks if a convergence condition (described in $\S$~\ref{sec:app:convergence}) has been met. If the algorithm  has not yet converged, \approxposterior selects an additional $m$ new points to add to $T$, re-trains the GP, and again estimates the posterior distribution. This process repeats until convergence or until \approxposterior has run the maximum number of iterations, $n_{max}$, set by the user. In Algorithm~\ref{AP:app:algo}, we list the aforementioned steps that comprise this algorithm.
+At the end of each iteration, \approxposterior checks if a convergence condition (described in $\S$~\ref{AP:sec:app:convergence}) has been met. If the algorithm  has not yet converged, \approxposterior selects an additional $m$ new points to add to $T$, re-trains the GP, and again estimates the posterior distribution. This process repeats until convergence or until \approxposterior has run the maximum number of iterations, $n_{max}$, set by the user. In Algorithm~\ref{AP:app:algo}, we list the aforementioned steps that comprise this algorithm.
 
-\begin{algorithm} \label{AP:app:algo}
+\begin{algorithm} 
 \SetAlgoLined
  Assume an input domain $D$, GP prior on $f(\textbf{x})$ \\
  Generate a training set, $T$, consisting of $m_0$ pairs of $(\textbf{x}, f(\textbf{x}))$ \\
@@ -32,9 +32,9 @@ At the end of each iteration, \approxposterior checks if a convergence condition
         \textbf{break} \\
     }
  }
-\caption{\approxposterior Approximate Inference Pseudo Code}
+\caption{\approxposterior Approximate Inference Pseudo Code  \label{AP:app:algo}}
 \end{algorithm}
-where $f(\textbf{x}) = \mathcal{\ln L}(\textbf{x})$ + $\ln \mathrm{Prior}(\textbf{x})$, i.e. the lnprobability function used for MCMC sampling with \emcee and \textbf{x}$^+$ is the point in parameter space selected by maximizing $u$. For our application, evaluating $f(\textbf{x})$ requires running a \vplanet simulation to compute $\mathcal{\ln L}(\textbf{x})$ (see $\S$~\ref{sec:mcmc:like}).
+where $f(\textbf{x}) = \mathcal{\ln L}(\textbf{x})$ + $\ln \mathrm{Prior}(\textbf{x})$, i.e. the lnprobability function used for MCMC sampling with \emcee and \textbf{x}$^+$ is the point in parameter space selected by maximizing $u$. For our application, evaluating $f(\textbf{x})$ requires running a \vplanet simulation to compute $\mathcal{\ln L}(\textbf{x})$ (see $\S$~\ref{trap:sec:mcmc:like}).
 
 By placing a GP prior with a squared exponential kernel on $f(\textbf{x})$, we assume that the function is smooth and continuous, both reasonable assumptions for modeling the posterior density. For inference problems that are liable to violate these assumptions, other kernels, e.g. the Ornstein-Uhlenbeck kernel, may be more appropriate (we refer the reader to \citet{Rasmussen2006} for detailed descriptions of common GP kernels and their mathematical properties). \approxposterior uses \texttt{george} \citep{george} for all GP calculations and hence users can apply any kernels implemented in that software package.
 
@@ -42,7 +42,7 @@ By placing a GP prior with a squared exponential kernel on $f(\textbf{x})$, we a
 
 Note that \approxposterior does not linearly transform the parameter space to the unit hypercube as did \citet{Kandasamy2017}. Moreover, \approxposterior does not fix the covariance scale lengths, instead opting to estimate all GP kernel hyperparameters by maximizing the marginal likelihood of the GP, given its training set, at a user-specified cadence. In Algorithm~\ref{AP:app:algo}, we optimize the GP hyperparameters each time a new point is added to the training set, but in practice we found this is unnecessary, especially at later iterations when the GP has developed a reasonable approximation of the posterior. The authors prefer to optimize the GP hyperparameters twice per iteration, once after half of the $m$ new points have been selected, and again after all $m$ points have been selected.
 
-\subsection{Augmenting the Training Set} \label{AP:sec:augment}
+\section{Augmenting the Training Set} \label{AP:sec:augment}
 
 Each iteration, \approxposterior selects $m$ new points to add to the GP's training set by maximizing the utility function, $u$. To motivate the choice of $u$, consider the following argument based on \citet{Kandasamy2017}: \approxposterior assumes that the forward model the GP learns on, here \vplanet via $\ln \mathcal{L}$, is computationally-expensive to run, and hence \approxposterior seeks to minimize the number of forward model evaluations required to build its training set. For inference problems, it is natural to select high-lnprobability regions in parameter space to augment the GP training set as this is where the posterior density is large. Furthermore, selecting regions in parameter space where the GP's predictive uncertainty is already small offers little value, compared to regions where its predictions are more uncertain, as additional points in low-uncertainty regions are unlikely to alter the GP's predictions. 
 
@@ -54,7 +54,7 @@ where $\mu_t(\textbf{x})$ and $\sigma_t^2(\textbf{x})$ are the mean and variance
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{points.pdf}
-   \caption{Same as Fig.~\ref{fig:approx}, but overplotted with the training set for \approxposterior's GP. The orange points display the initial training points whereas the blue points display the points iteratively selected by maximizing the \citet{Kandasamy2017} utility function, Eqn.~(\ref{AP:eq:bape}). By design, \approxposterior selected points to expand its training set in regions of high posterior density, improving its GP's predictive accuracy in the most relevant regions of parameter space while seldom wasting computational resources in the low likelihood regions.}%
+   \caption{Same as Fig.~\ref{trap:fig:approx}, but overplotted with the training set for \approxposterior's GP. The orange points display the initial training points whereas the blue points display the points iteratively selected by maximizing the \citet{Kandasamy2017} utility function, Eqn.~(\ref{AP:eq:bape}). By design, \approxposterior selected points to expand its training set in regions of high posterior density, improving its GP's predictive accuracy in the most relevant regions of parameter space while seldom wasting computational resources in the low likelihood regions.}%
     \label{AP:fig:points}%
 \end{figure}
 
@@ -67,7 +67,7 @@ As demonstrated in \citet{Kandasamy2017}, Eqn.~(\ref{AP:eq:bape}) identifies hig
 %\end{equation}
 %where $e$ is Euler's number.
 
-\subsection{Convergence} \label{sec:app:convergence}
+\section{Convergence} \label{AP:sec:app:convergence}
 
 We assess the convergence of the \approxposterior algorithm by comparing the means of the approximate marginal posterior distributions over successive iterations. We consider an \approxposterior run ``converged" if the differences between the marginal posterior means, relative to the widths of the marginal posteriors, are less than a tolerance parameter, $\epsilon$, for $k_{max}$ consecutive iterations. Effectively, this criterion checks if the expected value of each model parameter over the posterior distribution varies by ${\leq}{\epsilon}$ standard deviations from the previous iteration's expected values. That is, we require the \approxposterior convergence diagnostic $z_{t,j}{\leq}{\epsilon}$ for all $j$, where
 \begin{equation}

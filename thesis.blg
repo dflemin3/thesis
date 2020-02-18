@@ -2,58 +2,53 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/abstract.aux
-A level-1 auxiliary file: tex/intro.aux
 The style file: apalike.bst
-A level-1 auxiliary file: tex/vita.aux
-Reallocated field_info (elt_size=4) to 10104 items from 5000.
+Reallocated field_info (elt_size=4) to 11094 items from 5000.
 Database file #1: thesisBib.bib
-Warning--I didn't find a database entry for "Arty1996"
-Warning--I didn't find a database entry for "Arty1991"
-Warning--I didn't find a database entry for "PierensNelson2007"
-Warning--I didn't find a database entry for "Arty1994"
-Warning--I didn't find a database entry for "Fleming2020"
 Warning--empty journal in george
 Warning--empty publisher in Murray1999
 Warning--empty publisher in Rasmussen2006
-You've used 227 entries,
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--empty publisher in Reid2005
+You've used 277 entries,
             1935 wiz_defined-function locations,
-            1851 strings with 50313 characters,
-and the built_in function-call counts, 108200 in all, are:
-= -- 9810
-> -- 6653
-< -- 138
-+ -- 2401
-- -- 2398
-* -- 10147
-:= -- 19382
-add.period$ -- 678
-call.type$ -- 227
-change.case$ -- 2324
-chr.to.int$ -- 226
-cite$ -- 230
-duplicate$ -- 3318
-empty$ -- 6366
-format.name$ -- 2775
-if$ -- 20592
-int.to.chr$ -- 2
+            2115 strings with 62044 characters,
+and the built_in function-call counts, 133522 in all, are:
+= -- 12036
+> -- 8490
+< -- 152
++ -- 3078
+- -- 3074
+* -- 12617
+:= -- 24021
+add.period$ -- 827
+call.type$ -- 277
+change.case$ -- 2911
+chr.to.int$ -- 275
+cite$ -- 281
+duplicate$ -- 4014
+empty$ -- 7684
+format.name$ -- 3523
+if$ -- 25278
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 229
-newline$ -- 1135
-num.names$ -- 695
-pop$ -- 1848
+missing$ -- 280
+newline$ -- 1384
+num.names$ -- 845
+pop$ -- 2334
 preamble$ -- 1
-purify$ -- 2326
+purify$ -- 2914
 quote$ -- 0
-skip$ -- 2515
+skip$ -- 3028
 stack$ -- 0
-substring$ -- 6433
-swap$ -- 344
+substring$ -- 7704
+swap$ -- 394
 text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1358
-warning$ -- 3
-while$ -- 685
+type$ -- 1656
+warning$ -- 4
+while$ -- 832
 width$ -- 0
-write$ -- 2942
-(There were 8 warnings)
+write$ -- 3586
+(There were 4 warnings)
