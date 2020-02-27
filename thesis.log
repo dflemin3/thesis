@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 FEB 2020 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 FEB 2020 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -946,11 +946,35 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 
 (./tex/abstract.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
  [-1
 
 
-])
+]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 14.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (33.07843pt too wide) in paragraph at lines 14--14
+\OT1/pcr/m/n/12 approxposterior \OT1/ptm/m/n/12 to the TRAPPIST-1 in-fer-ence p
+rob-lem and demon-strate that \OT1/pcr/m/n/12 approxposterior
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 }
+       [0]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 }
+       [1])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 170.
  (./thesis.toc
@@ -992,12 +1016,7 @@ l.28 ...ne {2.8}Acknowledgements}{40}{section.2.8}
 
 
 
-]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 33.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) ha
+]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1092,14 +1111,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1924) has occurred while \output is active []
 
  [9]
-<tex/CBDisk/f1.pdf, id=1220, 650.43pt x 578.16pt>
+<tex/CBDisk/f1.pdf, id=1229, 650.43pt x 578.16pt>
 File: tex/CBDisk/f1.pdf Graphic file (type pdf)
  <use tex/CBDisk/f1.pdf>
 Package pdftex.def Info: tex/CBDisk/f1.pdf used on input line 170.
 (pdftex.def)             Requested size: 470.295pt x 418.0481pt.
 
 [10] [11 <./tex/CBDisk/f1.pdf>]
-<tex/CBDisk/f2.pdf, id=1253, 650.43pt x 578.16pt>
+<tex/CBDisk/f2.pdf, id=1263, 650.43pt x 578.16pt>
 File: tex/CBDisk/f2.pdf Graphic file (type pdf)
  <use tex/CBDisk/f2.pdf>
 Package pdftex.def Info: tex/CBDisk/f2.pdf used on input line 241.
@@ -1109,28 +1128,28 @@ Package pdftex.def Info: tex/CBDisk/f2.pdf used on input line 241.
 Underfull \vbox (badness 7963) has occurred while \output is active []
 
  [14]
-<tex/CBDisk/f3.pdf, id=1304, 650.43pt x 578.16pt>
+<tex/CBDisk/f3.pdf, id=1313, 650.43pt x 578.16pt>
 File: tex/CBDisk/f3.pdf Graphic file (type pdf)
  <use tex/CBDisk/f3.pdf>
 Package pdftex.def Info: tex/CBDisk/f3.pdf used on input line 279.
 (pdftex.def)             Requested size: 470.295pt x 418.0481pt.
 
 [15] [16 <./tex/CBDisk/f3.pdf>]
-<tex/CBDisk/f4.pdf, id=1329, 650.43pt x 578.16pt>
+<tex/CBDisk/f4.pdf, id=1338, 650.43pt x 578.16pt>
 File: tex/CBDisk/f4.pdf Graphic file (type pdf)
  <use tex/CBDisk/f4.pdf>
 Package pdftex.def Info: tex/CBDisk/f4.pdf used on input line 300.
 (pdftex.def)             Requested size: 470.295pt x 418.0481pt.
 
 [17] [18 <./tex/CBDisk/f4.pdf>]
-<tex/CBDisk/f5.pdf, id=1359, 1030.85126pt x 462.72874pt>
+<tex/CBDisk/f5.pdf, id=1369, 1030.85126pt x 462.72874pt>
 File: tex/CBDisk/f5.pdf Graphic file (type pdf)
 
 <use tex/CBDisk/f5.pdf>
 Package pdftex.def Info: tex/CBDisk/f5.pdf used on input line 351.
 (pdftex.def)             Requested size: 470.295pt x 211.10675pt.
  [19] [20 <./tex/CBDisk/f5.pdf>]
-<tex/CBDisk/f6.pdf, id=1377, 1030.85126pt x 920.43875pt>
+<tex/CBDisk/f6.pdf, id=1386, 1030.85126pt x 920.43875pt>
 File: tex/CBDisk/f6.pdf Graphic file (type pdf)
 
 <use tex/CBDisk/f6.pdf>
@@ -1140,7 +1159,7 @@ Package pdftex.def Info: tex/CBDisk/f6.pdf used on input line 381.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
-<tex/CBDisk/f7.pdf, id=1445, 650.43pt x 578.16pt>
+<tex/CBDisk/f7.pdf, id=1455, 650.43pt x 578.16pt>
 File: tex/CBDisk/f7.pdf Graphic file (type pdf)
  <use tex/CBDisk/f7.pdf>
 Package pdftex.def Info: tex/CBDisk/f7.pdf used on input line 438.
@@ -1149,7 +1168,7 @@ Package pdftex.def Info: tex/CBDisk/f7.pdf used on input line 438.
 Underfull \vbox (badness 7704) has occurred while \output is active []
 
  [24]
-[25 <./tex/CBDisk/f7.pdf>] <tex/CBDisk/f8.pdf, id=1479, 650.43pt x 578.16pt>
+[25 <./tex/CBDisk/f7.pdf>] <tex/CBDisk/f8.pdf, id=1488, 650.43pt x 578.16pt>
 File: tex/CBDisk/f8.pdf Graphic file (type pdf)
 
 <use tex/CBDisk/f8.pdf>
@@ -1159,7 +1178,7 @@ Package pdftex.def Info: tex/CBDisk/f8.pdf used on input line 470.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
-[29] [30] [31] [32] [33] <tex/CBDisk/f9.pdf, id=1632, 1156.32pt x 1011.78pt>
+[29] [30] [31] [32] [33] <tex/CBDisk/f9.pdf, id=1641, 1156.32pt x 1011.78pt>
 File: tex/CBDisk/f9.pdf Graphic file (type pdf)
 
 <use tex/CBDisk/f9.pdf>
@@ -1192,7 +1211,7 @@ Underfull \vbox (badness 5133) has occurred while \output is active []
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 46.
 
-<tex/STEEP/observed_acrit.pdf, id=1890, 569.51363pt x 512.69955pt>
+<tex/STEEP/observed_acrit.pdf, id=1899, 569.51363pt x 512.69955pt>
 File: tex/STEEP/observed_acrit.pdf Graphic file (type pdf)
 
 <use tex/STEEP/observed_acrit.pdf>
@@ -1213,7 +1232,7 @@ LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
 Underfull \vbox (badness 7047) has occurred while \output is active []
 
  [50]
-[51] <tex/STEEP/stellar_example.pdf, id=2053, 1091.86203pt x 512.69955pt>
+[51] <tex/STEEP/stellar_example.pdf, id=2062, 1091.86203pt x 512.69955pt>
 File: tex/STEEP/stellar_example.pdf Graphic file (type pdf)
 
 <use tex/STEEP/stellar_example.pdf>
@@ -1226,7 +1245,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55]
-[56] <tex/STEEP/eqtide_example.pdf, id=2171, 1073.59688pt x 512.69955pt>
+[56] <tex/STEEP/eqtide_example.pdf, id=2180, 1073.59688pt x 512.69955pt>
 File: tex/STEEP/eqtide_example.pdf Graphic file (type pdf)
 
 <use tex/STEEP/eqtide_example.pdf>
@@ -1244,7 +1263,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60]
-<tex/STEEP/conservation.pdf, id=2272, 1106.69919pt x 517.867pt>
+<tex/STEEP/conservation.pdf, id=2282, 1106.69919pt x 517.867pt>
 File: tex/STEEP/conservation.pdf Graphic file (type pdf)
 
 <use tex/STEEP/conservation.pdf>
@@ -1284,7 +1303,7 @@ l.372 \startdata
 ? 
 Table 3.2 has been set to width 470.295pt
 [67] [68] [69] [70]
-<tex/STEEP/example.pdf, id=2457, 479.28745pt x 1052.67644pt>
+<tex/STEEP/example.pdf, id=2466, 479.28745pt x 1052.67644pt>
 File: tex/STEEP/example.pdf Graphic file (type pdf)
 
 <use tex/STEEP/example.pdf>
@@ -1295,14 +1314,14 @@ Package pdftex.def Info: tex/STEEP/example.pdf used on input line 422.
 LaTeX Warning: Float too large for page by 20.36693pt on input line 425.
 
 [71] [72 <./tex/STEEP/example.pdf>] [73]
-<tex/STEEP/var_Q.pdf, id=2501, 1269.84422pt x 1116.57152pt>
+<tex/STEEP/var_Q.pdf, id=2510, 1269.84422pt x 1116.57152pt>
 File: tex/STEEP/var_Q.pdf Graphic file (type pdf)
 
 <use tex/STEEP/var_Q.pdf>
 Package pdftex.def Info: tex/STEEP/var_Q.pdf used on input line 440.
 (pdftex.def)             Requested size: 470.295pt x 413.53389pt.
  [74] [75 <./tex/STEEP/var_Q.pdf>]
-<tex/STEEP/var_rg.pdf, id=2530, 1249.64609pt x 1116.57152pt>
+<tex/STEEP/var_rg.pdf, id=2539, 1249.64609pt x 1116.57152pt>
 File: tex/STEEP/var_rg.pdf Graphic file (type pdf)
 
 <use tex/STEEP/var_rg.pdf>
@@ -1316,28 +1335,28 @@ n/12 /$\OML/ztmcm/m/it/12 a[]$\OT1/ptm/m/n/12 .
  []
 
 [76] [77 <./tex/STEEP/var_rg.pdf>]
-<tex/STEEP/var_MB.pdf, id=2574, 1269.84422pt x 1116.57152pt>
+<tex/STEEP/var_MB.pdf, id=2584, 1269.84422pt x 1116.57152pt>
 File: tex/STEEP/var_MB.pdf Graphic file (type pdf)
 
 <use tex/STEEP/var_MB.pdf>
 Package pdftex.def Info: tex/STEEP/var_MB.pdf used on input line 470.
 (pdftex.def)             Requested size: 470.295pt x 413.53389pt.
 
-<tex/STEEP/GG_contour.pdf, id=2590, 1250.91559pt x 538.67245pt>
+<tex/STEEP/GG_contour.pdf, id=2600, 1250.91559pt x 538.67245pt>
 File: tex/STEEP/GG_contour.pdf Graphic file (type pdf)
 
 <use tex/STEEP/GG_contour.pdf>
 Package pdftex.def Info: tex/STEEP/GG_contour.pdf used on input line 482.
 (pdftex.def)             Requested size: 470.295pt x 202.5195pt.
  [78] [79 <./tex/STEEP/var_MB.pdf>] [80 <./tex/STEEP/GG_contour.pdf>] <tex/STEE
-P/mc_uniform.pdf, id=2639, 650.43pt x 578.16pt>
+P/mc_uniform.pdf, id=2648, 650.43pt x 578.16pt>
 File: tex/STEEP/mc_uniform.pdf Graphic file (type pdf)
 
 <use tex/STEEP/mc_uniform.pdf>
 Package pdftex.def Info: tex/STEEP/mc_uniform.pdf used on input line 500.
 (pdftex.def)             Requested size: 470.295pt x 418.0481pt.
  [81] [82 <./tex/STEEP/mc_uniform.pdf>]
-<tex/STEEP/ecc_comp.pdf, id=2665, 479.28745pt x 1056.8022pt>
+<tex/STEEP/ecc_comp.pdf, id=2675, 479.28745pt x 1056.8022pt>
 File: tex/STEEP/ecc_comp.pdf Graphic file (type pdf)
 
 <use tex/STEEP/ecc_comp.pdf>
@@ -1360,7 +1379,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 517.
 
 [83] [84 <./tex/STEEP/ecc_comp.pdf>]
-<tex/STEEP/obs_acrit.pdf, id=2718, 1103.32747pt x 517.867pt>
+<tex/STEEP/obs_acrit.pdf, id=2728, 1103.32747pt x 517.867pt>
 File: tex/STEEP/obs_acrit.pdf Graphic file (type pdf)
 
 <use tex/STEEP/obs_acrit.pdf>
@@ -1370,14 +1389,14 @@ Package pdftex.def Info: tex/STEEP/obs_acrit.pdf used on input line 530.
 Underfull \vbox (badness 5231) has occurred while \output is active []
 
  [85 <./tex/STEEP/obs_acrit.pdf>]
-<tex/STEEP/acrit_hist.pdf, id=2738, 601.17726pt x 493.91518pt>
+<tex/STEEP/acrit_hist.pdf, id=2747, 601.17726pt x 493.91518pt>
 File: tex/STEEP/acrit_hist.pdf Graphic file (type pdf)
 
 <use tex/STEEP/acrit_hist.pdf>
 Package pdftex.def Info: tex/STEEP/acrit_hist.pdf used on input line 540.
 (pdftex.def)             Requested size: 470.295pt x 386.39029pt.
 
-<tex/STEEP/opt.pdf, id=2743, 1261.11153pt x 1117.71863pt>
+<tex/STEEP/opt.pdf, id=2752, 1261.11153pt x 1117.71863pt>
 File: tex/STEEP/opt.pdf Graphic file (type pdf)
 
 <use tex/STEEP/opt.pdf>
@@ -1420,7 +1439,7 @@ Overfull \hbox (43.13602pt too wide) in paragraph at lines 611--611
 
 Table 3.4 has been set to width 513.43102pt
 [91] [92] [93]
-<tex/STEEP/nbody_transit.pdf, id=2846, 1485.85976pt x 509.96681pt>
+<tex/STEEP/nbody_transit.pdf, id=2855, 1485.85976pt x 509.96681pt>
 File: tex/STEEP/nbody_transit.pdf Graphic file (type pdf)
 
 <use tex/STEEP/nbody_transit.pdf>
@@ -1430,7 +1449,7 @@ Package pdftex.def Info: tex/STEEP/nbody_transit.pdf used on input line 628.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [94 <./tex/STEEP/nbody_transit.pdf>] [95]
-<tex/STEEP/kepler47.pdf, id=2885, 1103.32747pt x 512.69955pt>
+<tex/STEEP/kepler47.pdf, id=2896, 1103.32747pt x 512.69955pt>
 File: tex/STEEP/kepler47.pdf Graphic file (type pdf)
 
 <use tex/STEEP/kepler47.pdf>
@@ -1454,7 +1473,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [108]
-<tex/sync/stellarExample.pdf, id=3230, 1406.63518pt x 390.44763pt>
+<tex/sync/stellarExample.pdf, id=3240, 1406.63518pt x 390.44763pt>
 File: tex/sync/stellarExample.pdf Graphic file (type pdf)
 
 <use tex/sync/stellarExample.pdf>
@@ -1469,7 +1488,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [112]
 [113] [114] [115]
-<tex/sync/tidalExample.pdf, id=3421, 401.35947pt x 1050.3881pt>
+<tex/sync/tidalExample.pdf, id=3430, 401.35947pt x 1050.3881pt>
 File: tex/sync/tidalExample.pdf Graphic file (type pdf)
 
 <use tex/sync/tidalExample.pdf>
@@ -1487,14 +1506,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 5133) has occurred while \output is active []
 
  [119]
-<tex/sync/analyticTorque.pdf, id=3556, 445.66083pt x 341.76279pt>
+<tex/sync/analyticTorque.pdf, id=3566, 445.66083pt x 341.76279pt>
 File: tex/sync/analyticTorque.pdf Graphic file (type pdf)
 
 <use tex/sync/analyticTorque.pdf>
 Package pdftex.def Info: tex/sync/analyticTorque.pdf used on input line 283.
 (pdftex.def)             Requested size: 470.295pt x 360.65543pt.
  [120] [121 <./tex/sync/analyticTorque.pdf>]
-<tex/sync/eqPerTwoPanelMatt.pdf, id=3599, 968.05089pt x 395.56361pt>
+<tex/sync/eqPerTwoPanelMatt.pdf, id=3608, 968.05089pt x 395.56361pt>
 File: tex/sync/eqPerTwoPanelMatt.pdf Graphic file (type pdf)
 
 <use tex/sync/eqPerTwoPanelMatt.pdf>
@@ -1534,7 +1553,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 322.
 
-[124] <tex/sync/qTauPorbRatioHist.pdf, id=3653, 1243.36003pt x 550.59492pt>
+[124] <tex/sync/qTauPorbRatioHist.pdf, id=3662, 1243.36003pt x 550.59492pt>
 File: tex/sync/qTauPorbRatioHist.pdf Graphic file (type pdf)
 
 <use tex/sync/qTauPorbRatioHist.pdf>
@@ -1542,7 +1561,7 @@ Package pdftex.def Info: tex/sync/qTauPorbRatioHist.pdf used on input line 331.
 
 (pdftex.def)             Requested size: 470.295pt x 208.26208pt.
 
-<tex/sync/porbProtPorbQHist.pdf, id=3654, 690.74002pt x 531.53072pt>
+<tex/sync/porbProtPorbQHist.pdf, id=3663, 690.74002pt x 531.53072pt>
 File: tex/sync/porbProtPorbQHist.pdf Graphic file (type pdf)
 
 <use tex/sync/porbProtPorbQHist.pdf>
@@ -1554,7 +1573,7 @@ Underfull \vbox (badness 6961) has occurred while \output is active []
 
  [125 <./tex/sync/qTauPorbRatioHist.pdf>] [126 <./tex/sync/porbProtPorbQHist.pd
 f>]
-<tex/sync/porbProtPorbTauHist.pdf, id=3698, 710.1845pt x 531.53072pt>
+<tex/sync/porbProtPorbTauHist.pdf, id=3709, 710.1845pt x 531.53072pt>
 File: tex/sync/porbProtPorbTauHist.pdf Graphic file (type pdf)
 
 <use tex/sync/porbProtPorbTauHist.pdf>
@@ -1562,7 +1581,7 @@ Package pdftex.def Info: tex/sync/porbProtPorbTauHist.pdf used on input line 35
 0.
 (pdftex.def)             Requested size: 470.295pt x 351.99548pt.
  [127] [128 <./tex/sync/porbProtPorbTauHist.pdf>] <tex/sync/eqPerShortPorbMatt.
-pdf, id=3742, 591.50006pt x 529.05835pt>
+pdf, id=3751, 591.50006pt x 529.05835pt>
 File: tex/sync/eqPerShortPorbMatt.pdf Graphic file (type pdf)
 
 <use tex/sync/eqPerShortPorbMatt.pdf>
@@ -1583,21 +1602,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 374.
 
 [129] [130 <./tex/sync/eqPerShortPorbMatt.pdf>]
-<tex/sync/lockedCPL.pdf, id=3795, 596.06pt x 553.29826pt>
+<tex/sync/lockedCPL.pdf, id=3804, 596.06pt x 553.29826pt>
 File: tex/sync/lockedCPL.pdf Graphic file (type pdf)
 
 <use tex/sync/lockedCPL.pdf>
 Package pdftex.def Info: tex/sync/lockedCPL.pdf used on input line 379.
 (pdftex.def)             Requested size: 470.295pt x 436.56894pt.
 
-<tex/sync/lockedCTL.pdf, id=3798, 596.06pt x 553.29826pt>
+<tex/sync/lockedCTL.pdf, id=3807, 596.06pt x 553.29826pt>
 File: tex/sync/lockedCTL.pdf Graphic file (type pdf)
 
 <use tex/sync/lockedCTL.pdf>
 Package pdftex.def Info: tex/sync/lockedCTL.pdf used on input line 387.
 (pdftex.def)             Requested size: 470.295pt x 436.56894pt.
  [131] [132 <./tex/sync/lockedCPL.pdf>] [133 <./tex/sync/lockedCTL.pdf>]
-<tex/sync/lockedProtHist.pdf, id=3857, 609.16475pt x 539.36626pt>
+<tex/sync/lockedProtHist.pdf, id=3866, 609.16475pt x 539.36626pt>
 File: tex/sync/lockedProtHist.pdf Graphic file (type pdf)
 
 <use tex/sync/lockedProtHist.pdf>
@@ -1616,7 +1635,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 402.
 
-<tex/sync/protDist.pdf, id=3861, 1774.16574pt x 637.65909pt>
+<tex/sync/protDist.pdf, id=3870, 1774.16574pt x 637.65909pt>
 File: tex/sync/protDist.pdf Graphic file (type pdf)
 
 <use tex/sync/protDist.pdf>
@@ -1624,7 +1643,7 @@ Package pdftex.def Info: tex/sync/protDist.pdf used on input line 407.
 (pdftex.def)             Requested size: 470.295pt x 169.0275pt.
  [134] [135 <./tex/sync/lockedProtHist.pdf>]
 [136 <./tex/sync/protDist.pdf>]
-<tex/sync/gyro.pdf, id=3922, 858.48335pt x 420.42375pt>
+<tex/sync/gyro.pdf, id=3931, 858.48335pt x 420.42375pt>
 File: tex/sync/gyro.pdf Graphic file (type pdf)
 
 <use tex/sync/gyro.pdf>
@@ -1634,14 +1653,14 @@ Package pdftex.def Info: tex/sync/gyro.pdf used on input line 419.
 Underfull \vbox (badness 6575) has occurred while \output is active []
 
  [137 <./tex/sync/gyro.pdf>]
-<tex/sync/protAgeHist.pdf, id=3947, 594.15659pt x 526.36328pt>
+<tex/sync/protAgeHist.pdf, id=3957, 594.15659pt x 526.36328pt>
 File: tex/sync/protAgeHist.pdf Graphic file (type pdf)
 
 <use tex/sync/protAgeHist.pdf>
 Package pdftex.def Info: tex/sync/protAgeHist.pdf used on input line 429.
 (pdftex.def)             Requested size: 470.295pt x 416.64969pt.
  [138] [139 <./tex/sync/protAgeHist.pdf>]
-[140] <tex/sync/lurieFig7.pdf, id=4006, 1492.6788pt x 490.3341pt>
+[140] <tex/sync/lurieFig7.pdf, id=4015, 1492.6788pt x 490.3341pt>
 File: tex/sync/lurieFig7.pdf Graphic file (type pdf)
 
 <use tex/sync/lurieFig7.pdf>
@@ -1684,7 +1703,7 @@ tmcm/m/n/12 L$\OT1/ptm/m/n/12 , is computationally-expensive to run, and hence
 \OT1/pcr/m/n/12 approxposterior
  []
 
-[151] <tex/approxposterior/points.pdf, id=4197, 835.92433pt x 850.29718pt>
+[151] <tex/approxposterior/points.pdf, id=4206, 835.92433pt x 850.29718pt>
 File: tex/approxposterior/points.pdf Graphic file (type pdf)
 
 <use tex/approxposterior/points.pdf>
@@ -1706,7 +1725,7 @@ Overfull \hbox (9.41455pt too wide) in paragraph at lines 78--79
 /ptm/m/n/12 run pre-sented in the main text. \OT1/pcr/m/n/12 approxposterior
  []
 
-<tex/approxposterior/convergence.pdf, id=4306, 461.20616pt x 400.37852pt>
+<tex/approxposterior/convergence.pdf, id=4315, 461.20616pt x 400.37852pt>
 File: tex/approxposterior/convergence.pdf Graphic file (type pdf)
 
 <use tex/approxposterior/convergence.pdf>
@@ -1767,7 +1786,7 @@ $ \OT1/ptm/m/n/12 through-out its life-time as we find $\OML/ztmcm/m/it/12 f[]
 :\OT1/ztmcm/m/n/12 03[]$
  []
 
-[166] <tex/trappist/trappist1Corner.pdf, id=4644, 835.92433pt x 853.15926pt>
+[166] <tex/trappist/trappist1Corner.pdf, id=4653, 835.92433pt x 853.15926pt>
 File: tex/trappist/trappist1Corner.pdf Graphic file (type pdf)
 
 <use tex/trappist/trappist1Corner.pdf>
@@ -1775,14 +1794,14 @@ Package pdftex.def Info: tex/trappist/trappist1Corner.pdf used on input line 13
 0.
 (pdftex.def)             Requested size: 470.295pt x 479.99202pt.
  [167] [168 <./tex/trappist/trappist1Corner.pdf>] <tex/trappist/apCorner.pdf, i
-d=4731, 835.92433pt x 850.29718pt>
+d=4741, 835.92433pt x 850.29718pt>
 File: tex/trappist/apCorner.pdf Graphic file (type pdf)
 
 <use tex/trappist/apCorner.pdf>
 Package pdftex.def Info: tex/trappist/apCorner.pdf used on input line 150.
 (pdftex.def)             Requested size: 470.295pt x 478.3818pt.
  [169] [170 <./tex/trappist/apCorner.pdf>]
-<tex/trappist/stacked.pdf, id=4810, 835.53194pt x 830.38754pt>
+<tex/trappist/stacked.pdf, id=4819, 835.53194pt x 830.38754pt>
 File: tex/trappist/stacked.pdf Graphic file (type pdf)
 
 <use tex/trappist/stacked.pdf>
@@ -1806,7 +1825,7 @@ Overfull \hbox (9.18456pt too wide) in alignment at lines 181--188
  []
 
 Table 6.2 has been set to width 470.295pt
-<tex/trappist/trappist1Evol.pdf, id=4814, 1482.41168pt x 396.07915pt>
+<tex/trappist/trappist1Evol.pdf, id=4823, 1482.41168pt x 396.07915pt>
 File: tex/trappist/trappist1Evol.pdf Graphic file (type pdf)
 
 <use tex/trappist/trappist1Evol.pdf>
@@ -1815,7 +1834,7 @@ Package pdftex.def Info: tex/trappist/trappist1Evol.pdf used on input line 197.
 (pdftex.def)             Requested size: 470.295pt x 125.654pt.
  [171] [172 <./tex/trappist/stacked.pdf>]
 [173 <./tex/trappist/trappist1Evol.pdf>] [174]
-<tex/trappist/fluxes.pdf, id=4913, 421.9784pt x 453.26088pt>
+<tex/trappist/fluxes.pdf, id=4923, 421.9784pt x 453.26088pt>
 File: tex/trappist/fluxes.pdf Graphic file (type pdf)
 
 <use tex/trappist/fluxes.pdf>
@@ -1861,7 +1880,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
 Here is how much of TeX's memory you used:
  21819 strings out of 493014
  382525 string characters out of 6133351
- 549843 words of memory out of 5000000
+ 549885 words of memory out of 5000000
  24219 multiletter control sequences out of 15000+600000
  81191 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1887,10 +1906,10 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (227 pages, 19570091 bytes).
+Output written on thesis.pdf (229 pages, 19573947 bytes).
 PDF statistics:
- 5373 PDF objects out of 6186 (max. 8388607)
- 4780 compressed objects within 48 object streams
+ 5383 PDF objects out of 6186 (max. 8388607)
+ 4788 compressed objects within 48 object streams
  761 named destinations out of 1000 (max. 500000)
  1020 words of extra memory for PDF output out of 10000 (max. 10000000)
 
