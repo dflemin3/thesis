@@ -1,24 +1,8 @@
 \textit{Portions of this chapter were originally published in collaboration with Thomas R. Quinn in the January 2017 edition of the Monthly Notices of the Royal Astronomical Society (Fleming and Quinn 2017, MNRAS, Vol. 464, 3; p.3343-3356, 2017 \textcopyright \ Monthly Notices of the Royal Astronomical Society, DOI: 10.1093/mnras/stw2624), and are reproduced below with permission of the Monthly Notices of the Royal Astronomical Society.}
 
-\section{Chapter Abstract}
-The recent discoveries of circumbinary planets by $\it Kepler$ raise questions for contemporary planet formation
-models.  Understanding how these planets form requires characterizing their formation environment, the circumbinary protoplanetary disc,
-and how the disc and binary interact and change as a result.  The central binary excites resonances in the surrounding
-protoplanetary disc that drive evolution in both the binary orbital elements and in the
-disc.  To probe how these interactions impact binary eccentricity and disk structure evolution, N-body smooth particle
-hydrodynamics (SPH) simulations of gaseous protoplanetary disks
-surrounding binaries based on Kepler 38 were run for $10^4$ binary
-periods for several initial binary eccentricities.  We find that
-nearly circular binaries weakly couple to the disc via a parametric
-instability and excite disc eccentricity growth.  Eccentric binaries strongly couple to the disc
-causing eccentricity growth for both the disc and binary.
-Disks around sufficiently eccentric binaries that strongly couple to the disc develop an
-$m = 1$ spiral wave launched from the 1:3 eccentric outer Lindblad
-resonance (EOLR) that corresponds to an alignment of gas
-particle longitude of periastrons. All systems display binary semi-major axis decay due to dissipation from the
-viscous disc. 
-
 \section{Introduction}
+
+All planets form, accrete, and evolve in protoplanetary disks \citep[e.g.][]{Lin1996,Nelson2000,Papaloizou2006,Rogers2011,Bodenheimer2014}, so any study the observed properties and evolutionary histories of exoplanets must include a discussion of their birth environment.  Protoplanetary disks are dynamically active environments, with the potential for planetary migration and scattering events that can shape the resultant exoplanetary system.  Circumbinary protoplanetary disks are particularly dynamically hot environments as all the aforementioned phenomenon can occur \citep[e.g.][]{Pierens2013}, with the added complication of dynamical coupling between the binary and disk \citep{Papaloizou2001}.  This coupling influences both the binary orbital elements and the disk dynamics, constituting a complex interplay that influences the birth location of circumbinary planets (CBPs).  Moreover, while binary stars are embedded in their natal circumbinary disks, the stars contract along the pre-main sequence and tides shape the binary's orbit, producing complex, dynamically active evolutionary histories for binary star systems and any exoplanets they may host.  In this Chapter, I examine the dynamical coupling of binaries and their gaseous protoplanetary circumbinary disks to characterize their coevolution.
 
 Observations by $Kepler$ of binary systems have so far yielded 11 transiting circumbinary planets.  Until recently, all discovered circumbinary planets have resided near to or outside the dynamical stability limit characterized by \citet{Dvorak1986,Holman1999}.  This
 finding has prompted many to study how planets form in such systems and why they seem biased towards lying at the brink of dynamical instability \citep{Welsh2014,Pierens2013}.  Simulations and theoretical arguments by \citet{Pelupessy2013} and \citet{Bromley2015} rule out in situ formation

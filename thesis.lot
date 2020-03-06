@@ -1,7 +1,7 @@
 \addvspace {5\p@ }
 \addvspace {5\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Kepler 38 parameters adapted from \citet {Orosz2012}.\relax }}{7}{table.caption.6}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Simulation parameters.\relax }}{10}{table.caption.8}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Kepler 38 parameters adapted from \citet {Orosz2012}.\relax }}{8}{table.caption.6}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Simulation parameters.\relax }}{11}{table.caption.8}
 \addvspace {5\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Parameter Ranges \relax }}{63}{table.3.1}
 \contentsline {table}{\numberline {3.2}{\ignorespaces N-body Simulation Initial Condition Ranges \relax }}{68}{table.3.2}
@@ -10,6 +10,6 @@
 \addvspace {5\p@ }
 \addvspace {5\p@ }
 \addvspace {5\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Prior Distributions \relax }}{163}{table.6.1}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Prior Distributions \relax }}{164}{table.6.1}
 \contentsline {table}{\numberline {6.2}{\ignorespaces Parameter Constraints and Errors \relax }}{173}{table.6.2}
 \addvspace {5\p@ }

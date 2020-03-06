@@ -195,6 +195,12 @@
 \newblock {An emulator for the Lyman-{$\alpha$} forest}.
 \newblock {\em \jcap}, 2:050.
 
+\bibitem[{Bodenheimer} and {Lissauer}, 2014]{Bodenheimer2014}
+{Bodenheimer}, P. and {Lissauer}, J.~J. (2014).
+\newblock {Accretion and Evolution of \~{}2.5 M $_{⊕}$ Planets with
+  Voluminous H/He Envelopes}.
+\newblock {\em \apj}, 791:103.
+
 \bibitem[{Bolmont} et~al., 2017]{Bolmont2017}
 {Bolmont}, E., {Gallet}, F., {Mathis}, S., {Charbonnel}, C., {Amard}, L., and
   {Alibert}, Y. (2017).
@@ -301,6 +307,15 @@
   detached eclipsing binaries.I. Using the formalism by Tassoul.}
 \newblock {\em \aap}, 299:724.
 
+\bibitem[{Cobb} et~al., 2019]{Cobb2019}
+{Cobb}, A.~D., {Himes}, M.~D., {Soboczenski}, F., {Zorzan}, S., {O'Beirne},
+  M.~D., {G{\"u}ne{\textcommabelow s} Baydin}, A., {Gal}, Y.,
+  {Domagal-Goldman}, S.~D., {Arney}, G.~N., {Angerhausen}, D., and {2018 NASA
+  FDL Astrobiology Team}, I. (2019).
+\newblock {An Ensemble of Bayesian Neural Networks for Exoplanetary Atmospheric
+  Retrieval}.
+\newblock {\em \aj}, 158(1):33.
+
 \bibitem[{Counselman}, 1973]{Counselman1973}
 {Counselman}, III, C.~C. (1973).
 \newblock {Outcomes of Tidal Evolution}.
@@ -311,6 +326,12 @@
 \newblock {Testing a Predictive Theoretical Model for the Mass Loss Rates of
   Cool Stars}.
 \newblock {\em \apj}, 741:54.
+
+\bibitem[{Crisp}, 1997]{Crisp1997}
+{Crisp}, D. (1997).
+\newblock {Absorption of sunlight by water vapor in cloudy conditions: A
+  partial explanation for the cloud absorption anomaly}.
+\newblock {\em \grl}, 24:571--574.
 
 \bibitem[{Cuadra} et~al., 2009]{Cuadra2009}
 {Cuadra}, J., {Armitage}, P.~J., {Alexander}, R.~D., and {Begelman}, M.~C.
@@ -427,6 +448,13 @@ Delfosse, X., Forveille, T., Perrier, C., and Mayor, M. (1998).
 \newblock {Tidal friction in close-in satellites and exoplanets: The Darwin
   theory re-visited}.
 \newblock {\em Celestial Mechanics and Dynamical Astronomy}, 101:171--201.
+
+\bibitem[{Fisher} et~al., 2019]{Fisher2019}
+{Fisher}, C., {Hoeijmakers}, H.~J., {Kitzmann}, D., {M{\'a}rquez-Neila}, P.,
+  {Grimm}, S.~L., {Sznitman}, R., and {Heng}, K. (2019).
+\newblock {Interpreting High-Resolution Spectroscopy of Exoplanets Using
+  Cross-Correlations and Supervised Machine Learning}.
+\newblock {\em arXiv e-prints}, page arXiv:1910.11627.
 
 \bibitem[Flegal et~al., 2008]{Flegal2008}
 Flegal, J.~M., Haran, M., and Jones, G.~L. (2008).
@@ -620,6 +648,14 @@ Flegal, J.~M. and Jones, G.~L. (2010).
   {Wackermann}, R. (2002).
 \newblock {Stellar rotation and variability in the Orion Nebula Cluster}.
 \newblock {\em \aap}, 396:513--532.
+
+\bibitem[{Himes} et~al., 2020]{Himes2020}
+{Himes}, M.~D., {Harrington}, J., {Cobb}, A.~D., {Gunes Baydin}, A.,
+  {Soboczenski}, F., {O'Beirne}, M.~D., {Zorzan}, S., {Wright}, D.~C.,
+  {Scheffer}, Z., {Domagal-Goldman}, S.~D., and {Arney}, G.~N. (2020).
+\newblock {Accurate Machine Learning Atmospheric Retrieval via a Neural Network
+  Surrogate Model for Radiative Transfer}.
+\newblock {\em arXiv e-prints}, page arXiv:2003.02430.
 
 \bibitem[{Holman} and {Wiegert}, 1999]{Holman1999}
 {Holman}, M.~J. and {Wiegert}, P.~A. (1999).
@@ -830,6 +866,12 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
   the action of gravitational perturbations of external bodies}.
 \newblock {\em \planss}, 9(10):719--759.
 
+\bibitem[{Lin} et~al., 1996]{Lin1996}
+{Lin}, D.~N.~C., {Bodenheimer}, P., and {Richardson}, D.~C. (1996).
+\newblock {Orbital migration of the planetary companion of 51 Pegasi to its
+  present location}.
+\newblock {\em \nat}, 380:606--607.
+
 \bibitem[{Lincowski} et~al., 2018]{Lincowski2018}
 {Lincowski}, A.~P., {Meadows}, V.~S., {Crisp}, D., {Robinson}, T.~D., {Luger},
   R., {Lustig-Yaeger}, J., and {Arney}, G.~N. (2018).
@@ -943,6 +985,12 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 \newblock {Rotational periods of solar-mass young stars in Orion}.
 \newblock {\em \aap}, 463:1081--1091.
 
+\bibitem[{M{\'a}rquez-Neila} et~al., 2018]{MarquezNeila2018}
+{M{\'a}rquez-Neila}, P., {Fisher}, C., {Sznitman}, R., and {Heng}, K. (2018).
+\newblock {Supervised machine learning for analysing spectra of exoplanetary
+  atmospheres}.
+\newblock {\em Nature Astronomy}, 2:719--724.
+
 \bibitem[{Martin}, 2017]{Martin2017}
 {Martin}, D.~V. (2017).
 \newblock {Circumbinary planets - II. When transits come and go}.
@@ -1025,6 +1073,12 @@ McKinney, W. (2010).
 \newblock {Rotation Periods of 34,030 Kepler Main-sequence Stars: The Full
   Autocorrelation Sample}.
 \newblock {\em \apjs}, 211:24.
+
+\bibitem[{Meadows} and {Crisp}, 1996]{Meadows1996}
+{Meadows}, V.~S. and {Crisp}, D. (1996).
+\newblock {Ground-based near-infrared observations of the Venus nightside: The
+  thermal structure and water abundance near the surface}.
+\newblock {\em \jgr}, 101:4595--4622.
 
 \bibitem[{Meibom} et~al., 2015]{Meibom2015}
 {Meibom}, S., {Barnes}, S.~A., {Platais}, I., {Gilliland}, R.~L., {Latham},
@@ -1148,6 +1202,11 @@ Nelder, J.~A. and Mead, R. (1965).
   II. The interaction of the planet with the disc}.
 \newblock {\em \mnras}, 339(4):993--1005.
 
+\bibitem[{Nelson} et~al., 2000]{Nelson2000}
+{Nelson}, R.~P., {Papaloizou}, J.~C.~B., {Masset}, F., and {Kley}, W. (2000).
+\newblock {The migration and growth of protoplanets in protostellar discs}.
+\newblock {\em \mnras}, 318:18--36.
+
 \bibitem[{Nixon} et~al., 2013]{Nixon2013}
 {Nixon}, C., {King}, A., and {Price}, D. (2013).
 \newblock {Tearing up the disc: misaligned accretion on to a binary}.
@@ -1189,6 +1248,11 @@ Nelder, J.~A. and Mead, R. (1965).
 \newblock {Orbital eccentricity growth through disc-companion tidal
   interaction}.
 \newblock {\em \aap}, 366:263--275.
+
+\bibitem[{Papaloizou} and {Terquem}, 2006]{Papaloizou2006}
+{Papaloizou}, J.~C.~B. and {Terquem}, C. (2006).
+\newblock {Planet formation and migration}.
+\newblock {\em Reports on Progress in Physics}, 69:119--180.
 
 \bibitem[{Parker}, 1955]{Parker1955}
 {Parker}, E.~N. (1955).
@@ -1375,6 +1439,14 @@ Powell, M. J.~D. (1964).
   compact binaries}.
 \newblock {\em \mnras}, 444:542--557.
 
+\bibitem[{Ribas} et~al., 2016]{Ribas2016}
+{Ribas}, I., {Bolmont}, E., {Selsis}, F., {Reiners}, A., {Leconte}, J.,
+  {Raymond}, S.~N., {Engle}, S.~G., {Guinan}, E.~F., {Morin}, J., {Turbet}, M.,
+  {Forget}, F., and {Anglada-Escud{\'e}}, G. (2016).
+\newblock {The habitability of Proxima Centauri b. I. Irradiation, rotation and
+  volatile inventory from formation to the present}.
+\newblock {\em A{\&}A}, 596:A111.
+
 \bibitem[{Ribas} et~al., 2005]{Ribas2005}
 {Ribas}, I., {Guinan}, E.~F., {G{\"u}del}, M., and {Audard}, M. (2005).
 \newblock {Evolution of the Solar Activity over Time and Effects on Planetary
@@ -1434,6 +1506,11 @@ Powell, M. J.~D. (1964).
 \newblock {The Stellar Activity of TRAPPIST-1 and Consequences for the
   Planetary Atmospheres}.
 \newblock {\em \apj}, 851:77.
+
+\bibitem[{Rogers} et~al., 2011]{Rogers2011}
+{Rogers}, L.~A., {Bodenheimer}, P., {Lissauer}, J.~J., and {Seager}, S. (2011).
+\newblock {Formation and Structure of Low-density exo-Neptunes}.
+\newblock {\em \apj}, 738:59.
 
 \bibitem[{Ro{\v{s}}kar} et~al., 2015]{Roskar2015}
 {Ro{\v{s}}kar}, R., {Fiacconi}, D., {Mayer}, L., {Kazantzidis}, S., {Quinn},
@@ -1631,6 +1708,11 @@ van~der Walt, S., Colbert, S.~C., and Varoquaux, G. (2011).
 \newblock {Gasoline: a flexible, parallel implementation of TreeSPH}.
 \newblock {\em \na}, 9(2):137--158.
 
+\bibitem[{Waldmann}, 2016]{Waldmann2016}
+{Waldmann}, I.~P. (2016).
+\newblock {Dreaming of Atmospheres}.
+\newblock {\em \apj}, 820(2):107.
+
 \bibitem[Wang and Li, 2018]{Wang2018}
 Wang, H. and Li, J. (2018).
 \newblock Adaptive gaussian process approximation for bayesian inference with
@@ -1756,5 +1838,11 @@ Wang, H. and Li, J. (2018).
 \newblock {Orbital and Mass Ratio Evolution of Protobinaries Driven by Magnetic
   Braking}.
 \newblock {\em \apj}, 763:7.
+
+\bibitem[{Zingales} and {Waldmann}, 2018]{Zingales2018}
+{Zingales}, T. and {Waldmann}, I.~P. (2018).
+\newblock {ExoGAN: Retrieving Exoplanetary Atmospheres Using Deep Convolutional
+  Generative Adversarial Networks}.
+\newblock {\em \aj}, 156(6):268.
 
 \end{thebibliography}
