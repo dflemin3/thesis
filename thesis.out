@@ -70,25 +70,28 @@
 \BOOKMARK [1][-]{section.4.6}{Acknowledgments}{chapter.4}% 70
 \BOOKMARK [1][-]{section.4.7}{Analytic Torque Balance}{chapter.4}% 71
 \BOOKMARK [0][-]{chapter.5}{Bayesian Inference with Slow Models using approxposterior}{}% 72
-\BOOKMARK [1][-]{section.5.1}{Bayesian Inference with Computationally-Expensive Models}{chapter.5}% 73
+\BOOKMARK [1][-]{section.5.1}{Introduction: Bayesian Inference with Computationally-Expensive Models}{chapter.5}% 73
 \BOOKMARK [1][-]{section.5.2}{Fast and Accurate Approximate Bayesian Inference with approxposterior}{chapter.5}% 74
 \BOOKMARK [1][-]{section.5.3}{approxposterior Algorithm}{chapter.5}% 75
-\BOOKMARK [1][-]{section.5.4}{Augmenting the Training Set}{chapter.5}% 76
-\BOOKMARK [1][-]{section.5.5}{Convergence}{chapter.5}% 77
-\BOOKMARK [1][-]{section.5.6}{Future Applications: Terrestrial Exoplanet Atmospheric Retrieval}{chapter.5}% 78
-\BOOKMARK [0][-]{chapter.6}{Inferring the XUV History of the TRAPPIST-1 Planetary System}{}% 79
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 80
-\BOOKMARK [1][-]{section.6.2}{Methods}{chapter.6}% 81
-\BOOKMARK [2][-]{subsection.6.2.1}{Simulating XUV Evolution with VPLanet}{section.6.2}% 82
-\BOOKMARK [2][-]{subsection.6.2.2}{Markov Chain Monte Carlo Analysis}{section.6.2}% 83
-\BOOKMARK [2][-]{subsection.6.2.3}{Prior Probability Distributions}{section.6.2}% 84
-\BOOKMARK [2][-]{subsection.6.2.4}{Likelihood Function and Convergence}{section.6.2}% 85
-\BOOKMARK [2][-]{subsection.6.2.5}{Inference with approxposterior}{section.6.2}% 86
-\BOOKMARK [1][-]{section.6.3}{Results}{chapter.6}% 87
-\BOOKMARK [2][-]{subsection.6.3.1}{The Evolution of TRAPPIST-1}{section.6.3}% 88
-\BOOKMARK [2][-]{subsection.6.3.2}{Comparison with approxposterior}{section.6.3}% 89
-\BOOKMARK [2][-]{subsection.6.3.3}{TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{section.6.3}% 90
-\BOOKMARK [1][-]{section.6.4}{Discussion and Conclusions}{chapter.6}% 91
-\BOOKMARK [1][-]{section.6.5}{Acknowledgments}{chapter.6}% 92
-\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 93
-\BOOKMARK [0][-]{chapter*.83}{Bibliography}{}% 94
+\BOOKMARK [1][-]{section.5.4}{approxposterior: Theory and Practical Usage}{chapter.5}% 76
+\BOOKMARK [2][-]{subsection.5.4.1}{Augmenting the Training Set}{section.5.4}% 77
+\BOOKMARK [2][-]{subsection.5.4.2}{Convergence}{section.5.4}% 78
+\BOOKMARK [2][-]{subsection.5.4.3}{A Simple Example}{section.5.4}% 79
+\BOOKMARK [2][-]{subsection.5.4.4}{Online Documentation}{section.5.4}% 80
+\BOOKMARK [1][-]{section.5.5}{Future Applications: Terrestrial Exoplanet Atmospheric Retrieval}{chapter.5}% 81
+\BOOKMARK [0][-]{chapter.6}{Inferring the XUV History of the TRAPPIST-1 Planetary System}{}% 82
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 83
+\BOOKMARK [1][-]{section.6.2}{Methods}{chapter.6}% 84
+\BOOKMARK [2][-]{subsection.6.2.1}{Simulating XUV Evolution with VPLanet}{section.6.2}% 85
+\BOOKMARK [2][-]{subsection.6.2.2}{Markov Chain Monte Carlo Analysis}{section.6.2}% 86
+\BOOKMARK [2][-]{subsection.6.2.3}{Prior Probability Distributions}{section.6.2}% 87
+\BOOKMARK [2][-]{subsection.6.2.4}{Likelihood Function and Convergence}{section.6.2}% 88
+\BOOKMARK [2][-]{subsection.6.2.5}{Inference with approxposterior}{section.6.2}% 89
+\BOOKMARK [1][-]{section.6.3}{Results}{chapter.6}% 90
+\BOOKMARK [2][-]{subsection.6.3.1}{The Evolution of TRAPPIST-1}{section.6.3}% 91
+\BOOKMARK [2][-]{subsection.6.3.2}{Comparison with approxposterior}{section.6.3}% 92
+\BOOKMARK [2][-]{subsection.6.3.3}{TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{section.6.3}% 93
+\BOOKMARK [1][-]{section.6.4}{Discussion and Conclusions}{chapter.6}% 94
+\BOOKMARK [1][-]{section.6.5}{Acknowledgments}{chapter.6}% 95
+\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 96
+\BOOKMARK [0][-]{chapter*.83}{Bibliography}{}% 97
