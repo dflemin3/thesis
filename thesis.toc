@@ -97,28 +97,29 @@
 \contentsline {section}{\numberline {4.6}Acknowledgments}{145}{section.4.6}
 \contentsline {section}{\numberline {4.7}Analytic Torque Balance}{145}{section.4.7}
 \contentsline {chapter}{\numberline {\@textofChapter \ 5:}Bayesian Inference with Slow Models using \texttt {approxposterior}\xspace }{147}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction: Bayesian Inference with Computationally-Expensive Models}{147}{section.5.1}
-\contentsline {section}{\numberline {5.2}Fast and Accurate Approximate Bayesian Inference with \texttt {approxposterior}\xspace }{149}{section.5.2}
-\contentsline {section}{\numberline {5.3}\texttt {approxposterior}\xspace Algorithm}{150}{section.5.3}
-\contentsline {section}{\numberline {5.4}\texttt {approxposterior}\xspace : Theory and Practical Usage}{152}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Augmenting the Training Set}{152}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Convergence}{155}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}A Simple Example}{156}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Online Documentation}{159}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Future Applications: Terrestrial Exoplanet Atmospheric Retrieval}{159}{section.5.5}
-\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{161}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{161}{section.6.1}
-\contentsline {section}{\numberline {6.2}Methods}{163}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Simulating XUV Evolution with \texttt {VPLanet}\xspace }{163}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Markov Chain Monte Carlo Analysis}{164}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Prior Probability Distributions}{165}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Likelihood Function and Convergence}{166}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Inference with \texttt {approxposterior}\xspace }{168}{subsection.6.2.5}
-\contentsline {section}{\numberline {6.3}Results}{169}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}The Evolution of TRAPPIST-1}{169}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Comparison with \texttt {approxposterior}\xspace }{172}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{174}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Discussion and Conclusions}{178}{section.6.4}
-\contentsline {section}{\numberline {6.5}Acknowledgments}{180}{section.6.5}
-\contentsline {chapter}{\numberline {\@textofChapter \ 7:}Conclusions}{182}{chapter.7}
-\contentsline {chapter}{Bibliography}{185}{chapter*.83}
+\contentsline {section}{\numberline {5.1}Bayesian Inference with Computationally-Expensive Models}{147}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Fast and Accurate Approximate Bayesian Inference with \texttt {approxposterior}\xspace }{149}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}\texttt {approxposterior}\xspace Algorithm}{151}{section.5.2}
+\contentsline {section}{\numberline {5.3}\texttt {approxposterior}\xspace : Theory and Practical Usage}{153}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Augmenting the Training Set}{153}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Convergence}{156}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}A Simple Example}{157}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Online Documentation}{162}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Applying \texttt {approxposterior}\xspace to Terrestrial Exoplanet Atmospheric Retrieval}{162}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusions}{164}{section.5.5}
+\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{167}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{167}{section.6.1}
+\contentsline {section}{\numberline {6.2}Methods}{169}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Simulating XUV Evolution with \texttt {VPLanet}\xspace }{169}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Markov Chain Monte Carlo Analysis}{170}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Prior Probability Distributions}{171}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Likelihood Function and Convergence}{172}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Inference with \texttt {approxposterior}\xspace }{174}{subsection.6.2.5}
+\contentsline {section}{\numberline {6.3}Results}{175}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}The Evolution of TRAPPIST-1}{175}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Comparison with \texttt {approxposterior}\xspace }{178}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{180}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Discussion and Conclusions}{184}{section.6.4}
+\contentsline {section}{\numberline {6.5}Acknowledgments}{186}{section.6.5}
+\contentsline {chapter}{\numberline {\@textofChapter \ 7:}Conclusions}{188}{chapter.7}
+\contentsline {chapter}{Bibliography}{191}{chapter*.84}

@@ -36,6 +36,8 @@
 \citation{Lurie2017}
 \citation{Lurie2017}
 \citation{Kandasamy2017}
+\citation{Wang2018}
+\citation{Wang2018}
 \citation{ForemanMackey2016}
 \citation{vanGrootel2018}
 \citation{Wheatley2017}
@@ -841,30 +843,34 @@
 \newlabel{sync:sec:appendix:balance}{{4.7}{145}{Analytic Torque Balance}{section.4.7}{}}
 \citation{Matt2015,Matt2019}
 \newlabel{sync:eqn:appendixBalance}{{4.28}{146}{Analytic Torque Balance}{equation.4.7.28}{}}
+\citation{FlemingVanderPlas2018}
 \@writefile{toc}{\contentsline {chapter}{\numberline {\@textofChapter \ 5:}Bayesian Inference with Slow Models using \texttt  {approxposterior}\xspace  }{147}{chapter.5}}
 \@writefile{lof}{\addvspace {5\p@ }}
 \@writefile{lot}{\addvspace {5\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Introduction: Bayesian Inference with Computationally-Expensive Models}{147}{section.5.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Bayesian Inference with Computationally-Expensive Models}{147}{section.5.1}}
 \citation{ForemanMackey2013}
-\citation{Kandasamy2017}
+\newlabel{AP:eqn:bayes}{{5.1}{148}{Bayesian Inference with Computationally-Expensive Models}{equation.5.1.1}{}}
+\citation{Bellman1957}
+\citation{FlemingVanderPlas2018}
+\citation{FlemingVanderPlas2018}
 \citation{Kandasamy2017}
 \citation{Wang2018}
 \citation{Rasmussen2006}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Fast and Accurate Approximate Bayesian Inference with \texttt  {approxposterior}\xspace  }{149}{section.5.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}\texttt  {approxposterior}\xspace  Algorithm}{150}{section.5.3}}
-\newlabel{AP:sec:app}{{5.3}{150}{\approxposterior Algorithm}{section.5.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Fast and Accurate Approximate Bayesian Inference with \texttt  {approxposterior}\xspace  }{149}{subsection.5.1.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}\texttt  {approxposterior}\xspace  Algorithm}{151}{section.5.2}}
+\newlabel{AP:sec:app}{{5.2}{151}{\approxposterior Algorithm}{section.5.2}{}}
 \citation{Rasmussen2006}
 \citation{george}
-\newlabel{AP:app:algo}{{1}{151}{\approxposterior Algorithm}{algocf.1}{}}
-\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces \texttt  {approxposterior}\xspace  Approximate Inference Pseudo Code \relax }}{151}{algocf.1}}
+\newlabel{AP:app:algo}{{1}{152}{\approxposterior Algorithm}{algocf.1}{}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces \texttt  {approxposterior}\xspace  Approximate Inference Pseudo Code \relax }}{152}{algocf.1}}
 \citation{Kandasamy2017}
 \citation{Wang2018}
 \citation{Kandasamy2017}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}\texttt  {approxposterior}\xspace  : Theory and Practical Usage}{152}{section.5.4}}
-\newlabel{ap:sec:usage}{{5.4}{152}{\approxposterior : Theory and Practical Usage}{section.5.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Augmenting the Training Set}{152}{subsection.5.4.1}}
-\newlabel{AP:sec:augment}{{5.4.1}{152}{Augmenting the Training Set}{subsection.5.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}\texttt  {approxposterior}\xspace  : Theory and Practical Usage}{153}{section.5.3}}
+\newlabel{ap:sec:usage}{{5.3}{153}{\approxposterior : Theory and Practical Usage}{section.5.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Augmenting the Training Set}{153}{subsection.5.3.1}}
+\newlabel{AP:sec:augment}{{5.3.1}{153}{Augmenting the Training Set}{subsection.5.3.1}{}}
 \citation{Kandasamy2017}
 \citation{Wang2018}
 \citation{Nelder1965}
@@ -872,25 +878,44 @@
 \citation{Kandasamy2017}
 \citation{Kandasamy2017}
 \citation{Fleming2020}
-\newlabel{AP:eq:bape}{{5.1}{153}{Augmenting the Training Set}{equation.5.4.1}{}}
-\newlabel{AP:eq:agp}{{5.2}{153}{Augmenting the Training Set}{equation.5.4.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Same as Fig.\nobreakspace  {}\ref  {trap:fig:approx}, but overplotted with the training set for \texttt  {approxposterior}\xspace  's GP. The orange points display the initial training points whereas the blue points display the points iteratively selected by maximizing the \citet  {Kandasamy2017} utility function, Eqn.\nobreakspace  {}(\ref  {AP:eq:bape}). By design, \texttt  {approxposterior}\xspace  selected points to expand its training set in regions of high posterior density, improving its GP's predictive accuracy in the most relevant regions of parameter space while seldom wasting computational resources in the low likelihood regions.\relax }}{154}{figure.caption.75}}
-\newlabel{AP:fig:points}{{5.1}{154}{Same as Fig.~\ref {trap:fig:approx}, but overplotted with the training set for \approxposterior 's GP. The orange points display the initial training points whereas the blue points display the points iteratively selected by maximizing the \citet {Kandasamy2017} utility function, Eqn.~(\ref {AP:eq:bape}). By design, \approxposterior selected points to expand its training set in regions of high posterior density, improving its GP's predictive accuracy in the most relevant regions of parameter space while seldom wasting computational resources in the low likelihood regions.\relax }{figure.caption.75}{}}
+\newlabel{AP:eq:bape}{{5.2}{154}{Augmenting the Training Set}{equation.5.3.2}{}}
+\newlabel{AP:eq:agp}{{5.3}{154}{Augmenting the Training Set}{equation.5.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Same as Fig.\nobreakspace  {}\ref  {trap:fig:approx}, but overplotted with the training set for \texttt  {approxposterior}\xspace  's GP. The orange points display the initial training points whereas the blue points display the points iteratively selected by maximizing the \citet  {Kandasamy2017} utility function, Eqn.\nobreakspace  {}(\ref  {AP:eq:bape}). By design, \texttt  {approxposterior}\xspace  selected points to expand its training set in regions of high posterior density, improving its GP's predictive accuracy in the most relevant regions of parameter space while seldom wasting computational resources in the low likelihood regions.\relax }}{155}{figure.caption.75}}
+\newlabel{AP:fig:points}{{5.1}{155}{Same as Fig.~\ref {trap:fig:approx}, but overplotted with the training set for \approxposterior 's GP. The orange points display the initial training points whereas the blue points display the points iteratively selected by maximizing the \citet {Kandasamy2017} utility function, Eqn.~(\ref {AP:eq:bape}). By design, \approxposterior selected points to expand its training set in regions of high posterior density, improving its GP's predictive accuracy in the most relevant regions of parameter space while seldom wasting computational resources in the low likelihood regions.\relax }{figure.caption.75}{}}
 \citation{Wang2018}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Convergence}{155}{subsection.5.4.2}}
-\newlabel{AP:sec:app:convergence}{{5.4.2}{155}{Convergence}{subsection.5.4.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}A Simple Example}{156}{subsection.5.4.3}}
-\newlabel{AP:sec:example}{{5.4.3}{156}{A Simple Example}{subsection.5.4.3}{}}
-\@writefile{lol}{\contentsline {lstlisting}{example.py}{156}{lstlisting.5.-1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The \texttt  {approxposterior}\xspace  convergence diagnostic, $z_t$, as a function of iteration for the run presented in the main text. Note that in \texttt  {approxposterior}\xspace  , the initial iteration is iteration 0. The black dashed line indicates our adopted convergence threshold of $\epsilon = 0.1$. \texttt  {approxposterior}\xspace  quickly converges to a consistent and accurate result.\relax }}{157}{figure.caption.76}}
-\newlabel{AP:fig:convergence}{{5.2}{157}{The \approxposterior convergence diagnostic, $z_t$, as a function of iteration for the run presented in the main text. Note that in \approxposterior , the initial iteration is iteration 0. The black dashed line indicates our adopted convergence threshold of $\epsilon = 0.1$. \approxposterior quickly converges to a consistent and accurate result.\relax }{figure.caption.76}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Convergence}{156}{subsection.5.3.2}}
+\newlabel{AP:sec:app:convergence}{{5.3.2}{156}{Convergence}{subsection.5.3.2}{}}
+\citation{Wang2018}
+\citation{Wang2018}
+\citation{Wang2018}
+\citation{Wang2018}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}A Simple Example}{157}{subsection.5.3.3}}
+\newlabel{AP:sec:example}{{5.3.3}{157}{A Simple Example}{subsection.5.3.3}{}}
+\newlabel{AP:eqn:rosenbrock}{{5.5}{157}{A Simple Example}{equation.5.3.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The \texttt  {approxposterior}\xspace  convergence diagnostic, $z_t$, as a function of iteration for the run presented in the Chapter 6. Note that in \texttt  {approxposterior}\xspace  , the initial iteration is iteration 0. The black dashed line indicates the adopted convergence threshold of $\epsilon = 0.1$. \texttt  {approxposterior}\xspace  quickly converges to a consistent and accurate result.\relax }}{158}{figure.caption.76}}
+\newlabel{AP:fig:convergence}{{5.2}{158}{The \approxposterior convergence diagnostic, $z_t$, as a function of iteration for the run presented in the Chapter 6. Note that in \approxposterior , the initial iteration is iteration 0. The black dashed line indicates the adopted convergence threshold of $\epsilon = 0.1$. \approxposterior quickly converges to a consistent and accurate result.\relax }{figure.caption.76}{}}
+\@writefile{lol}{\contentsline {lstlisting}{example.py}{159}{lstlisting.5.-1}}
+\citation{Wang2018}
+\citation{Wang2018}
+\citation{Wang2018}
+\citation{Wang2018}
+\citation{Wang2018}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces The posterior probability distribution for the 2D Rosenbrock example from \citet  {Wang2018} estimated by \texttt  {approxposterior}\xspace  . The red points denote points selected by \texttt  {approxposterior}\xspace  's training set augmentation scheme using the BAPE algorithm. As explained above, \texttt  {approxposterior}\xspace  preferentially selects points in regions of high posterior density. The posterior distribution estimated by \texttt  {approxposterior}\xspace  is in good agreement with the results of \citet  {Wang2018}, their Figures 1 and 3.\relax }}{161}{figure.caption.77}}
+\newlabel{AP:fig:rosenbrock}{{5.3}{161}{The posterior probability distribution for the 2D Rosenbrock example from \citet {Wang2018} estimated by \approxposterior . The red points denote points selected by \approxposterior 's training set augmentation scheme using the BAPE algorithm. As explained above, \approxposterior preferentially selects points in regions of high posterior density. The posterior distribution estimated by \approxposterior is in good agreement with the results of \citet {Wang2018}, their Figures 1 and 3.\relax }{figure.caption.77}{}}
+\citation{Gillon2016,Gillon2017,Morley2017,Lustig2019}
+\citation{Lincowski2018}
+\citation{KrissansenTotton2018,Tremblay2020}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Online Documentation}{162}{subsection.5.3.4}}
+\newlabel{AP:sec:docs}{{5.3.4}{162}{Online Documentation}{subsection.5.3.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Applying \texttt  {approxposterior}\xspace  to Terrestrial Exoplanet Atmospheric Retrieval}{162}{section.5.4}}
+\newlabel{AP:sec:future}{{5.4}{162}{Applying \approxposterior to Terrestrial Exoplanet Atmospheric Retrieval}{section.5.4}{}}
+\citation{Lincowski2018}
+\citation{Meadows1996,Crisp1997}
 \citation{Waldmann2016,MarquezNeila2018,Zingales2018,Cobb2019,Fisher2019,Himes2020}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.4}Online Documentation}{159}{subsection.5.4.4}}
-\newlabel{AP:sec:docs}{{5.4.4}{159}{Online Documentation}{subsection.5.4.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}Future Applications: Terrestrial Exoplanet Atmospheric Retrieval}{159}{section.5.5}}
-\newlabel{AP:sec:future}{{5.5}{159}{Future Applications: Terrestrial Exoplanet Atmospheric Retrieval}{section.5.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Joint and marginal posterior probability distributions derived by \texttt  {emcee}\xspace  (purple) and \texttt  {approxposterior}\xspace  (orange) from an atmospheric retrieval of a simulated noised JWST transmission spectrum of TRAPPIST-1e (used with permission from Lustig-Yaeger et al., in prep). This retrieval experiment attempts to infer the isothermal atmospheric temperature, $T$, and the mixing ratios of H$_2$O and CO$_2$. \texttt  {approxposterior}\xspace  accurately recovers both the nontrivial correlations between model parameters and marginal parameter constraints as did \texttt  {emcee}\xspace  , within Monte Carlo error, but requiring about 1000 times fewer computational resources.\relax }}{160}{figure.caption.77}}
-\newlabel{AP:fig:comparison}{{5.3}{160}{Joint and marginal posterior probability distributions derived by \emcee (purple) and \approxposterior (orange) from an atmospheric retrieval of a simulated noised JWST transmission spectrum of TRAPPIST-1e (used with permission from Lustig-Yaeger et al., in prep). This retrieval experiment attempts to infer the isothermal atmospheric temperature, $T$, and the mixing ratios of H$_2$O and CO$_2$. \approxposterior accurately recovers both the nontrivial correlations between model parameters and marginal parameter constraints as did \emcee , within Monte Carlo error, but requiring about 1000 times fewer computational resources.\relax }{figure.caption.77}{}}
+\citation{Lincowski2018}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Conclusions}{164}{section.5.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Joint and marginal posterior probability distributions derived by \texttt  {emcee}\xspace  (purple) and \texttt  {approxposterior}\xspace  (orange) from an atmospheric retrieval of a simulated noised JWST transmission spectrum of TRAPPIST-1e (used with permission from Lustig-Yaeger et al., in prep). This retrieval experiment attempts to infer the isothermal atmospheric temperature, $T$, and the mixing ratios of H$_2$O and CO$_2$. \texttt  {approxposterior}\xspace  accurately recovers both the nontrivial correlations between model parameters and marginal parameter constraints as did \texttt  {emcee}\xspace  , within Monte Carlo error, but requiring about 800 times fewer computational resources.\relax }}{165}{figure.caption.78}}
+\newlabel{AP:fig:comparison}{{5.4}{165}{Joint and marginal posterior probability distributions derived by \emcee (purple) and \approxposterior (orange) from an atmospheric retrieval of a simulated noised JWST transmission spectrum of TRAPPIST-1e (used with permission from Lustig-Yaeger et al., in prep). This retrieval experiment attempts to infer the isothermal atmospheric temperature, $T$, and the mixing ratios of H$_2$O and CO$_2$. \approxposterior accurately recovers both the nontrivial correlations between model parameters and marginal parameter constraints as did \emcee , within Monte Carlo error, but requiring about 800 times fewer computational resources.\relax }{figure.caption.78}{}}
 \citation{Segura2005}
 \citation{Dressing2015}
 \citation{Watson1981,Lammer2003,MurrayClay2009,Luger2015}
@@ -899,12 +924,12 @@
 \citation{Skumanich1972}
 \citation{Jackson2012}
 \citation{Pizzolato2003,Wright2011}
-\@writefile{toc}{\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{161}{chapter.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{167}{chapter.6}}
 \@writefile{lof}{\addvspace {5\p@ }}
 \@writefile{lot}{\addvspace {5\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Introduction}{161}{section.6.1}}
-\newlabel{trap:sec:intro}{{6.1}{161}{Introduction}{section.6.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Introduction}{167}{section.6.1}}
+\newlabel{trap:sec:intro}{{6.1}{167}{Introduction}{section.6.1}{}}
 \citation{Wright2011,Jackson2012}
 \citation{Pizzolato2003,Ribas2005}
 \citation{Wright2016,Wright2018}
@@ -930,17 +955,17 @@
 \citation{vanGrootel2018}
 \citation{Gillon2016}
 \citation{Burgasser2017}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Methods}{163}{section.6.2}}
-\newlabel{trap:sec:methods}{{6.2}{163}{Methods}{section.6.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Simulating XUV Evolution with \texttt  {VPLanet}\xspace  }{163}{subsection.6.2.1}}
-\newlabel{trap:sec:model}{{6.2.1}{163}{Simulating XUV Evolution with \vplanet }{subsection.6.2.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Methods}{169}{section.6.2}}
+\newlabel{trap:sec:methods}{{6.2}{169}{Methods}{section.6.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Simulating XUV Evolution with \texttt  {VPLanet}\xspace  }{169}{subsection.6.2.1}}
+\newlabel{trap:sec:model}{{6.2.1}{169}{Simulating XUV Evolution with \vplanet }{subsection.6.2.1}{}}
 \citation{Ribas2005}
 \citation{Baraffe2015}
 \citation{Barnes2019}
 \citation{ForemanMackey2013}
-\newlabel{trap:eqn:lxuv}{{6.1}{164}{Simulating XUV Evolution with \vplanet }{equation.6.2.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Markov Chain Monte Carlo Analysis}{164}{subsection.6.2.2}}
-\newlabel{trap:sec:mcmc}{{6.2.2}{164}{Markov Chain Monte Carlo Analysis}{subsection.6.2.2}{}}
+\newlabel{trap:eqn:lxuv}{{6.1}{170}{Simulating XUV Evolution with \vplanet }{equation.6.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Markov Chain Monte Carlo Analysis}{170}{subsection.6.2.2}}
+\newlabel{trap:sec:mcmc}{{6.2.2}{170}{Markov Chain Monte Carlo Analysis}{subsection.6.2.2}{}}
 \citation{vanGrootel2018}
 \citation{Burgasser2017}
 \citation{Gonzales2019}
@@ -949,9 +974,9 @@
 \citation{Wright2011}
 \citation{Wheatley2017}
 \citation{Chadney2015}
-\newlabel{trap:eqn:state}{{6.2}{165}{Markov Chain Monte Carlo Analysis}{equation.6.2.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Prior Probability Distributions}{165}{subsection.6.2.3}}
-\newlabel{trap:sec:mcmc:priors}{{6.2.3}{165}{Prior Probability Distributions}{subsection.6.2.3}{}}
+\newlabel{trap:eqn:state}{{6.2}{171}{Markov Chain Monte Carlo Analysis}{equation.6.2.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Prior Probability Distributions}{171}{subsection.6.2.3}}
+\newlabel{trap:sec:mcmc:priors}{{6.2.3}{171}{Prior Probability Distributions}{subsection.6.2.3}{}}
 \citation{Jackson2012}
 \citation{Shkolnik2014,Wright2011,West2015}
 \citation{West2008,Schneider2018}
@@ -967,39 +992,39 @@
 \citation{vanGrootel2018}
 \citation{Gonzales2019}
 \citation{Wheatley2017}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.4}Likelihood Function and Convergence}{166}{subsection.6.2.4}}
-\newlabel{trap:sec:mcmc:like}{{6.2.4}{166}{Likelihood Function and Convergence}{subsection.6.2.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.4}Likelihood Function and Convergence}{172}{subsection.6.2.4}}
+\newlabel{trap:sec:mcmc:like}{{6.2.4}{172}{Likelihood Function and Convergence}{subsection.6.2.4}{}}
 \citation{ForemanMackey2013}
-\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Prior Distributions \relax }}{167}{table.6.1}}
-\newlabel{trap:tab:priors}{{6.1}{167}{Prior Distributions \relax }{table.6.1}{}}
-\newlabel{trap:eqn:lnlike}{{6.3}{167}{Likelihood Function and Convergence}{equation.6.2.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Prior Distributions \relax }}{173}{table.6.1}}
+\newlabel{trap:tab:priors}{{6.1}{173}{Prior Distributions \relax }{table.6.1}{}}
+\newlabel{trap:eqn:lnlike}{{6.3}{173}{Likelihood Function and Convergence}{equation.6.2.3}{}}
 \citation{FlemingVanderPlas2018}
 \citation{Kandasamy2017}
 \citation{Rasmussen2006}
 \citation{Kandasamy2017}
 \citation{Bird2019,McClintock2019}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.5}Inference with \texttt  {approxposterior}\xspace  }{168}{subsection.6.2.5}}
-\newlabel{trap:sec:methods:approx}{{6.2.5}{168}{Inference with \approxposterior }{subsection.6.2.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.5}Inference with \texttt  {approxposterior}\xspace  }{174}{subsection.6.2.5}}
+\newlabel{trap:sec:methods:approx}{{6.2.5}{174}{Inference with \approxposterior }{subsection.6.2.5}{}}
 \citation{Powell1964}
 \citation{Kandasamy2017}
 \citation{West2008,Wright2018}
-\newlabel{trap:eqn:kernel}{{6.4}{169}{Inference with \approxposterior }{equation.6.2.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Results}{169}{section.6.3}}
-\newlabel{trap:sec:results}{{6.3}{169}{Results}{section.6.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}The Evolution of TRAPPIST-1}{169}{subsection.6.3.1}}
+\newlabel{trap:eqn:kernel}{{6.4}{175}{Inference with \approxposterior }{equation.6.2.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Results}{175}{section.6.3}}
+\newlabel{trap:sec:results}{{6.3}{175}{Results}{section.6.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}The Evolution of TRAPPIST-1}{175}{subsection.6.3.1}}
 \citation{Luger2015}
 \citation{Lincowski2018}
 \citation{ForemanMackey2016}
 \citation{ForemanMackey2016}
 \citation{Baraffe2015}
 \citation{vanGrootel2018}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Joint and marginal posterior probability distributions for the TRAPPIST-1 stellar parameters given in Eqn.\nobreakspace  {}(\ref  {trap:eqn:state}) made using \texttt  {corner} \citep  {ForemanMackey2016}. The black vertical dashed lines on the marginal distributions indicate the median values and lower and upper uncertainties from the 16th and 84th percentiles, respectively. The blue curves superimposed on the marginal distributions display the adopted prior probability distribution for each parameter. From the posterior, we infer that there is a $40\%$ chance that TRAPPIST-1 is still in the saturated phase today.\relax }}{171}{figure.caption.78}}
-\newlabel{trap:fig:corner}{{6.1}{171}{Joint and marginal posterior probability distributions for the TRAPPIST-1 stellar parameters given in Eqn.~(\ref {trap:eqn:state}) made using \texttt {corner} \citep {ForemanMackey2016}. The black vertical dashed lines on the marginal distributions indicate the median values and lower and upper uncertainties from the 16th and 84th percentiles, respectively. The blue curves superimposed on the marginal distributions display the adopted prior probability distribution for each parameter. From the posterior, we infer that there is a $40\%$ chance that TRAPPIST-1 is still in the saturated phase today.\relax }{figure.caption.78}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Joint and marginal posterior probability distributions for the TRAPPIST-1 stellar parameters given in Eqn.\nobreakspace  {}(\ref  {trap:eqn:state}) made using \texttt  {corner} \citep  {ForemanMackey2016}. The black vertical dashed lines on the marginal distributions indicate the median values and lower and upper uncertainties from the 16th and 84th percentiles, respectively. The blue curves superimposed on the marginal distributions display the adopted prior probability distribution for each parameter. From the posterior, we infer that there is a $40\%$ chance that TRAPPIST-1 is still in the saturated phase today.\relax }}{177}{figure.caption.79}}
+\newlabel{trap:fig:corner}{{6.1}{177}{Joint and marginal posterior probability distributions for the TRAPPIST-1 stellar parameters given in Eqn.~(\ref {trap:eqn:state}) made using \texttt {corner} \citep {ForemanMackey2016}. The black vertical dashed lines on the marginal distributions indicate the median values and lower and upper uncertainties from the 16th and 84th percentiles, respectively. The blue curves superimposed on the marginal distributions display the adopted prior probability distribution for each parameter. From the posterior, we infer that there is a $40\%$ chance that TRAPPIST-1 is still in the saturated phase today.\relax }{figure.caption.79}{}}
 \citation{Flegal2008,Flegal2010}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Comparison with \texttt  {approxposterior}\xspace  }{172}{subsection.6.3.2}}
-\newlabel{trap:sec:approx}{{6.3.2}{172}{Comparison with \approxposterior }{subsection.6.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Same format as Fig.\nobreakspace  {}\ref  {trap:fig:corner}, but derived by \texttt  {approxposterior}\xspace  . \texttt  {approxposterior}\xspace  recovered constraints and parameter correlations that are in good agreement with the \texttt  {emcee}\xspace  MCMC, but requiring $980\times $ less computational resources.\relax }}{173}{figure.caption.79}}
-\newlabel{trap:fig:approx}{{6.2}{173}{Same format as Fig.~\ref {trap:fig:corner}, but derived by \approxposterior . \approxposterior recovered constraints and parameter correlations that are in good agreement with the \emcee MCMC, but requiring $980\times $ less computational resources.\relax }{figure.caption.79}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Comparison with \texttt  {approxposterior}\xspace  }{178}{subsection.6.3.2}}
+\newlabel{trap:sec:approx}{{6.3.2}{178}{Comparison with \approxposterior }{subsection.6.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Same format as Fig.\nobreakspace  {}\ref  {trap:fig:corner}, but derived by \texttt  {approxposterior}\xspace  . \texttt  {approxposterior}\xspace  recovered constraints and parameter correlations that are in good agreement with the \texttt  {emcee}\xspace  MCMC, but requiring $980\times $ less computational resources.\relax }}{179}{figure.caption.80}}
+\newlabel{trap:fig:approx}{{6.2}{179}{Same format as Fig.~\ref {trap:fig:corner}, but derived by \approxposterior . \approxposterior recovered constraints and parameter correlations that are in good agreement with the \emcee MCMC, but requiring $980\times $ less computational resources.\relax }{figure.caption.80}{}}
 \citation{vanGrootel2018}
 \citation{Wheatley2017}
 \citation{vanGrootel2018}
@@ -1012,14 +1037,14 @@
 \citation{Delrez2018}
 \citation{Baraffe2015}
 \citation{Reid2005,Spada2013}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{174}{subsection.6.3.3}}
-\newlabel{trap:sec:evol}{{6.3.3}{174}{TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{subsection.6.3.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Same format as Fig.\nobreakspace  {}\ref  {trap:fig:corner}, but with the fiducial posterior distribution in black and the \texttt  {approxposterior}\xspace  -derived posterior distribution in blue. The joint and marginal posterior distributions estimated by \texttt  {approxposterior}\xspace  are in excellent agreement with our fiducial \texttt  {emcee}\xspace  -derived results.\relax }}{175}{figure.caption.80}}
-\newlabel{trap:fig:stacked}{{6.3}{175}{Same format as Fig.~\ref {trap:fig:corner}, but with the fiducial posterior distribution in black and the \approxposterior -derived posterior distribution in blue. The joint and marginal posterior distributions estimated by \approxposterior are in excellent agreement with our fiducial \emcee -derived results.\relax }{figure.caption.80}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces Parameter Constraints and Errors \relax }}{176}{table.6.2}}
-\newlabel{trap:tab:constraints}{{6.2}{176}{Parameter Constraints and Errors \relax }{table.6.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Plausible evolutionary histories of TRAPPIST-1's $L_{bol}$ (left), $L_{XUV}$ (center), and radius (right) using 100 samples drawn from the posterior distribution and simulated with \texttt  {VPLanet}\xspace  . In each panel, the blue shaded regions display the 1, 2, and 3 $\sigma $ uncertainties. The insets display the marginal distributions (black) evaluated at the age of the system, with the blue dashed lines indicating the observed value and +/- 1 $\sigma $ uncertainties. The radius, $L_{bol}$, and $L_{XUV}$ constraints are adopted from \citet  {vanGrootel2018} and \citet  {Wheatley2017}, respectively, by convolving the \citet  {vanGrootel2018} $L_{bol}$ measurement with the $L_{XUV}/L_{bol}$ constraints from \citet  {Wheatley2017}.\relax }}{176}{figure.caption.81}}
-\newlabel{trap:fig:evol}{{6.4}{176}{Plausible evolutionary histories of TRAPPIST-1's $L_{bol}$ (left), $L_{XUV}$ (center), and radius (right) using 100 samples drawn from the posterior distribution and simulated with \vplanet . In each panel, the blue shaded regions display the 1, 2, and 3 $\sigma $ uncertainties. The insets display the marginal distributions (black) evaluated at the age of the system, with the blue dashed lines indicating the observed value and +/- 1 $\sigma $ uncertainties. The radius, $L_{bol}$, and $L_{XUV}$ constraints are adopted from \citet {vanGrootel2018} and \citet {Wheatley2017}, respectively, by convolving the \citet {vanGrootel2018} $L_{bol}$ measurement with the $L_{XUV}/L_{bol}$ constraints from \citet {Wheatley2017}.\relax }{figure.caption.81}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{180}{subsection.6.3.3}}
+\newlabel{trap:sec:evol}{{6.3.3}{180}{TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{subsection.6.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Same format as Fig.\nobreakspace  {}\ref  {trap:fig:corner}, but with the fiducial posterior distribution in black and the \texttt  {approxposterior}\xspace  -derived posterior distribution in blue. The joint and marginal posterior distributions estimated by \texttt  {approxposterior}\xspace  are in excellent agreement with our fiducial \texttt  {emcee}\xspace  -derived results.\relax }}{181}{figure.caption.81}}
+\newlabel{trap:fig:stacked}{{6.3}{181}{Same format as Fig.~\ref {trap:fig:corner}, but with the fiducial posterior distribution in black and the \approxposterior -derived posterior distribution in blue. The joint and marginal posterior distributions estimated by \approxposterior are in excellent agreement with our fiducial \emcee -derived results.\relax }{figure.caption.81}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces Parameter Constraints and Errors \relax }}{182}{table.6.2}}
+\newlabel{trap:tab:constraints}{{6.2}{182}{Parameter Constraints and Errors \relax }{table.6.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Plausible evolutionary histories of TRAPPIST-1's $L_{bol}$ (left), $L_{XUV}$ (center), and radius (right) using 100 samples drawn from the posterior distribution and simulated with \texttt  {VPLanet}\xspace  . In each panel, the blue shaded regions display the 1, 2, and 3 $\sigma $ uncertainties. The insets display the marginal distributions (black) evaluated at the age of the system, with the blue dashed lines indicating the observed value and +/- 1 $\sigma $ uncertainties. The radius, $L_{bol}$, and $L_{XUV}$ constraints are adopted from \citet  {vanGrootel2018} and \citet  {Wheatley2017}, respectively, by convolving the \citet  {vanGrootel2018} $L_{bol}$ measurement with the $L_{XUV}/L_{bol}$ constraints from \citet  {Wheatley2017}.\relax }}{182}{figure.caption.82}}
+\newlabel{trap:fig:evol}{{6.4}{182}{Plausible evolutionary histories of TRAPPIST-1's $L_{bol}$ (left), $L_{XUV}$ (center), and radius (right) using 100 samples drawn from the posterior distribution and simulated with \vplanet . In each panel, the blue shaded regions display the 1, 2, and 3 $\sigma $ uncertainties. The insets display the marginal distributions (black) evaluated at the age of the system, with the blue dashed lines indicating the observed value and +/- 1 $\sigma $ uncertainties. The radius, $L_{bol}$, and $L_{XUV}$ constraints are adopted from \citet {vanGrootel2018} and \citet {Wheatley2017}, respectively, by convolving the \citet {vanGrootel2018} $L_{bol}$ measurement with the $L_{XUV}/L_{bol}$ constraints from \citet {Wheatley2017}.\relax }{figure.caption.82}{}}
 \citation{Burgasser2017,vanGrootel2018}
 \citation{vanGrootel2018}
 \citation{vanGrootel2018}
@@ -1036,17 +1061,17 @@
 \citation{Watson1981,Lammer2003}
 \citation{Grimm2018}
 \citation{FlemingVanderPlas2018}
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Discussion and Conclusions}{178}{section.6.4}}
-\newlabel{trap:sec:discussion}{{6.4}{178}{Discussion and Conclusions}{section.6.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces $F_{XUV}/F_{XUV,\oplus }$ for each TRAPPIST-1 planet derived from samples drawn from the posterior distribution and simulated using \texttt  {VPLanet}\xspace  when the system was 0.01, 0.1, and 1 Gyr old. The latter age corresponds to the approximate age at which TRAPPIST-1 entered the main sequence. The TRAPPIST-1 planetary system has likely endured a long-lasting extreme XUV environment.\relax }}{179}{figure.caption.82}}
-\newlabel{trap:fig:fluxes}{{6.5}{179}{$F_{XUV}/F_{XUV,\oplus }$ for each TRAPPIST-1 planet derived from samples drawn from the posterior distribution and simulated using \vplanet when the system was 0.01, 0.1, and 1 Gyr old. The latter age corresponds to the approximate age at which TRAPPIST-1 entered the main sequence. The TRAPPIST-1 planetary system has likely endured a long-lasting extreme XUV environment.\relax }{figure.caption.82}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Discussion and Conclusions}{184}{section.6.4}}
+\newlabel{trap:sec:discussion}{{6.4}{184}{Discussion and Conclusions}{section.6.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces $F_{XUV}/F_{XUV,\oplus }$ for each TRAPPIST-1 planet derived from samples drawn from the posterior distribution and simulated using \texttt  {VPLanet}\xspace  when the system was 0.01, 0.1, and 1 Gyr old. The latter age corresponds to the approximate age at which TRAPPIST-1 entered the main sequence. The TRAPPIST-1 planetary system has likely endured a long-lasting extreme XUV environment.\relax }}{185}{figure.caption.83}}
+\newlabel{trap:fig:fluxes}{{6.5}{185}{$F_{XUV}/F_{XUV,\oplus }$ for each TRAPPIST-1 planet derived from samples drawn from the posterior distribution and simulated using \vplanet when the system was 0.01, 0.1, and 1 Gyr old. The latter age corresponds to the approximate age at which TRAPPIST-1 entered the main sequence. The TRAPPIST-1 planetary system has likely endured a long-lasting extreme XUV environment.\relax }{figure.caption.83}{}}
 \citation{FlemingVanderPlas2018}
 \citation{ForemanMackey2016}
 \citation{ForemanMackey2013}
 \citation{george}
 \citation{Barnes2019}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Acknowledgments}{180}{section.6.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {\@textofChapter \ 7:}Conclusions}{182}{chapter.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.5}Acknowledgments}{186}{section.6.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {\@textofChapter \ 7:}Conclusions}{188}{chapter.7}}
 \@writefile{lof}{\addvspace {5\p@ }}
 \@writefile{lot}{\addvspace {5\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
@@ -1063,7 +1088,7 @@
 \bibcite{Armstrong2014}{{8}{2014}{{{Armstrong} et~al.}}{{}}}
 \bibcite{Artymowicz1992}{{9}{1992}{{Artymowicz}}{{}}}
 \bibcite{Artymowicz1991}{{10}{1991}{{{Artymowicz} et~al.}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{185}{chapter*.83}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{191}{chapter*.84}}
 \bibcite{Artymowicz1994}{{11}{1994}{{{Artymowicz} and {Lubow}}}{{}}}
 \bibcite{Artymowicz1996a}{{12}{1996}{{{Artymowicz} and {Lubow}}}{{}}}
 \bibcite{Backus2016}{{13}{2016}{{{Backus} and {Quinn}}}{{}}}
@@ -1081,267 +1106,270 @@
 \bibcite{Barnes2010}{{25}{2010}{{Barnes}}{{}}}
 \bibcite{Bate2000}{{26}{2000}{{Bate}}{{}}}
 \bibcite{Bate2002}{{27}{2002}{{{Bate} et~al.}}{{}}}
-\bibcite{Bennett2016}{{28}{2016}{{{Bennett} et~al.}}{{}}}
-\bibcite{Bird2019}{{29}{2019}{{{Bird} et~al.}}{{}}}
-\bibcite{Bodenheimer2014}{{30}{2014}{{{Bodenheimer} and {Lissauer}}}{{}}}
-\bibcite{Bolmont2017}{{31}{2017}{{{Bolmont} et~al.}}{{}}}
-\bibcite{Bolmont2016}{{32}{2016}{{{Bolmont} and {Mathis}}}{{}}}
-\bibcite{Bonnell1994}{{33}{1994}{{{Bonnell} and {Bate}}}{{}}}
-\bibcite{Bourrier2017a}{{34}{2017a}{{{Bourrier} et~al.}}{{}}}
-\bibcite{Bourrier2017b}{{35}{2017b}{{{Bourrier} et~al.}}{{}}}
-\bibcite{Bouvier2008}{{36}{2008}{{Bouvier}}{{}}}
-\bibcite{Bouvier1997}{{37}{1997}{{{Bouvier} et~al.}}{{}}}
-\bibcite{Bromley2015}{{38}{2015}{{{Bromley} and {Kenyon}}}{{}}}
-\bibcite{Burgasser2017}{{39}{2017}{{{Burgasser} and {Mamajek}}}{{}}}
-\bibcite{Burkart2014}{{40}{2014}{{{Burkart} et~al.}}{{}}}
-\bibcite{Chadney2015}{{41}{2015}{{{Chadney} et~al.}}{{}}}
-\bibcite{Chambers1996}{{42}{1996}{{{Chambers} et~al.}}{{}}}
-\bibcite{Chaplin2014}{{43}{2014}{{{Chaplin} et~al.}}{{}}}
-\bibcite{Chatterjee2008}{{44}{2008}{{{Chatterjee} et~al.}}{{}}}
-\bibcite{Chavez2015}{{45}{2015}{{{Chavez} et~al.}}{{}}}
-\bibcite{Claret1995}{{46}{1995}{{{Claret} et~al.}}{{}}}
-\bibcite{Cobb2019}{{47}{2019}{{{Cobb} et~al.}}{{}}}
-\bibcite{Counselman1973}{{48}{1973}{{Counselman}}{{}}}
-\bibcite{Cranmer2011}{{49}{2011}{{{Cranmer} and {Saar}}}{{}}}
-\bibcite{Crisp1997}{{50}{1997}{{Crisp}}{{}}}
-\bibcite{Cuadra2009}{{51}{2009}{{{Cuadra} et~al.}}{{}}}
-\bibcite{Darwin1880}{{52}{1880}{{Darwin}}{{}}}
-\bibcite{Delfosse1998}{{53}{1998}{{Delfosse et~al.}}{{}}}
-\bibcite{Delrez2018}{{54}{2018}{{{Delrez} et~al.}}{{}}}
-\bibcite{Dermine2013}{{55}{2013}{{{Dermine} et~al.}}{{}}}
-\bibcite{DobbsDixon2004}{{56}{2004}{{{Dobbs-Dixon} et~al.}}{{}}}
-\bibcite{DOrazio2016}{{57}{2016}{{{D'Orazio} et~al.}}{{}}}
-\bibcite{DOrazio2013}{{58}{2013}{{{D'Orazio} et~al.}}{{}}}
-\bibcite{Douglas2017}{{59}{2017}{{{Douglas} et~al.}}{{}}}
-\bibcite{Dressing2015}{{60}{2015}{{{Dressing} and {Charbonneau}}}{{}}}
-\bibcite{Duchene2013}{{61}{2013}{{{Duch{\^e}ne} and {Kraus}}}{{}}}
-\bibcite{Dunhill2013}{{62}{2013}{{{Dunhill} and {Alexander}}}{{}}}
-\bibcite{Dunhill2015}{{63}{2015}{{{Dunhill} et~al.}}{{}}}
-\bibcite{Dvorak1986}{{64}{1986}{{Dvorak}}{{}}}
-\bibcite{Dvorak1989}{{65}{1989}{{{Dvorak} et~al.}}{{}}}
-\bibcite{Escala2005}{{66}{2005}{{{Escala} et~al.}}{{}}}
-\bibcite{Essick2016}{{67}{2016}{{{Essick} and {Weinberg}}}{{}}}
-\bibcite{Fabrycky2007}{{68}{2007}{{{Fabrycky} and {Tremaine}}}{{}}}
-\bibcite{Farris2014}{{69}{2014}{{{Farris} et~al.}}{{}}}
-\bibcite{FerrazMello2008}{{70}{2008}{{{Ferraz-Mello} et~al.}}{{}}}
-\bibcite{Fisher2019}{{71}{2019}{{{Fisher} et~al.}}{{}}}
-\bibcite{Flegal2008}{{72}{2008}{{Flegal et~al.}}{{}}}
-\bibcite{Flegal2010}{{73}{2010}{{Flegal and Jones}}{{}}}
-\bibcite{Fleming2018}{{74}{2018}{{{Fleming} et~al.}}{{}}}
-\bibcite{Fleming2020}{{75}{2020}{{{Fleming} et~al.}}{{}}}
-\bibcite{Fleming2017}{{76}{2017}{{{Fleming} and {Quinn}}}{{}}}
-\bibcite{FlemingVanderPlas2018}{{77}{2018}{{{Fleming} and {VanderPlas}}}{{}}}
-\bibcite{ForemanMackey2016}{{78}{2016}{{Foreman-Mackey}}{{}}}
-\bibcite{ForemanMackey2013}{{79}{2013}{{{Foreman-Mackey} et~al.}}{{}}}
-\bibcite{Forgan2014}{{80}{2014}{{Forgan}}{{}}}
-\bibcite{Foucart2013}{{81}{2013}{{{Foucart} and {Lai}}}{{}}}
-\bibcite{Gaia2016}{{82}{2016}{{{Gaia Collaboration} et~al.}}{{}}}
-\bibcite{Gallet2017}{{83}{2017}{{{Gallet} et~al.}}{{}}}
-\bibcite{Gallet2013}{{84}{2013}{{{Gallet} and {Bouvier}}}{{}}}
-\bibcite{Gallet2015}{{85}{2015}{{{Gallet} and {Bouvier}}}{{}}}
-\bibcite{Gillon2016}{{86}{2016}{{{Gillon} et~al.}}{{}}}
-\bibcite{Gillon2017}{{87}{2017}{{{Gillon} et~al.}}{{}}}
-\bibcite{Goldreich1966b}{{88}{1966}{{Goldreich}}{{}}}
-\bibcite{GoldreichPeale1966}{{89}{1966}{{{Goldreich} and {Peale}}}{{}}}
-\bibcite{Goldreich1966}{{90}{1966}{{{Goldreich} and {Soter}}}{{}}}
-\bibcite{Goldreich1979}{{91}{1979}{{{Goldreich} and {Tremaine}}}{{}}}
-\bibcite{Goldreich1980}{{92}{1980}{{{Goldreich} and {Tremaine}}}{{}}}
-\bibcite{Gong2017b}{{93}{2017}{{Gong}}{{}}}
-\bibcite{Gong2017}{{94}{2017}{{{Gong} and {Ji}}}{{}}}
-\bibcite{Gonzales2019}{{95}{2019}{{{Gonzales} et~al.}}{{}}}
-\bibcite{Greenberg2009}{{96}{2009}{{Greenberg}}{{}}}
-\bibcite{Grimm2018}{{97}{2018}{{{Grimm} et~al.}}{{}}}
-\bibcite{Habets1989}{{98}{1989}{{{Habets} and {Zwaan}}}{{}}}
-\bibcite{Haisch2001}{{99}{2001}{{{Haisch} et~al.}}{{}}}
-\bibcite{Hamers2016}{{100}{2016}{{{Hamers} et~al.}}{{}}}
-\bibcite{Heller2011}{{101}{2011}{{{Heller} et~al.}}{{}}}
-\bibcite{Herbst2001}{{102}{2001}{{{Herbst} et~al.}}{{}}}
-\bibcite{Herbst2002}{{103}{2002}{{{Herbst} et~al.}}{{}}}
-\bibcite{Himes2020}{{104}{2020}{{{Himes} et~al.}}{{}}}
-\bibcite{Holman1999}{{105}{1999}{{{Holman} and {Wiegert}}}{{}}}
-\bibcite{Howell2014}{{106}{2014}{{{Howell} et~al.}}{{}}}
-\bibcite{Huang1966}{{107}{1966}{{Huang}}{{}}}
-\bibcite{Hunter2007}{{108}{2007}{{Hunter}}{{}}}
-\bibcite{Hurley2002}{{109}{2002}{{{Hurley} et~al.}}{{}}}
-\bibcite{Hut1981}{{110}{1981}{{Hut}}{{}}}
-\bibcite{Irwin2009}{{111}{2009}{{{Irwin} and {Bouvier}}}{{}}}
-\bibcite{Ivanova2005}{{112}{2005}{{{Ivanova} et~al.}}{{}}}
-\bibcite{Ivanova2003}{{113}{2003}{{{Ivanova} and {Taam}}}{{}}}
-\bibcite{Jackson2012}{{114}{2012}{{{Jackson} et~al.}}{{}}}
-\bibcite{Jackson2009}{{115}{2009}{{{Jackson} et~al.}}{{}}}
-\bibcite{Jackson2008}{{116}{2008}{{{Jackson} et~al.}}{{}}}
-\bibcite{Jetley2008}{{117}{2008}{{{Jetley} et~al.}}{{}}}
-\bibcite{Kale1996}{{118}{1996}{{Kale and Krishnan}}{{}}}
-\bibcite{Kandasamy2017}{{119}{2017}{{Kandasamy et~al.}}{{}}}
-\bibcite{Kane2013}{{120}{2013}{{{Kane} and {Hinkel}}}{{}}}
-\bibcite{Keppens1997}{{121}{1997}{{Keppens}}{{}}}
-\bibcite{Khaliullin2011}{{122}{2011}{{{Khaliullin} and {Khaliullina}}}{{}}}
-\bibcite{Kirk2016}{{123}{2016}{{{Kirk} et~al.}}{{}}}
-\bibcite{Kley2014}{{124}{2014}{{{Kley} and {Haghighipour}}}{{}}}
-\bibcite{Kley2015}{{125}{2015}{{{Kley} and {Haghighipour}}}{{}}}
-\bibcite{Kley2008}{{126}{2008}{{{Kley} et~al.}}{{}}}
-\bibcite{Kostov2016}{{127}{2016}{{{Kostov} et~al.}}{{}}}
-\bibcite{Kozai1962}{{128}{1962}{{Kozai}}{{}}}
-\bibcite{Kratter2014}{{129}{2014}{{{Kratter} and {Shannon}}}{{}}}
-\bibcite{Lam2018}{{130}{2018}{{{Lam} and {Kipping}}}{{}}}
-\bibcite{Lammer2003}{{131}{2003}{{{Lammer} et~al.}}{{}}}
-\bibcite{Lanza2016}{{132}{2016}{{{Lanza} and {Mathis}}}{{}}}
-\bibcite{Leconte2010}{{133}{2010}{{{Leconte} et~al.}}{{}}}
-\bibcite{Leung2013}{{134}{2013}{{{Leung} and {Lee}}}{{}}}
-\bibcite{Levato1974}{{135}{1974}{{Levato}}{{}}}
-\bibcite{Li2016}{{136}{2016}{{{Li} et~al.}}{{}}}
-\bibcite{Li1998}{{137}{1998}{{{Li} and {Wickramasinghe}}}{{}}}
-\bibcite{Lidov1962}{{138}{1962}{{Lidov}}{{}}}
-\bibcite{Lin1996}{{139}{1996}{{{Lin} et~al.}}{{}}}
-\bibcite{Lincowski2018}{{140}{2018}{{{Lincowski} et~al.}}{{}}}
-\bibcite{Lines2015}{{141}{2015}{{{Lines} et~al.}}{{}}}
-\bibcite{Lines2016}{{142}{2016}{{{Lines} et~al.}}{{}}}
-\bibcite{Lodato2010}{{143}{2010}{{{Lodato} and {Price}}}{{}}}
-\bibcite{Lubow1991}{{144}{1991}{{Lubow}}{{}}}
-\bibcite{Artymowicz1996b}{{145}{1996}{{{Lubow} and {Artymowicz}}}{{}}}
-\bibcite{Artymowicz2000}{{146}{2000}{{{Lubow} and {Artymowicz}}}{{}}}
-\bibcite{Lubow2015}{{147}{2015}{{{Lubow} et~al.}}{{}}}
-\bibcite{Luger2015}{{148}{2015}{{{Luger} and {Barnes}}}{{}}}
-\bibcite{Luger2017}{{149}{2017}{{{Luger} et~al.}}{{}}}
-\bibcite{Lurie2017}{{150}{2017}{{{Lurie} et~al.}}{{}}}
-\bibcite{Lustig2019}{{151}{2019}{{{Lustig-Yaeger} et~al.}}{{}}}
-\bibcite{MacFadyen2008}{{152}{2008}{{{MacFadyen} and {Milosavljevi{\'c}}}}{{}}}
-\bibcite{MacGregor1991}{{153}{1991}{{{MacGregor} and {Brenner}}}{{}}}
-\bibcite{Mamajek2008}{{154}{2008}{{{Mamajek} and {Hillenbrand}}}{{}}}
-\bibcite{Mardling2001}{{155}{2001}{{{Mardling} and {Aarseth}}}{{}}}
-\bibcite{Marilli2007}{{156}{2007}{{{Marilli} et~al.}}{{}}}
-\bibcite{MarquezNeila2018}{{157}{2018}{{{M{\'a}rquez-Neila} et~al.}}{{}}}
-\bibcite{Martin2017}{{158}{2017}{{Martin}}{{}}}
-\bibcite{Martin2015b}{{159}{2015}{{{Martin} et~al.}}{{}}}
-\bibcite{Martin2014}{{160}{2014}{{{Martin} and {Triaud}}}{{}}}
-\bibcite{Martin2015a}{{161}{2015}{{{Martin} and {Triaud}}}{{}}}
-\bibcite{Martin2014CB}{{162}{2014}{{{Martin} et~al.}}{{}}}
-\bibcite{Mathis2015}{{163}{2015}{{Mathis}}{{}}}
-\bibcite{Matson2018}{{164}{2018}{{{Matson} et~al.}}{{}}}
-\bibcite{Matt2015}{{165}{2015}{{{Matt} et~al.}}{{}}}
-\bibcite{Matt2019}{{166}{2019}{{{Matt} et~al.}}{{}}}
-\bibcite{Mayer2007}{{167}{2007}{{{Mayer} et~al.}}{{}}}
-\bibcite{Mazeh2008}{{168}{2008}{{Mazeh}}{{}}}
-\bibcite{McClintock2019}{{169}{2019}{{{McClintock} and {Rozo}}}{{}}}
-\bibcite{Mckinney2010}{{170}{2010}{{McKinney}}{{}}}
-\bibcite{McQuillan2014}{{171}{2014}{{{McQuillan} et~al.}}{{}}}
-\bibcite{Meadows1996}{{172}{1996}{{{Meadows} and {Crisp}}}{{}}}
-\bibcite{Meibom2015}{{173}{2015}{{{Meibom} et~al.}}{{}}}
-\bibcite{Meibom2005}{{174}{2005}{{{Meibom} and {Mathieu}}}{{}}}
-\bibcite{Meibom2006}{{175}{2006}{{{Meibom} et~al.}}{{}}}
-\bibcite{Meibom2007}{{176}{2007}{{{Meibom} et~al.}}{{}}}
-\bibcite{Meibom2009}{{177}{2009}{{{Meibom} et~al.}}{{}}}
-\bibcite{Meibom2011}{{178}{2011}{{{Meibom} et~al.}}{{}}}
-\bibcite{Menon2015}{{179}{2015}{{{Menon} et~al.}}{{}}}
-\bibcite{Meru2012}{{180}{2012}{{{Meru} and {Bate}}}{{}}}
-\bibcite{Meschiari2012a}{{181}{2012a}{{Meschiari}}{{}}}
-\bibcite{Meschiari2012b}{{182}{2012b}{{Meschiari}}{{}}}
-\bibcite{Mestel1968}{{183}{1968}{{Mestel}}{{}}}
-\bibcite{Moe2018}{{184}{2018}{{{Moe} and {Kratter}}}{{}}}
-\bibcite{Monaghan1983}{{185}{1983}{{{Monaghan} and {Gingold}}}{{}}}
-\bibcite{Morley2017}{{186}{2017}{{{Morley} et~al.}}{{}}}
-\bibcite{Morris2018}{{187}{2018}{{{Morris} et~al.}}{{}}}
-\bibcite{Munoz2015}{{188}{2015}{{{Mu{\~n}oz} and {Lai}}}{{}}}
-\bibcite{Murray1999}{{189}{1999}{{{Murray} and {Dermott}}}{{}}}
-\bibcite{Murray1996}{{190}{1996}{{Murray}}{{}}}
-\bibcite{MurrayClay2009}{{191}{2009}{{{Murray-Clay} et~al.}}{{}}}
-\bibcite{Nelder1965}{{192}{1965}{{Nelder and Mead}}{{}}}
-\bibcite{Nelson2003}{{193}{2003}{{{Nelson} and {Papaloizou}}}{{}}}
-\bibcite{Nelson2000}{{194}{2000}{{{Nelson} et~al.}}{{}}}
-\bibcite{Nixon2013}{{195}{2013}{{{Nixon} et~al.}}{{}}}
-\bibcite{Ogilvie2013}{{196}{2013}{{Ogilvie}}{{}}}
-\bibcite{Ogilvie2007}{{197}{2007}{{{Ogilvie} and {Lin}}}{{}}}
-\bibcite{Orosz2012}{{198}{2012}{{{Orosz} et~al.}}{{}}}
-\bibcite{Paardekooper2012}{{199}{2012}{{{Paardekooper} et~al.}}{{}}}
-\bibcite{Papaloizou2001}{{200}{2001}{{{Papaloizou} et~al.}}{{}}}
-\bibcite{Papaloizou2006}{{201}{2006}{{{Papaloizou} and {Terquem}}}{{}}}
-\bibcite{Parker1955}{{202}{1955}{{Parker}}{{}}}
-\bibcite{Parker1958}{{203}{1958}{{Parker}}{{}}}
-\bibcite{Patra2017}{{204}{2017}{{{Patra} et~al.}}{{}}}
-\bibcite{Peacock2019}{{205}{2019}{{{Peacock} et~al.}}{{}}}
-\bibcite{Pelupessy2013}{{206}{2013}{{{Pelupessy} and {Portegies Zwart}}}{{}}}
-\bibcite{Pierens2007}{{207}{2007}{{{Pierens} and {Nelson}}}{{}}}
-\bibcite{Pierens2013}{{208}{2013}{{{Pierens} and {Nelson}}}{{}}}
-\bibcite{Pizzolato2003}{{209}{2003}{{{Pizzolato} et~al.}}{{}}}
-\bibcite{Popova2013}{{210}{2013}{{{Popova} and {Shevchenko}}}{{}}}
-\bibcite{Popp2017}{{211}{2017}{{{Popp} and {Eggl}}}{{}}}
-\bibcite{Powell1964}{{212}{1964}{{Powell}}{{}}}
-\bibcite{Pringle1991}{{213}{1991}{{Pringle}}{{}}}
-\bibcite{Quarles2018}{{214}{2018}{{{Quarles} et~al.}}{{}}}
-\bibcite{Quinn1997}{{215}{1997}{{{Quinn} et~al.}}{{}}}
-\bibcite{Raghavan2010}{{216}{2010}{{{Raghavan} et~al.}}{{}}}
-\bibcite{Ragusa2016}{{217}{2016}{{{Ragusa} et~al.}}{{}}}
-\bibcite{Rasmussen2006}{{218}{2006}{{{Rasmussen} and {Williams}}}{{}}}
-\bibcite{Rauer2014}{{219}{2014}{{{Rauer} et~al.}}{{}}}
-\bibcite{Rebull2006}{{220}{2006}{{{Rebull} et~al.}}{{}}}
-\bibcite{Reid2005}{{221}{2005}{{{Reid} and {Hawley}}}{{}}}
-\bibcite{Rein2012}{{222}{2012}{{{Rein} and {Liu}}}{{}}}
-\bibcite{Rein2015}{{223}{2015}{{{Rein} and {Spiegel}}}{{}}}
-\bibcite{Reiners2012}{{224}{2012}{{{Reiners} and {Mohanty}}}{{}}}
-\bibcite{Reinhold2018}{{225}{2018}{{{Reinhold} et~al.}}{{}}}
-\bibcite{Reinhold2013}{{226}{2013}{{{Reinhold} et~al.}}{{}}}
-\bibcite{Repetto2014}{{227}{2014}{{{Repetto} and {Nelemans}}}{{}}}
-\bibcite{Ribas2016}{{228}{2016}{{{Ribas} et~al.}}{{}}}
-\bibcite{Ribas2005}{{229}{2005}{{{Ribas} et~al.}}{{}}}
-\bibcite{Richardson2000}{{230}{2000}{{{Richardson} et~al.}}{{}}}
-\bibcite{Ricker2014}{{231}{2014}{{{Ricker} et~al.}}{{}}}
-\bibcite{Rodriguez2012}{{232}{2012}{{{Rodr{\'{\i }}guez} et~al.}}{{}}}
-\bibcite{Rodriguez-Ledesma2009}{{233}{2009}{{{Rodr{\'{\i }}guez-Ledesma} et~al.}}{{}}}
-\bibcite{Roedig2011}{{234}{2011}{{{Roedig} et~al.}}{{}}}
-\bibcite{Roedig2012}{{235}{2012}{{{Roedig} et~al.}}{{}}}
-\bibcite{Roettenbacher2017}{{236}{2017}{{{Roettenbacher} and {Kane}}}{{}}}
-\bibcite{Rogers2011}{{237}{2011}{{{Rogers} et~al.}}{{}}}
-\bibcite{Roskar2015}{{238}{2015}{{{Ro{\v {s}}kar} et~al.}}{{}}}
-\bibcite{Sahlmann2015}{{239}{2015}{{{Sahlmann} et~al.}}{{}}}
-\bibcite{Schneider2018}{{240}{2018}{{{Schneider} and {Shkolnik}}}{{}}}
-\bibcite{Segura2005}{{241}{2005}{{{Segura} et~al.}}{{}}}
-\bibcite{Shi2012}{{242}{2012}{{{Shi} et~al.}}{{}}}
-\bibcite{Shkolnik2014}{{243}{2014}{{{Shkolnik} and {Barman}}}{{}}}
-\bibcite{Silsbee2015a}{{244}{2015}{{{Silsbee} and {Rafikov}}}{{}}}
-\bibcite{Simonian2018}{{245}{2018}{{{Simonian} et~al.}}{{}}}
-\bibcite{Skumanich1972}{{246}{1972}{{Skumanich}}{{}}}
-\bibcite{Smullen2016}{{247}{2016}{{{Smullen} et~al.}}{{}}}
-\bibcite{Spada2013}{{248}{2013}{{{Spada} et~al.}}{{}}}
-\bibcite{Stassun1999}{{249}{1999}{{{Stassun} et~al.}}{{}}}
-\bibcite{Stauffer2016}{{250}{2016}{{{Stauffer} et~al.}}{{}}}
-\bibcite{Stepien1995}{{251}{1995}{{Stepien}}{{}}}
-\bibcite{Sullivan2015}{{252}{2015}{{{Sullivan} et~al.}}{{}}}
-\bibcite{Sumi2011}{{253}{2011}{{{Sumi} et~al.}}{{}}}
-\bibcite{Sutherland2016}{{254}{2016}{{{Sutherland} and {Fabrycky}}}{{}}}
-\bibcite{Tarduno2014}{{255}{2014}{{{Tarduno} et~al.}}{{}}}
-\bibcite{Tokovinin2006}{{256}{2006}{{{Tokovinin} et~al.}}{{}}}
-\bibcite{Toomre1964}{{257}{1964}{{Toomre}}{{}}}
-\bibcite{Torres2018}{{258}{2018}{{{Torres} et~al.}}{{}}}
-\bibcite{Vaiana1981}{{259}{1981}{{{Vaiana} et~al.}}{{}}}
-\bibcite{vanderWalt2011}{{260}{2011}{{van~der Walt et~al.}}{{}}}
-\bibcite{vanEylen2016}{{261}{2016}{{{Van Eylen} et~al.}}{{}}}
-\bibcite{vanGrootel2018}{{262}{2018}{{{Van Grootel} et~al.}}{{}}}
-\bibcite{vanSaders2018}{{263}{2018}{{{van Saders} et~al.}}{{}}}
-\bibcite{VantVeer1988}{{264}{1988}{{{van't Veer} and {Maceroni}}}{{}}}
-\bibcite{Vartanyan2016}{{265}{2016}{{{Vartanyan} et~al.}}{{}}}
-\bibcite{Veras2012}{{266}{2012}{{{Veras} and {Raymond}}}{{}}}
-\bibcite{Verbunt1981}{{267}{1981}{{{Verbunt} and {Zwaan}}}{{}}}
-\bibcite{Wadsley2004}{{268}{2004}{{{Wadsley} et~al.}}{{}}}
-\bibcite{Waldmann2016}{{269}{2016}{{Waldmann}}{{}}}
-\bibcite{Wang2018}{{270}{2018}{{Wang and Li}}{{}}}
-\bibcite{Watson1981}{{271}{1981}{{{Watson} et~al.}}{{}}}
-\bibcite{Welsh2015}{{272}{2015}{{{Welsh} et~al.}}{{}}}
-\bibcite{Welsh2014}{{273}{2014}{{{Welsh} et~al.}}{{}}}
-\bibcite{West2008}{{274}{2008}{{{West} et~al.}}{{}}}
-\bibcite{West2015}{{275}{2015}{{{West} et~al.}}{{}}}
-\bibcite{Wheatley2017}{{276}{2017}{{{Wheatley} et~al.}}{{}}}
-\bibcite{Wilkins2017}{{277}{2017}{{{Wilkins} et~al.}}{{}}}
-\bibcite{Winn2015}{{278}{2015}{{{Winn} and {Fabrycky}}}{{}}}
-\bibcite{Wisdom1980}{{279}{1980}{{Wisdom}}{{}}}
-\bibcite{Wisdom2008}{{280}{2008}{{Wisdom}}{{}}}
-\bibcite{Witte2002}{{281}{2002}{{{Witte} and {Savonije}}}{{}}}
-\bibcite{Wright2016}{{282}{2016}{{{Wright} and {Drake}}}{{}}}
-\bibcite{Wright2011}{{283}{2011}{{{Wright} et~al.}}{{}}}
-\bibcite{Wright2018}{{284}{2018}{{{Wright} et~al.}}{{}}}
-\bibcite{Young2015}{{285}{2015}{{{Young} and {Clarke}}}{{}}}
-\bibcite{Zahn1975}{{286}{1975}{{Zahn}}{{}}}
-\bibcite{Zahn1994}{{287}{1994}{{Zahn}}{{}}}
-\bibcite{Zahn2008}{{288}{2008}{{Zahn}}{{}}}
-\bibcite{Zahn1989}{{289}{1989}{{{Zahn} and {Bouchet}}}{{}}}
-\bibcite{Zhao2013}{{290}{2013}{{{Zhao} and {Li}}}{{}}}
-\bibcite{Zingales2018}{{291}{2018}{{{Zingales} and {Waldmann}}}{{}}}
+\bibcite{Bellman1957}{{28}{1957}{{Bellman and Corporation}}{{}}}
+\bibcite{Bennett2016}{{29}{2016}{{{Bennett} et~al.}}{{}}}
+\bibcite{Bird2019}{{30}{2019}{{{Bird} et~al.}}{{}}}
+\bibcite{Bodenheimer2014}{{31}{2014}{{{Bodenheimer} and {Lissauer}}}{{}}}
+\bibcite{Bolmont2017}{{32}{2017}{{{Bolmont} et~al.}}{{}}}
+\bibcite{Bolmont2016}{{33}{2016}{{{Bolmont} and {Mathis}}}{{}}}
+\bibcite{Bonnell1994}{{34}{1994}{{{Bonnell} and {Bate}}}{{}}}
+\bibcite{Bourrier2017a}{{35}{2017a}{{{Bourrier} et~al.}}{{}}}
+\bibcite{Bourrier2017b}{{36}{2017b}{{{Bourrier} et~al.}}{{}}}
+\bibcite{Bouvier2008}{{37}{2008}{{Bouvier}}{{}}}
+\bibcite{Bouvier1997}{{38}{1997}{{{Bouvier} et~al.}}{{}}}
+\bibcite{Bromley2015}{{39}{2015}{{{Bromley} and {Kenyon}}}{{}}}
+\bibcite{Burgasser2017}{{40}{2017}{{{Burgasser} and {Mamajek}}}{{}}}
+\bibcite{Burkart2014}{{41}{2014}{{{Burkart} et~al.}}{{}}}
+\bibcite{Chadney2015}{{42}{2015}{{{Chadney} et~al.}}{{}}}
+\bibcite{Chambers1996}{{43}{1996}{{{Chambers} et~al.}}{{}}}
+\bibcite{Chaplin2014}{{44}{2014}{{{Chaplin} et~al.}}{{}}}
+\bibcite{Chatterjee2008}{{45}{2008}{{{Chatterjee} et~al.}}{{}}}
+\bibcite{Chavez2015}{{46}{2015}{{{Chavez} et~al.}}{{}}}
+\bibcite{Claret1995}{{47}{1995}{{{Claret} et~al.}}{{}}}
+\bibcite{Cobb2019}{{48}{2019}{{{Cobb} et~al.}}{{}}}
+\bibcite{Counselman1973}{{49}{1973}{{Counselman}}{{}}}
+\bibcite{Cranmer2011}{{50}{2011}{{{Cranmer} and {Saar}}}{{}}}
+\bibcite{Crisp1997}{{51}{1997}{{Crisp}}{{}}}
+\bibcite{Cuadra2009}{{52}{2009}{{{Cuadra} et~al.}}{{}}}
+\bibcite{Darwin1880}{{53}{1880}{{Darwin}}{{}}}
+\bibcite{Delfosse1998}{{54}{1998}{{Delfosse et~al.}}{{}}}
+\bibcite{Delrez2018}{{55}{2018}{{{Delrez} et~al.}}{{}}}
+\bibcite{Dermine2013}{{56}{2013}{{{Dermine} et~al.}}{{}}}
+\bibcite{DobbsDixon2004}{{57}{2004}{{{Dobbs-Dixon} et~al.}}{{}}}
+\bibcite{DOrazio2016}{{58}{2016}{{{D'Orazio} et~al.}}{{}}}
+\bibcite{DOrazio2013}{{59}{2013}{{{D'Orazio} et~al.}}{{}}}
+\bibcite{Douglas2017}{{60}{2017}{{{Douglas} et~al.}}{{}}}
+\bibcite{Dressing2015}{{61}{2015}{{{Dressing} and {Charbonneau}}}{{}}}
+\bibcite{Duchene2013}{{62}{2013}{{{Duch{\^e}ne} and {Kraus}}}{{}}}
+\bibcite{Dunhill2013}{{63}{2013}{{{Dunhill} and {Alexander}}}{{}}}
+\bibcite{Dunhill2015}{{64}{2015}{{{Dunhill} et~al.}}{{}}}
+\bibcite{Dvorak1986}{{65}{1986}{{Dvorak}}{{}}}
+\bibcite{Dvorak1989}{{66}{1989}{{{Dvorak} et~al.}}{{}}}
+\bibcite{Escala2005}{{67}{2005}{{{Escala} et~al.}}{{}}}
+\bibcite{Essick2016}{{68}{2016}{{{Essick} and {Weinberg}}}{{}}}
+\bibcite{Fabrycky2007}{{69}{2007}{{{Fabrycky} and {Tremaine}}}{{}}}
+\bibcite{Farris2014}{{70}{2014}{{{Farris} et~al.}}{{}}}
+\bibcite{FerrazMello2008}{{71}{2008}{{{Ferraz-Mello} et~al.}}{{}}}
+\bibcite{Fisher2019}{{72}{2019}{{{Fisher} et~al.}}{{}}}
+\bibcite{Flegal2008}{{73}{2008}{{Flegal et~al.}}{{}}}
+\bibcite{Flegal2010}{{74}{2010}{{Flegal and Jones}}{{}}}
+\bibcite{Fleming2018}{{75}{2018}{{{Fleming} et~al.}}{{}}}
+\bibcite{Fleming2020}{{76}{2020}{{{Fleming} et~al.}}{{}}}
+\bibcite{Fleming2017}{{77}{2017}{{{Fleming} and {Quinn}}}{{}}}
+\bibcite{FlemingVanderPlas2018}{{78}{2018}{{{Fleming} and {VanderPlas}}}{{}}}
+\bibcite{ForemanMackey2016}{{79}{2016}{{Foreman-Mackey}}{{}}}
+\bibcite{ForemanMackey2013}{{80}{2013}{{{Foreman-Mackey} et~al.}}{{}}}
+\bibcite{Forgan2014}{{81}{2014}{{Forgan}}{{}}}
+\bibcite{Foucart2013}{{82}{2013}{{{Foucart} and {Lai}}}{{}}}
+\bibcite{Gaia2016}{{83}{2016}{{{Gaia Collaboration} et~al.}}{{}}}
+\bibcite{Gallet2017}{{84}{2017}{{{Gallet} et~al.}}{{}}}
+\bibcite{Gallet2013}{{85}{2013}{{{Gallet} and {Bouvier}}}{{}}}
+\bibcite{Gallet2015}{{86}{2015}{{{Gallet} and {Bouvier}}}{{}}}
+\bibcite{Gillon2016}{{87}{2016}{{{Gillon} et~al.}}{{}}}
+\bibcite{Gillon2017}{{88}{2017}{{{Gillon} et~al.}}{{}}}
+\bibcite{Goldreich1966b}{{89}{1966}{{Goldreich}}{{}}}
+\bibcite{GoldreichPeale1966}{{90}{1966}{{{Goldreich} and {Peale}}}{{}}}
+\bibcite{Goldreich1966}{{91}{1966}{{{Goldreich} and {Soter}}}{{}}}
+\bibcite{Goldreich1979}{{92}{1979}{{{Goldreich} and {Tremaine}}}{{}}}
+\bibcite{Goldreich1980}{{93}{1980}{{{Goldreich} and {Tremaine}}}{{}}}
+\bibcite{Gong2017b}{{94}{2017}{{Gong}}{{}}}
+\bibcite{Gong2017}{{95}{2017}{{{Gong} and {Ji}}}{{}}}
+\bibcite{Gonzales2019}{{96}{2019}{{{Gonzales} et~al.}}{{}}}
+\bibcite{Greenberg2009}{{97}{2009}{{Greenberg}}{{}}}
+\bibcite{Grimm2018}{{98}{2018}{{{Grimm} et~al.}}{{}}}
+\bibcite{Habets1989}{{99}{1989}{{{Habets} and {Zwaan}}}{{}}}
+\bibcite{Haisch2001}{{100}{2001}{{{Haisch} et~al.}}{{}}}
+\bibcite{Hamers2016}{{101}{2016}{{{Hamers} et~al.}}{{}}}
+\bibcite{Heller2011}{{102}{2011}{{{Heller} et~al.}}{{}}}
+\bibcite{Herbst2001}{{103}{2001}{{{Herbst} et~al.}}{{}}}
+\bibcite{Herbst2002}{{104}{2002}{{{Herbst} et~al.}}{{}}}
+\bibcite{Himes2020}{{105}{2020}{{{Himes} et~al.}}{{}}}
+\bibcite{Holman1999}{{106}{1999}{{{Holman} and {Wiegert}}}{{}}}
+\bibcite{Howell2014}{{107}{2014}{{{Howell} et~al.}}{{}}}
+\bibcite{Huang1966}{{108}{1966}{{Huang}}{{}}}
+\bibcite{Hunter2007}{{109}{2007}{{Hunter}}{{}}}
+\bibcite{Hurley2002}{{110}{2002}{{{Hurley} et~al.}}{{}}}
+\bibcite{Hut1981}{{111}{1981}{{Hut}}{{}}}
+\bibcite{Irwin2009}{{112}{2009}{{{Irwin} and {Bouvier}}}{{}}}
+\bibcite{Ivanova2005}{{113}{2005}{{{Ivanova} et~al.}}{{}}}
+\bibcite{Ivanova2003}{{114}{2003}{{{Ivanova} and {Taam}}}{{}}}
+\bibcite{Jackson2012}{{115}{2012}{{{Jackson} et~al.}}{{}}}
+\bibcite{Jackson2009}{{116}{2009}{{{Jackson} et~al.}}{{}}}
+\bibcite{Jackson2008}{{117}{2008}{{{Jackson} et~al.}}{{}}}
+\bibcite{Jetley2008}{{118}{2008}{{{Jetley} et~al.}}{{}}}
+\bibcite{Kale1996}{{119}{1996}{{Kale and Krishnan}}{{}}}
+\bibcite{Kandasamy2017}{{120}{2017}{{Kandasamy et~al.}}{{}}}
+\bibcite{Kane2013}{{121}{2013}{{{Kane} and {Hinkel}}}{{}}}
+\bibcite{Keppens1997}{{122}{1997}{{Keppens}}{{}}}
+\bibcite{Khaliullin2011}{{123}{2011}{{{Khaliullin} and {Khaliullina}}}{{}}}
+\bibcite{Kirk2016}{{124}{2016}{{{Kirk} et~al.}}{{}}}
+\bibcite{Kley2014}{{125}{2014}{{{Kley} and {Haghighipour}}}{{}}}
+\bibcite{Kley2015}{{126}{2015}{{{Kley} and {Haghighipour}}}{{}}}
+\bibcite{Kley2008}{{127}{2008}{{{Kley} et~al.}}{{}}}
+\bibcite{Kostov2016}{{128}{2016}{{{Kostov} et~al.}}{{}}}
+\bibcite{Kozai1962}{{129}{1962}{{Kozai}}{{}}}
+\bibcite{Kratter2014}{{130}{2014}{{{Kratter} and {Shannon}}}{{}}}
+\bibcite{KrissansenTotton2018}{{131}{2018}{{{Krissansen-Totton} et~al.}}{{}}}
+\bibcite{Lam2018}{{132}{2018}{{{Lam} and {Kipping}}}{{}}}
+\bibcite{Lammer2003}{{133}{2003}{{{Lammer} et~al.}}{{}}}
+\bibcite{Lanza2016}{{134}{2016}{{{Lanza} and {Mathis}}}{{}}}
+\bibcite{Leconte2010}{{135}{2010}{{{Leconte} et~al.}}{{}}}
+\bibcite{Leung2013}{{136}{2013}{{{Leung} and {Lee}}}{{}}}
+\bibcite{Levato1974}{{137}{1974}{{Levato}}{{}}}
+\bibcite{Li2016}{{138}{2016}{{{Li} et~al.}}{{}}}
+\bibcite{Li1998}{{139}{1998}{{{Li} and {Wickramasinghe}}}{{}}}
+\bibcite{Lidov1962}{{140}{1962}{{Lidov}}{{}}}
+\bibcite{Lin1996}{{141}{1996}{{{Lin} et~al.}}{{}}}
+\bibcite{Lincowski2018}{{142}{2018}{{{Lincowski} et~al.}}{{}}}
+\bibcite{Lines2015}{{143}{2015}{{{Lines} et~al.}}{{}}}
+\bibcite{Lines2016}{{144}{2016}{{{Lines} et~al.}}{{}}}
+\bibcite{Lodato2010}{{145}{2010}{{{Lodato} and {Price}}}{{}}}
+\bibcite{Lubow1991}{{146}{1991}{{Lubow}}{{}}}
+\bibcite{Artymowicz1996b}{{147}{1996}{{{Lubow} and {Artymowicz}}}{{}}}
+\bibcite{Artymowicz2000}{{148}{2000}{{{Lubow} and {Artymowicz}}}{{}}}
+\bibcite{Lubow2015}{{149}{2015}{{{Lubow} et~al.}}{{}}}
+\bibcite{Luger2015}{{150}{2015}{{{Luger} and {Barnes}}}{{}}}
+\bibcite{Luger2017}{{151}{2017}{{{Luger} et~al.}}{{}}}
+\bibcite{Lurie2017}{{152}{2017}{{{Lurie} et~al.}}{{}}}
+\bibcite{Lustig2019}{{153}{2019}{{{Lustig-Yaeger} et~al.}}{{}}}
+\bibcite{MacFadyen2008}{{154}{2008}{{{MacFadyen} and {Milosavljevi{\'c}}}}{{}}}
+\bibcite{MacGregor1991}{{155}{1991}{{{MacGregor} and {Brenner}}}{{}}}
+\bibcite{Mamajek2008}{{156}{2008}{{{Mamajek} and {Hillenbrand}}}{{}}}
+\bibcite{Mardling2001}{{157}{2001}{{{Mardling} and {Aarseth}}}{{}}}
+\bibcite{Marilli2007}{{158}{2007}{{{Marilli} et~al.}}{{}}}
+\bibcite{MarquezNeila2018}{{159}{2018}{{{M{\'a}rquez-Neila} et~al.}}{{}}}
+\bibcite{Martin2017}{{160}{2017}{{Martin}}{{}}}
+\bibcite{Martin2015b}{{161}{2015}{{{Martin} et~al.}}{{}}}
+\bibcite{Martin2014}{{162}{2014}{{{Martin} and {Triaud}}}{{}}}
+\bibcite{Martin2015a}{{163}{2015}{{{Martin} and {Triaud}}}{{}}}
+\bibcite{Martin2014CB}{{164}{2014}{{{Martin} et~al.}}{{}}}
+\bibcite{Mathis2015}{{165}{2015}{{Mathis}}{{}}}
+\bibcite{Matson2018}{{166}{2018}{{{Matson} et~al.}}{{}}}
+\bibcite{Matt2015}{{167}{2015}{{{Matt} et~al.}}{{}}}
+\bibcite{Matt2019}{{168}{2019}{{{Matt} et~al.}}{{}}}
+\bibcite{Mayer2007}{{169}{2007}{{{Mayer} et~al.}}{{}}}
+\bibcite{Mazeh2008}{{170}{2008}{{Mazeh}}{{}}}
+\bibcite{McClintock2019}{{171}{2019}{{{McClintock} and {Rozo}}}{{}}}
+\bibcite{Mckinney2010}{{172}{2010}{{McKinney}}{{}}}
+\bibcite{McQuillan2014}{{173}{2014}{{{McQuillan} et~al.}}{{}}}
+\bibcite{Meadows1996}{{174}{1996}{{{Meadows} and {Crisp}}}{{}}}
+\bibcite{Meibom2015}{{175}{2015}{{{Meibom} et~al.}}{{}}}
+\bibcite{Meibom2005}{{176}{2005}{{{Meibom} and {Mathieu}}}{{}}}
+\bibcite{Meibom2006}{{177}{2006}{{{Meibom} et~al.}}{{}}}
+\bibcite{Meibom2007}{{178}{2007}{{{Meibom} et~al.}}{{}}}
+\bibcite{Meibom2009}{{179}{2009}{{{Meibom} et~al.}}{{}}}
+\bibcite{Meibom2011}{{180}{2011}{{{Meibom} et~al.}}{{}}}
+\bibcite{Menon2015}{{181}{2015}{{{Menon} et~al.}}{{}}}
+\bibcite{Meru2012}{{182}{2012}{{{Meru} and {Bate}}}{{}}}
+\bibcite{Meschiari2012a}{{183}{2012a}{{Meschiari}}{{}}}
+\bibcite{Meschiari2012b}{{184}{2012b}{{Meschiari}}{{}}}
+\bibcite{Mestel1968}{{185}{1968}{{Mestel}}{{}}}
+\bibcite{Moe2018}{{186}{2018}{{{Moe} and {Kratter}}}{{}}}
+\bibcite{Monaghan1983}{{187}{1983}{{{Monaghan} and {Gingold}}}{{}}}
+\bibcite{Morley2017}{{188}{2017}{{{Morley} et~al.}}{{}}}
+\bibcite{Morris2018}{{189}{2018}{{{Morris} et~al.}}{{}}}
+\bibcite{Munoz2015}{{190}{2015}{{{Mu{\~n}oz} and {Lai}}}{{}}}
+\bibcite{Murray1999}{{191}{1999}{{{Murray} and {Dermott}}}{{}}}
+\bibcite{Murray1996}{{192}{1996}{{Murray}}{{}}}
+\bibcite{MurrayClay2009}{{193}{2009}{{{Murray-Clay} et~al.}}{{}}}
+\bibcite{Nelder1965}{{194}{1965}{{Nelder and Mead}}{{}}}
+\bibcite{Nelson2003}{{195}{2003}{{{Nelson} and {Papaloizou}}}{{}}}
+\bibcite{Nelson2000}{{196}{2000}{{{Nelson} et~al.}}{{}}}
+\bibcite{Nixon2013}{{197}{2013}{{{Nixon} et~al.}}{{}}}
+\bibcite{Ogilvie2013}{{198}{2013}{{Ogilvie}}{{}}}
+\bibcite{Ogilvie2007}{{199}{2007}{{{Ogilvie} and {Lin}}}{{}}}
+\bibcite{Orosz2012}{{200}{2012}{{{Orosz} et~al.}}{{}}}
+\bibcite{Paardekooper2012}{{201}{2012}{{{Paardekooper} et~al.}}{{}}}
+\bibcite{Papaloizou2001}{{202}{2001}{{{Papaloizou} et~al.}}{{}}}
+\bibcite{Papaloizou2006}{{203}{2006}{{{Papaloizou} and {Terquem}}}{{}}}
+\bibcite{Parker1955}{{204}{1955}{{Parker}}{{}}}
+\bibcite{Parker1958}{{205}{1958}{{Parker}}{{}}}
+\bibcite{Patra2017}{{206}{2017}{{{Patra} et~al.}}{{}}}
+\bibcite{Peacock2019}{{207}{2019}{{{Peacock} et~al.}}{{}}}
+\bibcite{Pelupessy2013}{{208}{2013}{{{Pelupessy} and {Portegies Zwart}}}{{}}}
+\bibcite{Pierens2007}{{209}{2007}{{{Pierens} and {Nelson}}}{{}}}
+\bibcite{Pierens2013}{{210}{2013}{{{Pierens} and {Nelson}}}{{}}}
+\bibcite{Pizzolato2003}{{211}{2003}{{{Pizzolato} et~al.}}{{}}}
+\bibcite{Popova2013}{{212}{2013}{{{Popova} and {Shevchenko}}}{{}}}
+\bibcite{Popp2017}{{213}{2017}{{{Popp} and {Eggl}}}{{}}}
+\bibcite{Powell1964}{{214}{1964}{{Powell}}{{}}}
+\bibcite{Pringle1991}{{215}{1991}{{Pringle}}{{}}}
+\bibcite{Quarles2018}{{216}{2018}{{{Quarles} et~al.}}{{}}}
+\bibcite{Quinn1997}{{217}{1997}{{{Quinn} et~al.}}{{}}}
+\bibcite{Raghavan2010}{{218}{2010}{{{Raghavan} et~al.}}{{}}}
+\bibcite{Ragusa2016}{{219}{2016}{{{Ragusa} et~al.}}{{}}}
+\bibcite{Rasmussen2006}{{220}{2006}{{{Rasmussen} and {Williams}}}{{}}}
+\bibcite{Rauer2014}{{221}{2014}{{{Rauer} et~al.}}{{}}}
+\bibcite{Rebull2006}{{222}{2006}{{{Rebull} et~al.}}{{}}}
+\bibcite{Reid2005}{{223}{2005}{{{Reid} and {Hawley}}}{{}}}
+\bibcite{Rein2012}{{224}{2012}{{{Rein} and {Liu}}}{{}}}
+\bibcite{Rein2015}{{225}{2015}{{{Rein} and {Spiegel}}}{{}}}
+\bibcite{Reiners2012}{{226}{2012}{{{Reiners} and {Mohanty}}}{{}}}
+\bibcite{Reinhold2018}{{227}{2018}{{{Reinhold} et~al.}}{{}}}
+\bibcite{Reinhold2013}{{228}{2013}{{{Reinhold} et~al.}}{{}}}
+\bibcite{Repetto2014}{{229}{2014}{{{Repetto} and {Nelemans}}}{{}}}
+\bibcite{Ribas2016}{{230}{2016}{{{Ribas} et~al.}}{{}}}
+\bibcite{Ribas2005}{{231}{2005}{{{Ribas} et~al.}}{{}}}
+\bibcite{Richardson2000}{{232}{2000}{{{Richardson} et~al.}}{{}}}
+\bibcite{Ricker2014}{{233}{2014}{{{Ricker} et~al.}}{{}}}
+\bibcite{Rodriguez2012}{{234}{2012}{{{Rodr{\'{\i }}guez} et~al.}}{{}}}
+\bibcite{Rodriguez-Ledesma2009}{{235}{2009}{{{Rodr{\'{\i }}guez-Ledesma} et~al.}}{{}}}
+\bibcite{Roedig2011}{{236}{2011}{{{Roedig} et~al.}}{{}}}
+\bibcite{Roedig2012}{{237}{2012}{{{Roedig} et~al.}}{{}}}
+\bibcite{Roettenbacher2017}{{238}{2017}{{{Roettenbacher} and {Kane}}}{{}}}
+\bibcite{Rogers2011}{{239}{2011}{{{Rogers} et~al.}}{{}}}
+\bibcite{Roskar2015}{{240}{2015}{{{Ro{\v {s}}kar} et~al.}}{{}}}
+\bibcite{Sahlmann2015}{{241}{2015}{{{Sahlmann} et~al.}}{{}}}
+\bibcite{Schneider2018}{{242}{2018}{{{Schneider} and {Shkolnik}}}{{}}}
+\bibcite{Segura2005}{{243}{2005}{{{Segura} et~al.}}{{}}}
+\bibcite{Shi2012}{{244}{2012}{{{Shi} et~al.}}{{}}}
+\bibcite{Shkolnik2014}{{245}{2014}{{{Shkolnik} and {Barman}}}{{}}}
+\bibcite{Silsbee2015a}{{246}{2015}{{{Silsbee} and {Rafikov}}}{{}}}
+\bibcite{Simonian2018}{{247}{2018}{{{Simonian} et~al.}}{{}}}
+\bibcite{Skumanich1972}{{248}{1972}{{Skumanich}}{{}}}
+\bibcite{Smullen2016}{{249}{2016}{{{Smullen} et~al.}}{{}}}
+\bibcite{Spada2013}{{250}{2013}{{{Spada} et~al.}}{{}}}
+\bibcite{Stassun1999}{{251}{1999}{{{Stassun} et~al.}}{{}}}
+\bibcite{Stauffer2016}{{252}{2016}{{{Stauffer} et~al.}}{{}}}
+\bibcite{Stepien1995}{{253}{1995}{{Stepien}}{{}}}
+\bibcite{Sullivan2015}{{254}{2015}{{{Sullivan} et~al.}}{{}}}
+\bibcite{Sumi2011}{{255}{2011}{{{Sumi} et~al.}}{{}}}
+\bibcite{Sutherland2016}{{256}{2016}{{{Sutherland} and {Fabrycky}}}{{}}}
+\bibcite{Tarduno2014}{{257}{2014}{{{Tarduno} et~al.}}{{}}}
+\bibcite{Tokovinin2006}{{258}{2006}{{{Tokovinin} et~al.}}{{}}}
+\bibcite{Toomre1964}{{259}{1964}{{Toomre}}{{}}}
+\bibcite{Torres2018}{{260}{2018}{{{Torres} et~al.}}{{}}}
+\bibcite{Tremblay2020}{{261}{2020}{{{Tremblay} et~al.}}{{}}}
+\bibcite{Vaiana1981}{{262}{1981}{{{Vaiana} et~al.}}{{}}}
+\bibcite{vanderWalt2011}{{263}{2011}{{van~der Walt et~al.}}{{}}}
+\bibcite{vanEylen2016}{{264}{2016}{{{Van Eylen} et~al.}}{{}}}
+\bibcite{vanGrootel2018}{{265}{2018}{{{Van Grootel} et~al.}}{{}}}
+\bibcite{vanSaders2018}{{266}{2018}{{{van Saders} et~al.}}{{}}}
+\bibcite{VantVeer1988}{{267}{1988}{{{van't Veer} and {Maceroni}}}{{}}}
+\bibcite{Vartanyan2016}{{268}{2016}{{{Vartanyan} et~al.}}{{}}}
+\bibcite{Veras2012}{{269}{2012}{{{Veras} and {Raymond}}}{{}}}
+\bibcite{Verbunt1981}{{270}{1981}{{{Verbunt} and {Zwaan}}}{{}}}
+\bibcite{Wadsley2004}{{271}{2004}{{{Wadsley} et~al.}}{{}}}
+\bibcite{Waldmann2016}{{272}{2016}{{Waldmann}}{{}}}
+\bibcite{Wang2018}{{273}{2018}{{Wang and Li}}{{}}}
+\bibcite{Watson1981}{{274}{1981}{{{Watson} et~al.}}{{}}}
+\bibcite{Welsh2015}{{275}{2015}{{{Welsh} et~al.}}{{}}}
+\bibcite{Welsh2014}{{276}{2014}{{{Welsh} et~al.}}{{}}}
+\bibcite{West2008}{{277}{2008}{{{West} et~al.}}{{}}}
+\bibcite{West2015}{{278}{2015}{{{West} et~al.}}{{}}}
+\bibcite{Wheatley2017}{{279}{2017}{{{Wheatley} et~al.}}{{}}}
+\bibcite{Wilkins2017}{{280}{2017}{{{Wilkins} et~al.}}{{}}}
+\bibcite{Winn2015}{{281}{2015}{{{Winn} and {Fabrycky}}}{{}}}
+\bibcite{Wisdom1980}{{282}{1980}{{Wisdom}}{{}}}
+\bibcite{Wisdom2008}{{283}{2008}{{Wisdom}}{{}}}
+\bibcite{Witte2002}{{284}{2002}{{{Witte} and {Savonije}}}{{}}}
+\bibcite{Wright2016}{{285}{2016}{{{Wright} and {Drake}}}{{}}}
+\bibcite{Wright2011}{{286}{2011}{{{Wright} et~al.}}{{}}}
+\bibcite{Wright2018}{{287}{2018}{{{Wright} et~al.}}{{}}}
+\bibcite{Young2015}{{288}{2015}{{{Young} and {Clarke}}}{{}}}
+\bibcite{Zahn1975}{{289}{1975}{{Zahn}}{{}}}
+\bibcite{Zahn1994}{{290}{1994}{{Zahn}}{{}}}
+\bibcite{Zahn2008}{{291}{2008}{{Zahn}}{{}}}
+\bibcite{Zahn1989}{{292}{1989}{{{Zahn} and {Bouchet}}}{{}}}
+\bibcite{Zhao2013}{{293}{2013}{{{Zhao} and {Li}}}{{}}}
+\bibcite{Zingales2018}{{294}{2018}{{{Zingales} and {Waldmann}}}{{}}}

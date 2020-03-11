@@ -164,6 +164,11 @@
   orbital decay}.
 \newblock {\em \mnras}, 336:705--713.
 
+\bibitem[Bellman and Corporation, 1957]{Bellman1957}
+Bellman, R. and Corporation, R. (1957).
+\newblock {\em Dynamic Programming}.
+\newblock Rand Corporation research study.
+
 \bibitem[{Bennett} et~al., 2016]{Bennett2016}
 {Bennett}, D.~P., {Rhie}, S.~H., {Udalski}, A., {Gould}, A., {Tsapras}, Y.,
   {Kubas}, D., {Bond}, I.~A., {Greenhill}, J., {Cassan}, A., {Rattenbury},
@@ -814,6 +819,13 @@ Kandasamy, K., Schneider, J., and Póczos, B. (2017).
 {Kratter}, K.~M. and {Shannon}, A. (2014).
 \newblock {Planet packing in circumbinary systems}.
 \newblock {\em \mnras}, 437:3727--3735.
+
+\bibitem[{Krissansen-Totton} et~al., 2018]{KrissansenTotton2018}
+{Krissansen-Totton}, J., {Garland}, R., {Irwin}, P., and {Catling}, D.~C.
+  (2018).
+\newblock {Detectability of Biosignatures in Anoxic Atmospheres with the James
+  Webb Space Telescope: A TRAPPIST-1e Case Study}.
+\newblock {\em \aj}, 156(3):114.
 
 \bibitem[{Lam} and {Kipping}, 2018]{Lam2018}
 {Lam}, C. and {Kipping}, D. (2018).
@@ -1647,6 +1659,13 @@ Powell, M. J.~D. (1964).
 \newblock {Eclipsing Binaries in the Open Cluster Ruprecht 147. I. EPIC
   219394517}.
 \newblock {\em \apj}, 866:67.
+
+\bibitem[{Tremblay} et~al., 2020]{Tremblay2020}
+{Tremblay}, L., {Line}, M.~R., {Stevenson}, K., {Kataria}, T., {Zellem}, R.~T.,
+  {Fortney}, J.~J., and {Morley}, C. (2020).
+\newblock {The Detectability and Constraints of Biosignature Gases in the Near-
+  and Mid-infrared from Transit Transmission Spectroscopy}.
+\newblock {\em \aj}, 159(3):117.
 
 \bibitem[{Vaiana} et~al., 1981]{Vaiana1981}
 {Vaiana}, G.~S., {Cassinelli}, J.~P., {Fabbiano}, G., {Giacconi}, R., {Golub},
