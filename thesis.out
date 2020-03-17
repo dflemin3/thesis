@@ -71,7 +71,7 @@
 \BOOKMARK [1][-]{section.4.7}{Analytic Torque Balance}{chapter.4}% 71
 \BOOKMARK [0][-]{chapter.5}{Bayesian Inference with Slow Models using approxposterior}{}% 72
 \BOOKMARK [1][-]{section.5.1}{Bayesian Inference with Computationally-Expensive Models}{chapter.5}% 73
-\BOOKMARK [2][-]{subsection.5.1.1}{Fast and Accurate Approximate Bayesian Inference with approxposterior}{section.5.1}% 74
+\BOOKMARK [2][-]{subsection.5.1.1}{Fast Approximate Bayesian Inference with approxposterior}{section.5.1}% 74
 \BOOKMARK [1][-]{section.5.2}{approxposterior Algorithm}{chapter.5}% 75
 \BOOKMARK [1][-]{section.5.3}{approxposterior: Theory and Practical Usage}{chapter.5}% 76
 \BOOKMARK [2][-]{subsection.5.3.1}{Augmenting the Training Set}{section.5.3}% 77
@@ -93,6 +93,5 @@
 \BOOKMARK [2][-]{subsection.6.3.2}{Comparison with approxposterior}{section.6.3}% 93
 \BOOKMARK [2][-]{subsection.6.3.3}{TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{section.6.3}% 94
 \BOOKMARK [1][-]{section.6.4}{Discussion and Conclusions}{chapter.6}% 95
-\BOOKMARK [1][-]{section.6.5}{Acknowledgments}{chapter.6}% 96
-\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 97
-\BOOKMARK [0][-]{chapter*.84}{Bibliography}{}% 98
+\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 96
+\BOOKMARK [0][-]{chapter*.84}{Bibliography}{}% 97

@@ -98,7 +98,7 @@
 \contentsline {section}{\numberline {4.7}Analytic Torque Balance}{145}{section.4.7}
 \contentsline {chapter}{\numberline {\@textofChapter \ 5:}Bayesian Inference with Slow Models using \texttt {approxposterior}\xspace }{147}{chapter.5}
 \contentsline {section}{\numberline {5.1}Bayesian Inference with Computationally-Expensive Models}{147}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Fast and Accurate Approximate Bayesian Inference with \texttt {approxposterior}\xspace }{149}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.1}Fast Approximate Bayesian Inference with \texttt {approxposterior}\xspace }{149}{subsection.5.1.1}
 \contentsline {section}{\numberline {5.2}\texttt {approxposterior}\xspace Algorithm}{151}{section.5.2}
 \contentsline {section}{\numberline {5.3}\texttt {approxposterior}\xspace : Theory and Practical Usage}{153}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Augmenting the Training Set}{153}{subsection.5.3.1}
@@ -109,17 +109,16 @@
 \contentsline {section}{\numberline {5.5}Conclusions}{164}{section.5.5}
 \contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{167}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{167}{section.6.1}
-\contentsline {section}{\numberline {6.2}Methods}{169}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Simulating XUV Evolution with \texttt {VPLanet}\xspace }{169}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Markov Chain Monte Carlo Analysis}{170}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.2}Methods}{170}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Simulating XUV Evolution with \texttt {VPLanet}\xspace }{170}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Markov Chain Monte Carlo Analysis}{171}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Prior Probability Distributions}{171}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Likelihood Function and Convergence}{172}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.4}Likelihood Function and Convergence}{173}{subsection.6.2.4}
 \contentsline {subsection}{\numberline {6.2.5}Inference with \texttt {approxposterior}\xspace }{174}{subsection.6.2.5}
-\contentsline {section}{\numberline {6.3}Results}{175}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}The Evolution of TRAPPIST-1}{175}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.3}Results}{176}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}The Evolution of TRAPPIST-1}{176}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Comparison with \texttt {approxposterior}\xspace }{178}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{180}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{182}{subsection.6.3.3}
 \contentsline {section}{\numberline {6.4}Discussion and Conclusions}{184}{section.6.4}
-\contentsline {section}{\numberline {6.5}Acknowledgments}{186}{section.6.5}
 \contentsline {chapter}{\numberline {\@textofChapter \ 7:}Conclusions}{188}{chapter.7}
 \contentsline {chapter}{Bibliography}{191}{chapter*.84}
