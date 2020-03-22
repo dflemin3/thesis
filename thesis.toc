@@ -4,13 +4,13 @@
 \contentsline {section}{\numberline {1.1}What Does the Present Tell Us About the Past?}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Dissertation Outline}{3}{section.1.2}
 \contentsline {chapter}{\numberline {\@textofChapter \ 2:}Dynamics in the Birthplace of Planets: Examining the Resonant Dynamical Interactions Between Binary Stars and Circumbinary Disks}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{4}{section.2.1}
+\contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Simulations}{8}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Methods}{8}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Model Parameters}{9}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Model Parameters}{10}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Initial Conditions}{10}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Results and Analysis}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Gap Clearing}{13}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.3}Results and Analysis}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Gap Clearing}{11}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Disk Evolution}{14}{subsection.2.3.2}
 \contentsline {subsubsection}{Disk Eccentricity Growth}{14}{section*.10}
 \contentsline {subsubsection}{DisK Structure}{18}{section*.13}
@@ -69,7 +69,7 @@
 \contentsline {chapter}{\numberline {\@textofChapter \ 4:}The Competition between Magnetic Braking and Tidal Torques in Binary Stars: Application to the \textit {Kepler}\xspace Field}{104}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{104}{section.4.1}
 \contentsline {section}{\numberline {4.2}Methods}{107}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Stellar Evolution}{107}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Stellar Evolution}{108}{subsection.4.2.1}
 \contentsline {subsubsection}{Core-Envelope Coupling}{109}{section*.49}
 \contentsline {subsubsection}{Example Stellar Evolution}{109}{section*.50}
 \contentsline {subsection}{\numberline {4.2.2}Tidal Evolution}{110}{subsection.4.2.2}
@@ -93,7 +93,7 @@
 \contentsline {subsection}{\numberline {4.4.6}CPL or CTL?}{144}{subsection.4.4.6}
 \contentsline {section}{\numberline {4.5}Discussion}{146}{section.4.5}
 \contentsline {chapter}{\numberline {\@textofChapter \ 5:}Bayesian Inference with Slow Models using \texttt {approxposterior}\xspace }{149}{chapter.5}
-\contentsline {section}{\numberline {5.1}Bayesian Inference with Computationally-Expensive Models}{149}{section.5.1}
+\contentsline {section}{\numberline {5.1}Bayesian Inference with Computationally-Expensive Models}{150}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Fast Approximate Bayesian Inference with \texttt {approxposterior}\xspace }{151}{subsection.5.1.1}
 \contentsline {section}{\numberline {5.2}\texttt {approxposterior}\xspace Algorithm}{153}{section.5.2}
 \contentsline {section}{\numberline {5.3}\texttt {approxposterior}\xspace : Theory and Practical Usage}{155}{section.5.3}
@@ -104,17 +104,17 @@
 \contentsline {section}{\numberline {5.4}Applying \texttt {approxposterior}\xspace to Terrestrial Exoplanet Atmospheric Retrieval}{164}{section.5.4}
 \contentsline {section}{\numberline {5.5}Conclusions}{166}{section.5.5}
 \contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{169}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{169}{section.6.1}
+\contentsline {section}{\numberline {6.1}Introduction}{170}{section.6.1}
 \contentsline {section}{\numberline {6.2}Methods}{172}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Simulating XUV Evolution with \texttt {VPLanet}\xspace }{172}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Markov Chain Monte Carlo Analysis}{173}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Prior Probability Distributions}{173}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.3}Prior Probability Distributions}{174}{subsection.6.2.3}
 \contentsline {subsection}{\numberline {6.2.4}Likelihood Function and Convergence}{175}{subsection.6.2.4}
 \contentsline {subsection}{\numberline {6.2.5}Inference with \texttt {approxposterior}\xspace }{176}{subsection.6.2.5}
 \contentsline {section}{\numberline {6.3}Results}{178}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}The Evolution of TRAPPIST-1}{178}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Comparison with \texttt {approxposterior}\xspace }{180}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{184}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.2}Comparison with \texttt {approxposterior}\xspace }{181}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{185}{subsection.6.3.3}
 \contentsline {section}{\numberline {6.4}Discussion and Conclusions}{186}{section.6.4}
 \contentsline {chapter}{\numberline {\@textofChapter \ 7:}Conclusions}{190}{chapter.7}
-\contentsline {chapter}{Bibliography}{193}{chapter*.84}
+\contentsline {chapter}{Bibliography}{194}{chapter*.84}

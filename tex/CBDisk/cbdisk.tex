@@ -2,7 +2,7 @@
 
 \
 
-In this Chapter, I probe the resonant gravitational interactions between a central binary modeled after Kepler-38 and an external gaseous circumbinary protoplanetary disk. I found that these interactions occur at the 1:3 eccentric outer Lindblad resonance (EOLR) for two separate regimes, depending on the binary eccentricity. I demonstrate that binaries with eccentric orbits strongly couple to the disk, launching an $m=1$ spiral density wave within the disk and exciting eccentricity growth for both the binary orbit and the inner edge of the disk where planets form and migrate. Binaries on nearly circular orbits, on the other hand, weakly couple to the disk and only drive eccentricity growth for gas near the inner edge of the disk. I explore how this evolutionary varies as a function of disk parameters. I conclude this Chapter by considering the long-term consequences of this evolution for the binary orbit and for planet formation within a circumbinary disk.
+In this Chapter, I study the dynamics of the birthplace of CBPs through SPH N-body simulations of disk-binary gravitational interactions. I examine the resonant gravitational interactions between a central binary modeled after Kepler-38 and an external gaseous circumbinary protoplanetary disk. In my simulations, I show that these interactions occur at the 1:3 eccentric outer Lindblad resonance (EOLR) for two separate regimes that depend on the binary orbital eccentricity. I demonstrate that binaries with eccentric orbits strongly couple to the disk, launching an $m=1$ spiral density wave within the disk and exciting eccentricity growth for both the binary orbit and the inner edge of the disk where planets form and migrate. Binaries on nearly circular orbits, however, weakly couple to the disk and only drive eccentricity growth for gas near the inner edge of the disk. Through an ensemble of simulations, I assess how this dynamical evolution varies as a function of disk parameters and simulation resolution. I conclude this Chapter by considering the long-term consequences of these disk-binary interactions for the binary orbit and for planet formation and evolution within a circumbinary disk.
 
 \section{Introduction}
 
@@ -47,7 +47,7 @@ resonant interactions that can impart significant changes on both the
 binary and disk.  Previous simulations focused on studying either disk evolution or binary evolution, often making approximations
 such as holding the binary orbital elements fixed.  In this work, I explore how the coevolution
 of the disk and binary proceeds by allowing all particles to gravitationally interact.  
-Using the Kepler 38 binary as my model system, I present the results of N-body
+Using the Kepler-38 binary as my model system, I present the results of N-body
 SPH simulations of unequal mass binaries of variable initial eccentricity 
 that probe the dynamical coupling of binary stars and a circumbinary disk.  
 I show that the initial eccentricity of the binary dictates how strongly the disk-binary system resonantly couples.
@@ -75,7 +75,7 @@ Monaghan viscosity \citep{Monaghan1983}.  The viscosity $\alpha_{SPH}$
 % Table 1: Kepler 38 parameters
 \begin{table}
 	\centering
-	\caption{Kepler 38 parameters adapted from \citet{Orosz2012}.}
+	\caption{Kepler-38 parameters adapted from \citet{Orosz2012}.}
 	\begin{tabular}{cccc} % four columns, alignment for each
 		\hline
 		m$_1$ [M$_{\odot}$] & m$_2$ [M$_{\odot}$] & $a_{bin}$ [AU] & $e_{bin}$\\
@@ -104,8 +104,8 @@ All simulations were ran on the University of Washington's Hyak supercomputer cl
 
 \subsection{Model Parameters}
 
-The model system studied in this paper is Kepler 38, a binary composed of a G and an M dwarf.  The physical parameters for this 
-system were adapted from \citet{Orosz2012} and are given in Table~\ref{tab:CBDisk_table_1}.  I ran eight simulations of Kepler 38 embedded in a 
+The model system studied in this paper is Kepler-38, a binary composed of a G and an M dwarf.  The physical parameters for this 
+system were adapted from \citet{Orosz2012} and are given in Table~\ref{tab:CBDisk_table_1}.  I ran eight simulations of Kepler-38 embedded in a 
 circumbinary disk for $10^4$ binary orbits, about 520 years.  The simulations considered in this paper were ran primarily to examine how 
 the surrounding circumbinary disk impacts the dynamics of the central
 binary as a function of the eccentricity of the binary, $e_{bin}$, and
@@ -215,7 +215,7 @@ of the 1:3 EOLR, the surface density profiles for Simulations $1-5$
 are shown in Fig.~\ref{fig:CBDiskSurfaceDensity} after 200 years of evolution.
 For all $e_{bin}$, the surface density at the 1:3 EOLR is at least an
 order of magnitude larger than at the 1:2 corotation resonance when it
-is present within the disk.  Since the gap opens rather quickly, in of order 5 years for the Kepler 38 binary,  this finding supports the hypothesis that the 1:3 EOLR will be the dominant resonance within the disk that will drive subsequent evolution within the system.
+is present within the disk.  Since the gap opens rather quickly, in of order 5 years for the Kepler-38 binary,  this finding supports the hypothesis that the 1:3 EOLR will be the dominant resonance within the disk that will drive subsequent evolution within the system.
 
 	%% disk Evolution Subsection %%
 
