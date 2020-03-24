@@ -3,7 +3,7 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
 \BOOKMARK [1][-]{section.1.1}{What Does the Present Tell Us About the Past?}{chapter.1}% 4
 \BOOKMARK [1][-]{section.1.2}{Dissertation Outline}{chapter.1}% 5
-\BOOKMARK [0][-]{chapter.2}{Dynamics in the Birthplace of Planets: Examining the Resonant Dynamical Interactions Between Binary Stars and Circumbinary Disks}{}% 6
+\BOOKMARK [0][-]{chapter.2}{The Resonant Gravitational Interactions Between Binary Stars and Circumbinary Protoplanetary Disks}{}% 6
 \BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 7
 \BOOKMARK [1][-]{section.2.2}{Simulations}{chapter.2}% 8
 \BOOKMARK [2][-]{subsection.2.2.1}{Methods}{section.2.2}% 9
@@ -65,7 +65,7 @@
 \BOOKMARK [2][-]{subsection.4.4.5}{Comparison to Kepler}{section.4.4}% 65
 \BOOKMARK [2][-]{subsection.4.4.6}{CPL or CTL?}{section.4.4}% 66
 \BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 67
-\BOOKMARK [0][-]{chapter.5}{Bayesian Inference with Slow Models using approxposterior}{}% 68
+\BOOKMARK [0][-]{chapter.5}{Approximate Bayesian Inference with Slow Models using approxposterior}{}% 68
 \BOOKMARK [1][-]{section.5.1}{Bayesian Inference with Computationally-Expensive Models}{chapter.5}% 69
 \BOOKMARK [2][-]{subsection.5.1.1}{Fast Approximate Bayesian Inference with approxposterior}{section.5.1}% 70
 \BOOKMARK [1][-]{section.5.2}{approxposterior Algorithm}{chapter.5}% 71

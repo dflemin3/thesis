@@ -3,7 +3,7 @@
 \contentsline {chapter}{\numberline {\@textofChapter \ 1:}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}What Does the Present Tell Us About the Past?}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Dissertation Outline}{3}{section.1.2}
-\contentsline {chapter}{\numberline {\@textofChapter \ 2:}Dynamics in the Birthplace of Planets: Examining the Resonant Dynamical Interactions Between Binary Stars and Circumbinary Disks}{5}{chapter.2}
+\contentsline {chapter}{\numberline {\@textofChapter \ 2:}The Resonant Gravitational Interactions Between Binary Stars and Circumbinary Protoplanetary Disks}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}
 \contentsline {section}{\numberline {2.2}Simulations}{9}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Methods}{9}{subsection.2.2.1}
@@ -92,8 +92,8 @@
 \contentsline {subsection}{\numberline {4.4.5}Comparison to \textit {Kepler}\xspace }{141}{subsection.4.4.5}
 \contentsline {subsection}{\numberline {4.4.6}CPL or CTL?}{144}{subsection.4.4.6}
 \contentsline {section}{\numberline {4.5}Discussion}{145}{section.4.5}
-\contentsline {chapter}{\numberline {\@textofChapter \ 5:}Bayesian Inference with Slow Models using \texttt {approxposterior}\xspace }{148}{chapter.5}
-\contentsline {section}{\numberline {5.1}Bayesian Inference with Computationally-Expensive Models}{149}{section.5.1}
+\contentsline {chapter}{\numberline {\@textofChapter \ 5:}Approximate Bayesian Inference with Slow Models using \texttt {approxposterior}\xspace }{148}{chapter.5}
+\contentsline {section}{\numberline {5.1}Bayesian Inference with Computationally-Expensive Models}{148}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Fast Approximate Bayesian Inference with \texttt {approxposterior}\xspace }{150}{subsection.5.1.1}
 \contentsline {section}{\numberline {5.2}\texttt {approxposterior}\xspace Algorithm}{152}{section.5.2}
 \contentsline {section}{\numberline {5.3}\texttt {approxposterior}\xspace : Theory and Practical Usage}{154}{section.5.3}
