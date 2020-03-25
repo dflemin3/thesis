@@ -135,13 +135,13 @@
 \newblock {The Habitability of Proxima Centauri b I: Evolutionary Scenarios}.
 \newblock {\em ArXiv e-prints}.
 
-\bibitem[{Barnes} et~al., 2019]{Barnes2019}
+\bibitem[{Barnes} et~al., 2020]{Barnes2019}
 {Barnes}, R., {Luger}, R., {Deitrick}, R., {Driscoll}, P., {Quinn}, T.~R.,
   {Fleming}, D.~P., {Smotherman}, H., {McDonald}, D.~V., {Wilhelm}, C.,
   {Garcia}, R., {Barth}, P., {Guyer}, B., {Meadows}, V.~S., {Bitz}, C.~M.,
-  {Gupta}, P., {Domagal-Goldman}, S.~D., and {Armstrong}, J. (2019).
+  {Gupta}, P., {Domagal-Goldman}, S.~D., and {Armstrong}, J. (2020).
 \newblock {VPLanet: The Virtual Planet Simulator}.
-\newblock {\em arXiv e-prints}.
+\newblock {\em \pasp}, 132(1008):024502.
 
 \bibitem[{Barnes} et~al., 2013]{Barnes2013}
 {Barnes}, R., {Mullins}, K., {Goldblatt}, C., {Meadows}, V.~S., {Kasting},
@@ -536,6 +536,12 @@ Flegal, J.~M. and Jones, G.~L. (2010).
   carlo.
 \newblock {\em Ann. Statist.}, 38(2):1034--1070.
 
+\bibitem[{Fleming} et~al., 2019]{Fleming2019}
+{Fleming}, D.~P., {Barnes}, R., {Davenport}, J. R.~A., and {Luger}, R. (2019).
+\newblock {Rotation Period Evolution in Low-mass Binary Stars: The Impact of
+  Tidal Torques and Magnetic Braking}.
+\newblock {\em \apj}, 881(2):88.
+
 \bibitem[{Fleming} et~al., 2018]{Fleming2018}
 {Fleming}, D.~P., {Barnes}, R., {Graham}, D.~E., {Luger}, R., and {Quinn},
   T.~R. (2018).
@@ -543,9 +549,9 @@ Flegal, J.~M. and Jones, G.~L. (2010).
 \newblock {\em \apj}, 858:86.
 
 \bibitem[{Fleming} et~al., 2020]{Fleming2020}
-{Fleming}, D.~P., {Barnes}, R., {Luger}, R., and {VanderPlas}, J. (2020).
+{Fleming}, D.~P., {Barnes}, R., {Luger}, R., and {VanderPlas}, J.~T. (2020).
 \newblock {On the XUV Luminosity Evolution of TRAPPIST-1}.
-\newblock {\em \apj, accepted}.
+\newblock {\em \apj}, 891(2):155.
 
 \bibitem[{Fleming} and {Quinn}, 2017]{Fleming2017}
 {Fleming}, D.~P. and {Quinn}, T.~R. (2017).
@@ -1545,14 +1551,6 @@ Powell, M. J.~D. (1964).
 \newblock {The coupled effect of tides and stellar winds on the evolution of
   compact binaries}.
 \newblock {\em \mnras}, 444:542--557.
-
-\bibitem[{Ribas} et~al., 2016]{Ribas2016}
-{Ribas}, I., {Bolmont}, E., {Selsis}, F., {Reiners}, A., {Leconte}, J.,
-  {Raymond}, S.~N., {Engle}, S.~G., {Guinan}, E.~F., {Morin}, J., {Turbet}, M.,
-  {Forget}, F., and {Anglada-Escud{\'e}}, G. (2016).
-\newblock {The habitability of Proxima Centauri b. I. Irradiation, rotation and
-  volatile inventory from formation to the present}.
-\newblock {\em A{\&}A}, 596:A111.
 
 \bibitem[{Ribas} et~al., 2005]{Ribas2005}
 {Ribas}, I., {Guinan}, E.~F., {G{\"u}del}, M., and {Audard}, M. (2005).

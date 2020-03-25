@@ -94,10 +94,6 @@
 \def\bibpreamble{\protect\addcontentsline{toc}{chapter}{Bibliography}}
 
 \setcounter{tocdepth}{2}  % Print the chapter and sections to the toc
- 
-
-% ==========   Local defs and mods
-%
 
 \begin{document}
  
@@ -109,7 +105,7 @@
 \prelimpages
  
 %
-% ----- copyright and title pages
+% ----- Copyright and title pages
 %
 \Title{Inferring the Evolutionary Histories of Stars and Their Planets}
 \Author{David P. Fleming}
@@ -121,7 +117,7 @@
 \Signature{Victoria Meadows}
 \Signature{Jacob VanderPlas}
 
-% may be first or second. Must follow specified order. 
+% May be first or second. Must follow specified order. 
 \titlepage  
 
 \newpage
@@ -130,17 +126,13 @@
 \copyrightpage
 
 %
-% ----- signature and quoteslip are gone
-%
-
-%
-% ----- abstract
+% ----- Abstract
 %
 
 \include{tex/abstract}
 
 %
-% ----- contents & etc.
+% ----- Contents & etc.
 %
 
 \tableofcontents
@@ -148,19 +140,15 @@
 \listoftables  
  
 %
-% ----- glossary 
-%
-%\include{glossary}
-%
-% ----- acknowledgments
+% ----- Acknowledgments
 %
 \acknowledgments{% \vskip2pc
   % {\narrower\noindent
-I am incredibly lucky to have been supported by many fantastic people throughout my life. The gratitude I offer pales in comparison to what I owe these people for everything they have done for me. Thank you to my wonderful wife, Anya, and adorable kitten, Bandit, for their endless love and support. Thank you to my parents, Tim and Anne. Without their care and support, none of this would be possible. Thank you to my great friends, Jake and Emily, that helped make Seattle home. Thank you to all the Astronomy graduate students, past and present, that have helped me through courses, qualifying exams, W(h)inetimes, and in countless other ways. Thank you to the Astronomy Department faculty, my advisor Rory, Tom, Jake VanderPlas, and Vikki for their teachings, patience, support, and for setting an excellent example. Thank you to the entire Virtual Planetary Team for your friendship, support, and awesome collaborations. Finally, I would like to acknowledge that we are on the traditional land of the first people of Seattle, the Duwamish People past and present and honor with gratitude the land itself and the Duwamish Tribe.
+I am incredibly lucky to have been supported by many fantastic people throughout my life. The gratitude I offer pales in comparison to what I owe these people for everything they have done for me. Thank you to my wonderful wife, Anya, and adorable kitten, Bandit, for their endless love and support. Thank you to my parents, Tim and Anne, and my siblings, Jack and Kristin. Without their care and support, none of this would be possible. Thank you to my great friends, Jake and Emily, that helped make Seattle home. Thank you to all the Astronomy graduate students, past and present, that have helped me through courses, qualifying exams, W(h)inetimes, and in countless other ways. Thank you to the Astronomy Department faculty, my advisor Rory, Tom, Jake VanderPlas, and Vikki for their teachings, patience, support, and for setting an excellent example. Thank you to the entire Virtual Planetary Team for your friendship, support, and awesome collaborations. Finally, I would like to acknowledge that we are on the traditional land of the first people of Seattle, the Duwamish People past and present and honor with gratitude the land itself and the Duwamish Tribe.
   % \par}
 }
 %
-% ----- dedication
+% ----- Dedication
 %
 \dedication{\begin{center}To my wife, Anya\end{center}}
 
@@ -175,19 +163,19 @@ I am incredibly lucky to have been supported by many fantastic people throughout
  
 % ========== Chapters
 
-% intro
+% Intro
 \chapter{Introduction}
 \import{tex/}{intro.tex}
 
-% CB disk
+% CB disks
 \chapter{The Resonant Gravitational Interactions Between Binary Stars and Circumbinary Protoplanetary Disks}
 \import{tex/CBDisk/}{cbdisk.tex}
 
-% steep
+% STEEP
 \chapter{The Dynamical Death of Circumbinary Planets: Coupled Stellar-Tidal Evolution Ejection of Circumbinary Exoplanets}
 \import{tex/STEEP/}{bin_tides.tex}
 
-% sync
+% Sync
 \chapter{The Competition between Magnetic Braking and Tidal Torques in Binary Stars: Application to the \kepler Field}
 \import{tex/sync/}{sync.tex}
 
@@ -195,11 +183,11 @@ I am incredibly lucky to have been supported by many fantastic people throughout
 \chapter{Efficient Approximate Bayesian Inference with \approxposterior}
 \import{tex/approxposterior/}{approxposterior.tex}
 
-% trappist
+% TRAPPIST-1
 \chapter{Inferring the XUV History of the TRAPPIST-1 Planetary System}
 \import{tex/trappist/}{trappist.tex}
 
-% Discussion
+% Conclusions
 \chapter{Conclusions}
 \import{tex/}{conclusions.tex}
 
