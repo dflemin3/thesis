@@ -299,6 +299,12 @@ Bellman, R. and Corporation, R. (1957).
 \newblock {The angular momentum evolution of low-mass stars.}
 \newblock {\em \aap}, 326:1023--1043.
 
+\bibitem[Box, 1976]{Box1976}
+Box, G. E.~P. (1976).
+\newblock Science and statistics.
+\newblock {\em Journal of the American Statistical Association},
+  71(356):791--799.
+
 \bibitem[{Bromley} and {Kenyon}, 2015]{Bromley2015}
 {Bromley}, B.~C. and {Kenyon}, S.~J. (2015).
 \newblock {Planet Formation around Binary Stars: Tatooine Made Easy}.
@@ -469,6 +475,18 @@ Delfosse, X., Forveille, T., Perrier, C., and Mayor, M. (1998).
 {Dvorak}, R., {Froeschle}, C., and {Froeschle}, C. (1989).
 \newblock {Stability of outer planetary orbits (P-types) in binaries}.
 \newblock {\em \aap}, 226:335--342.
+
+\bibitem[{Einstein}, 1915a]{Einstein1915b}
+{Einstein}, A. (1915a).
+\newblock {Die Feldgleichungen der Gravitation}.
+\newblock {\em Sitzungsberichte der K{\"o}niglich Preu{\ss}ischen Akademie der
+  Wissenschaften (Berlin}, pages 844--847.
+
+\bibitem[{Einstein}, 1915b]{Einstein1915a}
+{Einstein}, A. (1915b).
+\newblock {Erklarung der Perihelionbewegung der Merkur aus der allgemeinen
+  Relativitatstheorie}.
+\newblock {\em Sitzungsber. preuss.Akad. Wiss}, 47:831--839.
 
 \bibitem[{Escala} et~al., 2005]{Escala2005}
 {Escala}, A., {Larson}, R.~B., {Coppi}, P.~S., and {Mardones}, D. (2005).

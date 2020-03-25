@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: tex/abstract.aux
 The style file: apalike.bst
-Reallocated field_info (elt_size=4) to 11644 items from 5000.
+Reallocated field_info (elt_size=4) to 11710 items from 5000.
 Database file #1: thesisBib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty journal in george
@@ -15,45 +15,45 @@ Warning--empty publisher in Newton1687
 Warning--empty publisher in Newton1999
 Warning--empty publisher in Rasmussen2006
 Warning--empty publisher in Reid2005
-You've used 302 entries,
+You've used 305 entries,
             1935 wiz_defined-function locations,
-            2255 strings with 69776 characters,
-and the built_in function-call counts, 148684 in all, are:
-= -- 13345
-> -- 9709
-< -- 167
-+ -- 3538
-- -- 3534
-* -- 14095
-:= -- 26719
-add.period$ -- 901
-call.type$ -- 302
-change.case$ -- 3261
-chr.to.int$ -- 300
-cite$ -- 311
-duplicate$ -- 4440
-empty$ -- 8379
-format.name$ -- 4018
-if$ -- 28126
-int.to.chr$ -- 3
+            2277 strings with 70233 characters,
+and the built_in function-call counts, 149829 in all, are:
+= -- 13462
+> -- 9730
+< -- 171
++ -- 3545
+- -- 3540
+* -- 14179
+:= -- 26908
+add.period$ -- 910
+call.type$ -- 305
+change.case$ -- 3279
+chr.to.int$ -- 302
+cite$ -- 314
+duplicate$ -- 4491
+empty$ -- 8473
+format.name$ -- 4027
+if$ -- 28367
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 310
-newline$ -- 1507
-num.names$ -- 920
-pop$ -- 2660
+missing$ -- 313
+newline$ -- 1522
+num.names$ -- 929
+pop$ -- 2671
 preamble$ -- 1
-purify$ -- 3269
+purify$ -- 3287
 quote$ -- 0
-skip$ -- 3389
+skip$ -- 3433
 stack$ -- 0
-substring$ -- 8348
-swap$ -- 497
-text.length$ -- 23
+substring$ -- 8454
+swap$ -- 509
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1796
+type$ -- 1814
 warning$ -- 9
-while$ -- 903
+while$ -- 913
 width$ -- 0
-write$ -- 3904
+write$ -- 3943
 (There were 9 warnings)
