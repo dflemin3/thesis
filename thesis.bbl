@@ -9,6 +9,22 @@
   in Praesepe}.
 \newblock {\em \apj}, 740:110.
 
+\bibitem[{Airapetian} et~al., 2019]{Airapetian2019}
+{Airapetian}, V.~S., {Barnes}, R., {Cohen}, O., {Collinson}, G.~A., {Danchi},
+  W.~C., {Dong}, C.~F., {Del Genio}, A.~D., {France}, K., {Garcia-Sage}, K.,
+  {Glocer}, A., {Gopalswamy}, N., {Grenfell}, J.~L., {Gronoff}, G., {G``udel},
+  M., {Herbst}, K., {Henning}, W.~G., {Jackman}, C.~H., {Jin}, M., {Johnstone},
+  C.~P., {Kaltenegger}, L., {Kay}, C.~D., {Kobayashi}, K., {Kuang}, W., {Li},
+  G., {Lynch}, B.~J., {L``uftinger}, T., {Luhmann}, T.~G., {Maehara}, H.,
+  {Mlynczak}, M.~G., {Notsu}, Y., {Ramirez}, R.~M., {Rugheimer}, S.,
+  {Scheucher}, M., {Schlieder}, J.~E., {Shibata}, K., {Sousa-Silva}, C.,
+  {Stamenkovi'c}, V., {Strangeway}, R.~J., {Usmanov}, A.~V., {Vergados}, P.,
+  {Verkhoglyadova}, O.~P., {Vidotto}, A.~A., {Voytek}, M., {Way}, M.~J.,
+  {Zank}, G.~P., and {Yamashiki}, Y. (2019).
+\newblock {Impact of Space Weather on Climate and Habitability of Terrestrial
+  Type Exoplanets}.
+\newblock {\em arXiv e-prints}.
+
 \bibitem[{Alexander}, 2012]{Alexander2012}
 {Alexander}, R. (2012).
 \newblock {The Dispersal of Protoplanetary Disks around Binary Stars}.
@@ -1116,11 +1132,27 @@ McKinney, W. (2010).
   Autocorrelation Sample}.
 \newblock {\em \apjs}, 211:24.
 
+\bibitem[Meadows, 2017]{Meadows2017}
+Meadows, V.~S. (2017).
+\newblock Reflections on o2 as a biosignature in exoplanetary atmospheres.
+\newblock {\em Astrobiology}, 17(10):1022--1052.
+\newblock PMID: 28443722.
+
 \bibitem[{Meadows} and {Crisp}, 1996]{Meadows1996}
 {Meadows}, V.~S. and {Crisp}, D. (1996).
 \newblock {Ground-based near-infrared observations of the Venus nightside: The
   thermal structure and water abundance near the surface}.
 \newblock {\em \jgr}, 101:4595--4622.
+
+\bibitem[{Meadows} et~al., 2018]{Meadows2018}
+{Meadows}, V.~S., {Reinhard}, C.~T., {Arney}, G.~N., {Parenteau}, M.~N.,
+  {Schwieterman}, E.~W., {Domagal-Goldman}, S.~D., {Lincowski}, A.~P.,
+  {Stapelfeldt}, K.~R., {Rauer}, H., {DasSarma}, S., {Hegde}, S., {Narita}, N.,
+  {Deitrick}, R., {Lustig-Yaeger}, J., {Lyons}, T.~W., {Siegler}, N., and
+  {Grenfell}, J.~L. (2018).
+\newblock {Exoplanet Biosignatures: Understanding Oxygen as a Biosignature in
+  the Context of Its Environment}.
+\newblock {\em Astrobiology}, 18(6):630--662.
 
 \bibitem[{Meibom} et~al., 2015]{Meibom2015}
 {Meibom}, S., {Barnes}, S.~A., {Platais}, I., {Gilliland}, R.~L., {Latham},
@@ -1218,6 +1250,11 @@ McKinney, W. (2010).
 \newblock {Survival of planets around shrinking stellar binaries}.
 \newblock {\em Proceedings of the National Academy of Science}, 112:9264--9269.
 
+\bibitem[Murphy, 2012]{Murphy2012}
+Murphy, K. (2012).
+\newblock {\em Machine Learning: A Probabilistic Perspective}.
+\newblock Adaptive computation and machine learning. MIT Press.
+
 \bibitem[{Murray} and {Dermott}, 1999]{Murray1999}
 {Murray}, C.~D. and {Dermott}, S.~F. (1999).
 \newblock {\em {Solar system dynamics}}.
@@ -1248,6 +1285,16 @@ Nelder, J.~A. and Mead, R. (1965).
 {Nelson}, R.~P., {Papaloizou}, J.~C.~B., {Masset}, F., and {Kley}, W. (2000).
 \newblock {The migration and growth of protoplanets in protostellar discs}.
 \newblock {\em \mnras}, 318:18--36.
+
+\bibitem[{Newton}, 1687]{Newton1687}
+{Newton}, I. (1687).
+\newblock {\em {Philosophiae Naturalis Principia Mathematica. Auctore Js.
+  Newton}}.
+
+\bibitem[{Newton}, 1999]{Newton1999}
+{Newton}, I. (1999).
+\newblock {\em {The Principia : mathematical principles of natural
+  philosophy}}.
 
 \bibitem[{Nixon} et~al., 2013]{Nixon2013}
 {Nixon}, C., {King}, A., and {Price}, D. (2013).

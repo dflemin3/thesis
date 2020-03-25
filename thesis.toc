@@ -1,120 +1,119 @@
 \contentsline {chapter}{\@textofLoF }{v}{chapter*.2}
 \contentsline {chapter}{\@textofLoT }{xiii}{chapter*.3}
 \contentsline {chapter}{\numberline {\@textofChapter \ 1:}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}What Does the Present Tell Us About the Past?}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Dissertation Outline}{3}{section.1.2}
-\contentsline {chapter}{\numberline {\@textofChapter \ 2:}The Resonant Gravitational Interactions Between Binary Stars and Circumbinary Protoplanetary Disks}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}Simulations}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Methods}{9}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Model Parameters}{11}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Initial Conditions}{11}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Results and Analysis}{12}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Gap Clearing}{12}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Disk Evolution}{15}{subsection.2.3.2}
-\contentsline {subsubsection}{Disk Eccentricity Growth}{15}{section*.10}
-\contentsline {subsubsection}{DisK Structure}{19}{section*.13}
-\contentsline {subsection}{\numberline {2.3.3}Binary Evolution}{26}{subsection.2.3.3}
-\contentsline {subsubsection}{Modeling Binary Evolution}{28}{section*.17}
-\contentsline {section}{\numberline {2.4}Effects of Varying Disk Properties}{34}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Varying Disk Mass}{34}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Varying Disk Resolution}{35}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Varying Disk Aspect Ratio}{36}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}Discussion}{36}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Implications for Long-term Binary Evolution}{38}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Implications for Circumbinary Planets}{40}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Conclusions}{41}{section.2.6}
-\contentsline {chapter}{\numberline {\@textofChapter \ 3:}The Dynamical Death of Circumbinary Planets: Coupled Stellar-Tidal Evolution Ejection of Circumbinary Exoplanets}{44}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{45}{section.3.1}
-\contentsline {section}{\numberline {3.2}Methods}{50}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}\texttt {VPLanet}\xspace }{51}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Stellar Evolution}{52}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Tidal Evolution}{54}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Coupled Stellar-Tidal Evolution}{59}{subsection.3.2.4}
-\contentsline {subsubsection}{Case 1: One Tidally Locked Star}{61}{section*.23}
-\contentsline {subsubsection}{Case 2: Two Tidally Locked Stars}{62}{section*.24}
-\contentsline {subsubsection}{Case 3: Free Rotators}{63}{section*.25}
-\contentsline {subsection}{\numberline {3.2.5}Energy and Angular Momentum Conservation}{63}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}N-body Simulations of Circumbinary Planetary Systems}{64}{subsection.3.2.6}
-\contentsline {section}{\numberline {3.3}Simulations}{65}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Coupled Stellar-Tidal Initial Conditions}{65}{subsection.3.3.1}
-\contentsline {subsubsection}{Stellar Tidal Qs}{66}{section*.27}
-\contentsline {subsubsection}{Stellar Rotations}{66}{section*.28}
-\contentsline {subsubsection}{Stellar Radius of Gyration}{67}{section*.29}
-\contentsline {subsection}{\numberline {3.3.2}N-body Simulations}{68}{subsection.3.3.2}
-\contentsline {subsubsection}{N-body Simulations Initial Conditions}{68}{section*.30}
-\contentsline {subsubsection}{Dynamical Stability Integration}{69}{section*.31}
-\contentsline {subsubsection}{Mock Transit Observation Integration}{70}{section*.32}
-\contentsline {subsection}{\numberline {3.3.3}Tying It All Together}{71}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Results: Coupled Stellar-Tidal Evolution Simulations}{72}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Fiducial Simulation}{72}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Varying Tidal Q}{73}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Varying Radius of Gyration}{76}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Varying Magnetic Braking Law}{78}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Varying Rotation Periods}{80}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}Monte Carlo Simulations}{80}{subsection.3.4.6}
-\contentsline {subsection}{\numberline {3.4.7}3:2 Spin-Orbit Resonance}{83}{subsection.3.4.7}
-\contentsline {subsection}{\numberline {3.4.8}Long-term $a_{crit}$ Evolution}{85}{subsection.3.4.8}
-\contentsline {subsubsection}{Specific Cases}{85}{section*.40}
-\contentsline {subsubsection}{Monte Carlo Simulations}{88}{section*.42}
-\contentsline {subsection}{\numberline {3.4.9}Relaxed Assumptions}{88}{subsection.3.4.9}
-\contentsline {section}{\numberline {3.5}Results: N-body Simulations}{90}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Dynamical Stability}{90}{subsection.3.5.1}
-\contentsline {subsubsection}{Single Planet Circumbinary System}{90}{section*.45}
-\contentsline {subsubsection}{Multiplanet Circumbinary System}{92}{section*.46}
-\contentsline {subsection}{\numberline {3.5.2}Mock Transit Observations}{94}{subsection.3.5.2}
-\contentsline {section}{\numberline {3.6}Application to Kepler-47}{97}{section.3.6}
-\contentsline {section}{\numberline {3.7}Discussion}{100}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Future Prospects}{102}{subsection.3.7.1}
-\contentsline {chapter}{\numberline {\@textofChapter \ 4:}The Competition between Magnetic Braking and Tidal Torques in Binary Stars: Application to the \textit {Kepler}\xspace Field}{105}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{105}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods}{108}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Stellar Evolution}{109}{subsection.4.2.1}
-\contentsline {subsubsection}{Core-Envelope Coupling}{110}{section*.49}
-\contentsline {subsubsection}{Example Stellar Evolution}{110}{section*.50}
-\contentsline {subsection}{\numberline {4.2.2}Tidal Evolution}{111}{subsection.4.2.2}
-\contentsline {subsubsection}{Constant Phase Lag Model}{112}{section*.52}
-\contentsline {subsubsection}{Constant Time Lag Model}{112}{section*.53}
-\contentsline {subsubsection}{Tidal Locking}{114}{section*.54}
-\contentsline {subsubsection}{Numerical Details of Tidal Locking}{115}{section*.55}
-\contentsline {subsubsection}{The Dynamical Tide}{116}{section*.56}
-\contentsline {subsubsection}{Example Tidal Evolution}{116}{section*.57}
-\contentsline {subsection}{\numberline {4.2.3}Coupled Stellar-Tidal Evolution For tidally locked Systems}{117}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Simulations}{117}{section.4.3}
-\contentsline {section}{\numberline {4.4}Results}{120}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Interaction Between Magnetic and Tidal Braking: Subsynchronous Rotation}{120}{subsection.4.4.1}
-\contentsline {subsubsection}{Analytic Torque Balance}{120}{section*.59}
-\contentsline {subsubsection}{Torque Balance}{122}{section*.61}
-\contentsline {subsection}{\numberline {4.4.2}Influence of P$_{orb}$, $Q$ and $\tau $}{125}{subsection.4.4.2}
-\contentsline {subsubsection}{Subsynchronous Rotation at Short P$_{orb}$}{130}{section*.66}
-\contentsline {subsection}{\numberline {4.4.3}P$_{rot}$ Distribution of a Synthetic Population of Stellar Binaries}{132}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Deviations From Single Star P$_{rot}$ Evolution: Implications for Gyrochronology}{135}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Comparison to \textit {Kepler}\xspace }{141}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}CPL or CTL?}{144}{subsection.4.4.6}
-\contentsline {section}{\numberline {4.5}Discussion}{145}{section.4.5}
-\contentsline {chapter}{\numberline {\@textofChapter \ 5:}Approximate Bayesian Inference with Slow Models using \texttt {approxposterior}\xspace }{148}{chapter.5}
-\contentsline {section}{\numberline {5.1}Bayesian Inference with Computationally-Expensive Models}{148}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Fast Approximate Bayesian Inference with \texttt {approxposterior}\xspace }{150}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}\texttt {approxposterior}\xspace Algorithm}{152}{section.5.2}
-\contentsline {section}{\numberline {5.3}\texttt {approxposterior}\xspace : Theory and Practical Usage}{154}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Augmenting the Training Set}{154}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Convergence}{157}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}A Simple Example}{158}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Online Documentation}{163}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Applying \texttt {approxposterior}\xspace to Terrestrial Exoplanet Atmospheric Retrieval}{163}{section.5.4}
-\contentsline {section}{\numberline {5.5}Conclusions}{165}{section.5.5}
-\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{168}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{169}{section.6.1}
-\contentsline {section}{\numberline {6.2}Methods}{171}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Simulating XUV Evolution with \texttt {VPLanet}\xspace }{171}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Markov Chain Monte Carlo Analysis}{172}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Prior Probability Distributions}{173}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Likelihood Function and Convergence}{174}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Inference with \texttt {approxposterior}\xspace }{175}{subsection.6.2.5}
-\contentsline {section}{\numberline {6.3}Results}{177}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}The Evolution of TRAPPIST-1}{177}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Comparison with \texttt {approxposterior}\xspace }{180}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{184}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Discussion and Conclusions}{185}{section.6.4}
-\contentsline {chapter}{\numberline {\@textofChapter \ 7:}Conclusions}{189}{chapter.7}
-\contentsline {chapter}{Bibliography}{195}{chapter*.84}
+\contentsline {section}{\numberline {1.1}Combining Theory and Data to Learn About the Past}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Dissertation Outline}{7}{section.1.2}
+\contentsline {chapter}{\numberline {\@textofChapter \ 2:}The Resonant Gravitational Interactions Between Binary Stars and Circumbinary Protoplanetary Disks}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{10}{section.2.1}
+\contentsline {section}{\numberline {2.2}Simulations}{13}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Methods}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Model Parameters}{15}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Initial Conditions}{15}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Results and Analysis}{16}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Gap Clearing}{16}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Disk Evolution}{19}{subsection.2.3.2}
+\contentsline {subsubsection}{Disk Eccentricity Growth}{19}{section*.10}
+\contentsline {subsubsection}{DisK Structure}{23}{section*.13}
+\contentsline {subsection}{\numberline {2.3.3}Binary Evolution}{30}{subsection.2.3.3}
+\contentsline {subsubsection}{Modeling Binary Evolution}{32}{section*.17}
+\contentsline {section}{\numberline {2.4}Effects of Varying Disk Properties}{38}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Varying Disk Mass}{38}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Varying Disk Resolution}{39}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Varying Disk Aspect Ratio}{40}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Discussion}{40}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Implications for Long-term Binary Evolution}{42}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Implications for Circumbinary Planets}{44}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Conclusions}{45}{section.2.6}
+\contentsline {chapter}{\numberline {\@textofChapter \ 3:}The Dynamical Death of Circumbinary Planets: Coupled Stellar-Tidal Evolution Ejection of Circumbinary Exoplanets}{48}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{49}{section.3.1}
+\contentsline {section}{\numberline {3.2}Methods}{54}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}\texttt {VPLanet}\xspace }{55}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Stellar Evolution}{56}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Tidal Evolution}{58}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Coupled Stellar-Tidal Evolution}{63}{subsection.3.2.4}
+\contentsline {subsubsection}{Case 1: One Tidally Locked Star}{65}{section*.23}
+\contentsline {subsubsection}{Case 2: Two Tidally Locked Stars}{66}{section*.24}
+\contentsline {subsubsection}{Case 3: Free Rotators}{67}{section*.25}
+\contentsline {subsection}{\numberline {3.2.5}Energy and Angular Momentum Conservation}{67}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}N-body Simulations of Circumbinary Planetary Systems}{68}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.3}Simulations}{69}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Coupled Stellar-Tidal Initial Conditions}{69}{subsection.3.3.1}
+\contentsline {subsubsection}{Stellar Tidal Qs}{70}{section*.27}
+\contentsline {subsubsection}{Stellar Rotations}{70}{section*.28}
+\contentsline {subsubsection}{Stellar Radius of Gyration}{71}{section*.29}
+\contentsline {subsection}{\numberline {3.3.2}N-body Simulations}{72}{subsection.3.3.2}
+\contentsline {subsubsection}{N-body Simulations Initial Conditions}{72}{section*.30}
+\contentsline {subsubsection}{Dynamical Stability Integration}{73}{section*.31}
+\contentsline {subsubsection}{Mock Transit Observation Integration}{74}{section*.32}
+\contentsline {subsection}{\numberline {3.3.3}Tying It All Together}{75}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Results: Coupled Stellar-Tidal Evolution Simulations}{76}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Fiducial Simulation}{76}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Varying Tidal Q}{77}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Varying Radius of Gyration}{80}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Varying Magnetic Braking Law}{82}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Varying Rotation Periods}{84}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}Monte Carlo Simulations}{84}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}3:2 Spin-Orbit Resonance}{87}{subsection.3.4.7}
+\contentsline {subsection}{\numberline {3.4.8}Long-term $a_{crit}$ Evolution}{89}{subsection.3.4.8}
+\contentsline {subsubsection}{Specific Cases}{89}{section*.40}
+\contentsline {subsubsection}{Monte Carlo Simulations}{92}{section*.42}
+\contentsline {subsection}{\numberline {3.4.9}Relaxed Assumptions}{92}{subsection.3.4.9}
+\contentsline {section}{\numberline {3.5}Results: N-body Simulations}{94}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Dynamical Stability}{94}{subsection.3.5.1}
+\contentsline {subsubsection}{Single Planet Circumbinary System}{94}{section*.45}
+\contentsline {subsubsection}{Multiplanet Circumbinary System}{96}{section*.46}
+\contentsline {subsection}{\numberline {3.5.2}Mock Transit Observations}{98}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Application to Kepler-47}{101}{section.3.6}
+\contentsline {section}{\numberline {3.7}Discussion}{104}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Future Prospects}{106}{subsection.3.7.1}
+\contentsline {chapter}{\numberline {\@textofChapter \ 4:}The Competition between Magnetic Braking and Tidal Torques in Binary Stars: Application to the \textit {Kepler}\xspace Field}{109}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{109}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods}{112}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Stellar Evolution}{113}{subsection.4.2.1}
+\contentsline {subsubsection}{Core-Envelope Coupling}{114}{section*.49}
+\contentsline {subsubsection}{Example Stellar Evolution}{114}{section*.50}
+\contentsline {subsection}{\numberline {4.2.2}Tidal Evolution}{115}{subsection.4.2.2}
+\contentsline {subsubsection}{Constant Phase Lag Model}{116}{section*.52}
+\contentsline {subsubsection}{Constant Time Lag Model}{116}{section*.53}
+\contentsline {subsubsection}{Tidal Locking}{118}{section*.54}
+\contentsline {subsubsection}{Numerical Details of Tidal Locking}{119}{section*.55}
+\contentsline {subsubsection}{The Dynamical Tide}{120}{section*.56}
+\contentsline {subsubsection}{Example Tidal Evolution}{120}{section*.57}
+\contentsline {subsection}{\numberline {4.2.3}Coupled Stellar-Tidal Evolution For tidally locked Systems}{121}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Simulations}{121}{section.4.3}
+\contentsline {section}{\numberline {4.4}Results}{124}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Interaction Between Magnetic and Tidal Braking: Subsynchronous Rotation}{124}{subsection.4.4.1}
+\contentsline {subsubsection}{Analytic Torque Balance}{124}{section*.59}
+\contentsline {subsubsection}{Torque Balance}{126}{section*.61}
+\contentsline {subsection}{\numberline {4.4.2}Influence of P$_{orb}$, $Q$ and $\tau $}{129}{subsection.4.4.2}
+\contentsline {subsubsection}{Subsynchronous Rotation at Short P$_{orb}$}{134}{section*.66}
+\contentsline {subsection}{\numberline {4.4.3}P$_{rot}$ Distribution of a Synthetic Population of Stellar Binaries}{136}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Deviations From Single Star P$_{rot}$ Evolution: Implications for Gyrochronology}{139}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Comparison to \textit {Kepler}\xspace }{145}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}CPL or CTL?}{148}{subsection.4.4.6}
+\contentsline {section}{\numberline {4.5}Discussion}{149}{section.4.5}
+\contentsline {chapter}{\numberline {\@textofChapter \ 5:}Efficient Approximate Bayesian Inference with \texttt {approxposterior}\xspace }{152}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{152}{section.5.1}
+\contentsline {section}{\numberline {5.2}\texttt {approxposterior}\xspace Algorithm}{155}{section.5.2}
+\contentsline {section}{\numberline {5.3}\texttt {approxposterior}\xspace : Theory, Convergence, and Practical Usage}{157}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Augmenting the Training Set}{157}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Convergence}{160}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}A Simple Example}{161}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Online Documentation}{166}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Applying \texttt {approxposterior}\xspace to Terrestrial Exoplanet Atmospheric Retrieval}{166}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusions}{168}{section.5.5}
+\contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{171}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{172}{section.6.1}
+\contentsline {section}{\numberline {6.2}Methods}{174}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Simulating XUV Evolution with \texttt {VPLanet}\xspace }{174}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Markov Chain Monte Carlo Analysis}{175}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Prior Probability Distributions}{176}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Likelihood Function and Convergence}{177}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Inference with \texttt {approxposterior}\xspace }{178}{subsection.6.2.5}
+\contentsline {section}{\numberline {6.3}Results}{180}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}The Evolution of TRAPPIST-1}{180}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Comparison with \texttt {approxposterior}\xspace }{183}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{187}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Discussion and Conclusions}{188}{section.6.4}
+\contentsline {chapter}{\numberline {\@textofChapter \ 7:}Conclusions}{192}{chapter.7}
+\contentsline {chapter}{Bibliography}{198}{chapter*.84}
