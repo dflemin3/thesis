@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Gap Clearing}{17}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Disk Evolution}{20}{subsection.2.3.2}
 \contentsline {subsubsection}{Disk Eccentricity Growth}{20}{section*.10}
-\contentsline {subsubsection}{DisK Structure}{26}{section*.13}
+\contentsline {subsubsection}{Disk Structure}{26}{section*.13}
 \contentsline {subsection}{\numberline {2.3.3}Binary Evolution}{31}{subsection.2.3.3}
 \contentsline {subsubsection}{Modeling Binary Evolution}{33}{section*.17}
 \contentsline {section}{\numberline {2.4}Effects of Varying Disk Properties}{38}{section.2.4}

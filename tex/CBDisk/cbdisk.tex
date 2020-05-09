@@ -2,20 +2,20 @@
 
 \
 
-In this Chapter, I study the dynamics of the birthplace of circumbinary planets (CBPs) through smooth particle hydrodynamics (SPH) N-body simulations of disk-binary gravitational interactions. I examine the resonant gravitational interactions between a central binary modeled after Kepler-38 and an external gaseous circumbinary protoplanetary disk. In my simulations, I show that these interactions occur at the 1:3 eccentric outer Lindblad resonance (EOLR) for two separate regimes that depend on the binary orbital eccentricity. I demonstrate that binaries with eccentric orbits strongly couple to the disk, launching an $m=1$ spiral density wave within the disk and exciting eccentricity growth for both the binary orbit and the inner edge of the disk where planets form and migrate. Binaries on nearly circular orbits, however, weakly couple to the disk and only drive eccentricity growth for gas near the inner edge of the disk. Through an ensemble of simulations, I assess how this dynamical evolution varies as a function of disk parameters and simulation resolution. I conclude this Chapter by considering the long-term consequences of these disk-binary interactions for the binary orbit and for planet formation and evolution within a circumbinary disk.
+In this Chapter, I studied the dynamics of the birthplace of circumbinary planets (CBPs) through smooth particle hydrodynamics (SPH) N-body simulations of disk-binary gravitational interactions. I examined the resonant gravitational interactions between a central binary modeled after Kepler-38 and an external gaseous circumbinary protoplanetary disk. In my simulations, I showed that these interactions occur at the 1:3 eccentric outer Lindblad resonance (EOLR) for two separate regimes that depend on the binary orbital eccentricity. I demonstrated that binaries with eccentric orbits strongly coupled to the disk, launching an $m=1$ spiral density wave within the disk and exciting eccentricity growth for both the binary orbit and the inner edge of the disk where planets can form and migrate. Binaries on nearly circular orbits, however, weakly coupled to the disk and only drove eccentricity growth for gas near the inner edge of the disk. Through an ensemble of simulations, I assessed how this dynamical evolution varied as a function of disk parameters and simulation resolution. I concluded this Chapter by considering the long-term consequences of these disk-binary interactions for the binary orbit and for planet formation and evolution within a circumbinary disk.
 
 \section{Introduction}
 
-All planets form, accrete, and evolve in protoplanetary disks \citep[e.g.][]{Lin1996,Nelson2000,Papaloizou2006,Rogers2011,Bodenheimer2014}, so any study the observed properties and evolutionary histories of exoplanets must include a discussion of their birth environment.  Protoplanetary disks are dynamically active environments with the potential for planetary migration and scattering events that can shape the resultant exoplanetary system.  Circumbinary protoplanetary disks are particularly dynamically hot environments as all the aforementioned phenomenon can occur \citep[e.g.][]{Pierens2013}, with the added complication of dynamical coupling between the binary and disk \citep{Papaloizou2001}.  This coupling influences both the binary orbital elements and the disk dynamics, constituting a complex interplay that influences the birth location of CBPs.  Moreover, while binary stars are embedded in their natal circumbinary disks, the stars contract along the pre-main sequence \citep{Baraffe2015} and tides shape the binary's orbit \citep{Zahn1989}, producing complex, dynamically active evolutionary histories for binary star systems and any exoplanets they may host.  In this Chapter, I examine the dynamical coupling of binaries and their gaseous protoplanetary circumbinary disks to characterize their coevolution.
+All planets form, accrete, and evolve in protoplanetary disks \citep[e.g.][]{Lin1996,Nelson2000,Papaloizou2006,Rogers2011,Bodenheimer2014}, so any study of the observed properties and evolutionary histories of exoplanets must include a discussion of their birth environment.  Protoplanetary disks are dynamically active environments with the potential for planetary migration and scattering events that can shape the resultant exoplanetary system.  Circumbinary protoplanetary disks are particularly dynamically hot environments as all the aforementioned phenomenon can occur \citep[e.g.][]{Pierens2013}, with the added complication of dynamical coupling between the binary and disk \citep{Papaloizou2001}.  This coupling influences both the binary orbital elements and the disk dynamics, constituting a complex interplay that influences the birth location of CBPs.  Moreover, while binary stars are embedded in their natal circumbinary disks, the stars contract along the pre-main sequence \citep{Baraffe2015} and tides shape the binary's orbit \citep{Zahn1989}, producing complex, dynamically active evolutionary histories for binary star systems and any exoplanets they may host.  In this Chapter, I examine the dynamical coupling of binaries and their gaseous protoplanetary circumbinary disks to characterize their coevolution.
 
-Observations by \kepler of binary systems have so far yielded 11 transiting circumbinary planets.  Until recently, all discovered circumbinary planets have resided just exterior to the dynamical stability limit characterized by \citet{Dvorak1986,Holman1999}.  This
+Observations of binary stars by \kepler have so far yielded 11 transiting CBPs.  Until recently, all discovered CBPs have resided just exterior to the dynamical stability limit characterized by \citet{Dvorak1986,Holman1999}.  This
 finding has prompted many to study how planets form in such systems and why they seem biased towards lying at the brink of dynamical instability \citep{Welsh2014,Pierens2013}.  Simulations and theoretical arguments by \citet{Pelupessy2013} and \citet{Bromley2015} rule out in situ formation
-in the inner edge of the disk near where several circumbinary planets have been observed.  Currently, one of the most successful models in explaining the circumbinary planet population is planetary migration.  
+in the inner edge of the disk near where several CBPs have been observed.  Currently, one of the most successful models in explaining the CBP population is planetary migration.  
 In this model, a planet, having formed farther out in the disk, migrates inward through viscous interactions with a gaseous disk, potentially undergoing planet-planet scattering, until it reaches near its observed location.  Several previous studies applied migration to observed circumbinary planetary systems and have been able to show that for certain disk and viscous drag models, the observed planet orbits are nearly recovered \citep[e.g.][]{Kley2014,Kley2015,Pierens2007,Pierens2013}.
 
 However, the recent discovery by \citet{Kostov2016} of the first long-period transiting CBP complicates this picture.  The newly discovered planet candidate, KOI-2939b, is a Jupiter-sized exoplanet on a roughly 3 year orbit that suggestively lies in the conservative habitable zone of two short-period G dwarfs \citep{Kostov2016}.  The existence of a such a system shows that not all CBPs are driven, either through migration or other mechanisms, inward towards the dynamical stability limit.  This has important consequences for not only how planets migrate and evolve in a viscous circumbinary disk, but also for how and where these planets form within protoplanetary disks.
 
-Clearly, characterizing the influence exerted on the planet by the protoplanetary disk is important for understanding how such systems form.  Moreover, the influence of the central binary on the external disk causes the disk to evolve and potentially undergo large scale changes.  Previous studies of both protoplanetary disks and accretion disks around binary supermassive black holes (SMBHs) found that circumbinary disks can become eccentric, precess, and have density waves excited from resonances \citep{Dunhill2015,MacFadyen2008,Papaloizou2001,Pierens2007,Pierens2013,Roedig2012}.  Specifically in the context of planetary systems, a hydrodynamic theory presented by \citet{Lubow1991} showed that nonlinear coupling mediated by density waves launched at eccentric Lindblad resonances causes disk eccentricity growth. 
+Clearly, characterizing the influence exerted on the planet by the protoplanetary disk is important for understanding how such systems form.  Moreover, the influence of the central binary on the external disk causes the disk to evolve and potentially undergo large scale changes.  Similarly, previous studies of both protoplanetary disks and accretion disks around binary supermassive black holes (SMBHs) found that circumbinary disks can become eccentric, precess, and have density waves excited from resonances \citep{Dunhill2015,MacFadyen2008,Papaloizou2001,Pierens2007,Pierens2013,Roedig2012}.  Specifically in the context of planetary systems, a hydrodynamic theory presented by \citet{Lubow1991} showed that nonlinear coupling mediated by density waves launched at eccentric Lindblad resonances causes disk eccentricity growth. 
 
 Much theoretical work in this area has focused on how planetesimals
 can grow and evolve in circumbinary disks.  \citet{Paardekooper2012}
@@ -28,18 +28,17 @@ With a model that considers both the gravity and gas drag of a
 precessing, eccentric circumbinary disk, \citet{Silsbee2015a} found that
 the inner radius for $10-100$m planetesimal growth depends on the disk eccentricity, density and precession rate.  The binary's influence on the disk is not without a cost, however, as the disk also drives changes in the binary orbital elements, which as they evolve, can change how the binary influences the disk.
 
-Early work on how binary systems interact with accretion disks by \citet{Goldreich1980} studied Jupiter's interaction with the Sun's protoplanetary disk.  This study showed that a satellite's orbital eccentricity could be increased through energy and momentum transfers with the disk at Lindblad resonances, causing significant changes over a few thousand years.  The case of accretion disks around two objects was explored by \citet{Pringle1991} and later by \citet{Papaloizou2001}.  \citet{Pringle1991} found that a central binary's interaction with an external accretion disk can decrease binary separation and change binary eccentricity, depending on disk structure.  In the context of a Jupiter to brown dwarf mass companion orbiting a central star,  \citet{Papaloizou2001} found that for sufficiently massive companions, a coupling between a small initial disk eccentricity and the companion's
+Early work on how binary systems interact with accretion disks by \citet{Goldreich1980} studied Jupiter's interaction with the Sun's protoplanetary disk.  This study showed that a satellite's orbital eccentricity could be increased through energy and momentum transfers with the disk at Lindblad resonances, causing significant changes over a few thousand years.  The case of accretion disks around two objects was explored by \citet{Pringle1991} and later by \citet{Papaloizou2001}.  \citet{Pringle1991} found that a central binary's interaction with an external accretion disk can decrease the binary separation and change the binary orbital eccentricity, depending on disk structure.  In the context of a Jupiter-mass or brown dwarf companion orbiting a central star,  \citet{Papaloizou2001} found that for sufficiently massive companions, a coupling between a small initial disk eccentricity and the companion's
 tidal potential excited an $m = 2$ wave from the 1:3 EOLR causing further disk eccentricity growth.  Wave excitation at the 1:3 EOLR can also couple with the interaction between the eccentric disk and the companion to induce orbital eccentricity growth of the companion.  
 
-Many recent and past works explored the more general case of binary stars evolving under the influence of a gaseous circumbinary disk.  Simulations of unequal mass binaries embedded in a protoplanetary disk by \citet{Artymowicz1991} show rapid binary eccentricity growth and semi-major axis decay due to interactions with the 1:3 EOLR and the viscous disk.  Subsequent theoretical work by \citet{Artymowicz1996b} and \citet{Artymowicz2000} derived relations to show how resonant and viscous interactions drive evolution in the binary eccentricity and semi-major axis, $\dot{e}_{bin}$ and $\dot{a}_{bin}$, respectively.  Binary orbital element and disk evolution has also been explored in systems with circumbinary gaseous disks containing migrating planets in simulations by \citet{Pierens2007} who also found binary and disk eccentricity growth.
+Many recent and past works explored the more general case of binary stars evolving under the influence of a gaseous circumbinary disk.  Simulations of unequal mass binaries embedded in a protoplanetary disk by \citet{Artymowicz1991} showed rapid binary eccentricity growth and semi-major axis decay due to interactions with the 1:3 EOLR and the viscous disk.  Subsequent theoretical work by \citet{Artymowicz1996b} and \citet{Artymowicz2000} derived relations to show how resonant and viscous interactions drive evolution in the binary eccentricity and semi-major axis, $\dot{e}_{bin}$ and $\dot{a}_{bin}$, respectively.  Binary orbital element and disk evolution has also been explored in systems with circumbinary gaseous disks containing migrating planets in simulations by \citet{Pierens2007} who also found binary and disk eccentricity growth.
 
-Characterizing disk-binary interactions are important on much larger scales, as well.  Simulations by \citet{Mayer2007} show that eccentric supermassive
+Characterizing disk-binary interactions are important on much larger scales as well.  Simulations by \citet{Mayer2007} show that eccentric supermassive
 black hole binaries can rapidly form from the merger between two spiral galaxies.  An external disk forms exterior to the SMBH binary
-as interactions with the disk and external gas clouds can cause the black hole separation to decrease \citep{Roskar2015}.  Numerous studies have been 
+causing interactions with the disk and external gas clouds, driving the black hole binary separation to decrease \citep{Roskar2015}.  Numerous studies have been 
 conducted to explore how binary SMBH-disk interactions cause binary SMBH eccentricity growth and semi-major axis decay, possibly 
 explaining the ``last parsec" problem allowing SMBH binaries to coalesce \citep[e.g.][]{Armitage2005,Escala2005,Cuadra2009,Roedig2012,Aly2015}.  Extensive work
-has also been made to explore accretion onto binary SMBHs, how it varies with both the binary and disk properties and what impact accretion
-has on the dynamical properties of the system \citep[e.g.][]{Shi2012,DOrazio2013,Nixon2013,Farris2014}.
+has also been made to explore accretion onto binary SMBHs and how it varies with both the binary and disk properties \citep[e.g.][]{Shi2012,DOrazio2013,Nixon2013,Farris2014}.
  
 For circumbinary systems, the binary and its disk are intertwined in
 non-trivial ways.  The coevolution of such systems depends strongly on
@@ -51,7 +50,7 @@ Using the Kepler-38 stellar binary as my model system, I present the results of 
 SPH simulations of unequal mass binaries of variable initial eccentricity 
 that probe the dynamical coupling between binary stars and a circumbinary disk.  
 I show that the initial eccentricity of the binary dictates how strongly the disk-binary system couples through gravitational resonances.
-The strength of this coupling in turn dictates how eccentricity grows in either the disk, the binary, or both and how structure 
+The strength of this coupling in turn dictates how eccentricity grows in either the disk, the binary, or both, and how structure 
 forms within the disk.
 
 \section{Simulations}
@@ -70,7 +69,7 @@ the gas dynamics of the simulated circumbinary disk were solved using an SPH imp
 each particle its own timestep to ensure sufficient dynamical
 resolution \citep{Quinn1997}.  Artificial viscosity was implemented using
 Monaghan viscosity \citep{Monaghan1983}.  The viscosity $\alpha_{SPH}$
-  and $\beta_{SPH}$ parameters were set to 1 and 2, respectively.  Finally, the Balsara switch was used to limit shear viscosity \citep{Balsara1995}.  For additional information about the implementation and performance of ChaNGa see \citet{Jetley2008}.
+  and $\beta_{SPH}$ parameters were set to 1 and 2, respectively.  Finally, the Balsara switch was used to limit shear viscosity \citep{Balsara1995}.  For additional information about the implementation and performance of ChaNGa, see \citet{Jetley2008}.
 
 % Table 1: Kepler 38 parameters
 \begin{table}
@@ -86,31 +85,31 @@ Monaghan viscosity \citep{Monaghan1983}.  The viscosity $\alpha_{SPH}$
 	\label{tab:CBDisk_table_1}
 \end{table}
 
-The orbits of the binary stars and all disk particles are evolved using ChaNGa's implementation of a 
+The orbits of the binary stars and all disk particles were evolved using ChaNGa's implementation of a 
 symplectic leapfrog integrator.  Each particle feels the force of gravity due to every other particle, including
-the two stars.  Since the orbits of the stars are not integrated using a higher order technique, I employed conservative
-time stepping.  I ran a series of short simulations, varying the time stepping parameters to 
+the two central stars.  Since the orbits of the stars are not integrated using a higher order technique, I employed conservative
+time stepping.  I ran a series of short simulations varying the time stepping parameters to 
 ensure that the binary orbit was accurately resolved such that any evolution in the orbital parameters is due to 
 gravitational interactions with the disk and not any numerical
 effects.  The timestep selection criterion used was {\tt bGravStep} where  
-$\Delta t = \eta/\sqrt{r/a}$ where $a$ is the acceleration of the
+$\Delta t = \eta/\sqrt{r/a}$, $a$ is the acceleration of the
 particle, $r$ is the distance to the particle or node that causes the largest
-acceleration, and $\eta$ is an accuracy parameter.  I used this timestep criterion as its form is particularly suited for Keplerian orbits, and in the absence of collisions, it has the desirable property of giving the particle a fixed number of timesteps per orbital period ($n = 2\pi/ \eta$) \citep{Richardson2000}.  I found that 
+acceleration, and $\eta$ is an accuracy parameter.  I used this timestep criterion as its form is particularly well-suited for Keplerian orbits, and in the absence of collisions, it has the desirable property of giving the particle a fixed number of timesteps per orbital period \citep[$n = 2\pi/ \eta$][]{Richardson2000}.  I found that 
 $\eta = 0.005$ yielded sufficiently small timesteps to properly
-resolve the dynamics of the binary.  In addition, I used a Courant number of
+resolve the dynamics of the binary.  Finally, I used a Courant number of
 0.4 for enforcing the Courant condition for SPH calculations.
 
 All simulations were ran on the University of Washington's Hyak supercomputer cluster.  Each simulation was ran on either a 12 or 16 core node for about a month each with roughly 8,000 core hours used per simulation on average.  In total, over 100,000 core hours were used for the entire suite of simulations.
 
 \subsection{Model Parameters}
 
-The model system studied in this paper is Kepler-38, a binary composed of a G and an M dwarf.  The physical parameters for this 
+The model system studied in this paper is Kepler-38, a main sequence binary composed of a G and an M dwarf.  The physical parameters for this 
 system were adapted from \citet{Orosz2012} and are given in Table~\ref{tab:CBDisk_table_1}.  I ran eight simulations of Kepler-38 embedded in a 
 circumbinary disk for $10^4$ binary orbits, about 520 years.  The simulations considered in this paper were ran primarily to examine how 
 the surrounding circumbinary disk impacts the dynamics of the central
 binary as a function of the eccentricity of the binary, $e_{bin}$, and
 how the disk in turn evolves.  The disk masses are also varied in Simulations 6, 7, and 8 to explore its role in the evolution of the binary's orbital parameters.  
-I study the sensitivity of my results on disk resolution and aspect ratio in Simulations 9, 10, and 11 with discussion in $\S$~\ref{CBDisk:sec:VaryingDiscProps}.  A summary of the relevant simulation parameters used in this study are given in Table~\ref{tab:CBDisk_table_2}. 
+I study the sensitivity of my results on disk resolution and aspect ratio in Simulations 9, 10, and 11, see $\S$~\ref{CBDisk:sec:VaryingDiscProps}.  A summary of the relevant simulation parameters used in this study is given in Table~\ref{tab:CBDisk_table_2}. 
 
 \subsection{Initial Conditions}
 
@@ -189,7 +188,7 @@ to the nearest 32 neighboring SPH particles.
 
 \subsection{Gap Clearing} \label{CBDisk:sec:GapClearing}
 
-As the simulation evolves, the time varying gravitational force of the
+As each simulation evolves, the time-varying gravitational force of the
 binary truncates the inner edge of the circumbinary disk and excites
 various Lindblad resonances within the disk.  The gap, cleared quickly
 in about 100 binary orbits, is preserved by a balance of resonant and
@@ -205,7 +204,7 @@ resonances may play a role.  The approximate size of the gaps found in
 these simulations is $r \approx 2 a_{bin}$, with more eccentric binaries
 producing larger gaps, in good agreement with the results of
 \citet{Artymowicz1994}.  The results are also consistent with the findings of \citet{DOrazio2016} who show that for binary mass ratios above $q = 0.04$ as is the case 
-for the simulations, a hollow central cavity forms around the secondary within the circumbinary disk.  Gaps of this size tend to remove the eccentricity-damping 
+for these simulations, a hollow central cavity forms around the secondary within the circumbinary disk.  Gaps of this size tend to remove the eccentricity-damping 
 1:2 corotation resonance while leaving the 1:3 EOLR as the closest to the inner disk edge at a radius of $2.08 a_{bin}$, suggesting that this resonance 
 dominates the evolution of the binary's eccentricity and semi-major axis \citep{Artymowicz1991,Artymowicz1992,Papaloizou2001}.
 
@@ -214,14 +213,14 @@ of the 1:3 EOLR, the surface density profiles for Simulations $1-5$
 are shown in Fig.~\ref{fig:CBDiskSurfaceDensity} after 200 years of evolution.
 For all $e_{bin}$, the surface density at the 1:3 EOLR is at least an
 order of magnitude larger than at the 1:2 corotation resonance when it
-is present within the disk.  Since the gap opens rather quickly, in of order 5 years for the Kepler-38 binary,  this finding supports the hypothesis that the 1:3 EOLR will be the dominant resonance within the disk that will drive subsequent evolution within the system.
+is present within the disk.  Since the gap opens rather quickly, in of order 5 years for the Kepler-38 binary,  this finding supports the hypothesis that the 1:3 EOLR will be the dominant resonance within the disk and will drive subsequent evolution within the system.
 
 	%% disk Evolution Subsection %%
 
 \subsection{Disk Evolution}
 
-The structure and eccentricity of the protoplanetary disk were examined over $10^4$ binary periods in over 230 snapshots
-for each simulation to track how it coevolves with the central binary.
+In this section, I study the structure and eccentricity of the protoplanetary disk  over $10^4$ binary periods using about 230 snapshots
+for each simulation to track how the disk coevolves with the central binary.
 
 %%% Figure 2: disk eccentricity vs time
 \begin{figure}
@@ -239,7 +238,7 @@ circumbinary disk via resonant gravitational interactions
 \citep{Papaloizou2001,Artymowicz1996a}.  Previous simulations of circumbinary
 disks \citep{Kley2008,Papaloizou2001,Pierens2007,Pierens2013} found
 that disk eccentricity increases due to interactions that occur at
-the 1:3 EOLR.  To explain why the disk becomes eccentric, \citet{Papaloizou2001} showed that disk eccentricity growth occurs via a parametric instability driven by coupling between the binary's tidal potential and a disk $m = 1$ mode that arises from the small initial disk eccentricity.  This coupling excites an $m = 2$ spiral wave from the 1:3 EOLR that removes angular momentum from the disk at constant energy making the gas orbits eccentric.  The material at the 1:3 EOLR rotates more slowly that the orbital pattern speed allowing the resonant torques to grow eccentricity in the system through the $m = 2$ wave.  I therefore expect the circumbinary disks to become eccentric as well.  To explore this effect in my simulations, I computed the disk eccentricity via a mass average following the prescription of \citet{Pierens2007}
+the 1:3 EOLR.  To explain why the disk becomes eccentric, \citet{Papaloizou2001} showed that disk eccentricity growth occurs via a parametric instability driven by a coupling between the binary's tidal potential and a disk $m = 1$ mode that arises from some small initial disk eccentricity.  This coupling excites an $m = 2$ spiral wave from the 1:3 EOLR that removes angular momentum from the disk at constant energy causing the gas orbits to become more eccentric.  The material at the 1:3 EOLR rotates more slowly that the orbital pattern speed allowing the resonant torques to grow eccentricity in the system through the $m = 2$ wave.  I therefore expect the circumbinary disks in my simulations to become eccentric as well.  To explore this effect in my simulations, I computed the mass-averaged disk eccentricity following \citet{Pierens2007} as
 
 %% disk eccentricity equation from Pierens + Nelson 2007
 \begin{equation}
@@ -248,7 +247,7 @@ the 1:3 EOLR.  To explain why the disk becomes eccentric, \citet{Papaloizou2001}
 where $\Sigma$ is the local surface density. I computed this integral out to a radius of 3 AU over 50 radial bins for each simulation.  The disk eccentricity in each radial bin was taken to be the mass-weighted average of the eccentricity of all gas particles within the bin assuming the particles orbit the system's barycenter.  I neglected the influence of gas pressure in this calculation.
 
 For all simulations, disk eccentricity growth occurs and is consistent with the results
-of the similar gaseous circumbinary disk simulations of \citet{Kley2008}, \citet{Pierens2007,Pierens2013} and \citet{Farris2014}.  The disk eccentricity 
+of similar gaseous circumbinary disk simulations \citep{Kley2008,Pierens2007,Pierens2013,Farris2014}.  The disk eccentricity 
 change over time for each simulation is shown in Fig.~\ref{fig:CBDiskDiskEcc}. For $e_{bin} \approx 0$, significant disk eccentricity growth occurs.  
 After about 500 years, the disk reaches eccentricities of about 0.1 while continuing to grow linearly.  For larger initial $e_{bin}$ up 
 to $e_{bin} \approx 0.1$, less eccentricity growth occurs indicating that more eccentric binaries tend to produce less eccentric disks.
@@ -256,9 +255,9 @@ to $e_{bin} \approx 0.1$, less eccentricity growth occurs indicating that more e
 For non-zero $e_{bin}$, the disk eccentricity grows linearly with a
 periodic modulation.  The period of this disk eccentricity oscillation
 is similar to the inner disk edge clump precession timescale discussed
-in $\S$~\ref{CBDisk:sec:discStructEvolution} below, suggesting that the clump impacts the disc's eccentricity modulation, but only when the binary is sufficiently eccentric.  This finding is consistent with the work of \citet{Artymowicz2000} who explain that the inner disk edge precesses with a period of $10^2 - 10^3$ binary periods when $e_{disk}/e_{bin} \sim 0.2-0.7$.  
+in $\S$~\ref{CBDisk:sec:discStructEvolution} below, suggesting that the clump impacts the disk's eccentricity modulation, but only when the binary orbit is sufficiently eccentric.  This finding is consistent with the work of \citet{Artymowicz2000} who explain that the inner disk edge precesses with a period of $10^2 - 10^3$ binary periods when $e_{disk}/e_{bin} \sim 0.2-0.7$.  
 
-I find that the global disk eccentricity growth is predominantly due to the inner edge of the disk becoming eccentric.  Fig.~\ref{fig:CBDiskDiskEccRad} shows the disk eccentricity versus radius for Simulations 1-5 after about 520 years of evolution.  For binaries with $e_{bin} \approx 0$, disk inner edge eccentricities are of order 0.4, while more eccentric binaries tend to produce less eccentric inner edges.
+I find that the global disk eccentricity growth is predominantly due to the inner edge of the disk becoming eccentric.  Fig.~\ref{fig:CBDiskDiskEccRad} shows the disk eccentricity versus radius for Simulations 1-5 after about 520 years of evolution.  For binaries with $e_{bin} \approx 0$, disk inner edge eccentricities are of order 0.4, while more eccentric binaries tend to produce less eccentric inner disk edges.
 
 %%% Figure 3: disk eccentricity vs radius
 \begin{figure}
@@ -284,7 +283,7 @@ Disk eccentricity growth as a function of $e_{bin}$ depends on how strongly the 
 %%% Figure 4:Binary eccentricity vs time
 \begin{figure}
 	\includegraphics[width=\columnwidth]{f4}
-    \caption{Change in binary eccentricity versus simulation time in units of binary orbits for several initial
+    \caption{Change in binary orbital eccentricity versus simulation time in units of binary orbits for several initial
 binary eccentricities. For an initially circular and nearly circular binary, effectively no eccentricity growth occurs whereas 
 for higher initial eccentricities, significant growth occurs.}
     \label{fig:CBDiskBinEcc}
@@ -302,14 +301,14 @@ the $e_{bin} = 0.25$ case, the binary eccentricity may be large enough that high
 
 		%% disk Structure Evolution Subsubsection %%
 
-\subsubsection{DisK Structure} \label{CBDisk:sec:discStructEvolution}
+\subsubsection{Disk Structure} \label{CBDisk:sec:discStructEvolution}
 
-The gravitational influence of the binary forces several major changes within the structure of the circumbinary disk.  To explore how the
-structure of the disk changes with time and $e_{bin}$, I examined the orbits of gas
+The gravitational influence of the binary forces several major structural changes within the circumbinary disk.  To explore how the
+structure of the disk changes with time as a function of $e_{bin}$, I examined the orbits of gas
 particles and how they vary with distance from the binary.  To
 accomplish this, I created two-dimensional histograms of all gas particles
-within a radial distance of 3 AU from the barycenter for
-each snapshot.  I computed the histograms over semi-major
+within a radial distance of 3 AU from the system barycenter for
+each snapshot.  I computed histograms over gas semi-major
 axis, $a$, and the longitude of periastron, $\varpi$, defined in this
 work as the sum of the argument of periastron, $\omega$, and the
 longitude of the ascending node, $\Omega$, relative to that of the binary, $\varpi_{bin}$, for each gas particle. 
@@ -330,14 +329,14 @@ Precession of orbits near the binary at the inner disk edge are expected due to 
 gaseous circumbinary accretion disks about binary black holes from 2D simulations by \citet{Farris2014}.
 
 An additional structure identified in the disk is a single arm ($m = 1$) spiral wave launched from near the inner edge of the disk as shown
-in Fig.~\ref{fig:CBDiskDiskWave}.  The spiral wave is an alignment of gas particle longitude of periastrons relative to the binary's.  For the initial $e_{bin} = 0.1032$ simulation, the wave develops rapidly within the first 50 years, or about $10^3$ binary periods.  Recent N-body simulations of circumbinary planetesimal disks by \citet{Lines2016} confirmed the presence of an $m = 1$ wave disks about eccentric binaries.  When under the influence of an asymmetric gaseous disk potential, \citet{Lines2016} identified the wave as a preferential alignment of planetesimal longitude of periastrons as a function of orbital radius around the eccentric binary of the Kepler-16 system, similar to the spiral wave found in this work.
+in Fig.~\ref{fig:CBDiskDiskWave}.  The spiral wave is an alignment of gas particle longitude of periastrons relative to the binary's.  For the initial $e_{bin} = 0.1032$ simulation, the wave develops rapidly within the first 50 years, or about $10^3$ binary periods.  Recent N-body simulations of circumbinary planetesimal disks by \citet{Lines2016} confirmed the presence of an $m = 1$ wave in disks orbiting eccentric binaries.  When under the influence of an asymmetric gaseous disk potential, \citet{Lines2016} identified the wave as a preferential alignment of planetesimal longitude of periastrons as a function of orbital radius around the eccentric binary of the Kepler-16 system, similar to the spiral wave found in this work.
 
 %%% Figure 5: Disk structure histogram (circular vs eccentric)
 \begin{figure*}
 	\includegraphics[width=\textwidth]{f5}
     \caption{Two dimensional histogram of disk gas particles binned by semi-major axis and
 longitude of periastron, $\varpi$, (the sum of the longitude of ascending node, $\Omega$, and argument of periastron, $\omega$)
-relative to $\varpi$ of the binary.  Each bin is colored by the log of the number of gas particles it contains.  I note that figure displays the disk in orbital element 
+relative to $\varpi$ of the binary.  Each bin is colored by the base-10 logarithm of the number of gas particles it contains.  I note that figure displays the disk in orbital element 
 space and not in configuration space.  The left and right panels display the histograms for two simulations with binaries having initial eccentricities of 0 and 
 0.1032, respectively, both after 200 years of evolution.  The right panel clearly displays a $m = 1$ spiral wave launched from near the 1:3 EOLR within the disk.}
     \label{fig:CBDiskDiskWave}
@@ -391,7 +390,7 @@ Next, I examine why the orientation of the spiral wave remains fixed relative to
 \dot{\Omega} \approx -\frac{3}{4} \frac{m_a m_b}{(m_a + m_b)^2} \left( \frac{a_{bin}}{r} \right)^2
 \end{equation}
 where $m_a$ and $m_b$ are the masses of the primary and secondary stars, respectively, $a_{bin}$ is the binary semi-major
-axis and $r$ is the radial distance from the barycenter. 
+axis, and $r$ is the radial distance from the barycenter. 
 
 Since these rates are approximately equal and opposite, one expects a
 gas particle's longitude of periastron, as defined earlier, to remain
@@ -401,15 +400,14 @@ disks, this interpretation has a few potential shortcomings.  First, a
 given gas particle does not live in isolation since it feels the
 effects of disk self gravity and pressure gradients within the disk that can impact its orbit.  Also since this theory is only linear in $e_{bin}$, its applicability could 
 lessen as the binary becomes more eccentric due to interactions with the disk.  However, the binaries considered in this work have low to moderate eccentricities and the 
-disks are rather low-mass such that disk self gravity is negligible, so I expect that the gravitational influence of the binary should dominate the gas particles' evolution.  Therefore, I expect this 
-theory to still provide a reasonable explanation for why the spiral arm remains fixed relative to the binary.  
+disks are rather low-mass such that disk self gravity is approximately negligible, so I expect that the gravitational influence of the binary should dominate the gas particles' evolution.  Therefore, I expect this theory to still provide a reasonable explanation for why the spiral arm remains fixed relative to the binary.  
 	
 		%% Binary Evolution Subsection %%
 
 \subsection{Binary Evolution} \label{CBDisk:sec:BinaryEvolution}
 
 Secular theory \citep{Goldreich1979,Goldreich1980,Pringle1991,Papaloizou2001} and previous simulations \citep{Artymowicz1991,Cuadra2009,Roedig2012,Dermine2013} show that angular 
-momentum losses to a disk change the central binary's orbital elements, i.e. the orbital eccentricity and semi-major axis.  Angular momentum loss occurs mainly through resonant gravitational torques at the Lindblad and corotation resonances.  For unequal mass binary stars with low to moderate eccentricity, the majority of eccentricity growth is due to resonant 
+momentum losses to an external disk can change the central binary's orbital eccentricity and semi-major axis.  Angular momentum loss occurs mainly through resonant gravitational torques at the Lindblad and corotation resonances.  For unequal mass binary stars with low to moderate eccentricity, the majority of eccentricity growth is due to resonant 
 torques at the 1:3 EOLR.  This resonance dominates since these systems tend to open a gap in the disk such that the 1:3 EOLR resides nearest to the inner 
 edge of the disk while the eccentricity damping 1:2 corotation resonance lies within the evacuated region \citep{Artymowicz1991,Artymowicz1992}.  Simulations of
 binaries embedded in circumbinary disks by \citet{Roedig2012} agree with this interpretation as they identified gravitational torque density peaks responsible for 
@@ -425,7 +423,7 @@ and decrease in semi-major axis as the binary loses angular momentum to circumbi
 
 As shown in Fig.~\ref{fig:CBDiskBinEcc}, binary eccentricity for
 initially eccentric binaries grows over the duration
-of the simulation.  The eccentricity growth rate, $\dot{e}_{bin}$,
+of each simulation.  The eccentricity growth rate, $\dot{e}_{bin}$,
 seems to scale with initial $e_{bin}$.  In the simulation with initial
 $e_{bin} = 0.25$, however, $e_{bin}$ increases more slowly than the
 initial $e_{bin} = 0.1032$ case.  When the initial $e_{bin} \approx
@@ -436,7 +434,9 @@ eccentricity growth with an initial $e_{bin} \approx 0$, a discrepancy
 I will address later.  In all cases, $e_{bin}$ oscillates as the simulations progress.  This oscillation is due to forcing by the $m = 1$ potential of the eccentric 
 external disk \citep{Artymowicz2000}.
 
-For all simulations, the binary semi-major axis secularly decreases where the rate of decline is lower for increasing binary orbital eccentricity as shown in Fig.~\ref{fig:CBDiskBinSemi}.  As before, the initial $e_{bin} = 0.25$ case defies this trend as it shows a greater semi-major axis decline than the initial $e_{bin} = 0.1032$ case instead of the expected lesser decline.  Additionally, the binary's longitude of periastron slowly precesses in the prograde sense less than $1^{\circ}$yr$^{-1}$ over the duration of the simulation similar to the results of comparable simulations by \citet{Kley2015}.
+For all simulations, the binary semi-major axis secularly decreases where the rate of decline is lower for increasing binary orbital eccentricity as shown in Fig.~\ref{fig:CBDiskBinSemi}.  As before, the initial $e_{bin} = 0.25$ case defies this trend as it shows a greater semi-major axis decline than the initial $e_{bin} = 0.1032$ case instead of the expected lesser decline.  
+
+The binary's longitude of periastron slowly precesses in the prograde sense at less than $1^{\circ}$yr$^{-1}$ over the duration of the simulation similar to the results of comparable simulations by \citet{Kley2015}.
 
 		%% Subsubsection: Modeling Binary Evolution
 
@@ -460,7 +460,7 @@ coupling dictates how eccentricity grows within the system.   I apply the same a
     \label{fig:CBDiskFitEqn}
 \end{figure}
 
-For simulations of disks around eccentric binaries, I argued that the disk and binary are strongly coupled through the $m = 1$ modes of the eccentric binary orbit and inner disk edge orbits.  In this regime, both the binary and disk eccentricities grow together. Further coupling between the disk and binary can occur.  The disk-binary coupling discussed at length in $\S$~\ref{CBDisk:sec:discStructEvolution} leads to the excitation of a time-independent $m = 1$ spiral wave and associated potential from the 1:3 EOLR whose orientation remains locked to that of the binary's orbit (see Fig.~\ref{fig:CBDiskDiskWave}).  Since this wave remains fixed relative to the binary, it resonantly torques the binary through the 1:3 EOLR, removing angular momentum from the binary's orbit, increasing $e_{bin}$.  If the wave instead circulated over time, its potential would time-average to zero and have no effect on the binary orbital elements.  The presence of the $m = 1$ spiral wave leads to the qualitatively different binary eccentricity evolution for the $e_{bin} = 0.1032$ case relative to the $e_{bin} \approx 0$ case displayed in Fig.~\ref{fig:CBDiskBinEcc}.  In all simulations, the binary semi-major axis decreases due to energy dissipation from the viscous disk. 
+For simulations of disks around eccentric binaries, I argued that the disk and binary are strongly coupled through the $m = 1$ modes of the eccentric binary orbit and inner disk edge orbits.  In this regime, both the binary and disk eccentricities grow together. Further coupling between the disk and binary can occur.  The disk-binary coupling (discussed at length in $\S$~\ref{CBDisk:sec:discStructEvolution}) leads to the excitation of a time-independent $m = 1$ spiral wave and associated potential from the 1:3 EOLR whose orientation remains locked to that of the binary's orbit (see Fig.~\ref{fig:CBDiskDiskWave}).  Since this wave remains fixed relative to the binary, it resonantly torques the binary through the 1:3 EOLR, removing angular momentum from the binary's orbit, increasing $e_{bin}$.  If the wave instead circulated over time, its potential would time-average to zero and have no effect on the binary orbital elements.  The presence of the $m = 1$ spiral wave leads to the qualitatively different binary eccentricity evolution for the $e_{bin} = 0.1032$ case relative to the $e_{bin} \approx 0$ case displayed in Fig.~\ref{fig:CBDiskBinEcc}.  In all simulations, the binary semi-major axis decreases due to energy dissipation from the viscous disk. 
 
 Similar N-body SPH simulations of
 binaries embedded in a circumbinary disk by \citet{Artymowicz1991} showed that for binaries with mass ratio $\mu = m_2/m_1 = 0.3$ and $e_{bin} \approx 0.1$, similar to the systems examined in this paper, resonant interactions with the surrounding disk at the 1:3 EOLR drive eccentricity growth and semi-major axis decay.  In this regime, I expect the binary eccentricity growth observed by \citet{Artymowicz1991} since the binary and disk are strongly coupled.
@@ -518,15 +518,15 @@ de/da=
 \end{equation}
 Hence, I expect that eccentricity increases while the semi-major axis decreases.
 
-To verify that Eqn.~(\ref{CBDisk:eqn:total_deda}) is a proper model for my simulations, the observed evolution of $e_{bin}$ and $a_{bin}$ for simulations with initial $e_{bin} =$ 0.05, 0.1032, and 0.25 were compared with the theoretical result of Eqn.~(\ref{CBDisk:eqn:total_deda}), assuming $\alpha_{eff} = 0.006$.  The comparison is shown in Fig.~\ref{fig:CBDiskFitEqn}.
+To verify that Eqn.~(\ref{CBDisk:eqn:total_deda}) is a proper model for my simulations, the observed evolution of $e_{bin}$ and $a_{bin}$ for simulations with initial $e_{bin} =$ 0.05, 0.1032, and 0.25 were compared with the theoretical predictions of Eqn.~(\ref{CBDisk:eqn:total_deda}), assuming $\alpha_{eff} = 0.006$.  The comparison is shown in Fig.~\ref{fig:CBDiskFitEqn}.
 
 The results of both the simulations with initial $e_{bin} = 0.1032$ and $e_{bin} = 0.25$ are in good agreement with the theoretical expectations of Eqn.~(\ref{CBDisk:eqn:deda}).  When I apply Eqn.~(\ref{CBDisk:eqn:total_deda}) to the initial $e_{bin} \approx 0$ cases,I find that for these simulations, the binary semi-major axis decreases via energy dissipation through the viscous disk while no eccentricity growth occurs as seen in Fig.~\ref{fig:CBDiskBinEcc} and Fig.~\ref{fig:CBDiskBinSemi}.  These findings indicate that Eqn.~(\ref{CBDisk:eqn:total_deda}) successfully quantifies how the binary evolves in the different disk-binary coupling regimes.
 
-The initial $e_{bin}$ = 0.05 case proves troublesome.  Eqn.~(\ref{CBDisk:eqn:total_deda}) does a poor job fitting the binary eccentricity and semi-major axis evolution.  The poor fit can be understood in the context of how the disk and binary undergo an intermediate coupling in between the strong and weak regimes.  As discussed in $\S$~\ref{CBDisk:sec:discEccEvolution} and $\S$~\ref{CBDisk:sec:discStructEvolution}, the binary orbital eccentricity is not large enough to launch a prominent $m = 1$ spiral wave and drive eccentricity growth.  In between regimes, I expect the binary eccentricity to grow weakly as I observe in my simulations.  Eqn.~(\ref{CBDisk:eqn:total_deda}) succeeds for systems firmly in the weakly or strongly coupled regime, but does not perform well for intermediate couplings.
+The initial $e_{bin}$ = 0.05 case proves troublesome as Eqn.~(\ref{CBDisk:eqn:total_deda}) does a poor job fitting the binary eccentricity and semi-major axis evolution.  The poor fit can be understood in the context of how the disk and binary undergo an intermediate coupling in between the strong and weak regimes.  As discussed in $\S$~\ref{CBDisk:sec:discEccEvolution} and $\S$~\ref{CBDisk:sec:discStructEvolution}, the binary orbital eccentricity is not large enough to launch a prominent $m = 1$ spiral wave and drive eccentricity growth.  In between regimes, I expect the binary eccentricity to grow weakly as I observe in my simulations.  Eqn.~(\ref{CBDisk:eqn:total_deda}) succeeds for systems firmly in the weakly or strongly coupled regime, but does not perform well for intermediate couplings.
 
 This behavior has interesting consequences for the subsequent evolution of a system.  For the intermediate case, as the binary eccentricity grows with time, it should eventually reach $e_{bin} \approx 0.1$. At this point, I expect that the binary will then begin to strongly couple to the gaseous disk.  As discussed previously, strong coupling launches a $m = 1$ spiral wave in the disk and increases the growth rate of binary eccentricity.  Also in the strongly coupled regime, I expect the disk eccentricity to decrease from higher values and be similar in magnitude to the binary eccentricity.  
 
-In a similar vein for nearly circular binaries, I expect them to remain circular.  Other simulations of binaries embedded in circumbinary disks such as those by \citet{Pierens2007} and \citet{Cuadra2009} have found that initially circular binaries eventually develop appreciable non-zero eccentricities.  This behavior can be understood by examining Eqn.~(\ref{CBDisk:eqn:total_deda}).  If the binary is perturbed and some non-zero eccentricity develops, I would expect the binary eccentricity to grow very slowly, gradually strengthening the coupling between the disk and binary until intermediate coupling is reached and the system progresses as described above.  This picture is consistent with the results of \citet{Pierens2007} who found the binary eccentricity began to grow on timescales longer than those explored in this work.  Therefore over timescales much longer than simulated here, I would expect the initial $e_{bin} = 0.001$ case to become appreciably eccentric.  I extrapolate the results of the simulations to longer timescales and consider the consequences below.
+I expect nearly circular binaries to remain circular.  Other simulations of binaries embedded in circumbinary disks such as those by \citet{Pierens2007} and \citet{Cuadra2009} have found that initially circular binaries eventually develop appreciable non-zero eccentricities.  This behavior can be understood by examining Eqn.~(\ref{CBDisk:eqn:total_deda}).  If the binary is perturbed and some non-zero eccentricity develops, I would expect the binary eccentricity to grow very slowly, gradually strengthening the coupling between the disk and binary until intermediate coupling is reached and the system progresses as described above.  This picture is consistent with the results of \citet{Pierens2007} who found the binary eccentricity began to grow on timescales longer than those explored in this work.  Therefore over timescales much longer than simulated here, I would expect the initial $e_{bin} = 0.001$ case to become appreciably eccentric.  I extrapolate the results of the simulations to longer timescales and consider the consequences below.
 
 I ran additional simulations to ensure that  the 1:3 EOLR did indeed dominate binary
 evolution and no other effect played a major role.  To do this, a shorter simulation with an initial binary eccentricity of 0.1032 was performed
@@ -545,7 +545,7 @@ had a negligible effect on $e_{bin}$ and $a_{bin}$.  Therefore, it is safe to as
 Previous studies have examined how varying disk properties can change
 how a circumbinary disk evolves.  For example, \citet{Lines2015} showed
 that disk eccentricity is sensitive to the initial disk surface
-density gradient and aspect ratio.  Here, I analyze the results of simulations that vary disk mass, gas resolution, and
+density gradient and aspect ratio.  Here, I analyze the results of simulations that vary disk mass, simulation resolution (gas particle number), and
 aspect ratio in order to examine how disk properties impact the disk - binary coevolution.
 
 	%% Varying disk mass
@@ -555,9 +555,8 @@ aspect ratio in order to examine how disk properties impact the disk - binary co
 To study how my results vary with disk mass, I ran three additional simulations with $e_{bin} =
 0.1032$ to see if varying disk mass changes binary evolution: Simulation 6
 with $2 \times M_{disk}$, Simulation 7 with $0.5 \times M_{disk}$, and
-Simulation 8 with $1.5 \times M_{disk}$.  For these additional simulations, I expect the disk to be strongly coupled to the eccentric binary since the 
-coupling only depends on the magnitude of binary eccentricity.  I also expect that the eccentricity growth will occur more quickly for systems with more 
-massive disks since torque scales with the disk mass.  The results of the simulations are shown in Fig.~\ref{fig:CBDiskVarying}.
+Simulation 8 with $1.5 \times M_{disk}$ where $M_{disk}$ is the fiducial disk mass used in all other simulations.  For these additional simulations, I expect the disk to be strongly coupled to the eccentric binary since the coupling only depends on the magnitude of binary eccentricity.  I also expect that the eccentricity growth will occur more quickly for systems with more 
+massive disks since torque should scale with the disk mass.  The results of the simulations are shown in Fig.~\ref{fig:CBDiskVarying}.
 
 The disk eccentricity of Simulation 7 was similar to that of Simulation 4, while Simulation 6 showed larger disk eccentricity values.  As expected, more massive 
 disks became more eccentric.  Not depicted is the spiral arm development.  Similar to the standard initial $e_{bin} = 0.1032$ case, a prominent $m = 1$ spiral 
@@ -569,10 +568,10 @@ spiral arm.  For more massive disks, binary eccentricity grew more quickly and t
 
 \subsection{Varying Disk Resolution} \label{CBDisk:sec:VaryingDiscResolution}
 
-To ensure that my simulations were sufficiently resolved, I ran two additional simulations, Simulations 9 and 10, which had decreased and increased
+To ensure that my simulations were sufficiently resolved, I ran two additional simulations, Simulations 9 and 10, in which I decreased and increased
  the initial number of gas particles by a factor of 2 to $5 \times 10^4$ and $2 \times 10^5$, respectively.  The results of these simulations are shown in Fig.~\ref{fig:CBDiskVarying}.
  
- In both simulations, I find the general trend of eccentricity growth and semi-major axis decay holds.  The lower resolution Simulation 9 eccentricity 
+ In both simulations, I found the general trend of eccentricity growth and semi-major axis decay held.  The lower resolution Simulation 9 eccentricity 
  growth is less than the fiducial Simulation 4.  In addition, the disk eccentricity does not oscillate as seen in other simulations.  This suggests that the clump 
  which dominates the disk eccentricity does not form into a coherent structure, indicating that N$_{gas} = 5 \times 
  10^4$ might not be large enough to properly resolve all the physics at the disk inner edge.  I find that the $m = 1$ spiral wave appears in the disk indicating 
@@ -583,7 +582,7 @@ To ensure that my simulations were sufficiently resolved, I ran two additional s
  between Simulation 10 and Simulation 4, however, is that the higher resolution simulation displayed less binary semi-major axis decay.  This result is expected, 
  however, since higher resolution N-body SPH simulations will have smaller gas softening lengths, $h$.  As shown in Eqn.~(\ref{CBDisk:eqn:alphas}), the effective 
  standard viscosity parameter $\alpha_{eff} \propto h$.  The theoretical work of \citet{Artymowicz1996b,Artymowicz2000} estimate that $\dot{a}/a 
- \propto -\alpha_{eff}$.  I therefore expect a higher resolution run with smaller $h$k and hence smaller $\alpha_{eff}$k to exhibit less binary semi-major axis 
+ \propto -\alpha_{eff}$.  I therefore expect a higher resolution run with smaller $h$ and hence smaller $\alpha_{eff}$ to exhibit less binary semi-major axis 
  decay due to dissipation from the viscous disk. Since the main effects explored in this work, the binary eccentricity evolution and the accompanying development of disk eccentricity and structure, are in good agreement between the standard and higher resolution runs, I find that the nominal resolution of N$_{gas} = 10^5$ is sufficient.
 
 	%% Varying disk aspect ratio
@@ -592,9 +591,9 @@ To ensure that my simulations were sufficiently resolved, I ran two additional s
 
 Simulations of accretion disks around binary black holes have examined the effects of large disk aspect ratios, mainly focusing these works on accretion rates in binaries.  
 Two dimensional SPH simulations of gas accretion onto binaries embedded in a circumbinary disk by \citet{Young2015} found that increasing gas temperature 
-leads to increased accretion rates onto the primary star and growth in the binary mass ratio.  Simulations of disks about black hole binaries by \citet{Ragusa2016} 
-showed that disks with aspect ratios H/R $\gtrsim 0.1$ have enhanced accretion rates as the inspiralling gas is not supressed by the binary's gravitational 
-torque.  To examine disk aspect ratio's effect on disk-binary evolution in my simulations, I ran Simulation 11 with a disk aspect ratio of $H/R = 0.12$.  To 
+leads to increased accretion rates onto the primary star and growth of the binary mass ratio.  Simulations of disks about black hole binaries by \citet{Ragusa2016} 
+showed that disks with aspect ratios H/R $\gtrsim 0.1$ have enhanced accretion rates as the inspiralling gas is not suppressed by the binary's gravitational 
+torque.  To examine the disk aspect ratio's effect on disk-binary evolution in my simulations, I ran Simulation 11 with a disk aspect ratio of $H/R = 0.12$.  To 
 initialize the disk with a larger aspect ratio, I increased the disk temperature by setting T$_0$ in Eqn.~(\ref{CBDisk:eqn:disc_temp_profile}) to 2500 K, yielding 
 about a factor of $2$ larger aspect ratio relative to the fiducial Simulation 4.
 
@@ -603,7 +602,7 @@ eccentricity growth compared to the fiducial Simulation 4.  The increased binary
 \citet{Artymowicz1996b,Artymowicz2000} who estimate that $\dot{a}/a \propto -(H/R)^2$.  The enhanced binary eccentricity growth follows as a consequence of Eqn.~(\ref{CBDisk:eqn:deda}).
 
 In Simulation 11, the binary accretion rate was enhanced by about a factor of $4$ relative to the fiducial Simulation 4 in agreement with the general 
-findings of both \citet{Young2015} and \citet{Ragusa2016}.  I found that accretion again had little impact on the binary orbital element evolution.  As expected from arguments presented in $\S$~\ref{CBDisk:sec:discStructEvolution}, the disk and binary were strongly coupled, producing a prominent $m = 1$ spiral wave similar to the one seen in Fig.~\ref{fig:CBDiskDiskWave}.  The disk also displayed larger eccentricity initially but it did not grow appreciably over the course of the simulation.  
+findings of both \citet{Young2015} and \citet{Ragusa2016}.  I found that accretion again had little impact on the binary orbital element evolution.  As expected from arguments presented in $\S$~\ref{CBDisk:sec:discStructEvolution}, the disk and binary were strongly coupled, producing a prominent $m = 1$ spiral wave similar to the one seen in Fig.~\ref{fig:CBDiskDiskWave}.  The disk also displayed a larger eccentricity initially but did not grow appreciably over the course of the simulation.  
 	
 %%% Figure 9: Effects of varying disk props
 \begin{figure*}
@@ -615,7 +614,7 @@ findings of both \citet{Young2015} and \citet{Ragusa2016}.  I found that accreti
 %% Discussion Section %%
 
 \section{Discussion} \label{sec:CBDisk_discuss}
-The coevolution of a binary with a gaseous circumbinary disk, primarily driven by resonant interactions at the 1:3 EOLR, has several important consequences for the subsequent dynamical evolution of the system.  As shown above, an eccentric binary system tends to gain eccentricity and experience a secular decay in semi-major axis due to viscous and resonant interactions with the disk.  This evolution not only changes due to additional feedback with the disk, but also impacts regions in the disk where planets form and migrate.
+The coevolution of a binary with its external gaseous circumbinary disk, primarily driven by resonant interactions at the 1:3 EOLR, has several important consequences for the subsequent dynamical evolution of the system.  As shown above, an eccentric binary system tends to gain eccentricity and experience a secular decay in semi-major axis due to viscous and resonant interactions with the disk.  This evolution not only changes due to additional feedback with the disk, but also impacts regions in the disk where planets form and migrate.
 
 	%% Subsection: Potential tidal effects/coalescence 
 	
@@ -626,9 +625,9 @@ protoplanetary disk by \citet{Artymowicz1991} found rapid semi-major axis decay 
 authors to suggest that the binary separation may become small enough that tidal effects, or even stellar coalescence, may occur.  Tides 
 between stellar companions tend to circularize the orbit over long timescales for sufficiently small stellar separations.  Detailed studies of 
 companions to Sun-like stars by \citet{Raghavan2010} and measurements of solar-type spectroscopic binaries in M35 by \citet{Meibom2005} both found that 
-binaries from these populations with periods less than about 10 days tend to be circularized.  Theoretical work on the premain-sequence evolution of 
+binaries from these populations with periods less than about 10 days tend to be circularized.  Theoretical work on the pre-main sequence evolution of 
 $0.5-1.25$ $M_{\odot}$ binaries by \citet{Zahn1989} demonstrate that binaries with orbital periods of about 8 days or less are tidally circularized, with effectively all 
-of the circularization occurring before the stars reach the main-sequence.  For binaries with an initial period slightly greater than the $\sim 10$ day tidal 
+of the circularization occurring before the stars reach the main sequence.  For binaries with an initial period slightly greater than the $\sim 10$ day tidal 
 circularization boundary embedded in a circumbinary disk, binary-disk interactions could potentially decrease $a_{bin}$ enough to make tidal effects important 
 for subsequent evolution given that the lifetimes of protoplanetary disks are of order 1-10 Myrs \citep{Haisch2001}.
 
@@ -645,22 +644,22 @@ continues to $e_{bin} > 0.35$ where this growth did not slow until $e_{bin} \app
 $a_{bin}$ which neglects the inward motion of the resonances as $a_{bin}$ decays, potentially leaving them in the evacuated region, removing their effects 
 from the system.  The impact of higher order resonances on binary evolution is a complicated matter that requires proper treatment in which both the binary and 
 disk are allowed to coevolve together and likely depends on disk structure and artificial viscosity implementation.  Additionally, findings by \citet{Pringle1991} show 
-that in principle, there is no limit to the amount of angular momentum that can be lost by a central binary to an external disk suggesting that binary coalescence 
+that in principle, there is no limit to the amount of angular momentum that can be lost by a central binary to an external disk,å suggesting that binary coalescence 
 is not as unrealistic as it sounds.   I caution that when performing simulations of binaries embedded in a gaseous disk that explore the role of semi-major axis decay, one should ensure that their observed semi-major axis decay has converged as both resolution and non-trivial effects such as accretion \citep[e.g.][]{Roedig2012} can have a substantial impact.
 
 One effect not explored in this work is the possibility of Kozai-Lidov (KL) oscillations for the general case of a misalign disks in binary systems.   
 For an inclined test particle orbiting one component of a binary, periodic KL oscillations 
-allow for the particle's eccentricity to grow at the expense of its inclination \citet{Kozai1962,Lidov1962}.  For the case of an inclined circumstellar disk about one 
+allow the particle's eccentricity to grow at the expense of its inclination \citet{Kozai1962,Lidov1962}.  For the case of an inclined circumstellar disk about one 
 component of the binary, \citet{Martin2014CB} found that the disk can exhibit KL cycles with the periodic disk eccentricity maxima approaching $\sim 0.6$.  A 
 later study of similar systems by \citet{Lubow2015} demonstrated that misaligned disks can become much more extended than coplanar disks and 
-potentially could overflow the Roche lobe of the star.  Simulations of misaligned circumbinary disks by \citet{Nixon2013} showed that disks of almost all 
-inclinations can tear leading to massive accretion and potentially a merger of the central binary.
+potentially could enter the stellar Roche lobe.  Simulations of misaligned circumbinary disks by \citet{Nixon2013} showed that disks of almost all 
+inclinations can tear, leading to massive accretion and potentially a merger of the central binary.
 
 Given these results in the general case of systems with 
-misaligned circumbinary disks, the binary eccentricity evolution is likely significantly impacted by the disk evolution and depart from the results presented here 
+misaligned circumbinary disks, the binary eccentricity evolution is likely significantly impacted by the disk evolution and will depart from the results presented here 
 for thin, coplanar disks.  The disk, if misaligned, could reach large eccentricities due to KL oscillations and via interactions with the binary if it does not tear.  If 
 the disk does in fact tear, the binary would likely not couple with the disk at all but could in fact coalesce as demonstrated by \citet{Nixon2013}.  The general 
-case of a binary coupling with an inclined circumbinary disk is greatly complicated by KL oscillations, torque scaling with inclination and the potential for tearing, warranting future study.
+case of a binary coupling with an inclined circumbinary disk is greatly complicated by KL oscillations, torque scaling with inclination, and the potential for tearing, warranting future study.
 
 	%% Subsections: Implications for CBPs
 \subsection{Implications for Circumbinary Planets} \label{CBDisk:sec:cbp_implications}
@@ -669,21 +668,21 @@ The observed orbital elements of binary stars that host a circumbinary planet ar
 Fig.~\ref{fig:CBDiskBinSemi}, I see that for systems similar to the ones considered in this work, appreciable changes can occur on the order of $10^4$ binary orbits.  
 
 As shown in $\S$~\ref{CBDisk:sec:VaryingDiscMass}, the mass of the disk strongly influences the binary evolution.  More massive disks, for example, drive much faster 
-$e_{bin}$ growth and $a_{bin}$ decay.  Faster dynamical binary evolution due to massive disks could be particularly relevant for \kepler CBPs as the work of \citet{Dunhill2013} suggests that these CBPs formed and migrated in massive disks.  Additionally, disk-binary interactions 
+$e_{bin}$ growth and $a_{bin}$ decay.  Faster dynamical binary evolution due to massive disks could be relevant for \kepler CBPs as the work of \citet{Dunhill2013} suggests that these CBPs formed and migrated in massive disks.  Additionally, disk-binary interactions 
 can make planet formation more difficult.  Simulations by \citet{Lines2016} identified an $m = 1$ spiral wave in the circumbinary disk that corresponds to an 
 alignment of planetesimal longitudes of periastron.  This wave, whose origin was explained in this work, caused an increase in erosive planetesimal 
 collisions making in-situ formation difficult in circumbinary protoplanetary disks.
 
 The decay of $a_{bin}$ via disk-binary interactions also causes the inward shift of mean motion and Lindblad resonances.  These resonances can significantly 
 impact the orbital stability of local objects in the disk in several important ways.  For the restricted three body problem, resonance overlapping can lead to 
-stochastic orbital evolution as shown from the criterion derived by \citet{Wisdom1980}.  For the case of binary orbital evolution driven by tides, \citet{Bromley2015} 
+stochastic orbital evolution \citep{Wisdom1980}.  For the case of binary orbital evolution driven by tides, \citet{Bromley2015} 
 point out that evolving binary eccentricity and semi-major axis changes the location of critical resonances and hence where they overlap, potentially making 
 stable systems unstable over time.  
 
 The location of mean motion resonances also dictate where CBPs may reside.  The numerical integrations 
 of both \citet{Popova2013} and \citet{Chavez2015} show that many CBPs lie in a stable region shepherded by unstable mean motion resonances.  If 
 $a_{bin}$ evolves significantly on short enough timescales, so too do the locations of the resonances, sweeping inward and potentially destabilizing orbits.  
-I note, however, that $a_{bin}$ evolution appears to be a resolution dependent effect which future work should address.
+I note, however, that $a_{bin}$ evolution appears to be a resolution dependent effect that future work should address.
 
 This behavior is of particular importance for studies of planetary migration in circumbinary disks.  Studies of circumbinary planetary migration in a viscous, 
 eccentric disk find that planets tend to migrate inwards until they are trapped in or near the 4:1 mean motion resonance in the region of stability identified by 
@@ -696,7 +695,7 @@ using N-body SPH methods like the ones presented in this work, must ensure that 
 
 In this work, I showed that unequal mass binary stars embedded in a circumbinary gaseous disk carved out a gap in the disk and caused structural changes 
 within the disk.  Resonant interactions with the binary at the 1:3 EOLR excited disk eccentricity.  Sufficiently eccentric binaries excited a $m = 1$ spiral 
-wave within the disk.  This wave corresponded to an alignment of gas particle longitude of periastrons that varied with radius.  The spiral wave formed within 50 
+wave within the disk that corresponded to a radially-dependent alignment of gas particle longitude of periastrons.  The spiral wave formed within 50 
 years for disks about sufficiently eccentric binaries, but took longer to strengthen for less eccentric binaries (see Fig.~\ref{fig:CBDiskDiskWave}).  Eccentric binary stars 
 became more eccentric and experienced a secular decrease in semi-major axis while initially nearly circular binaries underwent no eccentricity growth over the 
 timescales considered.
@@ -707,12 +706,12 @@ Nearly circular binaries weakly couple to the external disk and drive the inner 
 to the disk leading to eccentricity growth for both the disk and binary.  The origin of the $m = 1$ wave within the disk is understood as a recoupling of the $m = 
 2$ spiral density wave with the binary tidal potential.
 
-This model does have limited applicability as disk gap size scales with $e_{bin}$, so the 1:3 EOLR could fall within the evacuated region removing its effect 
-from the system, potentially slowing down binary evolution. For simulations of gaseous circumbinary disks, I caution that the disk-binary interaction must be 
+This model does have limited applicability as disk gap size scales with $e_{bin}$, so the 1:3 EOLR could fall within the evacuated region, removing its effect 
+from the system and potentially slowing down binary evolution. For simulations of gaseous circumbinary disks, I caution that the disk-binary interaction must be 
 sufficiently accounted for to properly model the system.  I leave the characterization of the long-term impact of disk-binary interactions to future work.
 
 Limitations of this work include the difficulty in integrating the binary orbit.  Since the binary feels the force of every other SPH particle in my simulations and is 
-integrated using ChaNGa's native leapfrog integrator, very conservative timestepping was employed to ensure that the binary orbit was well-resolved and 
+integrated using ChaNGa's leapfrog integrator, very conservative timestepping was employed to ensure that the binary orbit was well-resolved and 
 physically accurate.  The conservative timestepping scheme significantly slowed the simulations.  In light of this limitation, potential future work could include 
 running a long-term higher resolution simulation over at least $10^5$ binary orbits for small, yet non-zero, $e_{bin}$ in order to better 
 characterize how the disk and binary coevolve.  Additional future work could involve examining equal mass binaries or binaries with larger eccentricities than 
