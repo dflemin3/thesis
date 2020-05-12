@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 MAY 2020 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 MAY 2020 19:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1862,9 +1862,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [177]
 [178]
-Overfull \hbox (30.37698pt too wide) in paragraph at lines 102--103
-\OT1/ptm/m/n/12 the true MCMC-derived pos-te-rior dis-tri-bu-tion for TRAPPIST-
-1's XUV evo-lu-tion. \OT1/pcr/m/n/12 approxposterior\OT1/ptm/m/n/12 ,
+Overfull \hbox (47.71721pt too wide) in paragraph at lines 102--103
+\OT1/ptm/m/n/12 the \OT1/pcr/m/n/12 emcee \OT1/ptm/m/n/12 MCMC-derived pos-te-r
+ior dis-tri-bu-tion for TRAPPIST-1's XUV evo-lu-tion. \OT1/pcr/m/n/12 approxpos
+terior\OT1/ptm/m/n/12 ,
  []
 
 [179] [180]
@@ -1934,7 +1935,13 @@ File: tex/trappist/fluxes.pdf Graphic file (type pdf)
 <use tex/trappist/fluxes.pdf>
 Package pdftex.def Info: tex/trappist/fluxes.pdf used on input line 209.
 (pdftex.def)             Requested size: 470.295pt x 505.1658pt.
- [188] [189 <./tex/trappist/fluxes.pdf>] [190])
+ [188] [189 <./tex/trappist/fluxes.pdf>]
+Overfull \hbox (5.5363pt too wide) in paragraph at lines 222--223
+\OT1/ptm/m/n/12 tions and best-fit val-ues un-cov-ered by my fidu-cial MCMC ana
+l-y-sis. I find that \OT1/pcr/m/n/12 approxposterior
+ []
+
+[190])
 Overfull \hbox (11.0345pt too wide) in paragraph at lines 227--189
 \OT1/ptm/m/n/12 ([][]2016[][]), \OT1/pcr/m/n/12 emcee\OT1/ptm/m/n/12 : [][]Fore
 man-Mackey et al.[][] ([][]2013[][]), \OT1/pcr/m/n/12 george\OT1/ptm/m/n/12 : [
@@ -1993,7 +2000,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
 Here is how much of TeX's memory you used:
  23747 strings out of 493014
  409752 string characters out of 6133351
- 713480 words of memory out of 5000000
+ 713457 words of memory out of 5000000
  26030 multiletter control sequences out of 15000+600000
  81808 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2019,7 +2026,7 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (249 pages, 20120265 bytes).
+Output written on thesis.pdf (249 pages, 20120342 bytes).
 PDF statistics:
  5860 PDF objects out of 6186 (max. 8388607)
  5211 compressed objects within 53 object streams
