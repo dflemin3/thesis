@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 MAY 2020 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 MAY 2020 12:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1753,15 +1753,19 @@ sive it-er-a-tions. I con-sider an \OT1/pcr/m/n/12 approxposterior
  []
 
 [160]
-<tex/approxposterior/convergence.pdf, id=4525, 461.20616pt x 400.37852pt>
+<tex/approxposterior/convergence.pdf, id=4526, 461.20616pt x 400.37852pt>
 File: tex/approxposterior/convergence.pdf Graphic file (type pdf)
 
 <use tex/approxposterior/convergence.pdf>
 Package pdftex.def Info: tex/approxposterior/convergence.pdf used on input line
- 88.
+ 90.
 (pdftex.def)             Requested size: 470.295pt x 408.28294pt.
 
-Overfull \hbox (9.79544pt too wide) in paragraph at lines 98--100
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [161]
+[162 <./tex/approxposterior/convergence.pdf>]
+Overfull \hbox (9.79544pt too wide) in paragraph at lines 100--102
 \OT1/ptm/m/n/12 where $[] \OT1/ztmcm/m/n/12 = \OMS/ztmcm/m/n/12 f\OML/ztmcm/m/i
 t/12 x[]; x[]\OMS/ztmcm/m/n/12 g$\OT1/ptm/m/n/12 . In prac-tice, \OT1/pcr/m/n/1
 2 approxposterior \OT1/ptm/m/n/12 works with the nat-u-ral log-a-rithm of Eqn. 
@@ -1769,50 +1773,50 @@ t/12 x[]; x[]\OMS/ztmcm/m/n/12 g$\OT1/ptm/m/n/12 . In prac-tice, \OT1/pcr/m/n/1
  []
 
 
-Overfull \hbox (0.90944pt too wide) in paragraph at lines 101--101
+Overfull \hbox (0.90944pt too wide) in paragraph at lines 103--103
 [][][]\OT1/ptm/m/n/10 The script is avail-able at [][]https://github.com/dflemi
 n3/approxposterior/blob/master/examples/inference/example.py[][]| 
  []
 
-[161] [162 <./tex/approxposterior/convergence.pdf>]
+
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+ [163]
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (./tex/approxposterior/example.py
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10> not available
 (Font)              Font shape `OT1/pcr/b/n' tried instead on input line 3.
- [163])
-<tex/approxposterior/finalPosterior.pdf, id=4604, 363.83113pt x 380.89488pt>
+ [164])
+<tex/approxposterior/finalPosterior.pdf, id=4619, 363.83113pt x 380.89488pt>
 File: tex/approxposterior/finalPosterior.pdf Graphic file (type pdf)
 
 <use tex/approxposterior/finalPosterior.pdf>
 Package pdftex.def Info: tex/approxposterior/finalPosterior.pdf used on input l
-ine 111.
+ine 113.
 (pdftex.def)             Requested size: 470.295pt x 492.37352pt.
- [164] [165 <./tex/approxposterior/finalPosterior.pdf>] [166]
-Overfull \hbox (4.24132pt too wide) in paragraph at lines 128--129
+ [165] [166 <./tex/approxposterior/finalPosterior.pdf>] [167]
+Overfull \hbox (4.24132pt too wide) in paragraph at lines 130--131
 \OT1/ptm/m/n/12 neu-ral net-works have a large num-ber of pa-ram-e-ters and hen
 ce re-quire mas-sive grids of pre-computed
  []
 
-[167]
-Overfull \hbox (64.12935pt too wide) in paragraph at lines 130--131
+
+Overfull \hbox (64.12935pt too wide) in paragraph at lines 132--133
 []\OT1/ptm/m/n/12 Here, I present work-in-progress from Lustig-Yaeger et al, in
  prep, to demon-strate that \OT1/pcr/m/n/12 approxposterior
  []
 
-<tex/approxposterior/emceeAPComparison.png, id=4734, 501.875pt x 493.34312pt>
+[168]
+<tex/approxposterior/emceeAPComparison.png, id=4740, 501.875pt x 493.34312pt>
 File: tex/approxposterior/emceeAPComparison.png Graphic file (type png)
 
 <use tex/approxposterior/emceeAPComparison.png>
 Package pdftex.def Info: tex/approxposterior/emceeAPComparison.png used on inpu
-t line 136.
+t line 138.
 (pdftex.def)             Requested size: 470.295pt x 462.32736pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [168]
-[169 <./tex/approxposterior/emceeAPComparison.png>]) [170]
+) [169] [170 <./tex/approxposterior/emceeAPComparison.png>]
 <<6>>
 (./tex/trappist/trappist.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1855,11 +1859,7 @@ l.75 \startdata
                
 ? 
 Table 6.1 has been set to width 330.7932pt
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [177]
-[178]
+[177] [178]
 Overfull \hbox (47.71721pt too wide) in paragraph at lines 102--103
 \OT1/ptm/m/n/12 the \OT1/pcr/m/n/12 emcee \OT1/ptm/m/n/12 MCMC-derived pos-te-r
 ior dis-tri-bu-tion for TRAPPIST-1's XUV evo-lu-tion. \OT1/pcr/m/n/12 approxpos
@@ -1867,7 +1867,7 @@ terior\OT1/ptm/m/n/12 ,
  []
 
 [179] [180]
-<tex/trappist/trappist1Corner.pdf, id=5037, 835.92433pt x 853.15926pt>
+<tex/trappist/trappist1Corner.pdf, id=5038, 835.92433pt x 853.15926pt>
 File: tex/trappist/trappist1Corner.pdf Graphic file (type pdf)
 
 <use tex/trappist/trappist1Corner.pdf>
@@ -1875,14 +1875,14 @@ Package pdftex.def Info: tex/trappist/trappist1Corner.pdf used on input line 12
 8.
 (pdftex.def)             Requested size: 470.295pt x 479.99202pt.
  [181] [182 <./tex/trappist/trappist1Corner.pdf>] <tex/trappist/apCorner.pdf, i
-d=5124, 835.92433pt x 850.29718pt>
+d=5125, 835.92433pt x 850.29718pt>
 File: tex/trappist/apCorner.pdf Graphic file (type pdf)
 
 <use tex/trappist/apCorner.pdf>
 Package pdftex.def Info: tex/trappist/apCorner.pdf used on input line 148.
 (pdftex.def)             Requested size: 470.295pt x 478.3818pt.
  [183] [184 <./tex/trappist/apCorner.pdf>]
-<tex/trappist/stacked.pdf, id=5203, 835.53194pt x 830.38754pt>
+<tex/trappist/stacked.pdf, id=5204, 835.53194pt x 830.38754pt>
 File: tex/trappist/stacked.pdf Graphic file (type pdf)
 
 <use tex/trappist/stacked.pdf>
@@ -1916,30 +1916,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [185]
 [186 <./tex/trappist/stacked.pdf>]
-<tex/trappist/trappist1Evol.pdf, id=5227, 1482.41168pt x 396.07915pt>
+<tex/trappist/trappist1Evol.pdf, id=5228, 1482.41168pt x 396.07915pt>
 File: tex/trappist/trappist1Evol.pdf Graphic file (type pdf)
 
 <use tex/trappist/trappist1Evol.pdf>
 Package pdftex.def Info: tex/trappist/trappist1Evol.pdf used on input line 195.
 
 (pdftex.def)             Requested size: 470.295pt x 125.654pt.
-
-Underfull \vbox (badness 2799) has occurred while \output is active []
-
- [187 <./tex/trappist/trappist1Evol.pdf>]
-<tex/trappist/fluxes.pdf, id=5302, 421.9784pt x 453.26088pt>
+ [187] [188 <./tex/trappist/trappist1Evol.pdf>] <tex/trappist/fluxes.pdf, id=53
+07, 421.9784pt x 453.26088pt>
 File: tex/trappist/fluxes.pdf Graphic file (type pdf)
 
 <use tex/trappist/fluxes.pdf>
 Package pdftex.def Info: tex/trappist/fluxes.pdf used on input line 209.
 (pdftex.def)             Requested size: 470.295pt x 505.1658pt.
- [188] [189 <./tex/trappist/fluxes.pdf>]
+ [189] [190 <./tex/trappist/fluxes.pdf>]
 Overfull \hbox (5.5363pt too wide) in paragraph at lines 222--223
 \OT1/ptm/m/n/12 tions and best-fit val-ues un-cov-ered by my fidu-cial MCMC ana
 l-y-sis. I find that \OT1/pcr/m/n/12 approxposterior
  []
 
-[190])
+)
 Overfull \hbox (11.0345pt too wide) in paragraph at lines 227--189
 \OT1/ptm/m/n/12 ([][]2016[][]), \OT1/pcr/m/n/12 emcee\OT1/ptm/m/n/12 : [][]Fore
 man-Mackey et al.[][] ([][]2013[][]), \OT1/pcr/m/n/12 george\OT1/ptm/m/n/12 : [
@@ -1985,10 +1982,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 5D0252B615C9921855E26E75135DAB97;7229.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
  )
 (\end occurred inside a group at level 1)
@@ -1998,7 +1991,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
 Here is how much of TeX's memory you used:
  23747 strings out of 493014
  409752 string characters out of 6133351
- 718538 words of memory out of 5000000
+ 728918 words of memory out of 5000000
  26030 multiletter control sequences out of 15000+600000
  81808 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2024,10 +2017,10 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (249 pages, 20120552 bytes).
+Output written on thesis.pdf (249 pages, 20122579 bytes).
 PDF statistics:
- 5859 PDF objects out of 6186 (max. 8388607)
- 5210 compressed objects within 53 object streams
+ 5860 PDF objects out of 6186 (max. 8388607)
+ 5211 compressed objects within 53 object streams
  853 named destinations out of 1000 (max. 500000)
  998 words of extra memory for PDF output out of 10000 (max. 10000000)
 

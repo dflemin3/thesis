@@ -100,10 +100,10 @@
 \contentsline {section}{\numberline {5.3}\texttt {approxposterior}\xspace : Theory, Convergence, and Practical Usage}{157}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Augmenting the Training Set}{157}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Convergence}{160}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}A Simple Example}{161}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Online Documentation}{166}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Applying \texttt {approxposterior}\xspace to Terrestrial Exoplanet Atmospheric Retrieval}{166}{section.5.4}
-\contentsline {section}{\numberline {5.5}Conclusions}{170}{section.5.5}
+\contentsline {subsection}{\numberline {5.3.3}A Simple Example}{163}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Online Documentation}{165}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Applying \texttt {approxposterior}\xspace to Terrestrial Exoplanet Atmospheric Retrieval}{167}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusions}{169}{section.5.5}
 \contentsline {chapter}{\numberline {\@textofChapter \ 6:}Inferring the XUV History of the TRAPPIST-1 Planetary System}{171}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{172}{section.6.1}
 \contentsline {section}{\numberline {6.2}Methods}{174}{section.6.2}
@@ -116,6 +116,6 @@
 \contentsline {subsection}{\numberline {6.3.1}The Evolution of TRAPPIST-1}{180}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Comparison with \texttt {approxposterior}\xspace }{183}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}TRAPPIST-1's Evolutionary History and Its Planets' XUV Environment}{187}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Discussion and Conclusions}{188}{section.6.4}
+\contentsline {section}{\numberline {6.4}Discussion and Conclusions}{189}{section.6.4}
 \contentsline {chapter}{\numberline {\@textofChapter \ 7:}Conclusions}{192}{chapter.7}
 \contentsline {chapter}{Bibliography}{198}{chapter*.84}
