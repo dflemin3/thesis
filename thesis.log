@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 MAY 2020 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 MAY 2020 14:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -853,21 +853,21 @@ Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 (./thesis.aux (./tex/abstract.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 98.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 99.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -875,7 +875,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `upgreek' on line 98.
+. Activating mapping `upgreek' on line 99.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -940,7 +940,7 @@ LaTeX Info: Redefining \selectfont on input line 126.
 )
 \c@lstlisting=\count295
 \AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring ON on input line 98.
+Package hyperref Info: Link coloring ON on input line 99.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -950,9 +950,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count296
 )
-LaTeX Info: Redefining \ref on input line 98.
-LaTeX Info: Redefining \pageref on input line 98.
-LaTeX Info: Redefining \nameref on input line 98.
+LaTeX Info: Redefining \ref on input line 99.
+LaTeX Info: Redefining \pageref on input line 99.
+LaTeX Info: Redefining \nameref on input line 99.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
@@ -962,14 +962,14 @@ LaTeX Info: Redefining \nameref on input line 98.
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 126.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 127.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 126.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
  [2]
 \openout2 = `tex/abstract.aux'.
 
@@ -1020,7 +1020,7 @@ been already used, duplicate ignored
 l.13 ...erm evolution of stars and their planets.}
                                                    [0])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 138.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
  (./thesis.toc
 Overfull \hbox (1.91307pt too wide) in paragraph at lines 8--8
  [][] [][][]\OT1/ptm/m/n/12 The Res-o-nant Grav-i-ta-tional In-ter-ac-tions Be-
@@ -1111,13 +1111,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 Underfull \vbox (badness 5133) has occurred while \output is active []
 
  [4]
-[5]
-Overfull \hbox (4.96924pt too wide) in paragraph at lines 39--40
-[]\OT1/ptm/m/n/12 Consider the cou-pled stellar-tidal dy-nam-i-cal evo-lu-tion 
-of bi-nary stars, a case con-sid-ered through-
- []
-
-[6] [7] [8]) [9]
+[5] [6] [7] [8]) [9]
 <<2>>
 (./tex/CBDisk/cbdisk.tex
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
@@ -1510,7 +1504,7 @@ Underfull \vbox (badness 7595) has occurred while \output is active []
 [105] [106]) [107] [108]
 <<4>>
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 179.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 180.
 (./tex/sync/sync.tex [109
 
 ] [110] [111]
@@ -1714,16 +1708,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [147 <./tex/sync/lurieFig7.pdf>] [148] [149] [150]) [151]
 <<5>>
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 183.
-(./tex/approxposterior/approxposterior.tex [152
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 184.
+(./tex/approxposterior/approxposterior.tex
+Overfull \hbox (8.76091pt too wide) in paragraph at lines 5--6
+[]\OT1/ptm/m/n/12 In this dis-ser-ta-tion, I have de-vel-oped nu-mer-ous the-o-
+ret-i-cal mod-els, all im-ple-mented in \OT1/pcr/m/n/12 VPLanet\OT1/ptm/m/n/12 
+,
+ []
 
-]
-./tex/approxposterior/approxposterior.tex:11: Undefined control sequence.
-l.11 ...on with those models, \stellar and \atmesc
-                                                   in this case, takes about...
+[152
 
-? 
-[153]
+] [153]
 LaTeX Font Info:    Font shape `OT1/pcr/bx/sl' in size <12> not available
 (Font)              Font shape `OT1/pcr/b/sl' tried instead on input line 17.
 
@@ -1734,7 +1729,7 @@ Underfull \vbox (badness 3260) has occurred while \output is active []
 
  [155]
 [156] [157]
-<tex/approxposterior/points.pdf, id=4411, 835.92433pt x 850.29718pt>
+<tex/approxposterior/points.pdf, id=4410, 835.92433pt x 850.29718pt>
 File: tex/approxposterior/points.pdf Graphic file (type pdf)
 
 <use tex/approxposterior/points.pdf>
@@ -1747,7 +1742,7 @@ sive it-er-a-tions. I con-sider an \OT1/pcr/m/n/12 approxposterior
  []
 
 [160]
-<tex/approxposterior/convergence.pdf, id=4528, 461.20616pt x 400.37852pt>
+<tex/approxposterior/convergence.pdf, id=4527, 461.20616pt x 400.37852pt>
 File: tex/approxposterior/convergence.pdf Graphic file (type pdf)
 
 <use tex/approxposterior/convergence.pdf>
@@ -1783,7 +1778,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10> not available
 (Font)              Font shape `OT1/pcr/b/n' tried instead on input line 3.
  [164])
-<tex/approxposterior/finalPosterior.pdf, id=4621, 363.83113pt x 380.89488pt>
+<tex/approxposterior/finalPosterior.pdf, id=4620, 363.83113pt x 380.89488pt>
 File: tex/approxposterior/finalPosterior.pdf Graphic file (type pdf)
 
 <use tex/approxposterior/finalPosterior.pdf>
@@ -1803,7 +1798,7 @@ Overfull \hbox (64.12935pt too wide) in paragraph at lines 132--133
  []
 
 [168]
-<tex/approxposterior/emceeAPComparison.png, id=4742, 501.875pt x 493.34312pt>
+<tex/approxposterior/emceeAPComparison.png, id=4741, 501.875pt x 493.34312pt>
 File: tex/approxposterior/emceeAPComparison.png Graphic file (type png)
 
 <use tex/approxposterior/emceeAPComparison.png>
@@ -1861,7 +1856,7 @@ terior\OT1/ptm/m/n/12 ,
  []
 
 [179] [180]
-<tex/trappist/trappist1Corner.pdf, id=5040, 835.92433pt x 853.15926pt>
+<tex/trappist/trappist1Corner.pdf, id=5039, 835.92433pt x 853.15926pt>
 File: tex/trappist/trappist1Corner.pdf Graphic file (type pdf)
 
 <use tex/trappist/trappist1Corner.pdf>
@@ -1869,14 +1864,14 @@ Package pdftex.def Info: tex/trappist/trappist1Corner.pdf used on input line 12
 8.
 (pdftex.def)             Requested size: 470.295pt x 479.99202pt.
  [181] [182 <./tex/trappist/trappist1Corner.pdf>] <tex/trappist/apCorner.pdf, i
-d=5127, 835.92433pt x 850.29718pt>
+d=5126, 835.92433pt x 850.29718pt>
 File: tex/trappist/apCorner.pdf Graphic file (type pdf)
 
 <use tex/trappist/apCorner.pdf>
 Package pdftex.def Info: tex/trappist/apCorner.pdf used on input line 148.
 (pdftex.def)             Requested size: 470.295pt x 478.3818pt.
  [183] [184 <./tex/trappist/apCorner.pdf>]
-<tex/trappist/stacked.pdf, id=5206, 835.53194pt x 830.38754pt>
+<tex/trappist/stacked.pdf, id=5205, 835.53194pt x 830.38754pt>
 File: tex/trappist/stacked.pdf Graphic file (type pdf)
 
 <use tex/trappist/stacked.pdf>
@@ -1910,7 +1905,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [185]
 [186 <./tex/trappist/stacked.pdf>]
-<tex/trappist/trappist1Evol.pdf, id=5230, 1482.41168pt x 396.07915pt>
+<tex/trappist/trappist1Evol.pdf, id=5229, 1482.41168pt x 396.07915pt>
 File: tex/trappist/trappist1Evol.pdf Graphic file (type pdf)
 
 <use tex/trappist/trappist1Evol.pdf>
@@ -1918,7 +1913,7 @@ Package pdftex.def Info: tex/trappist/trappist1Evol.pdf used on input line 195.
 
 (pdftex.def)             Requested size: 470.295pt x 125.654pt.
  [187] [188 <./tex/trappist/trappist1Evol.pdf>] <tex/trappist/fluxes.pdf, id=53
-09, 421.9784pt x 453.26088pt>
+08, 421.9784pt x 453.26088pt>
 File: tex/trappist/fluxes.pdf Graphic file (type pdf)
 
 <use tex/trappist/fluxes.pdf>
@@ -1931,7 +1926,7 @@ l-y-sis. I find that \OT1/pcr/m/n/12 approxposterior
  []
 
 )
-Overfull \hbox (11.0345pt too wide) in paragraph at lines 227--189
+Overfull \hbox (11.0345pt too wide) in paragraph at lines 227--190
 \OT1/ptm/m/n/12 ([][]2016[][]), \OT1/pcr/m/n/12 emcee\OT1/ptm/m/n/12 : [][]Fore
 man-Mackey et al.[][] ([][]2013[][]), \OT1/pcr/m/n/12 george\OT1/ptm/m/n/12 : [
 ][]Am-bikasaran et al.[][] ([][]2014[][]), and \OT1/pcr/m/n/12 VPLanet\OT1/ptm/
@@ -1967,29 +1962,29 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ³ in font ptmr7t!
  [211] [212] [213] [214] [215] [216] [217] [218]
 [219] [220] [221] [222] [223] [224] [225] [226] [227] [228] [229])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
  [230]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
 
 (./thesis.aux (./tex/abstract.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 5D0252B615C9921855E26E75135DAB97;7229.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23747 strings out of 493014
- 409752 string characters out of 6133351
- 728918 words of memory out of 5000000
- 26030 multiletter control sequences out of 15000+600000
+ 23748 strings out of 493014
+ 409758 string characters out of 6133351
+ 727897 words of memory out of 5000000
+ 26031 multiletter control sequences out of 15000+600000
  81808 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,20n,57p,10368b,8878s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,20n,57p,10368b,8879s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -2011,10 +2006,10 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (249 pages, 20124181 bytes).
+Output written on thesis.pdf (249 pages, 20124164 bytes).
 PDF statistics:
- 5862 PDF objects out of 6186 (max. 8388607)
- 5213 compressed objects within 53 object streams
+ 5860 PDF objects out of 6186 (max. 8388607)
+ 5211 compressed objects within 53 object streams
  853 named destinations out of 1000 (max. 500000)
  998 words of extra memory for PDF output out of 10000 (max. 10000000)
 
