@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 MAY 2020 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 MAY 2020 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1041,7 +1041,7 @@ l.28 ...berline {2.6}Conclusions}{46}{section.2.6}
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 ...rline {4.1}Introduction}{109}{section.4.1}
+l.72 ...rline {4.1}Introduction}{108}{section.4.1}
                                                    [2] [3])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
@@ -1522,7 +1522,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [118]
-[119] <tex/sync/tidalExample.pdf, id=3610, 401.35947pt x 1050.3881pt>
+[119] <tex/sync/tidalExample.pdf, id=3612, 401.35947pt x 1050.3881pt>
 File: tex/sync/tidalExample.pdf Graphic file (type pdf)
 
 <use tex/sync/tidalExample.pdf>
@@ -1536,14 +1536,14 @@ LaTeX Warning: Float too large for page by 33.72276pt on input line 183.
 Underfull \vbox (badness 5133) has occurred while \output is active []
 
  [122]
-[123] [124] <tex/sync/analyticTorque.pdf, id=3764, 445.66083pt x 341.76279pt>
+[123] [124] <tex/sync/analyticTorque.pdf, id=3766, 445.66083pt x 341.76279pt>
 File: tex/sync/analyticTorque.pdf Graphic file (type pdf)
 
 <use tex/sync/analyticTorque.pdf>
 Package pdftex.def Info: tex/sync/analyticTorque.pdf used on input line 258.
 (pdftex.def)             Requested size: 470.295pt x 360.65543pt.
 
-<tex/sync/eqPerTwoPanelMatt.pdf, id=3776, 968.05089pt x 395.56361pt>
+<tex/sync/eqPerTwoPanelMatt.pdf, id=3778, 968.05089pt x 395.56361pt>
 File: tex/sync/eqPerTwoPanelMatt.pdf Graphic file (type pdf)
 
 <use tex/sync/eqPerTwoPanelMatt.pdf>
@@ -1584,7 +1584,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 295.
 
-[128] <tex/sync/qTauPorbRatioHist.pdf, id=3855, 1243.36003pt x 550.59492pt>
+[128] <tex/sync/qTauPorbRatioHist.pdf, id=3857, 1243.36003pt x 550.59492pt>
 File: tex/sync/qTauPorbRatioHist.pdf Graphic file (type pdf)
 
 <use tex/sync/qTauPorbRatioHist.pdf>
@@ -1592,7 +1592,7 @@ Package pdftex.def Info: tex/sync/qTauPorbRatioHist.pdf used on input line 304.
 
 (pdftex.def)             Requested size: 470.295pt x 208.26208pt.
 
-<tex/sync/porbProtPorbQHist.pdf, id=3856, 690.74002pt x 531.53072pt>
+<tex/sync/porbProtPorbQHist.pdf, id=3858, 690.74002pt x 531.53072pt>
 File: tex/sync/porbProtPorbQHist.pdf Graphic file (type pdf)
 
 <use tex/sync/porbProtPorbQHist.pdf>
@@ -1601,7 +1601,7 @@ Package pdftex.def Info: tex/sync/porbProtPorbQHist.pdf used on input line 313.
 (pdftex.def)             Requested size: 470.295pt x 361.90651pt.
  [129] [130 <./tex/sync/qTauPorbRatioHist.pdf>] [131 <./tex/sync/porbProtPorbQH
 ist.pdf>]
-<tex/sync/porbProtPorbTauHist.pdf, id=3904, 710.1845pt x 531.53072pt>
+<tex/sync/porbProtPorbTauHist.pdf, id=3906, 710.1845pt x 531.53072pt>
 File: tex/sync/porbProtPorbTauHist.pdf Graphic file (type pdf)
 
 <use tex/sync/porbProtPorbTauHist.pdf>
@@ -1612,7 +1612,7 @@ Package pdftex.def Info: tex/sync/porbProtPorbTauHist.pdf used on input line 32
 Underfull \vbox (badness 4242) has occurred while \output is active []
 
  [132 <./tex/sync/porbProtPorbTauHist.pdf>]
-<tex/sync/eqPerShortPorbMatt.pdf, id=3943, 591.50006pt x 529.05835pt>
+<tex/sync/eqPerShortPorbMatt.pdf, id=3945, 591.50006pt x 529.05835pt>
 File: tex/sync/eqPerShortPorbMatt.pdf Graphic file (type pdf)
 
 <use tex/sync/eqPerShortPorbMatt.pdf>
@@ -1632,21 +1632,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 347.
 
-<tex/sync/lockedCPL.pdf, id=3997, 596.06pt x 553.29826pt>
+<tex/sync/lockedCPL.pdf, id=3999, 596.06pt x 553.29826pt>
 File: tex/sync/lockedCPL.pdf Graphic file (type pdf)
 
 <use tex/sync/lockedCPL.pdf>
 Package pdftex.def Info: tex/sync/lockedCPL.pdf used on input line 352.
 (pdftex.def)             Requested size: 470.295pt x 436.56894pt.
 
-<tex/sync/lockedCTL.pdf, id=4000, 596.06pt x 553.29826pt>
+<tex/sync/lockedCTL.pdf, id=4002, 596.06pt x 553.29826pt>
 File: tex/sync/lockedCTL.pdf Graphic file (type pdf)
 
 <use tex/sync/lockedCTL.pdf>
 Package pdftex.def Info: tex/sync/lockedCTL.pdf used on input line 360.
 (pdftex.def)             Requested size: 470.295pt x 436.56894pt.
  [135] [136 <./tex/sync/lockedCPL.pdf>] [137 <./tex/sync/lockedCTL.pdf>]
-<tex/sync/lockedProtHist.pdf, id=4057, 609.16475pt x 539.36626pt>
+<tex/sync/lockedProtHist.pdf, id=4059, 609.16475pt x 539.36626pt>
 File: tex/sync/lockedProtHist.pdf Graphic file (type pdf)
 
 <use tex/sync/lockedProtHist.pdf>
@@ -1666,21 +1666,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 375.
 
 [138] [139 <./tex/sync/lockedProtHist.pdf>]
-<tex/sync/protDist.pdf, id=4079, 1774.16574pt x 637.65909pt>
+<tex/sync/protDist.pdf, id=4081, 1774.16574pt x 637.65909pt>
 File: tex/sync/protDist.pdf Graphic file (type pdf)
 
 <use tex/sync/protDist.pdf>
 Package pdftex.def Info: tex/sync/protDist.pdf used on input line 380.
 (pdftex.def)             Requested size: 470.295pt x 169.0275pt.
  [140 <./tex/sync/protDist.pdf>]
-<tex/sync/gyro.pdf, id=4123, 858.48335pt x 420.42375pt>
+<tex/sync/gyro.pdf, id=4125, 858.48335pt x 420.42375pt>
 File: tex/sync/gyro.pdf Graphic file (type pdf)
 
 <use tex/sync/gyro.pdf>
 Package pdftex.def Info: tex/sync/gyro.pdf used on input line 392.
 (pdftex.def)             Requested size: 470.295pt x 230.3164pt.
 
-<tex/sync/protAgeHist.pdf, id=4126, 594.15659pt x 526.36328pt>
+<tex/sync/protAgeHist.pdf, id=4128, 594.15659pt x 526.36328pt>
 File: tex/sync/protAgeHist.pdf Graphic file (type pdf)
 
 <use tex/sync/protAgeHist.pdf>
@@ -1690,7 +1690,7 @@ Package pdftex.def Info: tex/sync/protAgeHist.pdf used on input line 402.
 Underfull \vbox (badness 6575) has occurred while \output is active []
 
  [142 <./tex/sync/gyro.pdf>] [143 <./tex/sync/protAgeHist.pdf>] [144]
-<tex/sync/lurieFig7.pdf, id=4207, 1492.6788pt x 490.3341pt>
+<tex/sync/lurieFig7.pdf, id=4209, 1492.6788pt x 490.3341pt>
 File: tex/sync/lurieFig7.pdf Graphic file (type pdf)
 
 <use tex/sync/lurieFig7.pdf>
@@ -1723,7 +1723,7 @@ Underfull \vbox (badness 3260) has occurred while \output is active []
 
  [154]
 [155] [156]
-<tex/approxposterior/points.pdf, id=4408, 835.92433pt x 850.29718pt>
+<tex/approxposterior/points.pdf, id=4410, 835.92433pt x 850.29718pt>
 File: tex/approxposterior/points.pdf Graphic file (type pdf)
 
 <use tex/approxposterior/points.pdf>
@@ -1736,7 +1736,7 @@ sive it-er-a-tions. I con-sider an \OT1/pcr/m/n/12 approxposterior
  []
 
 [159]
-<tex/approxposterior/convergence.pdf, id=4525, 461.20616pt x 400.37852pt>
+<tex/approxposterior/convergence.pdf, id=4527, 461.20616pt x 400.37852pt>
 File: tex/approxposterior/convergence.pdf Graphic file (type pdf)
 
 <use tex/approxposterior/convergence.pdf>
@@ -1772,7 +1772,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <10> not available
 (Font)              Font shape `OT1/pcr/b/n' tried instead on input line 3.
  [163])
-<tex/approxposterior/finalPosterior.pdf, id=4618, 363.83113pt x 380.89488pt>
+<tex/approxposterior/finalPosterior.pdf, id=4620, 363.83113pt x 380.89488pt>
 File: tex/approxposterior/finalPosterior.pdf Graphic file (type pdf)
 
 <use tex/approxposterior/finalPosterior.pdf>
@@ -1792,7 +1792,7 @@ Overfull \hbox (64.12935pt too wide) in paragraph at lines 132--133
  []
 
 [167]
-<tex/approxposterior/emceeAPComparison.png, id=4738, 501.875pt x 493.34312pt>
+<tex/approxposterior/emceeAPComparison.png, id=4740, 501.875pt x 493.34312pt>
 File: tex/approxposterior/emceeAPComparison.png Graphic file (type png)
 
 <use tex/approxposterior/emceeAPComparison.png>
@@ -1850,7 +1850,7 @@ terior\OT1/ptm/m/n/12 ,
  []
 
 [178] [179]
-<tex/trappist/trappist1Corner.pdf, id=5036, 835.92433pt x 853.15926pt>
+<tex/trappist/trappist1Corner.pdf, id=5038, 835.92433pt x 853.15926pt>
 File: tex/trappist/trappist1Corner.pdf Graphic file (type pdf)
 
 <use tex/trappist/trappist1Corner.pdf>
@@ -1858,14 +1858,14 @@ Package pdftex.def Info: tex/trappist/trappist1Corner.pdf used on input line 12
 8.
 (pdftex.def)             Requested size: 470.295pt x 479.99202pt.
  [180] [181 <./tex/trappist/trappist1Corner.pdf>] <tex/trappist/apCorner.pdf, i
-d=5124, 835.92433pt x 850.29718pt>
+d=5126, 835.92433pt x 850.29718pt>
 File: tex/trappist/apCorner.pdf Graphic file (type pdf)
 
 <use tex/trappist/apCorner.pdf>
 Package pdftex.def Info: tex/trappist/apCorner.pdf used on input line 148.
 (pdftex.def)             Requested size: 470.295pt x 478.3818pt.
  [182] [183 <./tex/trappist/apCorner.pdf>]
-<tex/trappist/stacked.pdf, id=5203, 835.53194pt x 830.38754pt>
+<tex/trappist/stacked.pdf, id=5205, 835.53194pt x 830.38754pt>
 File: tex/trappist/stacked.pdf Graphic file (type pdf)
 
 <use tex/trappist/stacked.pdf>
@@ -1899,7 +1899,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [184]
 [185 <./tex/trappist/stacked.pdf>]
-<tex/trappist/trappist1Evol.pdf, id=5226, 1482.41168pt x 396.07915pt>
+<tex/trappist/trappist1Evol.pdf, id=5228, 1482.41168pt x 396.07915pt>
 File: tex/trappist/trappist1Evol.pdf Graphic file (type pdf)
 
 <use tex/trappist/trappist1Evol.pdf>
@@ -1907,7 +1907,7 @@ Package pdftex.def Info: tex/trappist/trappist1Evol.pdf used on input line 195.
 
 (pdftex.def)             Requested size: 470.295pt x 125.654pt.
  [186] [187 <./tex/trappist/trappist1Evol.pdf>] <tex/trappist/fluxes.pdf, id=53
-06, 421.9784pt x 453.26088pt>
+08, 421.9784pt x 453.26088pt>
 File: tex/trappist/fluxes.pdf Graphic file (type pdf)
 
 <use tex/trappist/fluxes.pdf>
@@ -1978,7 +1978,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
 Here is how much of TeX's memory you used:
  23747 strings out of 493014
  409750 string characters out of 6133351
- 727917 words of memory out of 5000000
+ 729064 words of memory out of 5000000
  26031 multiletter control sequences out of 15000+600000
  81808 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2004,10 +2004,10 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (248 pages, 20123938 bytes).
+Output written on thesis.pdf (248 pages, 20124032 bytes).
 PDF statistics:
- 5857 PDF objects out of 6186 (max. 8388607)
- 5209 compressed objects within 53 object streams
+ 5859 PDF objects out of 6186 (max. 8388607)
+ 5211 compressed objects within 53 object streams
  852 named destinations out of 1000 (max. 500000)
  998 words of extra memory for PDF output out of 10000 (max. 10000000)
 
